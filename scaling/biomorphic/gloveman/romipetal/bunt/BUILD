@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/menispermine/endospermous/rafe:output",
+        "biomorphic/adventured/torbert/forestless:output",
+        "biomorphic/tropophyte/shawfowl/slums:output",
+        "biomorphic/gloveman/decimated/dangs:output",
+        "biomorphic/instigatrix/reitman/riggal:output",
+        "biomorphic/gloveman/mechanism/thilk:output",
+        "biomorphic/semitransept/endospermous/mesochilium:output",
+        "biomorphic/adventured/equines/scolytus:output",
+        "biomorphic/fetwa/reitman/preopinion:output",
+        "biomorphic/gloveman/vincas/outeyed:output",
+        "biomorphic/adventured/dissembly/lateliness:output",
+        "biomorphic/clockcase/reitman/mam:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/melancholily/unionic/elevenfold:output",
+        "biomorphic/gloveman/autoclaves/bergess:output",
+        "biomorphic/ephedrine/reitman/pactions:output",
+        "biomorphic/semitransept/endospermous/distention:output",
+        "biomorphic/gloveman/generosities/thir:output",
+        "biomorphic/gloveman/rsa/remiform:output",
+        "biomorphic/dixfield/reitman/dixfield:output",
+        "biomorphic/gloveman/strikeboard/meacon:output",
+        "biomorphic/bullbat/reitman/durgy:output",
+        "biomorphic/semitransept/endospermous/unsacerdotal:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_gloveman_romipetal_bunt_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_gloveman_romipetal_bunt_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_gloveman_romipetal_bunt_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

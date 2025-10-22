@@ -1,0 +1,66 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/covering/endospermous/festatus:output",
+        "worthington/covering/endospermous/homilist:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/cornball/shinguard/sufferer:output",
+        "worthington/aggressors/bemire/cyanastrum:output",
+        "worthington/barksome/unqueened/styloglossal:output",
+        "worthington/arienzo/lysolecithin/arienzo:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/cornball/vincas/pterophorid:output",
+        "worthington/uneducated/reitman/ruing:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/spelunkers/unqueened/semilethal:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/nondruidical/hydros/fablers:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/marshmen/pvc/undesign:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/rendition/unqueened/cutters:output",
+        "worthington/uneducated/oxyosphresia/rosttra:output",
+        "worthington/cajole/lysolecithin/cvr:output",
+        "worthington/misbecame/reitman/misbecame:output",
+        "worthington/cajole/pirtleville/unmaskers:output",
+        "worthington/chasteningly/unqueened/finishing:output",
+        "worthington/abongo/roughnecks/replait:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/ihp/endospermous/elf:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/coprolagnist/reitman/coprolagnist:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_coportion_krishnah_synanthetic_daddies_krishnah_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_coportion_krishnah_synanthetic_daddies_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_krishnah_synanthetic_daddies_krishnah_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

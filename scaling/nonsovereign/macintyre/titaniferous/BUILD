@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/inhabitancy/outshooting/voguey:output",
+        "biomorphic/inhabitancy/stereognosis/algalia:output",
+        "biomorphic/inhabitancy/cockatoos/magnate:output",
+        "biomorphic/untellable/whipmaking/prig:output",
+        "nonsovereign/niland/arbota:output",
+        "biomorphic/inhabitancy/disenact/anaeretic:output",
+        "biomorphic/inhabitancy/redlining/irina:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/untellable/pneumas/inimaginable:output",
+        "nonsovereign/prehumans/fallowed:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/inhabitancy/undivested/undepleted:output",
+        "nonsovereign/gibbals/keifer:output",
+        "biomorphic/inhabitancy/whalen/gbh:output",
+        "biomorphic/outtrumped/retries/chromogram/reevaluating:output",
+        "biomorphic/inhabitancy/reitman/crocanthemum:output",
+        "biomorphic/outtrumped/retries/nongrieved/biliferous:output",
+        "nonsovereign/endospermous/glimes:output",
+        "biomorphic/fiddlehead/regioned/crabbedly:output",
+        "biomorphic/inhabitancy/gowrie/covarecas:output",
+        "nonsovereign/incipiency/harford:output",
+        "biomorphic/untellable/santalum/rejuvenator:output",
+        "biomorphic/untellable/syndeton/alfur:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"nonsovereign_macintyre_titaniferous_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["nonsovereign_macintyre_titaniferous_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_macintyre_titaniferous_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

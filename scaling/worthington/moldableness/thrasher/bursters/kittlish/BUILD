@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/moldableness/thrasher/fruitier/millimes:output",
+        "worthington/rubbingstone/bouche/outjazz:output",
+        "worthington/moldableness/thrasher/iesg/kyrios:output",
+        "worthington/moldableness/thrasher/creedist/correctly:output",
+        "worthington/mangabey/hereditably/jack:output",
+        "worthington/uneducated/reitman/ruing:output",
+        "worthington/moldableness/thrasher/eustis/banna:output",
+        "worthington/moldableness/thrasher/cockleshell/jollop:output",
+        "worthington/moldableness/thrasher/illuvivia/brio:output",
+        "worthington/moldableness/thrasher/incendiarist/binaphthyl:output",
+        "worthington/covering/endospermous/ganapati:output",
+        "worthington/moldableness/thrasher/deckswabber/ermelin:output",
+        "worthington/moldableness/thrasher/sonnetted/phrenesiac:output",
+        "worthington/moldableness/thrasher/refutes/crispi:output",
+        "worthington/mangabey/criminating/necessarius:output",
+        "worthington/moldableness/thrasher/icefishes/searoving:output",
+        "worthington/moldableness/thrasher/outhaul/velocipedic:output",
+        "worthington/reface/shover/tosh:output",
+        "worthington/moldableness/thrasher/pteridosperm/herbaged:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/glenford/hereditably/gaudiest:output",
+        "worthington/moldableness/thrasher/dronage/pommeling:output",
+        "worthington/moldableness/thrasher/durex/cadaster:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_moldableness_thrasher_bursters_kittlish_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_moldableness_thrasher_bursters_kittlish_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_bursters_kittlish_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

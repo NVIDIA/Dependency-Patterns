@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/glenford/vincas/webb:output",
+        "worthington/rubbingstone/bouche/outjazz:output",
+        "worthington/joinerville/antoninus/intrinsical:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/skeltonical/epaulette/reset:output",
+        "worthington/twistily/antoninus/senega:output",
+        "worthington/takt/antoninus/semimilitary:output",
+        "worthington/covering/endospermous/maid:output",
+        "worthington/smoh/endospermous/multiplicate:output",
+        "worthington/skiis/antoninus/turnplate:output",
+        "worthington/seybertite/antoninus/demyship:output",
+        "worthington/workpiece/reitman/workpiece:output",
+        "worthington/preliberated/epaulette/zigamorph:output",
+        "worthington/wharfmen/feinting/delusters:output",
+        "worthington/ligger/synanthetic/ligger:output",
+        "worthington/typhlopexy/antoninus/boza:output",
+        "worthington/wharfmen/crustedly/bankruptship:output",
+        "worthington/dardic/antoninus/drupa:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/gath/antoninus/albumose:output",
+        "worthington/deported/antoninus/angiectopia:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/seraphicness/antoninus/dentimeter:output",
+        "worthington/synanons/megalonyx/synanons:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_sleided_desulfurated_implausible_nonselection_desulfurated_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_sleided_desulfurated_implausible_nonselection_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_desulfurated_implausible_nonselection_desulfurated_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

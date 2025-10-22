@@ -1,0 +1,63 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/diamantine/ofori/endospermous/chandi:output",
+        "bakongo/anagyris/reitman/anagyris:output",
+        "bakongo/diamantine/ofori/phaseolin/cybernated:output",
+        "emancipator/seels/caeli:output",
+        "bakongo/diamantine/ofori/splachnaceae/pelotherapy:output",
+        "emancipator/nonpossible/preconsumed:output",
+        "bakongo/diamantine/ofori/quarrelproof/antilacrosse:output",
+        "bakongo/diamantine/ofori/romipetal/acidific:output",
+        "bakongo/upglide/endospermous/embargoed:output",
+        "emancipator/hornfair/prudentius:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "emancipator/etheline/unvested:output",
+        "emancipator/endospermous/tobaccoless:output",
+        "emancipator/lublin/fretter:output",
+        "bakongo/sarraute/megalonyx/sarraute:output",
+        "emancipator/konohiki/lych:output",
+        "bakongo/diamantine/ofori/endospermous/amah:output",
+        "emancipator/oshawa/lushness:output",
+        "bakongo/diamantine/ofori/endospermous/lapeyrouse:output",
+        "bakongo/upglide/endospermous/ultrafeudal:output",
+        "emancipator/pullovers/paradenitis:output",
+        "bakongo/diamantine/ofori/endospermous/presumer:output",
+        "bakongo/upglide/endospermous/tarred:output",
+        "bakongo/diamantine/ofori/endospermous/deutschland:output",
+        "bakongo/diamantine/ofori/endospermous/jocuma:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"emancipator_ampasimenite_palynologist_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["emancipator_ampasimenite_palynologist_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_ampasimenite_palynologist_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

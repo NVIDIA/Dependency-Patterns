@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/untellable/dustpans/anthoxanthum:output",
+        "biomorphic/shysters/vincas/grega:output",
+        "biomorphic/chromometer/lysolecithin/savelha:output",
+        "biomorphic/puerpery/endospermous/bargestone:output",
+        "biomorphic/untellable/whipmaking/prig:output",
+        "biomorphic/rusted/hydros/medalled:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/filaricidal/unqueened/lovel:output",
+        "biomorphic/fetwa/reitman/preopinion:output",
+        "biomorphic/semitransept/endospermous/demiseason:output",
+        "biomorphic/untellable/pneumas/inimaginable:output",
+        "biomorphic/tetherball/lysolecithin/tetherball:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/oleron/unqueened/cream:output",
+        "biomorphic/uncamp/bemire/tasimetric:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/shysters/shinguard/thwartways:output",
+        "biomorphic/gelsemia/reitman/gelsemia:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/incivilities/pvc/ady:output",
+        "biomorphic/refiled/unqueened/nerves:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "biomorphic/untellable/santalum/rejuvenator:output",
+        "biomorphic/untellable/syndeton/alfur:output",
+        "biomorphic/cottontails/reitman/cottontails:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_prologuist_roughnecks_notelet_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_prologuist_roughnecks_notelet_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prologuist_roughnecks_notelet_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

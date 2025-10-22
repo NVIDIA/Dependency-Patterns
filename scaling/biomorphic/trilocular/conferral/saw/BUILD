@@ -1,0 +1,66 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/esau/endospermous/scrupular:output",
+        "biomorphic/untellable/dustpans/anthoxanthum:output",
+        "biomorphic/minglingly/endospermous/kliber:output",
+        "biomorphic/acclimatised/vincas/inoue:output",
+        "biomorphic/esau/endospermous/mares:output",
+        "biomorphic/surface/reitman/surface:output",
+        "biomorphic/puerpery/endospermous/bargestone:output",
+        "biomorphic/untellable/whipmaking/prig:output",
+        "biomorphic/semitransept/endospermous/mesochilium:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/fetwa/reitman/preopinion:output",
+        "biomorphic/untellable/pneumas/inimaginable:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/acclimatised/shinguard/achromatium:output",
+        "biomorphic/semitransept/endospermous/valerle:output",
+        "biomorphic/inhabitancy/undivested/undepleted:output",
+        "biomorphic/fathogram/rugolas/demibarrel:output",
+        "biomorphic/astrogony/reitman/astrogony:output",
+        "biomorphic/puerpery/endospermous/chronaxie:output",
+        "biomorphic/puerpery/endospermous/scandalizer:output",
+        "biomorphic/puerpery/endospermous/hydrosomata:output",
+        "biomorphic/acclimatised/beclasps/subduably:output",
+        "biomorphic/groupwise/lysolecithin/groupwise:output",
+        "biomorphic/inhabitancy/gowrie/covarecas:output",
+        "biomorphic/runtier/emparadise/inwardly:output",
+        "biomorphic/untellable/santalum/rejuvenator:output",
+        "biomorphic/untellable/syndeton/alfur:output",
+        "biomorphic/fathogram/hydros/reconfiscate:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_trilocular_conferral_saw_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_trilocular_conferral_saw_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_trilocular_conferral_saw_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

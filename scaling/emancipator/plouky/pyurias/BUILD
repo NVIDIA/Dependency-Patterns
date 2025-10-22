@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/prenominical/rsa/preinvolved:output",
+        "bakongo/technicality/reitman/enervates:output",
+        "bakongo/siccan/strikeboard/housebreaks:output",
+        "bakongo/muscovade/generosities/salvationist:output",
+        "bakongo/siccan/rsa/japanophobia:output",
+        "bakongo/tanker/reitman/mandarinic:output",
+        "bakongo/muscovade/autoclaves/applicable:output",
+        "emancipator/biophysicist/tuberin:output",
+        "bakongo/prenominical/mechanism/dickie:output",
+        "bakongo/prenominical/strikeboard/vitriolating:output",
+        "bakongo/siccan/autoclaves/pulpaceous:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/muscovade/mechanism/juncoides:output",
+        "emancipator/wisp/preinspector:output",
+        "bakongo/siccan/mechanism/foetalism:output",
+        "bakongo/prenominical/generosities/inimicality:output",
+        "bakongo/muscovade/strikeboard/mosslike:output",
+        "bakongo/muscovade/rsa/jujubes:output",
+        "emancipator/millruns/envenom:output",
+        "emancipator/biocatalyst/flushness:output",
+        "bakongo/inchase/criminating/britte:output",
+        "bakongo/siccan/generosities/faddiest:output",
+        "emancipator/microdonty/pechys:output",
+        "emancipator/vulgarizing/sulfoxylic:output",
+        "emancipator/cuspis/acharne:output",
+        "bakongo/prenominical/autoclaves/deadeningly:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"emancipator_plouky_pyurias_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["emancipator_plouky_pyurias_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_plouky_pyurias_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

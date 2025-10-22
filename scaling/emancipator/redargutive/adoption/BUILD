@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/diamantine/ofori/aldington/remated:output",
+        "bakongo/diamantine/ofori/linseed/pyrogallate:output",
+        "bakongo/diamantine/ofori/kiddoes/rash:output",
+        "bakongo/upglide/endospermous/jnanayoga:output",
+        "bakongo/monofilm/oxyosphresia/ashpan:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "emancipator/endospermous/tobaccoless:output",
+        "bakongo/upglide/endospermous/physoclisti:output",
+        "bakongo/diamantine/ofori/symptomize/brulyies:output",
+        "bakongo/waywode/unqueened/verbifies:output",
+        "bakongo/upglide/endospermous/libau:output",
+        "bakongo/diamantine/ofori/dispread/magots:output",
+        "bakongo/diamantine/ofori/horrible/trendier:output",
+        "bakongo/diamantine/ofori/glaciarium/baboosh:output",
+        "bakongo/theanthropic/endospermous/bianka:output",
+        "bakongo/diamantine/ofori/nasute/expander:output",
+        "bakongo/upglide/endospermous/muncerian:output",
+        "bakongo/upglide/endospermous/tarred:output",
+        "bakongo/diamantine/ofori/antlophobia/dilling:output",
+        "bakongo/diamantine/ofori/nasuteness/lilongwe:output",
+        "bakongo/diamantine/ofori/semioval/isohemolysis:output",
+        "bakongo/diamantine/ofori/assiduity/faculous:output",
+        "bakongo/diamantine/ofori/doggoner/aching:output",
+        "bakongo/upglide/endospermous/bounces:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"emancipator_redargutive_adoption_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["emancipator_redargutive_adoption_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_redargutive_adoption_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

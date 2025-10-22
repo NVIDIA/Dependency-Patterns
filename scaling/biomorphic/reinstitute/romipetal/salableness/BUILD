@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/spondylic/hierro/traduce:output",
+        "biomorphic/semitransept/endospermous/staggeringly:output",
+        "biomorphic/spondylic/chimacum/yirmilik:output",
+        "biomorphic/spondylic/substantize/gryllotalpa:output",
+        "biomorphic/spondylic/flavian/conspire:output",
+        "biomorphic/spondylic/centrarchid/heartburns:output",
+        "biomorphic/spondylic/criminating/overstanding:output",
+        "biomorphic/spondylic/onondagan/earthward:output",
+        "biomorphic/spondylic/strychnos/alumnus:output",
+        "biomorphic/spondylic/subcuneus/paratonic:output",
+        "biomorphic/spondylic/garbure/fluxibly:output",
+        "biomorphic/uninvitingly/criminating/fy:output",
+        "biomorphic/uninvitingly/vincas/equvalent:output",
+        "biomorphic/reinstitute/resubmit/damoisel:output",
+        "biomorphic/spondylic/overrigid/kourou:output",
+        "biomorphic/spondylic/hereditably/unransomable:output",
+        "biomorphic/spondylic/fumulus/wering:output",
+        "biomorphic/spondylic/bogtrotter/gcvo:output",
+        "biomorphic/spondylic/splachnaceae/gweed:output",
+        "biomorphic/spondylic/gnathostomi/snipish:output",
+        "biomorphic/spondylic/hydrion/juline:output",
+        "biomorphic/spondylic/haircuts/far:output",
+        "biomorphic/cisted/reitman/cisted:output",
+        "biomorphic/spondylic/alienated/zanze:output",
+        "biomorphic/reinstitute/endospermous/andrarchy:output",
+        "biomorphic/spondylic/brainteaser/ignatzia:output",
+        "biomorphic/spondylic/speciosity/vinegrower:output",
+        "biomorphic/seychelles/stylizers/peguan:output",
+        "biomorphic/spondylic/desaturation/centriscus:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_reinstitute_romipetal_salableness_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_reinstitute_romipetal_salableness_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reinstitute_romipetal_salableness_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

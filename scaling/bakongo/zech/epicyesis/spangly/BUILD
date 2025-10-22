@@ -1,0 +1,63 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/sudses/antoninus/porotic:output",
+        "bakongo/absolved/epaulette/overfallen:output",
+        "bakongo/jarvy/epaulette/overgetting:output",
+        "bakongo/diffluent/crustedly/dehorn:output",
+        "bakongo/dualization/megalonyx/dualization:output",
+        "bakongo/unmovable/antoninus/warms:output",
+        "bakongo/overbend/antoninus/cephen:output",
+        "bakongo/technicality/antoninus/pentaploidy:output",
+        "bakongo/exodontics/antoninus/hirsling:output",
+        "bakongo/advances/bouche/axiom:output",
+        "bakongo/acronyc/antoninus/cranemen:output",
+        "bakongo/alloxanate/antoninus/flotsam:output",
+        "bakongo/did/whipmaking/colchicin:output",
+        "bakongo/getmesost/antoninus/fazing:output",
+        "bakongo/diffluent/feinting/overforward:output",
+        "bakongo/upglide/endospermous/ultrafeudal:output",
+        "bakongo/upglide/endospermous/crabbily:output",
+        "bakongo/did/santalum/billiton:output",
+        "bakongo/did/pneumas/southwood:output",
+        "bakongo/did/syndeton/kittled:output",
+        "bakongo/lenglen/antoninus/phytolacca:output",
+        "bakongo/enshrouds/antoninus/bighorns:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/technicality/antoninus/pentaploidy:output",
+        "bakongo/hypericism/antoninus/loonybin:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"bakongo_zech_epicyesis_spangly_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["bakongo_zech_epicyesis_spangly_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_zech_epicyesis_spangly_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

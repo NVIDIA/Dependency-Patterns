@@ -1,0 +1,30 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+[GLOBAL]
+pants_version = "2.28.0"
+pythonpath = ["%(buildroot)s/pants-plugins"]
+backend_packages = [
+    #"pants.backend.experimental.cc",
+    "pants.backend.shell",
+    "pants.backend.experimental.adhoc",
+    "pants.backend.python",
+    #"pants.backend.plugin_development",
+]
+
+[source]
+root_patterns = [
+    ".",
+    "pants-plugins",
+]
+
+[python]
+enable_resolves = true
+interpreter_constraints = ["==3.11.*"]
+
+[python.resolves]
+pants-plugins = "pants-plugins/lock.txt"
+python-default = "3rdparty/python/default_lock.txt"
+
+[python.resolves_to_interpreter_constraints]
+pants-plugins = ["==3.11.*"]

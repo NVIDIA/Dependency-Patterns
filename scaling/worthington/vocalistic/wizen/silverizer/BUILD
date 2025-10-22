@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/vocalistic/lacertian/gussying:output",
+        "worthington/vocalistic/ghz/grandeeship:output",
+        "worthington/vocalistic/autoindex/reassault:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/travelogues/unionic/regulatory:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/vocalistic/lindanes/taryba:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/coverdale/endospermous/arbith:output",
+        "worthington/vocalistic/irresolute/reloaders:output",
+        "worthington/smoh/endospermous/multiplicate:output",
+        "worthington/mithridatic/endospermous/filbert:output",
+        "worthington/mithridatic/endospermous/faizabad:output",
+        "worthington/alevins/criminating/bucconinae:output",
+        "worthington/fulbright/reitman/ahem:output",
+        "worthington/sweetiewife/emparadise/dimaggio:output",
+        "worthington/alevins/burgers/rancor:output",
+        "worthington/vocalistic/vincas/remagnified:output",
+        "worthington/vocalistic/reitman/margarete:output",
+        "worthington/mecodonta/recountless/mecodonta:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/cinenegative/reitman/unalloyed:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_vocalistic_wizen_silverizer_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_vocalistic_wizen_silverizer_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_vocalistic_wizen_silverizer_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/preobstruct/parenthesis/tan:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/preobstruct/colicine/fitchew:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/therewhilst/heliotypic/antijamming:output",
+        "worthington/preobstruct/tectonically/tittering:output",
+        "worthington/preobstruct/oxidizable/retour:output",
+        "worthington/coportion/lucidnesses/jeremiads/barbituric:output",
+        "worthington/preobstruct/rhynocheti/healthful:output",
+        "worthington/preobstruct/adamsen/peronium:output",
+        "worthington/coportion/lucidnesses/cladophora/dikage:output",
+        "worthington/coportion/lucidnesses/unhogged/overdoze:output",
+        "worthington/preobstruct/preallowably/dryfarm:output",
+        "worthington/preobstruct/framed/lustful:output",
+        "worthington/preobstruct/extra/reallocates:output",
+        "worthington/preobstruct/organella/heathens:output",
+        "worthington/preobstruct/gazellelike/preutilize:output",
+        "worthington/coportion/lucidnesses/verdha/clavuvi:output",
+        "worthington/zippel/responder/macrosmatic:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/therewhilst/comely/inaudibility:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/preobstruct/furnariides/stuprated:output",
+        "worthington/preobstruct/dipolar/lampas:output",
+        "worthington/preobstruct/boro/thermits:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_coportion_lucidnesses_sociological_alar_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_coportion_lucidnesses_sociological_alar_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_lucidnesses_sociological_alar_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

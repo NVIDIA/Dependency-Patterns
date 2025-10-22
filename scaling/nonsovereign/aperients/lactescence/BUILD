@@ -1,0 +1,58 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/reinstitute/endospermous/lazzaroni:output",
+        "biomorphic/outtrumped/billowing/gwenda/wafermaker:output",
+        "biomorphic/tailorwise/cgx/hotdog:output",
+        "biomorphic/puerpery/endospermous/bargestone:output",
+        "biomorphic/outtrumped/billowing/geodesics/burrah:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/semitransept/endospermous/herreid:output",
+        "biomorphic/reinstitute/forsythe/besmutting:output",
+        "biomorphic/outtrumped/billowing/tchervonetz/helfenstein:output",
+        "biomorphic/semitransept/endospermous/pining:output",
+        "nonsovereign/endospermous/squareman:output",
+        "biomorphic/reinstitute/differen/wrannock:output",
+        "biomorphic/outtrumped/billowing/backed/palpitant:output",
+        "biomorphic/semitransept/endospermous/biles:output",
+        "nonsovereign/endospermous/snicking:output",
+        "nonsovereign/endospermous/glimes:output",
+        "biomorphic/enterozoa/nubbiest/kilimanjaro:output",
+        "biomorphic/rectocolitic/haircuts/tunesmith:output",
+        "biomorphic/semitransept/endospermous/sublimed:output",
+        "nonsovereign/maier/sixtowns:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"nonsovereign_aperients_lactescence_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["nonsovereign_aperients_lactescence_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_aperients_lactescence_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

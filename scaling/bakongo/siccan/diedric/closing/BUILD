@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/siccan/strikeboard/housebreaks:output",
+        "bakongo/oiw/burgers/abyssinian:output",
+        "bakongo/siccan/croc/coworkers:output",
+        "bakongo/siccan/decimated/superspecial:output",
+        "bakongo/siccan/rsa/japanophobia:output",
+        "bakongo/strucion/rufulous/undermanager:output",
+        "bakongo/siccan/mpr/preoriginal:output",
+        "bakongo/siccan/vincas/splendidness:output",
+        "bakongo/did/whipmaking/colchicin:output",
+        "bakongo/did/santalum/billiton:output",
+        "bakongo/did/pneumas/southwood:output",
+        "bakongo/siccan/decarbonator/loxodromical:output",
+        "bakongo/siccan/autoclaves/pulpaceous:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/siccan/mechanism/foetalism:output",
+        "bakongo/siccan/lepidotus/chastize:output",
+        "bakongo/siccan/hoosegow/overgrieved:output",
+        "bakongo/siccan/byronish/tc:output",
+        "bakongo/siccan/bouk/mcclusky:output",
+        "bakongo/siccan/abying/anastatic:output",
+        "bakongo/siccan/unhackneyed/defloration:output",
+        "bakongo/siccan/generosities/faddiest:output",
+        "bakongo/did/syndeton/kittled:output",
+        "bakongo/siccan/tortue/alodiary:output",
+        "bakongo/did/dustpans/unelegant:output",
+        "bakongo/whalm/cachaemic/deleave:output",
+        "bakongo/inchase/shawfowl/concolour:output",
+        "bakongo/heptene/endospermous/disjasket:output",
+        "bakongo/siccan/mellifluent/jelerang:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"bakongo_siccan_diedric_closing_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["bakongo_siccan_diedric_closing_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_siccan_diedric_closing_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

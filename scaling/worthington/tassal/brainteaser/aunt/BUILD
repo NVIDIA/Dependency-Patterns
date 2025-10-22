@@ -1,0 +1,56 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/tassal/decemvii/saltery:output",
+        "worthington/tassal/spruiker/incask:output",
+        "worthington/tassal/strychnos/medians:output",
+        "worthington/tassal/flavian/buccate:output",
+        "worthington/tassal/hereditably/nematogonous:output",
+        "worthington/tassal/flub/hokkaido:output",
+        "worthington/tassal/subcuneus/janizaries:output",
+        "worthington/tassal/criminating/desmotrope:output",
+        "worthington/tassal/desaturation/unwarnedness:output",
+        "worthington/tassal/chimacum/eirenic:output",
+        "worthington/tassal/trypa/outsailed:output",
+        "worthington/tassal/fumulus/consoling:output",
+        "worthington/tassal/substantize/uncrowded:output",
+        "worthington/unfishable/reitman/unfishable:output",
+        "worthington/moldableness/thrasher/endospermous/cnossus:output",
+        "worthington/tassal/redondilla/krti:output",
+        "worthington/tassal/wots/testaments:output",
+        "worthington/tassal/posted/cutability:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_tassal_brainteaser_aunt_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_tassal_brainteaser_aunt_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_tassal_brainteaser_aunt_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

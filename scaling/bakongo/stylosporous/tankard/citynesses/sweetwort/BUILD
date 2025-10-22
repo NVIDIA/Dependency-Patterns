@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/stylosporous/tankard/unstigmatic/flummydiddle:output",
+        "bakongo/did/whipmaking/colchicin:output",
+        "bakongo/did/pneumas/southwood:output",
+        "bakongo/did/santalum/billiton:output",
+        "bakongo/stylosporous/tankard/filatory/gamotropic:output",
+        "bakongo/stylosporous/tankard/nonmagnetic/neil:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/stylosporous/tankard/wondersome/zebulunite:output",
+        "bakongo/stylosporous/tankard/capitle/retrograde:output",
+        "bakongo/stylosporous/tankard/bush/qwl:output",
+        "bakongo/stylosporous/tankard/warkloom/iodids:output",
+        "bakongo/stylosporous/tankard/truffled/polders:output",
+        "bakongo/stylosporous/tankard/vulcanising/scholz:output",
+        "bakongo/stylosporous/tankard/yorgen/midlenting:output",
+        "bakongo/stylosporous/poorhouse/spongioplasm/oliviero:output",
+        "bakongo/stylosporous/tankard/uar/pyridyl:output",
+        "bakongo/stylosporous/tankard/masaris/outbud:output",
+        "bakongo/stylosporous/tankard/temporalism/pleomorphism:output",
+        "bakongo/stylosporous/tankard/poritoid/allys:output",
+        "bakongo/did/syndeton/kittled:output",
+        "bakongo/stylosporous/tankard/coenosteal/unnoticing:output",
+        "bakongo/stylosporous/tankard/nutricism/woodmen:output",
+        "bakongo/stylosporous/tankard/reminiscing/subtemporal:output",
+        "bakongo/stylosporous/tankard/suborners/outbend:output",
+        "bakongo/stylosporous/tankard/leproid/hyoglossi:output",
+        "bakongo/stylosporous/tankard/graphonomy/periaster:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"bakongo_stylosporous_tankard_citynesses_sweetwort_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["bakongo_stylosporous_tankard_citynesses_sweetwort_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_tankard_citynesses_sweetwort_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

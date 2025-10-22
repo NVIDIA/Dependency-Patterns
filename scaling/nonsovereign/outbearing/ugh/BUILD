@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/semitransept/endospermous/pelages:output",
+        "biomorphic/rebaptizer/lysolecithin/ancestorial:output",
+        "biomorphic/rectocolitic/curiosa/salish:output",
+        "biomorphic/polentas/bouche/wardress:output",
+        "biomorphic/eulima/endospermous/eulima:output",
+        "biomorphic/reinstitute/featheredges/goggan:output",
+        "biomorphic/semitransept/endospermous/mesochilium:output",
+        "biomorphic/malacobdella/lysolecithin/popeism:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/fetwa/reitman/preopinion:output",
+        "biomorphic/efractory/berseems/spearheads:output",
+        "biomorphic/reinstitute/forsythe/besmutting:output",
+        "biomorphic/reinstitute/quarrelproof/dermatomere:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/semitransept/endospermous/thegn:output",
+        "biomorphic/semitransept/endospermous/oncer:output",
+        "biomorphic/semitransept/endospermous/valerle:output",
+        "biomorphic/issie/reitman/issie:output",
+        "biomorphic/astrogony/reitman/astrogony:output",
+        "biomorphic/ayutthaya/reitman/ayutthaya:output",
+        "biomorphic/semitransept/endospermous/jumba:output",
+        "biomorphic/reinstitute/uncustomed/pleiotropism:output",
+        "biomorphic/semitransept/endospermous/distention:output",
+        "biomorphic/semitransept/endospermous/algonkins:output",
+        "biomorphic/semitransept/endospermous/quot:output",
+        "biomorphic/paracelsic/reitman/paracelsic:output",
+        "nonsovereign/endospermous/glimes:output",
+        "biomorphic/romonda/reitman/romonda:output",
+        "biomorphic/semitransept/endospermous/unsacerdotal:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"nonsovereign_outbearing_ugh_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["nonsovereign_outbearing_ugh_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_outbearing_ugh_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

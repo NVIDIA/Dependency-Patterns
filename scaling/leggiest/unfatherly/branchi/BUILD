@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+        ":output_sources",
+        "leggiest/bogtrotter/revivifying:output",
+        "leggiest/desaturation/aeolodion:output",
+        "leggiest/substantize/bioscopic:output",
+        "leggiest/garbure/barryton:output",
+        "leggiest/hierro/unsevered:output",
+        "leggiest/overrigid/precourse:output",
+        "leggiest/splachnaceae/hoarfrost:output",
+        "leggiest/endospermous/amagasaki:output",
+        "leggiest/substantize/bioscopic:output",
+        "leggiest/onondagan/citolers:output",
+        "leggiest/brainteaser/inert:output",
+        "leggiest/criminating/agatine:output",
+        "leggiest/fumulus/downheaded:output",
+        "leggiest/alienated/unhasted:output",
+        "leggiest/haircuts/anthesterol:output",
+        "leggiest/subcuneus/milldale:output",
+        "leggiest/speciosity/alcicornium:output",
+        "leggiest/centrarchid/homaxial:output",
+        "leggiest/reitman/airiness:output",
+        "leggiest/chimacum/bioacoustics:output",
+        "leggiest/flavian/coaguline:output",
+        "leggiest/hereditably/dayless:output",
+        "leggiest/amieva/bardel:output",
+        "leggiest/hydrion/ciwies:output",
+        "leggiest/criminating/agatine:output",
+        "leggiest/endospermous/paramilitary:output",
+        "leggiest/strychnos/withdrawn:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+        "leggiest_unfatherly_branchi_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["leggiest_unfatherly_branchi_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_unfatherly_branchi_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

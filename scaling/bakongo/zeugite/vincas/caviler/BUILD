@@ -1,0 +1,68 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/spiritlike/bemire/deceases:output",
+        "bakongo/incumbrances/reitman/incumbrances:output",
+        "bakongo/subsisted/bemire/geckoid:output",
+        "bakongo/preconsuming/unqueened/mesogastral:output",
+        "bakongo/prolia/lysolecithin/reanalyzes:output",
+        "bakongo/reascension/lysolecithin/reascension:output",
+        "bakongo/upglide/endospermous/netherstone:output",
+        "bakongo/shindle/lysolecithin/shindle:output",
+        "bakongo/monofilm/oxyosphresia/ashpan:output",
+        "bakongo/manipulating/lysolecithin/reimplanted:output",
+        "bakongo/pobox/bemire/empiricism:output",
+        "bakongo/bastioned/unqueened/hormist:output",
+        "bakongo/stinkardly/unqueened/isopodous:output",
+        "bakongo/qualia/lysolecithin/qualia:output",
+        "bakongo/prolia/pirtleville/ingmar:output",
+        "bakongo/verdel/circaea/monocleid:output",
+        "bakongo/snatchers/unqueened/redeemedness:output",
+        "bakongo/procaviidae/unqueened/buckishness:output",
+        "bakongo/upglide/endospermous/physoclisti:output",
+        "bakongo/zeugite/criminating/anisotrope:output",
+        "bakongo/waywode/unqueened/verbifies:output",
+        "bakongo/upglide/endospermous/libau:output",
+        "bakongo/ribaldly/unqueened/kerning:output",
+        "bakongo/theanthropic/endospermous/bianka:output",
+        "bakongo/preconsuming/reliers/snecket:output",
+        "bakongo/vivifier/lysolecithin/vivifier:output",
+        "bakongo/bartree/lysolecithin/bartree:output",
+        "bakongo/snatchers/reliers/antisexist:output",
+        "bakongo/focalizing/pvc/spales:output",
+        "bakongo/upglide/endospermous/bounces:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"bakongo_zeugite_vincas_caviler_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["bakongo_zeugite_vincas_caviler_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_zeugite_vincas_caviler_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/heptene/endospermous/dyable:output",
+        "bakongo/yggdrasil/endospermous/elegised:output",
+        "bakongo/did/whipmaking/colchicin:output",
+        "bakongo/upglide/endospermous/jnanayoga:output",
+        "bakongo/monofilm/reitman/ballot:output",
+        "bakongo/upglide/endospermous/crabbily:output",
+        "bakongo/did/santalum/billiton:output",
+        "bakongo/did/pneumas/southwood:output",
+        "bakongo/upglide/endospermous/noti:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/trinityhood/vincas/counterscale:output",
+        "bakongo/upglide/endospermous/khoisan:output",
+        "emancipator/endospermous/tobaccoless:output",
+        "bakongo/upglide/endospermous/trustful:output",
+        "emancipator/bicolorous/calah:output",
+        "bakongo/upglide/endospermous/unflesh:output",
+        "bakongo/upglide/endospermous/ultrafeudal:output",
+        "bakongo/heptene/endospermous/compressible:output",
+        "bakongo/companionage/emparadise/meatball:output",
+        "bakongo/did/syndeton/kittled:output",
+        "bakongo/upglide/endospermous/unchased:output",
+        "bakongo/upglide/endospermous/espier:output",
+        "bakongo/upglide/endospermous/tarred:output",
+        "bakongo/akroter/reitman/akroter:output",
+        "bakongo/alberton/recountless/alberton:output",
+        "bakongo/upglide/endospermous/kenoticism:output",
+        "bakongo/heptene/endospermous/disjasket:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"emancipator_invigilating_forehorse_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["emancipator_invigilating_forehorse_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_invigilating_forehorse_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

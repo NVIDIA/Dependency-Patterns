@@ -1,0 +1,59 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "nonsovereign/washboards/jady:output",
+        "nonsovereign/guildite/sepal:output",
+        "nonsovereign/stovepipes/soothsays:output",
+        "nonsovereign/calliper/leeringly:output",
+        "nonsovereign/routhercock/billons:output",
+        "nonsovereign/whosumdever/forksmith:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "nonsovereign/twaddle/droits:output",
+        "nonsovereign/amaty/dhaman:output",
+        "nonsovereign/fatalisms/gemmeous:output",
+        "nonsovereign/irade/avenges:output",
+        "nonsovereign/augites/demurs:output",
+        "nonsovereign/meagrely/unoutspoken:output",
+        "nonsovereign/ponderable/amentiferous:output",
+        "nonsovereign/tareyn/revegetate:output",
+        "nonsovereign/rexes/cib:output",
+        "nonsovereign/lusts/latinesque:output",
+        "biomorphic/shogun/moya/corallina:output",
+        "biomorphic/shogun/springvale/louseberries:output",
+        "nonsovereign/predetainer/pleadings:output",
+        "nonsovereign/redeemed/arrhephoria:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"nonsovereign_shillelah_phosphatidic_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["nonsovereign_shillelah_phosphatidic_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_shillelah_phosphatidic_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

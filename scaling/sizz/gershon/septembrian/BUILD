@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/smoh/endospermous/zelanian:output",
+        "worthington/oversmoothly/showboater/apyretic:output",
+        "worthington/debtors/regioned/aips:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "sizz/motorbuses/shewchuk:output",
+        "worthington/rotherham/dispermous/preceptively:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "sizz/gibbals/globuliform:output",
+        "worthington/scyllaridae/lysolecithin/scyllaridae:output",
+        "sizz/sarsnet/falcata:output",
+        "worthington/jujutsu/motorbuses/arimaspians:output",
+        "worthington/teazelling/motorbuses/teazelling:output",
+        "sizz/darkskin/nonbroody:output",
+        "worthington/jujutsu/motorbuses/arimaspians:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/jujutsu/socionomics/libellers:output",
+        "sizz/innominables/uss:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "sizz/greenboard/abantes:output",
+        "worthington/hordville/semispan/cupfuls:output",
+        "sizz/proboulevard/dicyema:output",
+        "sizz/chinkiest/engrandize:output",
+        "worthington/rotherham/persius/palmgren:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"sizz_gershon_septembrian_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["sizz_gershon_septembrian_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_gershon_septembrian_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

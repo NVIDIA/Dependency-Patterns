@@ -1,0 +1,56 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/incumbrances/reitman/incumbrances:output",
+        "bakongo/heptene/endospermous/dyable:output",
+        "bakongo/carriageway/viand/narrawood:output",
+        "bakongo/tanker/synanthetic/ventrimeson:output",
+        "emancipator/disfrocked/kensal:output",
+        "emancipator/metapolitic/aftershafted:output",
+        "bakongo/did/whipmaking/colchicin:output",
+        "emancipator/cuspis/acharne:output",
+        "bakongo/did/pneumas/southwood:output",
+        "bakongo/did/santalum/billiton:output",
+        "bakongo/labials/reitman/labials:output",
+        "bakongo/did/syndeton/kittled:output",
+        "bakongo/inchase/criminating/britte:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/stylosporous/flashcube/synanthetic/arhats:output",
+        "bakongo/archizoic/burgers/imu:output",
+        "bakongo/excretolic/burgers/faison:output",
+        "bakongo/upglide/endospermous/karyoplasmic:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"emancipator_cyclicity_orangeist_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["emancipator_cyclicity_orangeist_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_cyclicity_orangeist_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

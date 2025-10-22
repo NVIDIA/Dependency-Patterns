@@ -1,0 +1,66 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "gpss/haulage/landfill:output",
+        "worthington/lituoline/hydrion/computerese:output",
+        "worthington/moldableness/thrasher/endospermous/croset:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/moldableness/thrasher/endospermous/anilino:output",
+        "worthington/moldableness/thrasher/endospermous/polypide:output",
+        "worthington/moldableness/thrasher/romipetal/ammonoidean:output",
+        "worthington/misoneistic/hydrion/omnitude:output",
+        "worthington/moldableness/thrasher/cloghaun/misfeasor:output",
+        "worthington/covering/endospermous/adhort:output",
+        "worthington/moldableness/thrasher/endospermous/unadduceable:output",
+        "worthington/moldableness/thrasher/endospermous/cruciality:output",
+        "gpss/aplome/viseing:output",
+        "worthington/catalogers/hydrion/threaders:output",
+        "worthington/moldableness/thrasher/splachnaceae/exflagellate:output",
+        "gpss/cardinals/hillside:output",
+        "worthington/azonic/endospermous/outclimbed:output",
+        "gpss/endospermous/trinities:output",
+        "worthington/cajole/pirtleville/unmaskers:output",
+        "worthington/moldableness/thrasher/differen/payers:output",
+        "worthington/medicines/hydrion/pulses:output",
+        "worthington/moldableness/thrasher/endospermous/mispatched:output",
+        "worthington/moldableness/thrasher/partisanry/kinkily:output",
+        "worthington/sweetiewife/unspiteful/cahuita:output",
+        "worthington/moldableness/thrasher/forsythe/hashheads:output",
+        "worthington/ampullated/hydrion/aceanthrene:output",
+        "gpss/dreamlessly/valliculae:output",
+        "worthington/tassal/hydrion/wealthily:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"gpss_armlessly_steatorrhoea_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["gpss_armlessly_steatorrhoea_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_armlessly_steatorrhoea_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

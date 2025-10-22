@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/rebaptizer/lysolecithin/ancestorial:output",
+        "biomorphic/rewey/unqueened/retinacula:output",
+        "biomorphic/chromometer/lysolecithin/savelha:output",
+        "biomorphic/maduro/reliers/marseilles:output",
+        "biomorphic/semitransept/endospermous/provo:output",
+        "biomorphic/lateraling/bemire/cotranspire:output",
+        "biomorphic/filaricidal/unqueened/lovel:output",
+        "biomorphic/semitransept/endospermous/demiseason:output",
+        "biomorphic/rewey/reliers/vaccines:output",
+        "biomorphic/semitransept/endospermous/plumdamis:output",
+        "biomorphic/rebaptizer/lysolecithin/ancestorial:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/uncamp/bemire/tasimetric:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/hexahedra/heartener/untroubled:output",
+        "biomorphic/maduro/unqueened/nephology:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/refiled/unqueened/nerves:output",
+        "biomorphic/semitransept/endospermous/pariahism:output",
+        "biomorphic/semitransept/endospermous/opsonin:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "biomorphic/hexahedra/lysolecithin/hexahedra:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_liparidae_hereditably_miniskis_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_liparidae_hereditably_miniskis_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_liparidae_hereditably_miniskis_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

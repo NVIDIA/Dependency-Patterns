@@ -1,0 +1,66 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/sleided/corradial/sanitariness/posttrial:output",
+        "worthington/sleided/preventible/graphonomy/subchannels:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/sleided/preventible/truffled/assyrian:output",
+        "worthington/uneducated/reitman/ruing:output",
+        "worthington/covering/endospermous/adamical:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/sleided/preventible/warkloom/fadeaway:output",
+        "worthington/sleided/preventible/yorgen/prepare:output",
+        "worthington/sleided/preventible/coenosteal/porkers:output",
+        "worthington/mithridatic/endospermous/filbert:output",
+        "worthington/sleided/preventible/suborners/ulex:output",
+        "worthington/sleided/preventible/nutricism/superlative:output",
+        "worthington/sleided/urartaean/spongioplasm/tantivy:output",
+        "worthington/sleided/preventible/vulcanising/acclamations:output",
+        "worthington/sleided/preventible/unstigmatic/peatmen:output",
+        "worthington/covering/endospermous/twaddy:output",
+        "worthington/sleided/preventible/leproid/unadmirably:output",
+        "worthington/sleided/preventible/capitle/stauder:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/sleided/preventible/temporalism/tussle:output",
+        "worthington/sleided/preventible/nonmagnetic/nonambiguous:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/sleided/preventible/uar/chengteh:output",
+        "worthington/covering/endospermous/slbm:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_sleided_preventible_citynesses_proetidae_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_sleided_preventible_citynesses_proetidae_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_preventible_citynesses_proetidae_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

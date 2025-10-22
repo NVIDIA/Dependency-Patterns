@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "gpss/bodegones/refugio:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "gpss/nyack/unscribed:output",
+        "worthington/beslaved/bmo/birds:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "gpss/battledoring/chauliodes:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "gpss/ommetaphobia/staticky:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/moldableness/thrasher/scoter/hulme:output",
+        "worthington/beslaved/epikia/plastochrone:output",
+        "worthington/viomycins/reitman/stippled:output",
+        "gpss/accordature/travels:output",
+        "gpss/calinago/araucano:output",
+        "gpss/sylvestrian/bacquet:output",
+        "worthington/alevins/austerity/puritanlike:output",
+        "gpss/mouser/bun:output",
+        "worthington/beslaved/torbert/hadendowa:output",
+        "gpss/semimaturity/experts:output",
+        "gpss/delphinid/metabolous:output",
+        "worthington/fulbright/reitman/ahem:output",
+        "worthington/alevins/criminating/bucconinae:output",
+        "worthington/vocalistic/reitman/margarete:output",
+        "worthington/beslaved/unpulped/pyrroline:output",
+        "gpss/quadrupedan/predictated:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "gpss/disniche/greegree:output",
+        "worthington/cinenegative/reitman/unalloyed:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"gpss_plouky_unlikable_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["gpss_plouky_unlikable_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_plouky_unlikable_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

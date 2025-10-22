@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/piazzi/burgers/idioretinal:output",
+        "worthington/sleided/baeyer/oohed/lepidin:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/pathoses/obsequence/sclaffing:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/rotherham/undivested/televox:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/pathoses/rationably/unscavenged:output",
+        "worthington/uneducated/reitman/ruing:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/pathoses/callidness/onerier:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/sleided/baeyer/urological/frilliest:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/pathoses/semblance/reveries:output",
+        "worthington/pathoses/cerebellums/coloured:output",
+        "worthington/rotherham/gowrie/rhatania:output",
+        "worthington/pathoses/splachnum/enmagazine:output",
+        "worthington/pathoses/dilatability/montmartrite:output",
+        "worthington/pathoses/gaskings/priggism:output",
+        "worthington/pathoses/corrodant/dribbed:output",
+        "worthington/pathoses/exosseous/morphiate:output",
+        "worthington/pathoses/candlewright/unprofessing:output",
+        "worthington/pathoses/unflowing/addisoniana:output",
+        "worthington/mayes/reitman/mayes:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/hugeous/vincas/curkell:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_sleided_baeyer_pediculoid_canoeists_baeyer_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_sleided_baeyer_pediculoid_canoeists_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_baeyer_pediculoid_canoeists_baeyer_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/halecomorphi/eveleen/dominies:output",
+        "biomorphic/adventured/rufulous/aminic:output",
+        "biomorphic/tropophyte/bemire/dichronous:output",
+        "biomorphic/tropophyte/shawfowl/slums:output",
+        "biomorphic/ninnyism/decimated/inclipped:output",
+        "biomorphic/adventured/retells/pemolines:output",
+        "biomorphic/ephedrine/lysolecithin/verselet:output",
+        "biomorphic/clockcase/lysolecithin/actuaryship:output",
+        "biomorphic/instigatrix/lysolecithin/dupaix:output",
+        "biomorphic/adventured/protometal/biscot:output",
+        "biomorphic/adventured/equines/scolytus:output",
+        "biomorphic/scaphopod/biaswise/phaeacian:output",
+        "biomorphic/adventured/irq/nucament:output",
+        "biomorphic/adventured/dissembly/lateliness:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/tropophyte/mutuality/chidden:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/refiled/unqueened/nerves:output",
+        "biomorphic/ninnyism/bemire/histrionical:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "biomorphic/ninnyism/gravigrade/supers:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_ninnyism_klezmer_thoral_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_ninnyism_klezmer_thoral_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ninnyism_klezmer_thoral_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

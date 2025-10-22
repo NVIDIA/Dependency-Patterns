@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/adventured/rufulous/aminic:output",
+        "biomorphic/tropophyte/bemire/dichronous:output",
+        "biomorphic/rewey/unqueened/retinacula:output",
+        "biomorphic/tropophyte/shawfowl/slums:output",
+        "biomorphic/gloveman/decimated/dangs:output",
+        "biomorphic/ephedrine/lysolecithin/verselet:output",
+        "biomorphic/adventured/retells/pemolines:output",
+        "biomorphic/gloveman/klezmer/botryoidal:output",
+        "biomorphic/clockcase/lysolecithin/actuaryship:output",
+        "biomorphic/adventured/protometal/biscot:output",
+        "biomorphic/instigatrix/lysolecithin/dupaix:output",
+        "biomorphic/adventured/equines/scolytus:output",
+        "biomorphic/scaphopod/biaswise/phaeacian:output",
+        "biomorphic/gloveman/lysolecithin/soapmaker:output",
+        "biomorphic/adventured/irq/nucament:output",
+        "biomorphic/adventured/dissembly/lateliness:output",
+        "biomorphic/tiddleywink/endospermous/symposia:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/maduro/unqueened/nephology:output",
+        "biomorphic/tropophyte/mutuality/chidden:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/guessers/rassles/xanthopicrin:output",
+        "biomorphic/refiled/unqueened/nerves:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_gloveman_vincas_outeyed_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_gloveman_vincas_outeyed_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_gloveman_vincas_outeyed_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

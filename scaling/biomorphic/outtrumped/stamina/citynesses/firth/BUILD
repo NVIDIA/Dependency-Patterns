@@ -1,0 +1,68 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/outtrumped/stamina/bush/regiven:output",
+        "biomorphic/esau/endospermous/scrupular:output",
+        "biomorphic/outtrumped/stamina/temporalism/metapleura:output",
+        "biomorphic/outtrumped/stamina/suborners/caespitose:output",
+        "biomorphic/puerpery/endospermous/bargestone:output",
+        "biomorphic/puerpery/endospermous/zoning:output",
+        "biomorphic/untellable/whipmaking/prig:output",
+        "biomorphic/outtrumped/stamina/poritoid/urethrae:output",
+        "biomorphic/outtrumped/retries/spongioplasm/slagle:output",
+        "biomorphic/outtrumped/stamina/unstigmatic/plasmons:output",
+        "biomorphic/outtrumped/stamina/filatory/uintathere:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/fetwa/reitman/preopinion:output",
+        "biomorphic/untellable/pneumas/inimaginable:output",
+        "biomorphic/outtrumped/stamina/yorgen/pseudomorph:output",
+        "biomorphic/outtrumped/stamina/leproid/daver:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/outtrumped/stamina/wondersome/nevus:output",
+        "biomorphic/outtrumped/stamina/nutricism/untotaled:output",
+        "biomorphic/semitransept/endospermous/sneezers:output",
+        "biomorphic/semitransept/endospermous/valerle:output",
+        "biomorphic/outtrumped/stamina/truffled/obrotund:output",
+        "biomorphic/outtrumped/zoophoric/sanitariness/perceptually:output",
+        "biomorphic/outtrumped/stamina/uar/stying:output",
+        "biomorphic/outtrumped/stamina/coenosteal/conocarp:output",
+        "biomorphic/semitransept/endospermous/biles:output",
+        "biomorphic/outtrumped/stamina/warkloom/colton:output",
+        "biomorphic/outtrumped/stamina/vulcanising/parrotfish:output",
+        "biomorphic/untellable/santalum/rejuvenator:output",
+        "biomorphic/untellable/syndeton/alfur:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_outtrumped_stamina_citynesses_firth_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_outtrumped_stamina_citynesses_firth_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_stamina_citynesses_firth_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

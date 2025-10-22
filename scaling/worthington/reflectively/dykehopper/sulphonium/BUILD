@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/covering/endospermous/festatus:output",
+        "worthington/catalogers/lealness/unswanlike:output",
+        "worthington/covering/endospermous/homilist:output",
+        "worthington/tenson/lysolecithin/tenson:output",
+        "worthington/aggressors/bemire/cyanastrum:output",
+        "worthington/barksome/unqueened/styloglossal:output",
+        "worthington/spelunkers/unqueened/semilethal:output",
+        "worthington/uneducated/oxyosphresia/rosttra:output",
+        "worthington/lituoline/lealness/fervor:output",
+        "worthington/amperes/lysolecithin/emusifies:output",
+        "worthington/cajole/lysolecithin/cvr:output",
+        "worthington/lituoline/gnathostomi/gournay:output",
+        "worthington/calathus/lysolecithin/calathus:output",
+        "worthington/reflectively/gnathostomi/calliste:output",
+        "worthington/catalogers/gnathostomi/hamathite:output",
+        "worthington/cajole/pirtleville/unmaskers:output",
+        "worthington/lituoline/kufiyeh/secularism:output",
+        "worthington/chasteningly/unqueened/finishing:output",
+        "worthington/syenodiorite/lysolecithin/syenodiorite:output",
+        "worthington/ihp/endospermous/elf:output",
+        "worthington/cajole/punak/phospholipid:output",
+        "worthington/catalogers/kufiyeh/sayce:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/reflectively/criminating/outspeaker:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_reflectively_dykehopper_sulphonium_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_reflectively_dykehopper_sulphonium_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_reflectively_dykehopper_sulphonium_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

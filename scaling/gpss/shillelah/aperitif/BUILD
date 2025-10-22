@@ -1,0 +1,59 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "gpss/washboards/foreswore:output",
+        "gpss/guildite/drumslade:output",
+        "gpss/redeemed/preclothing:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "gpss/stovepipes/parousia:output",
+        "gpss/calliper/bosler:output",
+        "gpss/tareyn/syddir:output",
+        "gpss/ponderable/bloodroots:output",
+        "gpss/irade/eucrites:output",
+        "gpss/rexes/deadest:output",
+        "gpss/augites/cavefishes:output",
+        "gpss/predetainer/ascogone:output",
+        "gpss/lusts/lumbricales:output",
+        "worthington/takt/springvale/otopathy:output",
+        "gpss/meagrely/kilobar:output",
+        "gpss/routhercock/alamanni:output",
+        "gpss/amaty/falcunculus:output",
+        "gpss/fatalisms/hyperaeolism:output",
+        "gpss/twaddle/nethou:output",
+        "gpss/whosumdever/sapiutan:output",
+        "worthington/cognizes/moya/parasitosis:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"gpss_shillelah_aperitif_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["gpss_shillelah_aperitif_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_shillelah_aperitif_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

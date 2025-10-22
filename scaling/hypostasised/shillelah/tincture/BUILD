@@ -1,0 +1,59 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "hypostasised/rexes/nocten:output",
+        "hypostasised/redeemed/marcel:output",
+        "hypostasised/whosumdever/unmicrobic:output",
+        "hypostasised/twaddle/jacutinga:output",
+        "hypostasised/meagrely/kilom:output",
+        "hypostasised/irade/jedediah:output",
+        "hypostasised/guildite/allende:output",
+        "hypostasised/washboards/landladies:output",
+        "hypostasised/stovepipes/headachiest:output",
+        "hypostasised/augites/unvenerated:output",
+        "hypostasised/fatalisms/chiromegaly:output",
+        "hypostasised/lusts/gambrels:output",
+        "bakongo/puparia/springvale/byssine:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "hypostasised/amaty/vars:output",
+        "bakongo/puparia/moya/unsunk:output",
+        "hypostasised/routhercock/alloted:output",
+        "hypostasised/tareyn/daimonology:output",
+        "hypostasised/calliper/contraoctave:output",
+        "hypostasised/ponderable/gangland:output",
+        "hypostasised/predetainer/canyonside:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"hypostasised_shillelah_tincture_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["hypostasised_shillelah_tincture_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_shillelah_tincture_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

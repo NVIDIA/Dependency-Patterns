@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/afterwit/gravigrade/pourable:output",
+        "biomorphic/halecomorphi/eveleen/dominies:output",
+        "biomorphic/adventured/rufulous/aminic:output",
+        "biomorphic/tropophyte/bemire/dichronous:output",
+        "biomorphic/tropophyte/shawfowl/slums:output",
+        "biomorphic/adventured/retells/pemolines:output",
+        "biomorphic/ephedrine/lysolecithin/verselet:output",
+        "biomorphic/clockcase/lysolecithin/actuaryship:output",
+        "biomorphic/afterwit/decimated/goombahs:output",
+        "biomorphic/instigatrix/lysolecithin/dupaix:output",
+        "biomorphic/adventured/protometal/biscot:output",
+        "biomorphic/adventured/equines/scolytus:output",
+        "biomorphic/scaphopod/biaswise/phaeacian:output",
+        "biomorphic/adventured/irq/nucament:output",
+        "biomorphic/adventured/dissembly/lateliness:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/afterwit/bemire/cleated:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/tropophyte/mutuality/chidden:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/refiled/unqueened/nerves:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_afterwit_klezmer_epimerism_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_afterwit_klezmer_epimerism_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_afterwit_klezmer_epimerism_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

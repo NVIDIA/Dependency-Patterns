@@ -1,0 +1,60 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/nontoxic/hydros/virago:output",
+        "biomorphic/chromometer/lysolecithin/savelha:output",
+        "biomorphic/untellable/whipmaking/prig:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/filaricidal/unqueened/lovel:output",
+        "biomorphic/semitransept/endospermous/demiseason:output",
+        "biomorphic/untellable/pneumas/inimaginable:output",
+        "biomorphic/engulfed/vincas/tarrie:output",
+        "biomorphic/tiddleywink/endospermous/symposia:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/uncamp/bemire/tasimetric:output",
+        "biomorphic/oleron/unqueened/cream:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/adv/burgers/butyrate:output",
+        "biomorphic/refiled/glunch/serab:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/refiled/unqueened/nerves:output",
+        "biomorphic/nontoxic/superlying/trichloro:output",
+        "biomorphic/untellable/santalum/rejuvenator:output",
+        "biomorphic/untellable/syndeton/alfur:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_normanize_claribella_shuffling_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_normanize_claribella_shuffling_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_normanize_claribella_shuffling_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "sizz/accordature/recontinue:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "sizz/disniche/robed:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/beslaved/bmo/birds:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/moldableness/thrasher/scoter/hulme:output",
+        "worthington/beslaved/epikia/plastochrone:output",
+        "sizz/bodegones/metrazol:output",
+        "worthington/viomycins/reitman/stippled:output",
+        "sizz/delphinid/ido:output",
+        "sizz/mouser/pahareen:output",
+        "worthington/alevins/austerity/puritanlike:output",
+        "worthington/beslaved/torbert/hadendowa:output",
+        "worthington/fulbright/reitman/ahem:output",
+        "worthington/alevins/criminating/bucconinae:output",
+        "sizz/quadrupedan/oversubtle:output",
+        "sizz/battledoring/furfurans:output",
+        "worthington/vocalistic/reitman/margarete:output",
+        "sizz/nyack/geomys:output",
+        "worthington/beslaved/unpulped/pyrroline:output",
+        "sizz/semimaturity/overgratify:output",
+        "sizz/sylvestrian/albicant:output",
+        "sizz/ommetaphobia/musicologies:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/cinenegative/reitman/unalloyed:output",
+        "sizz/calinago/pausers:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"sizz_plouky_vividialysis_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["sizz_plouky_vividialysis_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_plouky_vividialysis_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,68 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/rendition/ferryville/noblesses:output",
+        "gpss/motorbuses/ccitt:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "gpss/predictating/manipulator:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "gpss/clavicornia/silliest:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "gpss/repurposing/parroters:output",
+        "gpss/spongiosity/belknap:output",
+        "gpss/pagne/ar:output",
+        "gpss/darkskin/papulated:output",
+        "gpss/endospermous/obtruder:output",
+        "worthington/chewer/criminating/lauwine:output",
+        "gpss/goaded/gaas:output",
+        "gpss/blites/contorted:output",
+        "gpss/souple/bethumping:output",
+        "gpss/haysville/chawer:output",
+        "gpss/endospermous/trinities:output",
+        "worthington/chewer/vincas/achatour:output",
+        "worthington/rendition/interhyal/panamaian:output",
+        "worthington/rendition/gravitates/cenote:output",
+        "worthington/rendition/fetiales/tektosil:output",
+        "gpss/owenist/precontemn:output",
+        "gpss/curtation/feteless:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "gpss/splenotoxin/pipkin:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/pretorian/reitman/pretorian:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"gpss_seels_rori_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["gpss_seels_rori_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_seels_rori_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

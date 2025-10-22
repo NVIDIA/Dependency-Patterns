@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/smoh/endospermous/zelanian:output",
+        "worthington/debtors/regioned/aips:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/uneducated/reitman/ruing:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "sizz/gershon/septembrian:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "sizz/gibbals/globuliform:output",
+        "sizz/endospermous/farrington:output",
+        "sizz/sarsnet/falcata:output",
+        "worthington/teazelling/motorbuses/teazelling:output",
+        "worthington/mithridatic/endospermous/filbert:output",
+        "worthington/sleided/surprizal/progenitors/diction:output",
+        "sizz/darkskin/nonbroody:output",
+        "worthington/homes/ehlite/alanyl:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/oversmoothly/dougl/nickeline:output",
+        "worthington/hordville/semispan/cupfuls:output",
+        "sizz/chinkiest/engrandize:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"sizz_unbridles_theosophism_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["sizz_unbridles_theosophism_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_unbridles_theosophism_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

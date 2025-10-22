@@ -1,0 +1,59 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/moldableness/thrasher/endospermous/saprophytes:output",
+        "worthington/moldableness/thrasher/endospermous/incase:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/jujutsu/knotholes/tramroads:output",
+        "worthington/covering/endospermous/ganapati:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/coverdale/endospermous/arbith:output",
+        "worthington/smoh/endospermous/multiplicate:output",
+        "gpss/endospermous/obtruder:output",
+        "worthington/jujutsu/interportal/pyorrhea:output",
+        "worthington/mithridatic/endospermous/filbert:output",
+        "worthington/sleided/calceus/cherri/latescent:output",
+        "gpss/endospermous/trinities:output",
+        "gpss/bicolorous/algesia:output",
+        "worthington/moldableness/thrasher/endospermous/enormously:output",
+        "worthington/jujutsu/trapa/coldfinch:output",
+        "worthington/jujutsu/unspiteful/attapulgus:output",
+        "worthington/moldableness/thrasher/endospermous/tutorials:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"gpss_phocodont_renealmia_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["gpss_phocodont_renealmia_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_phocodont_renealmia_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,60 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/zeugite/criminating/anisotrope:output",
+        "bakongo/subsisted/bemire/geckoid:output",
+        "bakongo/heptene/endospermous/dyable:output",
+        "bakongo/theanthropic/endospermous/bianka:output",
+        "bakongo/did/whipmaking/colchicin:output",
+        "bakongo/upglide/endospermous/netherstone:output",
+        "bakongo/upglide/endospermous/torturesome:output",
+        "bakongo/microsome/lysolecithin/microsome:output",
+        "bakongo/shindle/lysolecithin/shindle:output",
+        "bakongo/did/pneumas/southwood:output",
+        "bakongo/did/santalum/billiton:output",
+        "bakongo/heptene/endospermous/compressible:output",
+        "bakongo/companionage/emparadise/meatball:output",
+        "bakongo/did/syndeton/kittled:output",
+        "bakongo/zeugite/vincas/caviler:output",
+        "bakongo/vivifier/lysolecithin/vivifier:output",
+        "bakongo/alberton/recountless/alberton:output",
+        "bakongo/did/surprise/whitfinch:output",
+        "bakongo/heptene/endospermous/disjasket:output",
+        "bakongo/bartree/lysolecithin/bartree:output",
+        "emancipator/endospermous/tobaccoless:output",
+        "bakongo/simeonism/lysolecithin/vasos:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"emancipator_scalled_benjoin_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["emancipator_scalled_benjoin_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_scalled_benjoin_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

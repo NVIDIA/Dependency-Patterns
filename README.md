@@ -36,8 +36,8 @@ public_demo/
 ## Modules
 
 ### String Utilities Module (`libstrutils.so`)
-- **Build Pattern**: Single static source file, header dependency inferrable from primary source
-```dot
+- **Build Pattern**: Single static source file, header dependency inferable from primary source
+```
     digraph strutils {
         rankdir = LR
         cpp [shape=box]
@@ -56,7 +56,7 @@ public_demo/
 ```
 
 ### Utils Module (`libutils.so`)
-- **Build Pattern**: Multi-source static files into a single library, header dependency inferrable from primary source
+- **Build Pattern**: Multi-source static files into a single library, header dependency inferable from primary source
 ```dot
     digraph utils {
         rankdir = LR
@@ -82,7 +82,7 @@ public_demo/
 ```
 
 ### Mathutils Module (`libmathutils.so`)
-- **Build Pattern**: Source and header generation, header dependency not inferrable from primary sources
+- **Build Pattern**: Source and header generation, header dependency not inferable from primary sources
 ```dot
     digraph mathutils {
         rankdir = LR
@@ -105,7 +105,7 @@ public_demo/
 ```
 
 ### IO Module (`libio.so`)
-- **Build Pattern**: Source generation, static header, unpredictable generated file names, header dependency inferrable from primary source
+- **Build Pattern**: Source generation, static header, unpredictable generated file names, header dependency inferable from primary source
 ```dot
     digraph io {
         rankdir = LR
@@ -133,26 +133,26 @@ public_demo/
 
 Each library demonstrates different dependency inference challenges:
 
-### 1. Strutils Module - Header Dependency Inferrable
-- **Build Pattern**: Single static source file, header dependency inferrable from primary source
+### 1. Strutils Module - Header Dependency Inferable
+- **Build Pattern**: Single static source file, header dependency inferable from primary source
 - **Dependency Challenge**: The Makefile can automatically infer that `strutils.c` depends on `strutils.h` by scanning the source file for `#include` statements
 - **Applicable Inference Strategy**: Automatic inference from source scanning
 - **Build Graph Implications**: Simple single-file pipeline that should be reasonably easy to represent
 
 ### 2. Utils Module - Multi-Source with Shared Header
-- **Build Pattern**: Multi-source static files into a single library, header dependency inferrable from primary source
+- **Build Pattern**: Multi-source static files into a single library, header dependency inferable from primary source
 - **Dependency Challenge**: Both `memory.c` and `validation.c` depend on `utils.h`, and this can be inferred by scanning each source file
 - **Applicable Inference Strategy**: Automatic inference from source scanning for each file
 - **Build Graph Implications**: How to have the top-level depend on libutils.so when it's not describable as a derived product from a single Target
 
-### 3. Mathutils Module - Generated Files, Dependencies Not Inferrable From Sources
-- **Build Pattern**: Source and header generation, header dependency not inferrable from primary sources
+### 3. Mathutils Module - Generated Files, Dependencies Not Inferable From Sources
+- **Build Pattern**: Source and header generation, header dependency not inferable from primary sources
 - **Dependency Challenge**: The Perl scripts (`gen_mathutils_c.pl`, `gen_mathutils_h.pl`) don't contain the dependency information - only the generated `mathutils.c` knows it depends on `mathutils.h`
-- **Applicable Inference Strategy**: Automatic inference after generation, but dependee not available until after its own code generation
+- **Applicable Inference Strategy**: Automatic inference after generation, but dependency not available until after its own code generation
 - **Build Graph Implications**: Generated files need to be scanned after generation to discover dependencies
 
 ### 4. IO Module - Dynamic Generation with Unpredictable Names
-- **Build Pattern**: Source generation, static header, unpredictable generated file names, header dependency inferrable from primary source
+- **Build Pattern**: Source generation, static header, unpredictable generated file names, header dependency inferable from primary source
 - **Dependency Challenge**: The Python script generates files with unpredictable names (`io_impl_*.c`), and these generated files depend on the static `io.h` header.  The external interface of the library is the same, no matter the implementation file names used.
 - **Applicable Inference Strategy**: Automatic inference after generation, with dynamic file discovery
 - **Build Graph Implications**: Generated files with unpredictable names need post-generation dependency annotation.  The discovery could happen by scanning the generator itself or the generated files.
@@ -211,3 +211,8 @@ The main executable demonstrates all module functionality:
 - Make
 - Standard C library
 - POSIX-compliant system (for some IO functions)
+
+## Scaling
+
+The "scaling" subdirectory is a sample dependency graph at scale
+and is not used for building the main demo binary

@@ -1,0 +1,68 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/menispermine/endospermous/rafe:output",
+        "biomorphic/tropophyte/bemire/dichronous:output",
+        "biomorphic/adventured/manifestive/banias:output",
+        "biomorphic/adventured/torbert/forestless:output",
+        "biomorphic/semitransept/endospermous/provo:output",
+        "biomorphic/maduro/bemire/phasmajector:output",
+        "biomorphic/ephedrine/lysolecithin/verselet:output",
+        "biomorphic/clockcase/lysolecithin/actuaryship:output",
+        "biomorphic/instigatrix/lysolecithin/dupaix:output",
+        "biomorphic/rewey/bemire/deliveryman:output",
+        "biomorphic/punctualist/decimated/regisseurs:output",
+        "biomorphic/adventured/urinalist/myosinose:output",
+        "biomorphic/semitransept/endospermous/demiseason:output",
+        "biomorphic/adventured/dissembly/lateliness:output",
+        "biomorphic/semitransept/endospermous/anomie:output",
+        "biomorphic/laborsome/decimated/clepsine:output",
+        "biomorphic/amadus/lysolecithin/virginie:output",
+        "biomorphic/keratosropy/unqueened/antennariid:output",
+        "biomorphic/uncamp/bemire/tasimetric:output",
+        "biomorphic/melancholily/unionic/elevenfold:output",
+        "biomorphic/nimblewit/endospermous/hortorium:output",
+        "biomorphic/halecomorphi/pentitol/maskalonges:output",
+        "biomorphic/tropophyte/mutuality/chidden:output",
+        "biomorphic/amadus/shawfowl/basketworm:output",
+        "biomorphic/adventured/drek/prologed:output",
+        "biomorphic/fetwa/oxyosphresia/solanum:output",
+        "biomorphic/semitransept/endospermous/nitriding:output",
+        "biomorphic/punctualist/footbaths/breezewood:output",
+        "biomorphic/chromometer/pirtleville/scufflers:output",
+        "biomorphic/amadus/bemire/weapemeoc:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_punctualist_lysolecithin_syllabising_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_punctualist_lysolecithin_syllabising_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_punctualist_lysolecithin_syllabising_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

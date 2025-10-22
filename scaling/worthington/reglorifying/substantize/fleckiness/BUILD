@@ -1,0 +1,59 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/catalogers/chimacum/waldglas:output",
+        "worthington/packmaker/chimacum/caracals:output",
+        "worthington/medicines/desaturation/gdb:output",
+        "worthington/ambitioned/reitman/ambitioned:output",
+        "worthington/tassal/desaturation/unwarnedness:output",
+        "worthington/tassal/chimacum/eirenic:output",
+        "worthington/packmaker/desaturation/misclaiming:output",
+        "worthington/medicines/chimacum/knab:output",
+        "worthington/subhymenium/desaturation/deludingly:output",
+        "worthington/sepium/criminating/dredges:output",
+        "worthington/gnatcatcher/chimacum/steadite:output",
+        "worthington/lituoline/chimacum/kaczer:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/eclats/desaturation/patronizing:output",
+        "worthington/defeaters/desaturation/derf:output",
+        "worthington/catalogers/desaturation/pectinatella:output",
+        "worthington/subhymenium/chimacum/estamin:output",
+        "worthington/eclats/chimacum/falconelle:output",
+        "worthington/gnatcatcher/desaturation/uricemia:output",
+        "worthington/lituoline/desaturation/mythopoetry:output",
+        "worthington/defeaters/chimacum/pennyleaf:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_reglorifying_substantize_fleckiness_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_reglorifying_substantize_fleckiness_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_reglorifying_substantize_fleckiness_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

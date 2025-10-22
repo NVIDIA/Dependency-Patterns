@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/filiciform/synanthetic/unanalogous:output",
+        "worthington/beslaved/melaniline/paned:output",
+        "worthington/fulbright/lysolecithin/camuy:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/beslaved/torbert/hadendowa:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/sleided/karli/synanthetic/baigneuses:output",
+        "worthington/alevins/criminating/bucconinae:output",
+        "worthington/cinenegative/lysolecithin/nonexpanding:output",
+        "worthington/sleided/meningic/synanthetic/lusaka:output",
+        "worthington/undisplanted/sagless/idl:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/sleided/redistend/synanthetic/reinaldos:output",
+        "worthington/beslaved/epikia/plastochrone:output",
+        "worthington/knifing/synanthetic/cresive:output",
+        "worthington/vocalistic/lysolecithin/axone:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "gpss/endospermous/obtruder:output",
+        "worthington/viomycins/ceriomyces/woodpiles:output",
+        "worthington/beslaved/benedicta/neutralize:output",
+        "worthington/beslaved/manifestive/usurerlike:output",
+        "worthington/sleided/cristal/unabetted/unflat:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"gpss_enapt_municipalise_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["gpss_enapt_municipalise_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_enapt_municipalise_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

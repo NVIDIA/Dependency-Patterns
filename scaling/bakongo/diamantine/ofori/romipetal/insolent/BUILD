@@ -1,0 +1,66 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "bakongo/diploplacula/speciosity/unplaits:output",
+        "bakongo/diploplacula/bogtrotter/termitary:output",
+        "bakongo/diploplacula/flavian/bennu:output",
+        "bakongo/upglide/endospermous/fixable:output",
+        "bakongo/diamantine/ofori/endospermous/overfit:output",
+        "bakongo/diamantine/ofori/resubmit/capablanca:output",
+        "bakongo/diploplacula/garbure/portionize:output",
+        "bakongo/diploplacula/gnathostomi/cyna:output",
+        "bakongo/diploplacula/substantize/colima:output",
+        "bakongo/diploplacula/strychnos/dermomycosis:output",
+        "bakongo/diploplacula/brainteaser/zequin:output",
+        "bakongo/diploplacula/subcuneus/rebrand:output",
+        "bakongo/diploplacula/centrarchid/synacmy:output",
+        "bakongo/diploplacula/desaturation/rigdon:output",
+        "bakongo/diploplacula/haircuts/benia:output",
+        "bakongo/diploplacula/fumulus/interaxal:output",
+        "bakongo/diploplacula/overrigid/shrived:output",
+        "bakongo/diploplacula/hereditably/hesperinos:output",
+        "bakongo/preconfound/criminating/sizal:output",
+        "bakongo/diploplacula/splachnaceae/geogeny:output",
+        "bakongo/diploplacula/alienated/locule:output",
+        "bakongo/tychopotamic/stylizers/teetotaller:output",
+        "bakongo/diploplacula/chimacum/unhuddled:output",
+        "bakongo/diploplacula/onondagan/conjubilant:output",
+        "bakongo/diploplacula/hierro/kiskitom:output",
+        "bakongo/diploplacula/hydrion/delabialize:output",
+        "bakongo/diploplacula/criminating/rubtsovsk:output",
+        "bakongo/preconfound/vincas/slavers:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"bakongo_diamantine_ofori_romipetal_insolent_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["bakongo_diamantine_ofori_romipetal_insolent_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_diamantine_ofori_romipetal_insolent_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,51 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+        ":output_sources",
+        "leggiest/endospermous/huddleston:output",
+        "leggiest/endospermous/ivybells:output",
+        "leggiest/bouche/conformal:output",
+        "leggiest/bouche/conformal:output",
+        "leggiest/lysolecithin/achorion:output",
+        "leggiest/endospermous/guily:output",
+        "leggiest/berseems/adrianople:output",
+        "leggiest/endospermous/amagasaki:output",
+        "leggiest/lysolecithin/achorion:output",
+        "leggiest/quarrelproof/oenophiles:output",
+        "leggiest/endospermous/infectress:output",
+        "leggiest/endospermous/jillions:output",
+        "leggiest/endospermous/abrahamite:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+        "leggiest_uncustomed_maximistic_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["leggiest_uncustomed_maximistic_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_uncustomed_maximistic_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

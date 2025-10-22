@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/covering/endospermous/festatus:output",
+        "worthington/medicines/hierro/crumrod:output",
+        "worthington/medicines/hereditably/salted:output",
+        "worthington/covering/endospermous/homilist:output",
+        "worthington/barksome/unqueened/styloglossal:output",
+        "worthington/medicines/desaturation/gdb:output",
+        "worthington/medicines/kufiyeh/pinite:output",
+        "worthington/spelunkers/unqueened/semilethal:output",
+        "worthington/medicines/gnathostomi/roxi:output",
+        "worthington/medicines/subcuneus/bdellium:output",
+        "worthington/medicines/brainteaser/erratic:output",
+        "worthington/medicines/spruiker/allele:output",
+        "worthington/medicines/lealness/creutzer:output",
+        "worthington/medicines/wots/entreated:output",
+        "worthington/medicines/fumulus/autonomously:output",
+        "worthington/medicines/flub/middlingish:output",
+        "worthington/moldableness/thrasher/endospermous/cnossus:output",
+        "worthington/medicines/strychnos/champart:output",
+        "worthington/ihp/endospermous/elf:output",
+        "worthington/uneducated/oxyosphresia/rosttra:output",
+        "worthington/medicines/redondilla/parasitidae:output",
+        "worthington/medicines/flavian/rustication:output",
+        "worthington/medicines/criminating/catastatic:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_medicines_upaisle_guavas_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_medicines_upaisle_guavas_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_medicines_upaisle_guavas_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

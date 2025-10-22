@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/instigatrix/hilary/unburn:output",
+        "biomorphic/untellable/dustpans/anthoxanthum:output",
+        "biomorphic/esau/endospermous/scrupular:output",
+        "biomorphic/instigatrix/autoindex/teleianthous:output",
+        "biomorphic/tropophyte/criminating/bonorum:output",
+        "biomorphic/puerpery/endospermous/zoning:output",
+        "biomorphic/puerpery/endospermous/bargestone:output",
+        "biomorphic/untellable/whipmaking/prig:output",
+        "biomorphic/instigatrix/reitman/riggal:output",
+        "biomorphic/untellable/surprise/pursuant:output",
+        "biomorphic/untellable/pneumas/inimaginable:output",
+        "biomorphic/clockcase/reitman/mam:output",
+        "biomorphic/instigatrix/vincas/barris:output",
+        "biomorphic/puerpery/endospermous/scandalizer:output",
+        "biomorphic/ephedrine/reitman/pactions:output",
+        "biomorphic/tropophyte/burgers/catachreses:output",
+        "biomorphic/puerpery/endospermous/hydrosomata:output",
+        "biomorphic/instigatrix/lindanes/wallawalla:output",
+        "biomorphic/instigatrix/lacertian/drift:output",
+        "biomorphic/fanchie/recountless/fanchie:output",
+        "biomorphic/untellable/santalum/rejuvenator:output",
+        "biomorphic/untellable/syndeton/alfur:output",
+        "biomorphic/runtier/emparadise/inwardly:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_instigatrix_atrolactic_kinetomeric_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_instigatrix_atrolactic_kinetomeric_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_instigatrix_atrolactic_kinetomeric_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

@@ -1,0 +1,58 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "worthington/covering/endospermous/festatus:output",
+        "worthington/covering/endospermous/tranqs:output",
+        "worthington/covering/endospermous/homilist:output",
+        "worthington/backpacked/pneumas/pneumaticity:output",
+        "worthington/backpacked/surprise/torsibility:output",
+        "worthington/backpacked/dustpans/minimized:output",
+        "worthington/backpacked/syndeton/pensionary:output",
+        "worthington/backpacked/whipmaking/uncoached:output",
+        "worthington/covering/endospermous/absalom:output",
+        "worthington/cashdrawer/approximants/unitariness:output",
+        "worthington/covering/endospermous/cacti:output",
+        "worthington/backpacked/santalum/lespedeza:output",
+        "worthington/monoid/reitman/monoid:output",
+        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/ihp/endospermous/elf:output",
+        "worthington/uneducated/oxyosphresia/rosttra:output",
+        "worthington/covering/endospermous/sublimers:output",
+        "worthington/doornails/bemire/overletting:output",
+        "worthington/keratophyr/rompu/agoranome:output",
+        "worthington/summanus/preacquiring/tegs:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"worthington_inexpectant_studs_waterside_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["worthington_inexpectant_studs_waterside_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_inexpectant_studs_waterside_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)

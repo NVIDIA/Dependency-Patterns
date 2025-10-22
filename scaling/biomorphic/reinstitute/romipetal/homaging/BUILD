@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: MIT
+
+shell_sources(
+    name="output_sources",
+    sources=[
+        "test.txt",
+        "random_seed_01.txt",
+        "random_seed_02.txt",
+        "random_seed_03.txt",
+        "random_seed_04.txt",
+        "random_seed_05.txt",
+        "random_seed_06.txt",
+        "random_seed_07.txt",
+        "random_seed_08.txt",
+        "random_seed_09.txt",
+        "random_seed_10.txt",
+        "random_seed_11.txt",
+    ],
+)
+
+adhoc_tool(
+    name="output",
+    execution_dependencies=[
+":output_sources",
+        "biomorphic/retransplant/reitman/retransplant:output",
+        "biomorphic/reinstitute/romipetal/amazilia:output",
+        "biomorphic/gelsemia/reitman/gelsemia:output",
+        "biomorphic/rehash/reitman/rehash:output",
+        "biomorphic/plateauing/reitman/plateauing:output",
+        "biomorphic/semitransept/endospermous/mesochilium:output",
+        "biomorphic/kerchoo/triturature/kilometer:output",
+        "biomorphic/fetwa/reitman/preopinion:output",
+        "biomorphic/snoozier/criminating/absenters:output",
+        "biomorphic/semitransept/endospermous/toxicologic:output",
+        "biomorphic/olivet/reitman/olivet:output",
+        "biomorphic/semitransept/endospermous/wearyingly:output",
+        "geomorphy:run_build_script",
+    ],
+    output_files=[
+"biomorphic_reinstitute_romipetal_homaging_output.txt",
+    ],
+    runnable="geomorphy:bash",
+    args=["biomorphic_reinstitute_romipetal_homaging_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reinstitute_romipetal_homaging_output.txt",],
+    runnable_dependencies=[
+        "geomorphy:cat",
+        "geomorphy:md5sum",
+        "geomorphy:cut",
+    ],
+)
