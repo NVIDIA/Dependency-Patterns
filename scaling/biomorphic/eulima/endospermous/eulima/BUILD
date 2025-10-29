@@ -37,7 +37,7 @@ adhoc_tool(
         "biomorphic_eulima_endospermous_eulima_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_eulima_endospermous_eulima_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_eulima_endospermous_eulima_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_eulima_endospermous_eulima_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

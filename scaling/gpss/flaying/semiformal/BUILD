@@ -153,7 +153,7 @@ adhoc_tool(
 "gpss_flaying_semiformal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_flaying_semiformal_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_flaying_semiformal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_flaying_semiformal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

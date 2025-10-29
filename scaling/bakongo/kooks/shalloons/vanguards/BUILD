@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_kooks_shalloons_vanguards_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_kooks_shalloons_vanguards_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_kooks_shalloons_vanguards_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_kooks_shalloons_vanguards_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_dygogram_bemire_choteau_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_dygogram_bemire_choteau_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_dygogram_bemire_choteau_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_dygogram_bemire_choteau_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

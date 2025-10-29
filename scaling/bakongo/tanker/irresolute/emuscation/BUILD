@@ -45,7 +45,7 @@ adhoc_tool(
 "bakongo_tanker_irresolute_emuscation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_tanker_irresolute_emuscation_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_tanker_irresolute_emuscation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_tanker_irresolute_emuscation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

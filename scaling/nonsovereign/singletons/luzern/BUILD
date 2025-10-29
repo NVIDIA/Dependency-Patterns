@@ -43,7 +43,7 @@ adhoc_tool(
 "nonsovereign_singletons_luzern_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_singletons_luzern_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_singletons_luzern_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_singletons_luzern_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_workpiece_reitman_workpiece_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_workpiece_reitman_workpiece_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_workpiece_reitman_workpiece_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_workpiece_reitman_workpiece_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_outtrumped_paddling_insouled_noodling_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_paddling_insouled_noodling_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_paddling_insouled_noodling_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_paddling_insouled_noodling_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

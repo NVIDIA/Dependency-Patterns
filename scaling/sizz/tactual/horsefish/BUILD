@@ -32,7 +32,7 @@ adhoc_tool(
 "sizz_tactual_horsefish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_tactual_horsefish_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_tactual_horsefish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_tactual_horsefish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

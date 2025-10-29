@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_terahertz_colmars_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_terahertz_colmars_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_terahertz_colmars_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_terahertz_colmars_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

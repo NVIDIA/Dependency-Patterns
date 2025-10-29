@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_unskinned_reitman_unskinned_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unskinned_reitman_unskinned_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unskinned_reitman_unskinned_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unskinned_reitman_unskinned_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

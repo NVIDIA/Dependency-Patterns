@@ -45,7 +45,7 @@ adhoc_tool(
 "mesatipelvic_strikeboard_sogdian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_strikeboard_sogdian_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_strikeboard_sogdian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_strikeboard_sogdian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

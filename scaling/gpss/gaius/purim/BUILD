@@ -43,7 +43,7 @@ adhoc_tool(
 "gpss_gaius_purim_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_gaius_purim_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_gaius_purim_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_gaius_purim_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

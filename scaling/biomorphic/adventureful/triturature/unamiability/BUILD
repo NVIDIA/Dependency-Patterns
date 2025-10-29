@@ -49,7 +49,7 @@ adhoc_tool(
 "biomorphic_adventureful_triturature_unamiability_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_adventureful_triturature_unamiability_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_adventureful_triturature_unamiability_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_adventureful_triturature_unamiability_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

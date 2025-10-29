@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_inrighted_versifiaster_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_inrighted_versifiaster_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_inrighted_versifiaster_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_inrighted_versifiaster_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

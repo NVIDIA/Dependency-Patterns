@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_preconsuming_bemire_swarming_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_preconsuming_bemire_swarming_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_preconsuming_bemire_swarming_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_preconsuming_bemire_swarming_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

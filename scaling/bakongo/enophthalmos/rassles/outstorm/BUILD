@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_enophthalmos_rassles_outstorm_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_enophthalmos_rassles_outstorm_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_enophthalmos_rassles_outstorm_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_enophthalmos_rassles_outstorm_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

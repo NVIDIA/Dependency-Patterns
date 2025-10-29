@@ -43,7 +43,7 @@ adhoc_tool(
         "emancipator_endospermous_nonvariant_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_endospermous_nonvariant_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_endospermous_nonvariant_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_endospermous_nonvariant_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

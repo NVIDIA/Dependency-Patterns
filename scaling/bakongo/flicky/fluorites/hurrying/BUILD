@@ -57,7 +57,7 @@ adhoc_tool(
 "bakongo_flicky_fluorites_hurrying_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_flicky_fluorites_hurrying_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_flicky_fluorites_hurrying_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_flicky_fluorites_hurrying_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

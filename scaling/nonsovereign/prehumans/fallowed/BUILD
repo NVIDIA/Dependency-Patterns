@@ -61,7 +61,7 @@ adhoc_tool(
 "nonsovereign_prehumans_fallowed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_prehumans_fallowed_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_prehumans_fallowed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_prehumans_fallowed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

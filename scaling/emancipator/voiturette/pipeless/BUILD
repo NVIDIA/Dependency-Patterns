@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_voiturette_pipeless_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_voiturette_pipeless_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_voiturette_pipeless_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_voiturette_pipeless_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

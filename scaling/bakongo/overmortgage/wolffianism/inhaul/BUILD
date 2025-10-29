@@ -73,7 +73,7 @@ adhoc_tool(
 "bakongo_overmortgage_wolffianism_inhaul_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_overmortgage_wolffianism_inhaul_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_overmortgage_wolffianism_inhaul_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_overmortgage_wolffianism_inhaul_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

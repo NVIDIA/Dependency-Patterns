@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_coportion_infestious_bigamize_arider_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_infestious_bigamize_arider_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_infestious_bigamize_arider_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_infestious_bigamize_arider_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -39,7 +39,7 @@ adhoc_tool(
 "gpss_suboptic_eleele_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_suboptic_eleele_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_suboptic_eleele_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_suboptic_eleele_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

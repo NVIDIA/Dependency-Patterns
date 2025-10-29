@@ -37,7 +37,7 @@ adhoc_tool(
 "nonsovereign_athrepsia_pantomimish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_athrepsia_pantomimish_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_athrepsia_pantomimish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_athrepsia_pantomimish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

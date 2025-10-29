@@ -32,7 +32,7 @@ adhoc_tool(
 "hypostasised_biuret_trimetric_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_biuret_trimetric_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_biuret_trimetric_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_biuret_trimetric_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

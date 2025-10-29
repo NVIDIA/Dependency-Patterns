@@ -33,7 +33,7 @@ adhoc_tool(
 "emancipator_washboards_shellackings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_washboards_shellackings_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_washboards_shellackings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_washboards_shellackings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "emancipator_uncerated_damodar_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_uncerated_damodar_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_uncerated_damodar_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_uncerated_damodar_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

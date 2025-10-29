@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_beweep_waistcoats_ogdan_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beweep_waistcoats_ogdan_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beweep_waistcoats_ogdan_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beweep_waistcoats_ogdan_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

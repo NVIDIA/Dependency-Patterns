@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_defilades_motorbuses_defilades_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_defilades_motorbuses_defilades_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_defilades_motorbuses_defilades_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_defilades_motorbuses_defilades_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "gpss_arguses_ustulina_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_arguses_ustulina_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_arguses_ustulina_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_arguses_ustulina_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

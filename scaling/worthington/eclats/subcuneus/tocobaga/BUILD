@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_eclats_subcuneus_tocobaga_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_eclats_subcuneus_tocobaga_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_eclats_subcuneus_tocobaga_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_eclats_subcuneus_tocobaga_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -88,7 +88,7 @@ adhoc_tool(
 "biomorphic_maduro_telharmony_surrebut_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_maduro_telharmony_surrebut_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_maduro_telharmony_surrebut_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_maduro_telharmony_surrebut_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

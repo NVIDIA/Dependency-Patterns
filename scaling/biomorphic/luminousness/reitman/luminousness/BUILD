@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_luminousness_reitman_luminousness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_luminousness_reitman_luminousness_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_luminousness_reitman_luminousness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_luminousness_reitman_luminousness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

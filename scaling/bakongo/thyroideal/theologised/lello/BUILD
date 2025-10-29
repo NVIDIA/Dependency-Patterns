@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_thyroideal_theologised_lello_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_thyroideal_theologised_lello_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_thyroideal_theologised_lello_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_thyroideal_theologised_lello_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

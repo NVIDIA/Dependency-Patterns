@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_prodrome_jenine_molton_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_prodrome_jenine_molton_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_prodrome_jenine_molton_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_prodrome_jenine_molton_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

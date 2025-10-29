@@ -94,7 +94,7 @@ adhoc_tool(
 "bakongo_stylosporous_cede_unmimetic_jiffs_cede_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_cede_unmimetic_jiffs_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_cede_unmimetic_jiffs_cede_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_cede_unmimetic_jiffs_cede_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

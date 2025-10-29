@@ -43,7 +43,7 @@ adhoc_tool(
 "bakongo_turpid_rugolas_swihart_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_turpid_rugolas_swihart_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_turpid_rugolas_swihart_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_turpid_rugolas_swihart_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

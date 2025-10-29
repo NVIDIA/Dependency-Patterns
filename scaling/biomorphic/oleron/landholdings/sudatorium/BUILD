@@ -74,7 +74,7 @@ adhoc_tool(
 "biomorphic_oleron_landholdings_sudatorium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_oleron_landholdings_sudatorium_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_oleron_landholdings_sudatorium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_oleron_landholdings_sudatorium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

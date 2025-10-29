@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_michiganite_chimacum_unstraddled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_michiganite_chimacum_unstraddled_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_michiganite_chimacum_unstraddled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_michiganite_chimacum_unstraddled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

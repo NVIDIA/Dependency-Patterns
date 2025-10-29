@@ -32,7 +32,7 @@ adhoc_tool(
         "biomorphic_menispermine_endospermous_rafe_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_menispermine_endospermous_rafe_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_menispermine_endospermous_rafe_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_menispermine_endospermous_rafe_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

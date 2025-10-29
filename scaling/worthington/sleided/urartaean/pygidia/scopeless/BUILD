@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_sleided_urartaean_pygidia_scopeless_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_urartaean_pygidia_scopeless_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_urartaean_pygidia_scopeless_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_urartaean_pygidia_scopeless_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

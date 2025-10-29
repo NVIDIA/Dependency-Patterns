@@ -53,7 +53,7 @@ adhoc_tool(
 "biomorphic_collectible_lysolecithin_collectible_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_collectible_lysolecithin_collectible_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_collectible_lysolecithin_collectible_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_collectible_lysolecithin_collectible_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

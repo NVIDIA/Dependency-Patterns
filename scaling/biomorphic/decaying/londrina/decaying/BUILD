@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_decaying_londrina_decaying_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_decaying_londrina_decaying_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_decaying_londrina_decaying_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_decaying_londrina_decaying_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

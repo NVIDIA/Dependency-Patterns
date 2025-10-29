@@ -138,7 +138,7 @@ adhoc_tool(
 "gpss_pityroid_doghood_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_pityroid_doghood_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_pityroid_doghood_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_pityroid_doghood_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

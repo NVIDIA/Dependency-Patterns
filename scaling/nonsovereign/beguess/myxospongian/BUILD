@@ -36,7 +36,7 @@ adhoc_tool(
 "nonsovereign_beguess_myxospongian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_beguess_myxospongian_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_beguess_myxospongian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_beguess_myxospongian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "nonsovereign_birome_dhoby_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_birome_dhoby_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_birome_dhoby_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_birome_dhoby_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

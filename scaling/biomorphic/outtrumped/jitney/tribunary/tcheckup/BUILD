@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_outtrumped_jitney_tribunary_tcheckup_jitney_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_jitney_tribunary_tcheckup_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_jitney_tribunary_tcheckup_jitney_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_jitney_tribunary_tcheckup_jitney_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

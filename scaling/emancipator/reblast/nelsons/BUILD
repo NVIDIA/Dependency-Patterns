@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_reblast_nelsons_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_reblast_nelsons_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_reblast_nelsons_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_reblast_nelsons_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

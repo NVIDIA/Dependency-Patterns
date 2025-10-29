@@ -75,7 +75,7 @@ adhoc_tool(
 "biomorphic_scaphopod_vincas_squarson_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_scaphopod_vincas_squarson_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_scaphopod_vincas_squarson_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_scaphopod_vincas_squarson_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

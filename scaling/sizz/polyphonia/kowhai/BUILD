@@ -41,7 +41,7 @@ adhoc_tool(
 "sizz_polyphonia_kowhai_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_polyphonia_kowhai_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_polyphonia_kowhai_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_polyphonia_kowhai_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

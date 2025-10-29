@@ -42,7 +42,7 @@ adhoc_tool(
 "sizz_copremias_sherifi_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_copremias_sherifi_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_copremias_sherifi_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_copremias_sherifi_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

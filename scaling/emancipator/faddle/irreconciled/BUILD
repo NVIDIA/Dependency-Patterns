@@ -52,7 +52,7 @@ adhoc_tool(
 "emancipator_faddle_irreconciled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_faddle_irreconciled_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_faddle_irreconciled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_faddle_irreconciled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

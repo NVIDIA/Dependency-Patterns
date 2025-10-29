@@ -42,7 +42,7 @@ adhoc_tool(
         "mesatipelvic_bifara_rorrys_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_bifara_rorrys_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_bifara_rorrys_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_bifara_rorrys_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

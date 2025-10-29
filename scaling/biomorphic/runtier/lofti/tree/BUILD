@@ -83,7 +83,7 @@ adhoc_tool(
 "biomorphic_runtier_lofti_tree_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_runtier_lofti_tree_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_runtier_lofti_tree_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_runtier_lofti_tree_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -82,7 +82,7 @@ adhoc_tool(
 "nonsovereign_mackinac_shiphire_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_mackinac_shiphire_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_mackinac_shiphire_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_mackinac_shiphire_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

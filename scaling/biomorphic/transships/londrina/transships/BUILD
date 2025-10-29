@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_transships_londrina_transships_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_transships_londrina_transships_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_transships_londrina_transships_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_transships_londrina_transships_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

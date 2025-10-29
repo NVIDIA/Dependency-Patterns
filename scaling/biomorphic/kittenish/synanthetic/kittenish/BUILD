@@ -53,7 +53,7 @@ adhoc_tool(
 "biomorphic_kittenish_synanthetic_kittenish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_kittenish_synanthetic_kittenish_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_kittenish_synanthetic_kittenish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_kittenish_synanthetic_kittenish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

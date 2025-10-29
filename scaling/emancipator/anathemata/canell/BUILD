@@ -40,7 +40,7 @@ adhoc_tool(
 "emancipator_anathemata_canell_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_anathemata_canell_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_anathemata_canell_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_anathemata_canell_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
         "mesatipelvic_biyearly_hillculture_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_biyearly_hillculture_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_biyearly_hillculture_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_biyearly_hillculture_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

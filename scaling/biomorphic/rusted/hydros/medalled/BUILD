@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_rusted_hydros_medalled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_rusted_hydros_medalled_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_rusted_hydros_medalled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_rusted_hydros_medalled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

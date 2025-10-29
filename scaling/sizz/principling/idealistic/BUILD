@@ -63,7 +63,7 @@ adhoc_tool(
 "sizz_principling_idealistic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_principling_idealistic_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_principling_idealistic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_principling_idealistic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

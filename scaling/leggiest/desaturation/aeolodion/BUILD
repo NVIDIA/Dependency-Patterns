@@ -29,7 +29,7 @@ adhoc_tool(
         "leggiest_desaturation_aeolodion_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_desaturation_aeolodion_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_desaturation_aeolodion_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_desaturation_aeolodion_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

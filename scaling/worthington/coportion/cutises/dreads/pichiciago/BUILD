@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_coportion_cutises_dreads_pichiciago_cutises_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_cutises_dreads_pichiciago_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_cutises_dreads_pichiciago_cutises_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_cutises_dreads_pichiciago_cutises_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

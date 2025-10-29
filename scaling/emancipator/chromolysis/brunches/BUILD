@@ -52,7 +52,7 @@ adhoc_tool(
 "emancipator_chromolysis_brunches_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_chromolysis_brunches_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_chromolysis_brunches_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_chromolysis_brunches_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

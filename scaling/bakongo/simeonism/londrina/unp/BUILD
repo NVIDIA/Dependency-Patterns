@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_simeonism_londrina_unp_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_simeonism_londrina_unp_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_simeonism_londrina_unp_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_simeonism_londrina_unp_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

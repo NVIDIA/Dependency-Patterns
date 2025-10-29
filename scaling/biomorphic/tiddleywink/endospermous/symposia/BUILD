@@ -34,7 +34,7 @@ adhoc_tool(
         "biomorphic_tiddleywink_endospermous_symposia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_tiddleywink_endospermous_symposia_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_tiddleywink_endospermous_symposia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_tiddleywink_endospermous_symposia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -78,7 +78,7 @@ adhoc_tool(
 "bakongo_thermoform_nontheologic_barracuda_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_thermoform_nontheologic_barracuda_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_thermoform_nontheologic_barracuda_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_thermoform_nontheologic_barracuda_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

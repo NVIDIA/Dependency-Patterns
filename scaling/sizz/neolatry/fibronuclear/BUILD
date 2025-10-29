@@ -58,7 +58,7 @@ adhoc_tool(
 "sizz_neolatry_fibronuclear_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_neolatry_fibronuclear_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_neolatry_fibronuclear_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_neolatry_fibronuclear_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

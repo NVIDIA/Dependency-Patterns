@@ -40,7 +40,7 @@ adhoc_tool(
 "nonsovereign_algesiometer_allactite_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_algesiometer_allactite_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_algesiometer_allactite_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_algesiometer_allactite_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "nonsovereign_bandore_thecitis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_bandore_thecitis_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_bandore_thecitis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_bandore_thecitis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

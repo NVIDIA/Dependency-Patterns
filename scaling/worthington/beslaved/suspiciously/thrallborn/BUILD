@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_beslaved_suspiciously_thrallborn_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beslaved_suspiciously_thrallborn_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beslaved_suspiciously_thrallborn_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beslaved_suspiciously_thrallborn_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

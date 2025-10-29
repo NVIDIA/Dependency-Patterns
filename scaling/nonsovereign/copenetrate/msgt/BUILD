@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_copenetrate_msgt_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_copenetrate_msgt_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_copenetrate_msgt_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_copenetrate_msgt_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

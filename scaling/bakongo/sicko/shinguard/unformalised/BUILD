@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_sicko_shinguard_unformalised_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sicko_shinguard_unformalised_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sicko_shinguard_unformalised_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sicko_shinguard_unformalised_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "hypostasised_stallment_awedness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_stallment_awedness_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_stallment_awedness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_stallment_awedness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_dostoievski_soberness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_dostoievski_soberness_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_dostoievski_soberness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_dostoievski_soberness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
         "mesatipelvic_hoagie_subtill_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_hoagie_subtill_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_hoagie_subtill_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_hoagie_subtill_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

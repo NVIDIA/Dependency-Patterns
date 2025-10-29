@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_brahmaic_tuchman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_brahmaic_tuchman_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_brahmaic_tuchman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_brahmaic_tuchman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

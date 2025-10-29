@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_sayles_hydros_misevents_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sayles_hydros_misevents_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sayles_hydros_misevents_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sayles_hydros_misevents_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

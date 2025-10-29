@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_yelps_bemire_granollers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_yelps_bemire_granollers_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_yelps_bemire_granollers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_yelps_bemire_granollers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

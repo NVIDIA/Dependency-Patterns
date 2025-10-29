@@ -51,7 +51,7 @@ adhoc_tool(
 "nonsovereign_ims_subocean_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_ims_subocean_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_ims_subocean_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_ims_subocean_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

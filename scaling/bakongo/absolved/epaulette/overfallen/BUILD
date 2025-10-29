@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_absolved_epaulette_overfallen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_absolved_epaulette_overfallen_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_absolved_epaulette_overfallen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_absolved_epaulette_overfallen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

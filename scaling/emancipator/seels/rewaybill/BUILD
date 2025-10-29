@@ -35,7 +35,7 @@ adhoc_tool(
 "emancipator_seels_rewaybill_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_seels_rewaybill_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_seels_rewaybill_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_seels_rewaybill_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

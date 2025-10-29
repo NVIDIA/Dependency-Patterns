@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_remonstrator_reevidence_unclement_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_remonstrator_reevidence_unclement_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_remonstrator_reevidence_unclement_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_remonstrator_reevidence_unclement_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

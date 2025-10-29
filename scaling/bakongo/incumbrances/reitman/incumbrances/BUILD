@@ -35,7 +35,7 @@ adhoc_tool(
 "bakongo_incumbrances_reitman_incumbrances_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_incumbrances_reitman_incumbrances_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_incumbrances_reitman_incumbrances_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_incumbrances_reitman_incumbrances_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -45,7 +45,7 @@ adhoc_tool(
 "bakongo_lyaeus_thermally_epicedium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_lyaeus_thermally_epicedium_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_lyaeus_thermally_epicedium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_lyaeus_thermally_epicedium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

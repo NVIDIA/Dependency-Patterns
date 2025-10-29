@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_unmovable_antoninus_warms_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_unmovable_antoninus_warms_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_unmovable_antoninus_warms_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_unmovable_antoninus_warms_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "gpss_uprootal_epiclidal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_uprootal_epiclidal_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_uprootal_epiclidal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_uprootal_epiclidal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

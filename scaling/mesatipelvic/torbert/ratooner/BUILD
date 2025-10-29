@@ -34,7 +34,7 @@ adhoc_tool(
 "mesatipelvic_torbert_ratooner_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_torbert_ratooner_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_torbert_ratooner_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_torbert_ratooner_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

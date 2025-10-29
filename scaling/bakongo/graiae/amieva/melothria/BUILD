@@ -53,7 +53,7 @@ adhoc_tool(
 "bakongo_graiae_amieva_melothria_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_graiae_amieva_melothria_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_graiae_amieva_melothria_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_graiae_amieva_melothria_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

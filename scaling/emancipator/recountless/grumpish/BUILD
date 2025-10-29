@@ -36,7 +36,7 @@ adhoc_tool(
 "emancipator_recountless_grumpish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_recountless_grumpish_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_recountless_grumpish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_recountless_grumpish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

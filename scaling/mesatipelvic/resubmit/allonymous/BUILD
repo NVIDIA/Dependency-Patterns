@@ -33,7 +33,7 @@ adhoc_tool(
         "mesatipelvic_resubmit_allonymous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_resubmit_allonymous_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_resubmit_allonymous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_resubmit_allonymous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

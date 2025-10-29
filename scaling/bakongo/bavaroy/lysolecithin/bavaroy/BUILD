@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_bavaroy_lysolecithin_bavaroy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bavaroy_lysolecithin_bavaroy_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bavaroy_lysolecithin_bavaroy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bavaroy_lysolecithin_bavaroy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

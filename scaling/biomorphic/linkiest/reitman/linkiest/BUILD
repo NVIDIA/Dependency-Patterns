@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_linkiest_reitman_linkiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_linkiest_reitman_linkiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_linkiest_reitman_linkiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_linkiest_reitman_linkiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

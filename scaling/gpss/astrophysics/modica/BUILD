@@ -36,7 +36,7 @@ adhoc_tool(
 "gpss_astrophysics_modica_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_astrophysics_modica_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_astrophysics_modica_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_astrophysics_modica_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

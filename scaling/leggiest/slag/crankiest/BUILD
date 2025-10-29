@@ -72,7 +72,7 @@ adhoc_tool(
         "leggiest_slag_crankiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_slag_crankiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_slag_crankiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_slag_crankiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

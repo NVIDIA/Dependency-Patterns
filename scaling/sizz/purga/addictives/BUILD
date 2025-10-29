@@ -38,7 +38,7 @@ adhoc_tool(
 "sizz_purga_addictives_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_purga_addictives_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_purga_addictives_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_purga_addictives_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

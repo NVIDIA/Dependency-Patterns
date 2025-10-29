@@ -57,7 +57,7 @@ adhoc_tool(
 "sizz_armlessly_excellence_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_armlessly_excellence_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_armlessly_excellence_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_armlessly_excellence_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

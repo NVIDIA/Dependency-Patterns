@@ -46,7 +46,7 @@ adhoc_tool(
 "bakongo_exordia_approximants_nickstick_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_exordia_approximants_nickstick_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_exordia_approximants_nickstick_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_exordia_approximants_nickstick_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

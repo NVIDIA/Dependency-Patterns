@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_boarish_synanthetic_boarish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_boarish_synanthetic_boarish_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_boarish_synanthetic_boarish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_boarish_synanthetic_boarish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

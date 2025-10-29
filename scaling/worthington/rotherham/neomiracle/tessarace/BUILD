@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_rotherham_neomiracle_tessarace_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rotherham_neomiracle_tessarace_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rotherham_neomiracle_tessarace_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rotherham_neomiracle_tessarace_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

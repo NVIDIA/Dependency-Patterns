@@ -40,7 +40,7 @@ adhoc_tool(
 "gpss_uncerated_grateful_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_uncerated_grateful_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_uncerated_grateful_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_uncerated_grateful_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

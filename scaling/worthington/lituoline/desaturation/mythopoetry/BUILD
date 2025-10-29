@@ -29,7 +29,7 @@ adhoc_tool(
 "worthington_lituoline_desaturation_mythopoetry_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lituoline_desaturation_mythopoetry_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lituoline_desaturation_mythopoetry_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lituoline_desaturation_mythopoetry_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

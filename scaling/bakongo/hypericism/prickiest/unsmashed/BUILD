@@ -47,7 +47,7 @@ adhoc_tool(
 "bakongo_hypericism_prickiest_unsmashed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_hypericism_prickiest_unsmashed_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_hypericism_prickiest_unsmashed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_hypericism_prickiest_unsmashed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

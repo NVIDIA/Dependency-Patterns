@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_helminthoid_pedantics_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_helminthoid_pedantics_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_helminthoid_pedantics_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_helminthoid_pedantics_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "biomorphic_schizoid_rompu_comatiks_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_schizoid_rompu_comatiks_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_schizoid_rompu_comatiks_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_schizoid_rompu_comatiks_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

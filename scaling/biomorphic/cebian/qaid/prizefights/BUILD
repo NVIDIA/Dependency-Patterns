@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_cebian_qaid_prizefights_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_cebian_qaid_prizefights_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_cebian_qaid_prizefights_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_cebian_qaid_prizefights_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

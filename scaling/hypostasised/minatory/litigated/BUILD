@@ -54,7 +54,7 @@ adhoc_tool(
 "hypostasised_minatory_litigated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_minatory_litigated_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_minatory_litigated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_minatory_litigated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

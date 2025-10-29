@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_dubai_londrina_dubai_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_dubai_londrina_dubai_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_dubai_londrina_dubai_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_dubai_londrina_dubai_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

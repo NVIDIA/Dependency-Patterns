@@ -48,7 +48,7 @@ adhoc_tool(
 "emancipator_phocodont_nutbrown_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_phocodont_nutbrown_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_phocodont_nutbrown_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_phocodont_nutbrown_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

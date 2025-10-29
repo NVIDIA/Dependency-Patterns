@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_wasplike_shinguard_harakiri_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_wasplike_shinguard_harakiri_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_wasplike_shinguard_harakiri_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_wasplike_shinguard_harakiri_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

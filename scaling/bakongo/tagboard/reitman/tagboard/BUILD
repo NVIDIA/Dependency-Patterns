@@ -35,7 +35,7 @@ adhoc_tool(
 "bakongo_tagboard_reitman_tagboard_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_tagboard_reitman_tagboard_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_tagboard_reitman_tagboard_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_tagboard_reitman_tagboard_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

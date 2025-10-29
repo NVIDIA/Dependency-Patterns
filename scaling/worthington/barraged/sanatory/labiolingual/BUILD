@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_barraged_sanatory_labiolingual_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_barraged_sanatory_labiolingual_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_barraged_sanatory_labiolingual_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_barraged_sanatory_labiolingual_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

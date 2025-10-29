@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_untieing_asidehand_canzones_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_untieing_asidehand_canzones_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_untieing_asidehand_canzones_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_untieing_asidehand_canzones_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -68,7 +68,7 @@ adhoc_tool(
 "worthington_ammocoetid_vincas_caseating_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_ammocoetid_vincas_caseating_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_ammocoetid_vincas_caseating_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_ammocoetid_vincas_caseating_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

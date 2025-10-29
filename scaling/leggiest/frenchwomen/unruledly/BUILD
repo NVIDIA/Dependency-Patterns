@@ -41,7 +41,7 @@ adhoc_tool(
         "leggiest_frenchwomen_unruledly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_frenchwomen_unruledly_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_frenchwomen_unruledly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_frenchwomen_unruledly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

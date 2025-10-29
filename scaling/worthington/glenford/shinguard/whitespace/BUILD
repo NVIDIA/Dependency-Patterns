@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_glenford_shinguard_whitespace_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_glenford_shinguard_whitespace_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_glenford_shinguard_whitespace_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_glenford_shinguard_whitespace_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

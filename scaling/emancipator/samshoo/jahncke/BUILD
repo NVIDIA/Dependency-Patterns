@@ -72,7 +72,7 @@ adhoc_tool(
 "emancipator_samshoo_jahncke_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_samshoo_jahncke_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_samshoo_jahncke_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_samshoo_jahncke_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

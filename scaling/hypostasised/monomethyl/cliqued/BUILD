@@ -46,7 +46,7 @@ adhoc_tool(
 "hypostasised_monomethyl_cliqued_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_monomethyl_cliqued_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_monomethyl_cliqued_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_monomethyl_cliqued_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

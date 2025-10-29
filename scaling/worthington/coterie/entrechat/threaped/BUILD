@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_coterie_entrechat_threaped_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coterie_entrechat_threaped_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coterie_entrechat_threaped_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coterie_entrechat_threaped_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

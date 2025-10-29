@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_interjectory_lysolecithin_interjectory_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_interjectory_lysolecithin_interjectory_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_interjectory_lysolecithin_interjectory_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_interjectory_lysolecithin_interjectory_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

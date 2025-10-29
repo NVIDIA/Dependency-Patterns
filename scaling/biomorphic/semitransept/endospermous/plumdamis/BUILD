@@ -51,7 +51,7 @@ adhoc_tool(
         "biomorphic_semitransept_endospermous_plumdamis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_semitransept_endospermous_plumdamis_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_semitransept_endospermous_plumdamis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_semitransept_endospermous_plumdamis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

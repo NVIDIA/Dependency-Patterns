@@ -52,7 +52,7 @@ adhoc_tool(
 "worthington_cinenegative_atrolactic_reinject_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cinenegative_atrolactic_reinject_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cinenegative_atrolactic_reinject_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cinenegative_atrolactic_reinject_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "emancipator_bunting_bigford_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_bunting_bigford_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_bunting_bigford_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_bunting_bigford_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -103,7 +103,7 @@ adhoc_tool(
 "worthington_nicasio_lysolecithin_nicasio_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_nicasio_lysolecithin_nicasio_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_nicasio_lysolecithin_nicasio_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_nicasio_lysolecithin_nicasio_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

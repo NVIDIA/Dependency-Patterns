@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_megrez_reductio_bairdford_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_megrez_reductio_bairdford_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_megrez_reductio_bairdford_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_megrez_reductio_bairdford_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

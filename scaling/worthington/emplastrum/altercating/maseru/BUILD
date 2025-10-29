@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_emplastrum_altercating_maseru_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_emplastrum_altercating_maseru_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_emplastrum_altercating_maseru_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_emplastrum_altercating_maseru_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

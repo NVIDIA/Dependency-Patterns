@@ -48,7 +48,7 @@ adhoc_tool(
 "emancipator_ducklings_diacle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_ducklings_diacle_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_ducklings_diacle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_ducklings_diacle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -58,7 +58,7 @@ adhoc_tool(
 "worthington_sandroller_prochorion_carcass_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sandroller_prochorion_carcass_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sandroller_prochorion_carcass_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sandroller_prochorion_carcass_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

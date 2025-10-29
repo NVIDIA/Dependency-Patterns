@@ -171,7 +171,7 @@ adhoc_tool(
 "emancipator_toughkenamon_turfiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_toughkenamon_turfiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_toughkenamon_turfiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_toughkenamon_turfiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

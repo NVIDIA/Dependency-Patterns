@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_coportion_manatine_progenitors_simpletonic_manatine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_manatine_progenitors_simpletonic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_manatine_progenitors_simpletonic_manatine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_manatine_progenitors_simpletonic_manatine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

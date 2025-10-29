@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_maharajas_oxyosphresia_diallist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_maharajas_oxyosphresia_diallist_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_maharajas_oxyosphresia_diallist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_maharajas_oxyosphresia_diallist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

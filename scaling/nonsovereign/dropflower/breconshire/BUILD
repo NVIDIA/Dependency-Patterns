@@ -50,7 +50,7 @@ adhoc_tool(
 "nonsovereign_dropflower_breconshire_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_dropflower_breconshire_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_dropflower_breconshire_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_dropflower_breconshire_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

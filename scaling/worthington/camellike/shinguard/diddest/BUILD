@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_camellike_shinguard_diddest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_camellike_shinguard_diddest_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_camellike_shinguard_diddest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_camellike_shinguard_diddest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_macintyre_titaniferous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_macintyre_titaniferous_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_macintyre_titaniferous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_macintyre_titaniferous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

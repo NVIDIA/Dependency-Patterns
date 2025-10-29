@@ -64,7 +64,7 @@ adhoc_tool(
 "worthington_misoneistic_vincas_abandoners_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_misoneistic_vincas_abandoners_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_misoneistic_vincas_abandoners_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_misoneistic_vincas_abandoners_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_coarsest_tsine_suzeraine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_coarsest_tsine_suzeraine_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_coarsest_tsine_suzeraine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_coarsest_tsine_suzeraine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

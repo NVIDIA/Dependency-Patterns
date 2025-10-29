@@ -975,7 +975,7 @@ adhoc_tool(
 "sizz_mezzanine_bezesteen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_mezzanine_bezesteen_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_mezzanine_bezesteen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_mezzanine_bezesteen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

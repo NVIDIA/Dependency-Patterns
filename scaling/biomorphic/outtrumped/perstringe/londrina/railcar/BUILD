@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_outtrumped_perstringe_londrina_railcar_perstringe_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_perstringe_londrina_railcar_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_perstringe_londrina_railcar_perstringe_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_perstringe_londrina_railcar_perstringe_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

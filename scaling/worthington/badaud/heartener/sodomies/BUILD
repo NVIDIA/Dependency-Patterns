@@ -99,7 +99,7 @@ adhoc_tool(
 "worthington_badaud_heartener_sodomies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_badaud_heartener_sodomies_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_badaud_heartener_sodomies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_badaud_heartener_sodomies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

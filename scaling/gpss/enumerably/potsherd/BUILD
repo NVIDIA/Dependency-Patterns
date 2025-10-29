@@ -36,7 +36,7 @@ adhoc_tool(
 "gpss_enumerably_potsherd_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_enumerably_potsherd_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_enumerably_potsherd_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_enumerably_potsherd_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

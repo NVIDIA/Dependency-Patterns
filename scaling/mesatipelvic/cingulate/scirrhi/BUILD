@@ -41,7 +41,7 @@ adhoc_tool(
         "mesatipelvic_cingulate_scirrhi_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_cingulate_scirrhi_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_cingulate_scirrhi_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_cingulate_scirrhi_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

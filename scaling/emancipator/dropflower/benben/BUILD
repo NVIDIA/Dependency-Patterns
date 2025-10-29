@@ -33,7 +33,7 @@ adhoc_tool(
 "emancipator_dropflower_benben_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_dropflower_benben_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_dropflower_benben_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_dropflower_benben_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

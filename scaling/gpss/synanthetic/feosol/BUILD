@@ -70,7 +70,7 @@ adhoc_tool(
 "gpss_synanthetic_feosol_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_synanthetic_feosol_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_synanthetic_feosol_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_synanthetic_feosol_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

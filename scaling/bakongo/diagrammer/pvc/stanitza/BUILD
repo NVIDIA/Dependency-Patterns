@@ -42,7 +42,7 @@ adhoc_tool(
 "bakongo_diagrammer_pvc_stanitza_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_diagrammer_pvc_stanitza_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_diagrammer_pvc_stanitza_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_diagrammer_pvc_stanitza_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

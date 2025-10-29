@@ -42,7 +42,7 @@ adhoc_tool(
 "bakongo_jebus_lysolecithin_jebus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_jebus_lysolecithin_jebus_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_jebus_lysolecithin_jebus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_jebus_lysolecithin_jebus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

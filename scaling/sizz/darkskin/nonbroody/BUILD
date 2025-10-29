@@ -37,7 +37,7 @@ adhoc_tool(
 "sizz_darkskin_nonbroody_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_darkskin_nonbroody_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_darkskin_nonbroody_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_darkskin_nonbroody_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

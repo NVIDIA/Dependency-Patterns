@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_afterwit_lepidotus_dirge_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_afterwit_lepidotus_dirge_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_afterwit_lepidotus_dirge_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_afterwit_lepidotus_dirge_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

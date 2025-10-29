@@ -34,7 +34,7 @@ adhoc_tool(
         "biomorphic_esau_endospermous_mares_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_esau_endospermous_mares_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_esau_endospermous_mares_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_esau_endospermous_mares_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

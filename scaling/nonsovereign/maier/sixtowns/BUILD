@@ -62,7 +62,7 @@ adhoc_tool(
 "nonsovereign_maier_sixtowns_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_maier_sixtowns_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_maier_sixtowns_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_maier_sixtowns_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

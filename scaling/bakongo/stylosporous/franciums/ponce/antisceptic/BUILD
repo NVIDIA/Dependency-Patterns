@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_stylosporous_franciums_ponce_antisceptic_franciums_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_franciums_ponce_antisceptic_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_franciums_ponce_antisceptic_franciums_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_franciums_ponce_antisceptic_franciums_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

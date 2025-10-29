@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_vasculitis_lysolecithin_vasculitis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_vasculitis_lysolecithin_vasculitis_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_vasculitis_lysolecithin_vasculitis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_vasculitis_lysolecithin_vasculitis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

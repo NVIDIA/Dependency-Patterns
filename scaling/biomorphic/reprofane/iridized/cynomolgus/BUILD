@@ -96,7 +96,7 @@ adhoc_tool(
 "biomorphic_reprofane_iridized_cynomolgus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_reprofane_iridized_cynomolgus_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reprofane_iridized_cynomolgus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_reprofane_iridized_cynomolgus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

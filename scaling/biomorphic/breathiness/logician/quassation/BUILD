@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_breathiness_logician_quassation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_breathiness_logician_quassation_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_breathiness_logician_quassation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_breathiness_logician_quassation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

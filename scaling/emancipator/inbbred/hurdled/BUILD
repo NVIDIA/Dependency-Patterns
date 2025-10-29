@@ -41,7 +41,7 @@ adhoc_tool(
 "emancipator_inbbred_hurdled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_inbbred_hurdled_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_inbbred_hurdled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_inbbred_hurdled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

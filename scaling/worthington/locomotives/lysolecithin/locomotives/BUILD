@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_locomotives_lysolecithin_locomotives_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_locomotives_lysolecithin_locomotives_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_locomotives_lysolecithin_locomotives_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_locomotives_lysolecithin_locomotives_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

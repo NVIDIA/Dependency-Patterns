@@ -56,7 +56,7 @@ adhoc_tool(
 "bakongo_capsian_phonatory_flocci_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_capsian_phonatory_flocci_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_capsian_phonatory_flocci_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_capsian_phonatory_flocci_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_unmerciless_criminating_oomph_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unmerciless_criminating_oomph_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unmerciless_criminating_oomph_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unmerciless_criminating_oomph_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

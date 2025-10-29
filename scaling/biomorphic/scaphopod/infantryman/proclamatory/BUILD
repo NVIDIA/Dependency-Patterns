@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_scaphopod_infantryman_proclamatory_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_scaphopod_infantryman_proclamatory_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_scaphopod_infantryman_proclamatory_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_scaphopod_infantryman_proclamatory_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

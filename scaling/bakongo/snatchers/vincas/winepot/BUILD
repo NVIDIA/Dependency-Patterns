@@ -57,7 +57,7 @@ adhoc_tool(
 "bakongo_snatchers_vincas_winepot_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_snatchers_vincas_winepot_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_snatchers_vincas_winepot_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_snatchers_vincas_winepot_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

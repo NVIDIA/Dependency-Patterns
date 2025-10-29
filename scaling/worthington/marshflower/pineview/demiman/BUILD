@@ -61,7 +61,7 @@ adhoc_tool(
 "worthington_marshflower_pineview_demiman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_marshflower_pineview_demiman_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_marshflower_pineview_demiman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_marshflower_pineview_demiman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

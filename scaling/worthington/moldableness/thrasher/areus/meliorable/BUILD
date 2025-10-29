@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_moldableness_thrasher_areus_meliorable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_moldableness_thrasher_areus_meliorable_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_areus_meliorable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_areus_meliorable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

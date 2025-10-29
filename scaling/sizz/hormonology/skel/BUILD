@@ -51,7 +51,7 @@ adhoc_tool(
 "sizz_hormonology_skel_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_hormonology_skel_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_hormonology_skel_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_hormonology_skel_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

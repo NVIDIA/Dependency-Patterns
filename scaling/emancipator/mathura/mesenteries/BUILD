@@ -61,7 +61,7 @@ adhoc_tool(
 "emancipator_mathura_mesenteries_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_mathura_mesenteries_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_mathura_mesenteries_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_mathura_mesenteries_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

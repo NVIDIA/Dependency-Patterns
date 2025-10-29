@@ -38,7 +38,7 @@ adhoc_tool(
         "leggiest_sloes_etrogs_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_sloes_etrogs_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_sloes_etrogs_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_sloes_etrogs_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

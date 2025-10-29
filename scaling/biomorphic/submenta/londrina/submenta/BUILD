@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_submenta_londrina_submenta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_submenta_londrina_submenta_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_submenta_londrina_submenta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_submenta_londrina_submenta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -37,7 +37,7 @@ adhoc_tool(
 "gpss_underyoke_ententes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_underyoke_ententes_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_underyoke_ententes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_underyoke_ententes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

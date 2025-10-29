@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_rewords_member_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_rewords_member_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_rewords_member_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_rewords_member_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

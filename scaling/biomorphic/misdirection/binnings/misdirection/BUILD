@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_misdirection_binnings_misdirection_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_misdirection_binnings_misdirection_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_misdirection_binnings_misdirection_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_misdirection_binnings_misdirection_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

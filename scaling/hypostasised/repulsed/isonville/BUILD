@@ -52,7 +52,7 @@ adhoc_tool(
 "hypostasised_repulsed_isonville_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_repulsed_isonville_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_repulsed_isonville_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_repulsed_isonville_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

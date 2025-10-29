@@ -37,7 +37,7 @@ adhoc_tool(
 "emancipator_darkskin_heedy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_darkskin_heedy_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_darkskin_heedy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_darkskin_heedy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

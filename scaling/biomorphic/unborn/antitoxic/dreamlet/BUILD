@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_unborn_antitoxic_dreamlet_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_unborn_antitoxic_dreamlet_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_unborn_antitoxic_dreamlet_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_unborn_antitoxic_dreamlet_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

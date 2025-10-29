@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_overthrew_lysolecithin_overthrew_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_overthrew_lysolecithin_overthrew_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_overthrew_lysolecithin_overthrew_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_overthrew_lysolecithin_overthrew_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

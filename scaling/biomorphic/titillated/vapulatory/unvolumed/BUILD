@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_titillated_vapulatory_unvolumed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_titillated_vapulatory_unvolumed_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_titillated_vapulatory_unvolumed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_titillated_vapulatory_unvolumed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

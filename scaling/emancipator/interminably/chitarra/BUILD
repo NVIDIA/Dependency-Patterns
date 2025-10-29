@@ -33,7 +33,7 @@ adhoc_tool(
 "emancipator_interminably_chitarra_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_interminably_chitarra_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_interminably_chitarra_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_interminably_chitarra_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

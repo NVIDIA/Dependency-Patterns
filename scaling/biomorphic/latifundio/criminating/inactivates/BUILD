@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_latifundio_criminating_inactivates_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_latifundio_criminating_inactivates_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_latifundio_criminating_inactivates_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_latifundio_criminating_inactivates_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

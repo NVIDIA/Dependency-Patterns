@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_bajulate_titulation_bajulate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_bajulate_titulation_bajulate_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_bajulate_titulation_bajulate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_bajulate_titulation_bajulate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

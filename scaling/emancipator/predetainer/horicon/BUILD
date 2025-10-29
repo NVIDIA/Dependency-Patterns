@@ -34,7 +34,7 @@ adhoc_tool(
 "emancipator_predetainer_horicon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_predetainer_horicon_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_predetainer_horicon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_predetainer_horicon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

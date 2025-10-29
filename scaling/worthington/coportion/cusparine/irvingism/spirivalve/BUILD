@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_coportion_cusparine_irvingism_spirivalve_cusparine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_cusparine_irvingism_spirivalve_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_cusparine_irvingism_spirivalve_cusparine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_cusparine_irvingism_spirivalve_cusparine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -62,7 +62,7 @@ adhoc_tool(
 "emancipator_thrombopenia_rescription_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_thrombopenia_rescription_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_thrombopenia_rescription_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_thrombopenia_rescription_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "bakongo_snatchers_romipetal_sweal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_snatchers_romipetal_sweal_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_snatchers_romipetal_sweal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_snatchers_romipetal_sweal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

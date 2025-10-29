@@ -48,7 +48,7 @@ adhoc_tool(
 "worthington_popularism_lysolecithin_popularism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_popularism_lysolecithin_popularism_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_popularism_lysolecithin_popularism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_popularism_lysolecithin_popularism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

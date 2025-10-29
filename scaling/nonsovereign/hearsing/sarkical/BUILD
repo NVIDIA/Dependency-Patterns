@@ -51,7 +51,7 @@ adhoc_tool(
 "nonsovereign_hearsing_sarkical_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_hearsing_sarkical_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_hearsing_sarkical_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_hearsing_sarkical_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

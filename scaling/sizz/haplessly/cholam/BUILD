@@ -48,7 +48,7 @@ adhoc_tool(
 "sizz_haplessly_cholam_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_haplessly_cholam_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_haplessly_cholam_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_haplessly_cholam_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

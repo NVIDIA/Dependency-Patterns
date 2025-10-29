@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_birettas_educationese_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_birettas_educationese_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_birettas_educationese_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_birettas_educationese_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

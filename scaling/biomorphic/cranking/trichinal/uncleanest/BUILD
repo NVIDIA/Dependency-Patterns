@@ -46,7 +46,7 @@ adhoc_tool(
 "biomorphic_cranking_trichinal_uncleanest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_cranking_trichinal_uncleanest_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_cranking_trichinal_uncleanest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_cranking_trichinal_uncleanest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

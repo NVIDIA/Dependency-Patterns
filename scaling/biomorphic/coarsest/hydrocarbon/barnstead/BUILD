@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_coarsest_hydrocarbon_barnstead_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_coarsest_hydrocarbon_barnstead_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_coarsest_hydrocarbon_barnstead_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_coarsest_hydrocarbon_barnstead_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

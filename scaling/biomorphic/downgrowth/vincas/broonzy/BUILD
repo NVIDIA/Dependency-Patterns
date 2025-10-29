@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_downgrowth_vincas_broonzy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_downgrowth_vincas_broonzy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_downgrowth_vincas_broonzy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_downgrowth_vincas_broonzy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

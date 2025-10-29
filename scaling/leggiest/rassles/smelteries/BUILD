@@ -32,7 +32,7 @@ adhoc_tool(
         "leggiest_rassles_smelteries_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_rassles_smelteries_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_rassles_smelteries_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_rassles_smelteries_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

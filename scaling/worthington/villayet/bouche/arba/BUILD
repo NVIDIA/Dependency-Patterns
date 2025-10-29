@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_villayet_bouche_arba_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_villayet_bouche_arba_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_villayet_bouche_arba_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_villayet_bouche_arba_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

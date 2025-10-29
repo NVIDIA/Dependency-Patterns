@@ -38,7 +38,7 @@ adhoc_tool(
         "leggiest_autoclaves_preachy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_autoclaves_preachy_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_autoclaves_preachy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_autoclaves_preachy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

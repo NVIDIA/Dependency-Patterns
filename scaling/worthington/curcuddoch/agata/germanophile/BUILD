@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_curcuddoch_agata_germanophile_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_curcuddoch_agata_germanophile_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_curcuddoch_agata_germanophile_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_curcuddoch_agata_germanophile_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

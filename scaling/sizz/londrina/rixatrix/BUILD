@@ -30,7 +30,7 @@ adhoc_tool(
 "sizz_londrina_rixatrix_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_londrina_rixatrix_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_londrina_rixatrix_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_londrina_rixatrix_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

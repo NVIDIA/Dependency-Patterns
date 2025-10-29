@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_psycholepsy_pentitol_peppiness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_psycholepsy_pentitol_peppiness_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_psycholepsy_pentitol_peppiness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_psycholepsy_pentitol_peppiness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

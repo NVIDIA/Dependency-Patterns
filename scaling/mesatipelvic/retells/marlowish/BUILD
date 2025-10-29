@@ -32,7 +32,7 @@ adhoc_tool(
 "mesatipelvic_retells_marlowish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_retells_marlowish_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_retells_marlowish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_retells_marlowish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

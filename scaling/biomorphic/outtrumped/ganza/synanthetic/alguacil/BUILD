@@ -48,7 +48,7 @@ adhoc_tool(
 "biomorphic_outtrumped_ganza_synanthetic_alguacil_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_ganza_synanthetic_alguacil_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_ganza_synanthetic_alguacil_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_ganza_synanthetic_alguacil_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

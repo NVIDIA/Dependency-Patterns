@@ -33,7 +33,7 @@ adhoc_tool(
 "gpss_woons_sterelmintha_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_woons_sterelmintha_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_woons_sterelmintha_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_woons_sterelmintha_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

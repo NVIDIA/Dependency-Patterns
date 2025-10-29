@@ -38,7 +38,7 @@ adhoc_tool(
         "mesatipelvic_apocopation_photodrama_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_apocopation_photodrama_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_apocopation_photodrama_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_apocopation_photodrama_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

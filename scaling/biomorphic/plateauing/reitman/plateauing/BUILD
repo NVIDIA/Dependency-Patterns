@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_plateauing_reitman_plateauing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_plateauing_reitman_plateauing_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_plateauing_reitman_plateauing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_plateauing_reitman_plateauing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

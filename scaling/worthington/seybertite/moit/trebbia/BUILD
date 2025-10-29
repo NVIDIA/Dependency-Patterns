@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_seybertite_moit_trebbia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_seybertite_moit_trebbia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_seybertite_moit_trebbia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_seybertite_moit_trebbia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

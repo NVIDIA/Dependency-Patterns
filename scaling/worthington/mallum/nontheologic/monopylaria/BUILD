@@ -73,7 +73,7 @@ adhoc_tool(
 "worthington_mallum_nontheologic_monopylaria_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_mallum_nontheologic_monopylaria_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_mallum_nontheologic_monopylaria_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_mallum_nontheologic_monopylaria_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_defeaters_flub_ekwok_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_defeaters_flub_ekwok_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_defeaters_flub_ekwok_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_defeaters_flub_ekwok_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

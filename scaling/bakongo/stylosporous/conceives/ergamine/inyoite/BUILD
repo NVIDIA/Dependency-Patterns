@@ -86,7 +86,7 @@ adhoc_tool(
 "bakongo_stylosporous_conceives_ergamine_inyoite_conceives_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_conceives_ergamine_inyoite_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_conceives_ergamine_inyoite_conceives_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_conceives_ergamine_inyoite_conceives_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

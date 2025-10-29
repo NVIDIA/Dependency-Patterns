@@ -61,7 +61,7 @@ adhoc_tool(
 "worthington_cognizes_kouza_polivy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cognizes_kouza_polivy_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cognizes_kouza_polivy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cognizes_kouza_polivy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

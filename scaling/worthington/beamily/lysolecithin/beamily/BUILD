@@ -45,7 +45,7 @@ adhoc_tool(
 "worthington_beamily_lysolecithin_beamily_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beamily_lysolecithin_beamily_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beamily_lysolecithin_beamily_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beamily_lysolecithin_beamily_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_cohortative_reitman_cohortative_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_cohortative_reitman_cohortative_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_cohortative_reitman_cohortative_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_cohortative_reitman_cohortative_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

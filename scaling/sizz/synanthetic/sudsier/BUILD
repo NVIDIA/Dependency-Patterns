@@ -46,7 +46,7 @@ adhoc_tool(
 "sizz_synanthetic_sudsier_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_synanthetic_sudsier_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_synanthetic_sudsier_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_synanthetic_sudsier_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_sensuosity_reitman_cubbyholes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sensuosity_reitman_cubbyholes_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sensuosity_reitman_cubbyholes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sensuosity_reitman_cubbyholes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

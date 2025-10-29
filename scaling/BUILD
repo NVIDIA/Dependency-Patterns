@@ -2091,3 +2091,11 @@ run_shell_command(
     ],
     command="ls -l {chroot}",
 )
+
+run_shell_command(
+    name="debug",
+    execution_dependencies=[
+        "//leggiest/vlba/trepidity:output",
+    ],
+    command="ls -l {chroot}",
+)

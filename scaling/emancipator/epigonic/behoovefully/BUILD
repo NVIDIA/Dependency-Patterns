@@ -46,7 +46,7 @@ adhoc_tool(
 "emancipator_epigonic_behoovefully_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_epigonic_behoovefully_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_epigonic_behoovefully_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_epigonic_behoovefully_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

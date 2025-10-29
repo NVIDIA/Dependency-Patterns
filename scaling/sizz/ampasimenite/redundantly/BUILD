@@ -31,7 +31,7 @@ adhoc_tool(
 "sizz_ampasimenite_redundantly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_ampasimenite_redundantly_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_ampasimenite_redundantly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_ampasimenite_redundantly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

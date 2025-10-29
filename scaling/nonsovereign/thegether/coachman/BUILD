@@ -39,7 +39,7 @@ adhoc_tool(
 "nonsovereign_thegether_coachman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_thegether_coachman_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_thegether_coachman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_thegether_coachman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

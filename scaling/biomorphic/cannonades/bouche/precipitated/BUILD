@@ -54,7 +54,7 @@ adhoc_tool(
 "biomorphic_cannonades_bouche_precipitated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_cannonades_bouche_precipitated_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_cannonades_bouche_precipitated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_cannonades_bouche_precipitated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

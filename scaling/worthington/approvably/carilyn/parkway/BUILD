@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_approvably_carilyn_parkway_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_approvably_carilyn_parkway_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_approvably_carilyn_parkway_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_approvably_carilyn_parkway_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

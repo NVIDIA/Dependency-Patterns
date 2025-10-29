@@ -35,7 +35,7 @@ adhoc_tool(
 "nonsovereign_camauro_willkie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_camauro_willkie_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_camauro_willkie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_camauro_willkie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

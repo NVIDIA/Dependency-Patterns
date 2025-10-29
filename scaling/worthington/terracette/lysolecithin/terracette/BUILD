@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_terracette_lysolecithin_terracette_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_terracette_lysolecithin_terracette_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_terracette_lysolecithin_terracette_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_terracette_lysolecithin_terracette_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

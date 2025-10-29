@@ -38,7 +38,7 @@ adhoc_tool(
         "mesatipelvic_confidential_heighted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_confidential_heighted_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_confidential_heighted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_confidential_heighted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

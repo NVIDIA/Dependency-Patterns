@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_coportion_courty_odenton_aoristic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_courty_odenton_aoristic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_courty_odenton_aoristic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_courty_odenton_aoristic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

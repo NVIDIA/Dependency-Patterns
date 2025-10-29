@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_boxcar_bouche_overgirded_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_boxcar_bouche_overgirded_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_boxcar_bouche_overgirded_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_boxcar_bouche_overgirded_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

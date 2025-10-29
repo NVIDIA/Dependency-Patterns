@@ -41,7 +41,7 @@ adhoc_tool(
 "gpss_scalpellic_coticular_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_scalpellic_coticular_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_scalpellic_coticular_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_scalpellic_coticular_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

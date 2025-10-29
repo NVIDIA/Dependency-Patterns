@@ -44,7 +44,7 @@ adhoc_tool(
 "worthington_sleided_acrology_coercers_spasmophilia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_acrology_coercers_spasmophilia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_acrology_coercers_spasmophilia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_acrology_coercers_spasmophilia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -41,7 +41,7 @@ adhoc_tool(
 "sizz_emlynn_ninetta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_emlynn_ninetta_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_emlynn_ninetta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_emlynn_ninetta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

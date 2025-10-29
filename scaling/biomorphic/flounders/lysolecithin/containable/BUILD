@@ -78,7 +78,7 @@ adhoc_tool(
 "biomorphic_flounders_lysolecithin_containable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_flounders_lysolecithin_containable_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_flounders_lysolecithin_containable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_flounders_lysolecithin_containable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

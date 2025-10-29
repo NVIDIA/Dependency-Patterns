@@ -60,7 +60,7 @@ adhoc_tool(
 "bakongo_interiorized_arsesmart_curliewurlie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_interiorized_arsesmart_curliewurlie_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_interiorized_arsesmart_curliewurlie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_interiorized_arsesmart_curliewurlie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

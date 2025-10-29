@@ -42,7 +42,7 @@ adhoc_tool(
 "bakongo_ataturk_lysolecithin_ataturk_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ataturk_lysolecithin_ataturk_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ataturk_lysolecithin_ataturk_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ataturk_lysolecithin_ataturk_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

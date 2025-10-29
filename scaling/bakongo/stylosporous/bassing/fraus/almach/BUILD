@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_stylosporous_bassing_fraus_almach_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_bassing_fraus_almach_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_bassing_fraus_almach_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_bassing_fraus_almach_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

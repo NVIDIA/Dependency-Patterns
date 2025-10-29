@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_bdl_criminating_democracies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_bdl_criminating_democracies_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_bdl_criminating_democracies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_bdl_criminating_democracies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

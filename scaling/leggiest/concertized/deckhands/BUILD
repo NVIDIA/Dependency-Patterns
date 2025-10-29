@@ -31,7 +31,7 @@ adhoc_tool(
         "leggiest_concertized_deckhands_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_concertized_deckhands_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_concertized_deckhands_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_concertized_deckhands_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

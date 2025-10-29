@@ -48,7 +48,7 @@ adhoc_tool(
 "biomorphic_undertakers_lysolecithin_undertakers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_undertakers_lysolecithin_undertakers_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_undertakers_lysolecithin_undertakers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_undertakers_lysolecithin_undertakers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

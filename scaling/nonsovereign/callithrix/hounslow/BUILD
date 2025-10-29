@@ -41,7 +41,7 @@ adhoc_tool(
 "nonsovereign_callithrix_hounslow_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_callithrix_hounslow_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_callithrix_hounslow_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_callithrix_hounslow_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "hypostasised_anathemata_tenderometer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_anathemata_tenderometer_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_anathemata_tenderometer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_anathemata_tenderometer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_rectocolitic_criminating_chorographic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_rectocolitic_criminating_chorographic_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_rectocolitic_criminating_chorographic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_rectocolitic_criminating_chorographic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

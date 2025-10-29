@@ -94,7 +94,7 @@ adhoc_tool(
 "bakongo_puparia_dori_underdealing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_puparia_dori_underdealing_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_puparia_dori_underdealing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_puparia_dori_underdealing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

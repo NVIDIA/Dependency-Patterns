@@ -35,7 +35,7 @@ adhoc_tool(
         "leggiest_equines_chirimia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_equines_chirimia_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_equines_chirimia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_equines_chirimia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

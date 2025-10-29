@@ -139,7 +139,7 @@ adhoc_tool(
 "gpss_gavelling_criminatory_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_gavelling_criminatory_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_gavelling_criminatory_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_gavelling_criminatory_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

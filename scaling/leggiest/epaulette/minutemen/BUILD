@@ -32,7 +32,7 @@ adhoc_tool(
         "leggiest_epaulette_minutemen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_epaulette_minutemen_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_epaulette_minutemen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_epaulette_minutemen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

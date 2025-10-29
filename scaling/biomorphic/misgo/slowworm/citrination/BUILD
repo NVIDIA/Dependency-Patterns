@@ -52,7 +52,7 @@ adhoc_tool(
 "biomorphic_misgo_slowworm_citrination_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_misgo_slowworm_citrination_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_misgo_slowworm_citrination_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_misgo_slowworm_citrination_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

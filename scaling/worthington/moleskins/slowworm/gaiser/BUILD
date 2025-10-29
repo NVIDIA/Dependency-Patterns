@@ -52,7 +52,7 @@ adhoc_tool(
 "worthington_moleskins_slowworm_gaiser_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_moleskins_slowworm_gaiser_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moleskins_slowworm_gaiser_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_moleskins_slowworm_gaiser_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

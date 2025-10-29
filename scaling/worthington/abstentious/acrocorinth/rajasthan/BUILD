@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_abstentious_acrocorinth_rajasthan_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_abstentious_acrocorinth_rajasthan_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_abstentious_acrocorinth_rajasthan_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_abstentious_acrocorinth_rajasthan_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

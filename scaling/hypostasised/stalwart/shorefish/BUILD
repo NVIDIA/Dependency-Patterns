@@ -62,7 +62,7 @@ adhoc_tool(
 "hypostasised_stalwart_shorefish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_stalwart_shorefish_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_stalwart_shorefish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_stalwart_shorefish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_laborsome_shinguard_unvenomous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_laborsome_shinguard_unvenomous_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_laborsome_shinguard_unvenomous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_laborsome_shinguard_unvenomous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

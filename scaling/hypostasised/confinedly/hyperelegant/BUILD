@@ -35,7 +35,7 @@ adhoc_tool(
 "hypostasised_confinedly_hyperelegant_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_confinedly_hyperelegant_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_confinedly_hyperelegant_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_confinedly_hyperelegant_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -56,7 +56,7 @@ adhoc_tool(
 "worthington_marshflower_eridanid_aloelike_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_marshflower_eridanid_aloelike_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_marshflower_eridanid_aloelike_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_marshflower_eridanid_aloelike_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

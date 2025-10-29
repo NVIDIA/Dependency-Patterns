@@ -51,7 +51,7 @@ adhoc_tool(
 "gpss_cacciatore_subclan_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_cacciatore_subclan_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_cacciatore_subclan_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_cacciatore_subclan_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_assedat_lysolecithin_assedat_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_assedat_lysolecithin_assedat_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_assedat_lysolecithin_assedat_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_assedat_lysolecithin_assedat_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

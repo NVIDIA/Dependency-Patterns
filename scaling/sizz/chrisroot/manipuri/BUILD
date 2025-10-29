@@ -117,7 +117,7 @@ adhoc_tool(
 "sizz_chrisroot_manipuri_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_chrisroot_manipuri_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_chrisroot_manipuri_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_chrisroot_manipuri_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

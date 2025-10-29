@@ -156,7 +156,7 @@ adhoc_tool(
 "emancipator_flaying_taenifuge_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_flaying_taenifuge_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_flaying_taenifuge_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_flaying_taenifuge_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -57,7 +57,7 @@ adhoc_tool(
 "worthington_cognizes_ferash_shanties_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cognizes_ferash_shanties_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cognizes_ferash_shanties_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cognizes_ferash_shanties_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

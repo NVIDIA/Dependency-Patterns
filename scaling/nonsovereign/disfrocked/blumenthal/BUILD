@@ -35,7 +35,7 @@ adhoc_tool(
 "nonsovereign_disfrocked_blumenthal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_disfrocked_blumenthal_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_disfrocked_blumenthal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_disfrocked_blumenthal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

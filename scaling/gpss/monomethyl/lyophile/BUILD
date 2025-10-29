@@ -96,7 +96,7 @@ adhoc_tool(
 "gpss_monomethyl_lyophile_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_monomethyl_lyophile_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_monomethyl_lyophile_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_monomethyl_lyophile_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

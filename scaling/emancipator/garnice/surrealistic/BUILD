@@ -33,7 +33,7 @@ adhoc_tool(
 "emancipator_garnice_surrealistic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_garnice_surrealistic_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_garnice_surrealistic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_garnice_surrealistic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

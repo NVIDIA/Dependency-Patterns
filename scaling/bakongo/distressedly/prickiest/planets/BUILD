@@ -46,7 +46,7 @@ adhoc_tool(
 "bakongo_distressedly_prickiest_planets_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_distressedly_prickiest_planets_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_distressedly_prickiest_planets_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_distressedly_prickiest_planets_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

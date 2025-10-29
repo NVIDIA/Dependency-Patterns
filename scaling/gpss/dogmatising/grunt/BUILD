@@ -36,7 +36,7 @@ adhoc_tool(
 "gpss_dogmatising_grunt_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_dogmatising_grunt_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_dogmatising_grunt_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_dogmatising_grunt_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

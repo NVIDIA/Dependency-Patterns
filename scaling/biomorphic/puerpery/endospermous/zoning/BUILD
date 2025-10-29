@@ -37,7 +37,7 @@ adhoc_tool(
         "biomorphic_puerpery_endospermous_zoning_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_puerpery_endospermous_zoning_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_puerpery_endospermous_zoning_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_puerpery_endospermous_zoning_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

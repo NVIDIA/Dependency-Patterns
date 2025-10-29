@@ -51,7 +51,7 @@ adhoc_tool(
 "gpss_ims_cirrosely_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_ims_cirrosely_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_ims_cirrosely_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_ims_cirrosely_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

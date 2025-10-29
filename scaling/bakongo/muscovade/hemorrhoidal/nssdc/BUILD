@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_muscovade_hemorrhoidal_nssdc_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_muscovade_hemorrhoidal_nssdc_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_muscovade_hemorrhoidal_nssdc_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_muscovade_hemorrhoidal_nssdc_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

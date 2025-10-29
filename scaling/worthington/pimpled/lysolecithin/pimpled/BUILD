@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_pimpled_lysolecithin_pimpled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_pimpled_lysolecithin_pimpled_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_pimpled_lysolecithin_pimpled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_pimpled_lysolecithin_pimpled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

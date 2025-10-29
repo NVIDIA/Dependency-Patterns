@@ -50,7 +50,7 @@ adhoc_tool(
 "worthington_beira_vincas_stringently_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beira_vincas_stringently_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beira_vincas_stringently_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beira_vincas_stringently_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

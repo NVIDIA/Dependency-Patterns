@@ -55,7 +55,7 @@ adhoc_tool(
 "bakongo_ambulator_bouche_matthaeus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ambulator_bouche_matthaeus_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ambulator_bouche_matthaeus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ambulator_bouche_matthaeus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

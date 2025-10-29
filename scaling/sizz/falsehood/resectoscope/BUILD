@@ -38,7 +38,7 @@ adhoc_tool(
 "sizz_falsehood_resectoscope_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_falsehood_resectoscope_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_falsehood_resectoscope_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_falsehood_resectoscope_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

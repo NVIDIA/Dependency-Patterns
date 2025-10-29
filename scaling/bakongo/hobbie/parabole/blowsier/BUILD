@@ -79,7 +79,7 @@ adhoc_tool(
 "bakongo_hobbie_parabole_blowsier_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_hobbie_parabole_blowsier_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_hobbie_parabole_blowsier_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_hobbie_parabole_blowsier_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

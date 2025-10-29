@@ -32,7 +32,7 @@ adhoc_tool(
 "sizz_heelposts_staymaking_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_heelposts_staymaking_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_heelposts_staymaking_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_heelposts_staymaking_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

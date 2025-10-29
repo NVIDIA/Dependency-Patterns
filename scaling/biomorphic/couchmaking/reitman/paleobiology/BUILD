@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_couchmaking_reitman_paleobiology_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_couchmaking_reitman_paleobiology_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_couchmaking_reitman_paleobiology_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_couchmaking_reitman_paleobiology_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

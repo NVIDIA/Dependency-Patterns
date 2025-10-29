@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_abcissa_criminating_forseti_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_abcissa_criminating_forseti_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_abcissa_criminating_forseti_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_abcissa_criminating_forseti_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

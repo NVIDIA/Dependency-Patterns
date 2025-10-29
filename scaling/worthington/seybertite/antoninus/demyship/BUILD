@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_seybertite_antoninus_demyship_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_seybertite_antoninus_demyship_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_seybertite_antoninus_demyship_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_seybertite_antoninus_demyship_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

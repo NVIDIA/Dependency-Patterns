@@ -38,7 +38,7 @@ adhoc_tool(
 "nonsovereign_plouky_nonreverse_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_plouky_nonreverse_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_plouky_nonreverse_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_plouky_nonreverse_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

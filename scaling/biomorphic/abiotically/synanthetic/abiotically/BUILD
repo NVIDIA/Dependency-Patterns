@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_abiotically_synanthetic_abiotically_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_abiotically_synanthetic_abiotically_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_abiotically_synanthetic_abiotically_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_abiotically_synanthetic_abiotically_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

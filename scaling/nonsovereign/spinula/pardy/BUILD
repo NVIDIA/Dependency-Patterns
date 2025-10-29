@@ -37,7 +37,7 @@ adhoc_tool(
 "nonsovereign_spinula_pardy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_spinula_pardy_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_spinula_pardy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_spinula_pardy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

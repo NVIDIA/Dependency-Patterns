@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_butoxy_voodooist_ellwood_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_butoxy_voodooist_ellwood_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_butoxy_voodooist_ellwood_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_butoxy_voodooist_ellwood_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

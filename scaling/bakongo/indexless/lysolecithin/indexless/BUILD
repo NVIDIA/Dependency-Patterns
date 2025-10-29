@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_indexless_lysolecithin_indexless_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_indexless_lysolecithin_indexless_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_indexless_lysolecithin_indexless_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_indexless_lysolecithin_indexless_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

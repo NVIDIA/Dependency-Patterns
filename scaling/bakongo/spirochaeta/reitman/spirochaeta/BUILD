@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_spirochaeta_reitman_spirochaeta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_spirochaeta_reitman_spirochaeta_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_spirochaeta_reitman_spirochaeta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_spirochaeta_reitman_spirochaeta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

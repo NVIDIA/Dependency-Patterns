@@ -77,7 +77,7 @@ adhoc_tool(
 "worthington_externalizes_vincas_rhoadesville_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_externalizes_vincas_rhoadesville_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_externalizes_vincas_rhoadesville_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_externalizes_vincas_rhoadesville_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

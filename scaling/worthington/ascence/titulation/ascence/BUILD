@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_ascence_titulation_ascence_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_ascence_titulation_ascence_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_ascence_titulation_ascence_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_ascence_titulation_ascence_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_listless_heuretic_outspit_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_listless_heuretic_outspit_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_listless_heuretic_outspit_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_listless_heuretic_outspit_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

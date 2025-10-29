@@ -49,7 +49,7 @@ adhoc_tool(
 "sizz_postparietal_fructiform_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_postparietal_fructiform_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_postparietal_fructiform_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_postparietal_fructiform_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

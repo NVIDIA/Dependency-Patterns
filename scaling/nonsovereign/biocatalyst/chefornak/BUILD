@@ -46,7 +46,7 @@ adhoc_tool(
 "nonsovereign_biocatalyst_chefornak_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_biocatalyst_chefornak_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_biocatalyst_chefornak_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_biocatalyst_chefornak_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

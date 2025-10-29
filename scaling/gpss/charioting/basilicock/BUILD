@@ -38,7 +38,7 @@ adhoc_tool(
 "gpss_charioting_basilicock_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_charioting_basilicock_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_charioting_basilicock_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_charioting_basilicock_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

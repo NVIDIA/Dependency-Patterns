@@ -36,7 +36,7 @@ adhoc_tool(
 "nonsovereign_astrophysics_ifint_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_astrophysics_ifint_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_astrophysics_ifint_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_astrophysics_ifint_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

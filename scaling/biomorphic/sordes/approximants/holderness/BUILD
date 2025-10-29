@@ -45,7 +45,7 @@ adhoc_tool(
 "biomorphic_sordes_approximants_holderness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_sordes_approximants_holderness_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_sordes_approximants_holderness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_sordes_approximants_holderness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

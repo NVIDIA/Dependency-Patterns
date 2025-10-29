@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_catalogers_entrechat_rebone_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_catalogers_entrechat_rebone_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_catalogers_entrechat_rebone_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_catalogers_entrechat_rebone_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

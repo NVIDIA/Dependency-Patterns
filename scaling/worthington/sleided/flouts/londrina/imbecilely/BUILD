@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_sleided_flouts_londrina_imbecilely_flouts_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_flouts_londrina_imbecilely_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_flouts_londrina_imbecilely_flouts_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_flouts_londrina_imbecilely_flouts_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

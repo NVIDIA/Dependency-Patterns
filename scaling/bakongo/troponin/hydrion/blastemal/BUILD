@@ -41,7 +41,7 @@ adhoc_tool(
 "bakongo_troponin_hydrion_blastemal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_troponin_hydrion_blastemal_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_troponin_hydrion_blastemal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_troponin_hydrion_blastemal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

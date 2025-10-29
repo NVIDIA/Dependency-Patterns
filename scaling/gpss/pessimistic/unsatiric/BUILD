@@ -54,7 +54,7 @@ adhoc_tool(
 "gpss_pessimistic_unsatiric_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_pessimistic_unsatiric_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_pessimistic_unsatiric_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_pessimistic_unsatiric_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

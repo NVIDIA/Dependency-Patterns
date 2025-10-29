@@ -60,7 +60,7 @@ adhoc_tool(
 "nonsovereign_grout_proceeding_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_grout_proceeding_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_grout_proceeding_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_grout_proceeding_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

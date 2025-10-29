@@ -32,7 +32,7 @@ adhoc_tool(
         "mesatipelvic_decimated_bromhydrate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_decimated_bromhydrate_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_decimated_bromhydrate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_decimated_bromhydrate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

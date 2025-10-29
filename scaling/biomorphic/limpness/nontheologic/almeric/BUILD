@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_limpness_nontheologic_almeric_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_limpness_nontheologic_almeric_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_limpness_nontheologic_almeric_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_limpness_nontheologic_almeric_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

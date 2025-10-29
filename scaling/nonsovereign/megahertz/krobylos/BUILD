@@ -40,7 +40,7 @@ adhoc_tool(
 "nonsovereign_megahertz_krobylos_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_megahertz_krobylos_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_megahertz_krobylos_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_megahertz_krobylos_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

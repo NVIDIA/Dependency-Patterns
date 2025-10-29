@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_bebilya_piala_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_bebilya_piala_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_bebilya_piala_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_bebilya_piala_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_summanus_preacquiring_tegs_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_summanus_preacquiring_tegs_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_summanus_preacquiring_tegs_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_summanus_preacquiring_tegs_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

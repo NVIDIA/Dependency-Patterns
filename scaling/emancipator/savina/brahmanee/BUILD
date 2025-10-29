@@ -59,7 +59,7 @@ adhoc_tool(
 "emancipator_savina_brahmanee_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_savina_brahmanee_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_savina_brahmanee_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_savina_brahmanee_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "nonsovereign_rudely_unconfined_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_rudely_unconfined_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_rudely_unconfined_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_rudely_unconfined_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

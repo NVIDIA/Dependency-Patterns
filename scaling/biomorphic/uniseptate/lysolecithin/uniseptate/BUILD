@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_uniseptate_lysolecithin_uniseptate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_uniseptate_lysolecithin_uniseptate_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_uniseptate_lysolecithin_uniseptate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_uniseptate_lysolecithin_uniseptate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

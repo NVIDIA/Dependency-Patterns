@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_bedsitter_lysolecithin_bedsitter_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bedsitter_lysolecithin_bedsitter_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bedsitter_lysolecithin_bedsitter_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bedsitter_lysolecithin_bedsitter_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

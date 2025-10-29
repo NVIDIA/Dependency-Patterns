@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_trinityhood_shinguard_kudize_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_trinityhood_shinguard_kudize_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_trinityhood_shinguard_kudize_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_trinityhood_shinguard_kudize_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

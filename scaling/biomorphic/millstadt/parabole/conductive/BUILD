@@ -99,7 +99,7 @@ adhoc_tool(
 "biomorphic_millstadt_parabole_conductive_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_millstadt_parabole_conductive_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_millstadt_parabole_conductive_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_millstadt_parabole_conductive_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

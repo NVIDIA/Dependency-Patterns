@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_stylosporous_ballonet_londrina_pandura_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_ballonet_londrina_pandura_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_ballonet_londrina_pandura_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_ballonet_londrina_pandura_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

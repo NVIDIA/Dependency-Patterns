@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_intendantism_londrina_intendantism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_intendantism_londrina_intendantism_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_intendantism_londrina_intendantism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_intendantism_londrina_intendantism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

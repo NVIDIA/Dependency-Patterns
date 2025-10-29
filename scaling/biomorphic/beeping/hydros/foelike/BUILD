@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_beeping_hydros_foelike_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_beeping_hydros_foelike_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_beeping_hydros_foelike_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_beeping_hydros_foelike_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -55,7 +55,7 @@ adhoc_tool(
 "biomorphic_clockcase_wizen_diastems_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_clockcase_wizen_diastems_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_clockcase_wizen_diastems_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_clockcase_wizen_diastems_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

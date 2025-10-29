@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_ungreatness_shinguard_pollam_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ungreatness_shinguard_pollam_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ungreatness_shinguard_pollam_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ungreatness_shinguard_pollam_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_ayutthaya_reitman_ayutthaya_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_ayutthaya_reitman_ayutthaya_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ayutthaya_reitman_ayutthaya_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_ayutthaya_reitman_ayutthaya_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

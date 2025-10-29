@@ -98,7 +98,7 @@ adhoc_tool(
 "hypostasised_ungentleman_impractical_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_ungentleman_impractical_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_ungentleman_impractical_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_ungentleman_impractical_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

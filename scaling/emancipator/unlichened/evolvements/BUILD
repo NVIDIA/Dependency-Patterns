@@ -76,7 +76,7 @@ adhoc_tool(
 "emancipator_unlichened_evolvements_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_unlichened_evolvements_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_unlichened_evolvements_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_unlichened_evolvements_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

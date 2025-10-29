@@ -45,7 +45,7 @@ adhoc_tool(
 "sizz_pseudosocial_millstream_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_pseudosocial_millstream_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_pseudosocial_millstream_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_pseudosocial_millstream_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

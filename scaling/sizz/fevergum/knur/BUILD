@@ -34,7 +34,7 @@ adhoc_tool(
 "sizz_fevergum_knur_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_fevergum_knur_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_fevergum_knur_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_fevergum_knur_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

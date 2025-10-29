@@ -48,7 +48,7 @@ adhoc_tool(
 "worthington_cacesthesis_lysolecithin_cacesthesis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cacesthesis_lysolecithin_cacesthesis_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cacesthesis_lysolecithin_cacesthesis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cacesthesis_lysolecithin_cacesthesis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

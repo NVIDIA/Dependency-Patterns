@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_screven_lysolecithin_screven_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_screven_lysolecithin_screven_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_screven_lysolecithin_screven_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_screven_lysolecithin_screven_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

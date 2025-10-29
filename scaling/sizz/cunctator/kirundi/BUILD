@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_cunctator_kirundi_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_cunctator_kirundi_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_cunctator_kirundi_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_cunctator_kirundi_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

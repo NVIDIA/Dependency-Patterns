@@ -37,7 +37,7 @@ adhoc_tool(
 "sizz_hirsute_fermentology_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_hirsute_fermentology_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_hirsute_fermentology_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_hirsute_fermentology_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

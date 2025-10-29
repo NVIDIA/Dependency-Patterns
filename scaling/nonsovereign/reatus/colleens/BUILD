@@ -45,7 +45,7 @@ adhoc_tool(
 "nonsovereign_reatus_colleens_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_reatus_colleens_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_reatus_colleens_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_reatus_colleens_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

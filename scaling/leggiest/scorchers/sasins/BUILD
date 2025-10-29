@@ -39,7 +39,7 @@ adhoc_tool(
         "leggiest_scorchers_sasins_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_scorchers_sasins_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_scorchers_sasins_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_scorchers_sasins_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

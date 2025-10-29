@@ -45,7 +45,7 @@ adhoc_tool(
 "worthington_eclats_onondagan_sissyism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_eclats_onondagan_sissyism_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_eclats_onondagan_sissyism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_eclats_onondagan_sissyism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

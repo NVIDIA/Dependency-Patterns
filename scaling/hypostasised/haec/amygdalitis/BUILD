@@ -51,7 +51,7 @@ adhoc_tool(
 "hypostasised_haec_amygdalitis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_haec_amygdalitis_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_haec_amygdalitis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_haec_amygdalitis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "sizz_spaceships_uncolloquial_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_spaceships_uncolloquial_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_spaceships_uncolloquial_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_spaceships_uncolloquial_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

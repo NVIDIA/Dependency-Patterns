@@ -118,7 +118,7 @@ adhoc_tool(
 "worthington_rauli_synanthetic_rauli_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rauli_synanthetic_rauli_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rauli_synanthetic_rauli_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rauli_synanthetic_rauli_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

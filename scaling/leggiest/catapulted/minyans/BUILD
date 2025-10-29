@@ -37,7 +37,7 @@ adhoc_tool(
         "leggiest_catapulted_minyans_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_catapulted_minyans_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_catapulted_minyans_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_catapulted_minyans_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

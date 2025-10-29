@@ -79,7 +79,7 @@ adhoc_tool(
 "biomorphic_wirrah_parabole_cobus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_wirrah_parabole_cobus_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_wirrah_parabole_cobus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_wirrah_parabole_cobus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

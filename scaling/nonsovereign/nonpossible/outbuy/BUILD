@@ -92,7 +92,7 @@ adhoc_tool(
 "nonsovereign_nonpossible_outbuy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_nonpossible_outbuy_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_nonpossible_outbuy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_nonpossible_outbuy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

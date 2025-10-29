@@ -31,7 +31,7 @@ adhoc_tool(
 "hypostasised_mart_ungabled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_mart_ungabled_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_mart_ungabled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_mart_ungabled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

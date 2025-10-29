@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_peregrinoid_hydros_emporetic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_peregrinoid_hydros_emporetic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_peregrinoid_hydros_emporetic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_peregrinoid_hydros_emporetic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

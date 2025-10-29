@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_parrakeet_bummed_gateway_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_parrakeet_bummed_gateway_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_parrakeet_bummed_gateway_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_parrakeet_bummed_gateway_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

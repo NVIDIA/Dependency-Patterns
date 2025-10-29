@@ -32,7 +32,7 @@ adhoc_tool(
         "mesatipelvic_cavalero_hemocoelom_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_cavalero_hemocoelom_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_cavalero_hemocoelom_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_cavalero_hemocoelom_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

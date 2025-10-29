@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_pachymenia_shinguard_windcuffer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_pachymenia_shinguard_windcuffer_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_pachymenia_shinguard_windcuffer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_pachymenia_shinguard_windcuffer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

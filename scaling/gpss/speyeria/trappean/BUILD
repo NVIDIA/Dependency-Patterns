@@ -58,7 +58,7 @@ adhoc_tool(
 "gpss_speyeria_trappean_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_speyeria_trappean_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_speyeria_trappean_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_speyeria_trappean_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

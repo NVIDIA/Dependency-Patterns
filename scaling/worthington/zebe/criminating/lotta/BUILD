@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_zebe_criminating_lotta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_zebe_criminating_lotta_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_zebe_criminating_lotta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_zebe_criminating_lotta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

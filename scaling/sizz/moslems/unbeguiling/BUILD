@@ -80,7 +80,7 @@ adhoc_tool(
 "sizz_moslems_unbeguiling_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_moslems_unbeguiling_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_moslems_unbeguiling_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_moslems_unbeguiling_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -143,7 +143,7 @@ adhoc_tool(
 "gpss_oshawa_kopperl_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_oshawa_kopperl_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_oshawa_kopperl_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_oshawa_kopperl_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

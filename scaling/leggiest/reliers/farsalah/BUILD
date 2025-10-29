@@ -33,7 +33,7 @@ adhoc_tool(
         "leggiest_reliers_farsalah_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_reliers_farsalah_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_reliers_farsalah_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_reliers_farsalah_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

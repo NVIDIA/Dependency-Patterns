@@ -58,7 +58,7 @@ adhoc_tool(
         "mesatipelvic_interimist_pohna_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_interimist_pohna_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_interimist_pohna_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_interimist_pohna_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

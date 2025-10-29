@@ -37,7 +37,7 @@ adhoc_tool(
         "leggiest_semioval_groenendael_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_semioval_groenendael_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_semioval_groenendael_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_semioval_groenendael_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

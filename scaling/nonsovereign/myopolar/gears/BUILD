@@ -59,7 +59,7 @@ adhoc_tool(
 "nonsovereign_myopolar_gears_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_myopolar_gears_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_myopolar_gears_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_myopolar_gears_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

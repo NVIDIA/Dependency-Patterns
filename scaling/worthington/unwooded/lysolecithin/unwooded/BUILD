@@ -41,7 +41,7 @@ adhoc_tool(
 "worthington_unwooded_lysolecithin_unwooded_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unwooded_lysolecithin_unwooded_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unwooded_lysolecithin_unwooded_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unwooded_lysolecithin_unwooded_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

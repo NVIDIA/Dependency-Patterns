@@ -32,7 +32,7 @@ adhoc_tool(
 "nonsovereign_periwigpated_deacons_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_periwigpated_deacons_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_periwigpated_deacons_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_periwigpated_deacons_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

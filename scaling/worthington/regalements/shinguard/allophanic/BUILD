@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_regalements_shinguard_allophanic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_regalements_shinguard_allophanic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_regalements_shinguard_allophanic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_regalements_shinguard_allophanic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

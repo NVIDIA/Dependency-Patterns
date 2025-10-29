@@ -43,7 +43,7 @@ adhoc_tool(
 "sizz_singletons_trifling_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_singletons_trifling_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_singletons_trifling_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_singletons_trifling_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_incisural_lysolecithin_incisural_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_incisural_lysolecithin_incisural_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_incisural_lysolecithin_incisural_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_incisural_lysolecithin_incisural_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

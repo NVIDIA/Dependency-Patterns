@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_packhorse_shinguard_polymnite_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_packhorse_shinguard_polymnite_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_packhorse_shinguard_polymnite_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_packhorse_shinguard_polymnite_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

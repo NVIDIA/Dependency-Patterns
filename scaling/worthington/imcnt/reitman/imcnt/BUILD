@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_imcnt_reitman_imcnt_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_imcnt_reitman_imcnt_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_imcnt_reitman_imcnt_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_imcnt_reitman_imcnt_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

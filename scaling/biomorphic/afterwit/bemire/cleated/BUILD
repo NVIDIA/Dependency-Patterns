@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_afterwit_bemire_cleated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_afterwit_bemire_cleated_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_afterwit_bemire_cleated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_afterwit_bemire_cleated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -73,7 +73,7 @@ adhoc_tool(
 "worthington_kure_schismatics_louisburg_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_kure_schismatics_louisburg_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_kure_schismatics_louisburg_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_kure_schismatics_louisburg_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

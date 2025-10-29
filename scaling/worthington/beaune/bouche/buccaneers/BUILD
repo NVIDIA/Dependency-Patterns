@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_beaune_bouche_buccaneers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beaune_bouche_buccaneers_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beaune_bouche_buccaneers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beaune_bouche_buccaneers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

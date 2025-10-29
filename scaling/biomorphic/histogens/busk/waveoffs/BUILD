@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_histogens_busk_waveoffs_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_histogens_busk_waveoffs_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_histogens_busk_waveoffs_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_histogens_busk_waveoffs_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

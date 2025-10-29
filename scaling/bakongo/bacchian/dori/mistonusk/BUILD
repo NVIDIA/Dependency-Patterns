@@ -69,7 +69,7 @@ adhoc_tool(
 "bakongo_bacchian_dori_mistonusk_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bacchian_dori_mistonusk_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bacchian_dori_mistonusk_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bacchian_dori_mistonusk_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

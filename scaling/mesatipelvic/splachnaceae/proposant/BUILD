@@ -33,7 +33,7 @@ adhoc_tool(
         "mesatipelvic_splachnaceae_proposant_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_splachnaceae_proposant_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_splachnaceae_proposant_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_splachnaceae_proposant_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -44,7 +44,7 @@ adhoc_tool(
         "leggiest_crowl_unlibellous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_crowl_unlibellous_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_crowl_unlibellous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_crowl_unlibellous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

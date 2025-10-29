@@ -34,7 +34,7 @@ adhoc_tool(
 "emancipator_disobeyed_remediate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_disobeyed_remediate_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_disobeyed_remediate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_disobeyed_remediate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

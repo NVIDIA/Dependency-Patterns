@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_unmerciless_shinguard_oogoninia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unmerciless_shinguard_oogoninia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unmerciless_shinguard_oogoninia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unmerciless_shinguard_oogoninia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

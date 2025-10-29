@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_vibrato_nonwithering_anarchs_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_vibrato_nonwithering_anarchs_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_vibrato_nonwithering_anarchs_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_vibrato_nonwithering_anarchs_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

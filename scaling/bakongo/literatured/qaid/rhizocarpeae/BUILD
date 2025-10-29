@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_literatured_qaid_rhizocarpeae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_literatured_qaid_rhizocarpeae_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_literatured_qaid_rhizocarpeae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_literatured_qaid_rhizocarpeae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_unmerciless_beclasps_pitmark_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unmerciless_beclasps_pitmark_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unmerciless_beclasps_pitmark_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unmerciless_beclasps_pitmark_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "emancipator_numbered_epigastraeum_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_numbered_epigastraeum_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_numbered_epigastraeum_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_numbered_epigastraeum_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

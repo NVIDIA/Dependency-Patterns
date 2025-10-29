@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_shiftingly_lealness_advect_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_shiftingly_lealness_advect_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_shiftingly_lealness_advect_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_shiftingly_lealness_advect_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

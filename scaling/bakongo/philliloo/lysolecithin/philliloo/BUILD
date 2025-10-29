@@ -48,7 +48,7 @@ adhoc_tool(
 "bakongo_philliloo_lysolecithin_philliloo_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_philliloo_lysolecithin_philliloo_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_philliloo_lysolecithin_philliloo_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_philliloo_lysolecithin_philliloo_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

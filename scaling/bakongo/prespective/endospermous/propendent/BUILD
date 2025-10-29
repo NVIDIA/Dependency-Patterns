@@ -34,7 +34,7 @@ adhoc_tool(
         "bakongo_prespective_endospermous_propendent_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_prespective_endospermous_propendent_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_prespective_endospermous_propendent_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_prespective_endospermous_propendent_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

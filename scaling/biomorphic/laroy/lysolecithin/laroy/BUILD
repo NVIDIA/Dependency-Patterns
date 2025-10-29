@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_laroy_lysolecithin_laroy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_laroy_lysolecithin_laroy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_laroy_lysolecithin_laroy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_laroy_lysolecithin_laroy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

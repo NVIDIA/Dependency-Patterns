@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_banteng_shinguard_niggling_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_banteng_shinguard_niggling_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_banteng_shinguard_niggling_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_banteng_shinguard_niggling_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

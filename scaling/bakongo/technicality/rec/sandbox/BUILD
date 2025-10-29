@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_technicality_rec_sandbox_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_technicality_rec_sandbox_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_technicality_rec_sandbox_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_technicality_rec_sandbox_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

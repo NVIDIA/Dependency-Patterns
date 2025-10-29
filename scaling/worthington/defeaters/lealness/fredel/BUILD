@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_defeaters_lealness_fredel_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_defeaters_lealness_fredel_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_defeaters_lealness_fredel_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_defeaters_lealness_fredel_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

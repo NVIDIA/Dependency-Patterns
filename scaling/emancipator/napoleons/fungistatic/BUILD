@@ -88,7 +88,7 @@ adhoc_tool(
 "emancipator_napoleons_fungistatic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_napoleons_fungistatic_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_napoleons_fungistatic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_napoleons_fungistatic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

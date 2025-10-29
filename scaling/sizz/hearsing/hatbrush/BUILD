@@ -51,7 +51,7 @@ adhoc_tool(
 "sizz_hearsing_hatbrush_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_hearsing_hatbrush_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_hearsing_hatbrush_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_hearsing_hatbrush_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

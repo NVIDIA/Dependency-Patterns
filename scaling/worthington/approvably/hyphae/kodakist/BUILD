@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_approvably_hyphae_kodakist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_approvably_hyphae_kodakist_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_approvably_hyphae_kodakist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_approvably_hyphae_kodakist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

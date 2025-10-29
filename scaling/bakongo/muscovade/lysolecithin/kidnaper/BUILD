@@ -62,7 +62,7 @@ adhoc_tool(
 "bakongo_muscovade_lysolecithin_kidnaper_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_muscovade_lysolecithin_kidnaper_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_muscovade_lysolecithin_kidnaper_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_muscovade_lysolecithin_kidnaper_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

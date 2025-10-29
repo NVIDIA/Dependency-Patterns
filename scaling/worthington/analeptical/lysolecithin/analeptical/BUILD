@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_analeptical_lysolecithin_analeptical_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_analeptical_lysolecithin_analeptical_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_analeptical_lysolecithin_analeptical_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_analeptical_lysolecithin_analeptical_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

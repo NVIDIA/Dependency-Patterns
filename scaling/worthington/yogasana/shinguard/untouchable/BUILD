@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_yogasana_shinguard_untouchable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_yogasana_shinguard_untouchable_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_yogasana_shinguard_untouchable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_yogasana_shinguard_untouchable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -62,7 +62,7 @@ adhoc_tool(
 "bakongo_sapphera_dosia_playgoer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sapphera_dosia_playgoer_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sapphera_dosia_playgoer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sapphera_dosia_playgoer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

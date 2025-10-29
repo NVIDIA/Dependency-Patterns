@@ -42,7 +42,7 @@ adhoc_tool(
         "mesatipelvic_nontheologic_tanglefish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_nontheologic_tanglefish_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_nontheologic_tanglefish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_nontheologic_tanglefish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

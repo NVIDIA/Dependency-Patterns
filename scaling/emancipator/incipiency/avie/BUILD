@@ -56,7 +56,7 @@ adhoc_tool(
 "emancipator_incipiency_avie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_incipiency_avie_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_incipiency_avie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_incipiency_avie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

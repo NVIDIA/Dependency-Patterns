@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_donie_bouche_preclose_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_donie_bouche_preclose_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_donie_bouche_preclose_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_donie_bouche_preclose_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

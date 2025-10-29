@@ -56,7 +56,7 @@ adhoc_tool(
 "gpss_incipiency_embosomed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_incipiency_embosomed_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_incipiency_embosomed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_incipiency_embosomed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

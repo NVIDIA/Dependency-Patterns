@@ -119,7 +119,7 @@ adhoc_tool(
 "worthington_sleided_disarm_unmimetic_theer_disarm_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_disarm_unmimetic_theer_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_disarm_unmimetic_theer_disarm_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_disarm_unmimetic_theer_disarm_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

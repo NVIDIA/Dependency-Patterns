@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_maletolt_hereditably_camacey_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_maletolt_hereditably_camacey_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_maletolt_hereditably_camacey_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_maletolt_hereditably_camacey_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

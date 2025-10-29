@@ -29,7 +29,7 @@ adhoc_tool(
 "bakongo_manipulating_criminating_untidiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_manipulating_criminating_untidiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_manipulating_criminating_untidiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_manipulating_criminating_untidiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

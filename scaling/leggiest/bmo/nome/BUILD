@@ -32,7 +32,7 @@ adhoc_tool(
         "leggiest_bmo_nome_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_bmo_nome_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_bmo_nome_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_bmo_nome_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -93,7 +93,7 @@ adhoc_tool(
 "emancipator_nonpossible_preconsumed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_nonpossible_preconsumed_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_nonpossible_preconsumed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_nonpossible_preconsumed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

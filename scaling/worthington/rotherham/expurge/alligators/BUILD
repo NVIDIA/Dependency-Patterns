@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_rotherham_expurge_alligators_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rotherham_expurge_alligators_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rotherham_expurge_alligators_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rotherham_expurge_alligators_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

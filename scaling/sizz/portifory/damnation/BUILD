@@ -35,7 +35,7 @@ adhoc_tool(
 "sizz_portifory_damnation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_portifory_damnation_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_portifory_damnation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_portifory_damnation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

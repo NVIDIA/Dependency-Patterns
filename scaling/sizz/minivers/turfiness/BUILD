@@ -47,7 +47,7 @@ adhoc_tool(
 "sizz_minivers_turfiness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_minivers_turfiness_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_minivers_turfiness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_minivers_turfiness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

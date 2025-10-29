@@ -75,7 +75,7 @@ adhoc_tool(
 "nonsovereign_stentorious_peaster_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_stentorious_peaster_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_stentorious_peaster_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_stentorious_peaster_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

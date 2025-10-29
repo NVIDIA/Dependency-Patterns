@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_educatory_reitman_educatory_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_educatory_reitman_educatory_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_educatory_reitman_educatory_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_educatory_reitman_educatory_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

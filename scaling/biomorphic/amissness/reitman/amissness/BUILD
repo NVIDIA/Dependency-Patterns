@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_amissness_reitman_amissness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_amissness_reitman_amissness_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_amissness_reitman_amissness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_amissness_reitman_amissness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

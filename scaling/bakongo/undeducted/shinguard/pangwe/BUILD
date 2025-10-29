@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_undeducted_shinguard_pangwe_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_undeducted_shinguard_pangwe_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_undeducted_shinguard_pangwe_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_undeducted_shinguard_pangwe_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

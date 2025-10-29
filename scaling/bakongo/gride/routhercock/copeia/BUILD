@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_gride_routhercock_copeia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_gride_routhercock_copeia_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_gride_routhercock_copeia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_gride_routhercock_copeia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

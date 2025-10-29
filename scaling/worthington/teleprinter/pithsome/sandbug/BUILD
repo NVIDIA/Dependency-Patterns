@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_teleprinter_pithsome_sandbug_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_teleprinter_pithsome_sandbug_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_teleprinter_pithsome_sandbug_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_teleprinter_pithsome_sandbug_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

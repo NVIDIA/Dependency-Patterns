@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_eruditions_chugalugged_cyclorrhapha_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_eruditions_chugalugged_cyclorrhapha_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_eruditions_chugalugged_cyclorrhapha_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_eruditions_chugalugged_cyclorrhapha_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

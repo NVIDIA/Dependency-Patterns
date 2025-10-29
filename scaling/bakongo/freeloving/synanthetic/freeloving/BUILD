@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_freeloving_synanthetic_freeloving_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_freeloving_synanthetic_freeloving_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_freeloving_synanthetic_freeloving_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_freeloving_synanthetic_freeloving_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

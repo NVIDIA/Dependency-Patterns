@@ -44,7 +44,7 @@ adhoc_tool(
 "worthington_tarri_kacie_manifestly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_tarri_kacie_manifestly_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_tarri_kacie_manifestly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_tarri_kacie_manifestly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

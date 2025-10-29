@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_scarpines_londrina_scarpines_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_scarpines_londrina_scarpines_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_scarpines_londrina_scarpines_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_scarpines_londrina_scarpines_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

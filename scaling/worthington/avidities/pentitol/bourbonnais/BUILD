@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_avidities_pentitol_bourbonnais_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_avidities_pentitol_bourbonnais_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_avidities_pentitol_bourbonnais_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_avidities_pentitol_bourbonnais_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

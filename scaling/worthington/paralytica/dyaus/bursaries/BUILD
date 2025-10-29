@@ -49,7 +49,7 @@ adhoc_tool(
 "worthington_paralytica_dyaus_bursaries_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_paralytica_dyaus_bursaries_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_paralytica_dyaus_bursaries_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_paralytica_dyaus_bursaries_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -119,7 +119,7 @@ adhoc_tool(
 "nonsovereign_pityroid_fishmonger_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_pityroid_fishmonger_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_pityroid_fishmonger_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_pityroid_fishmonger_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

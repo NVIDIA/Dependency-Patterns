@@ -46,7 +46,7 @@ adhoc_tool(
 "bakongo_shindle_lysolecithin_shindle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_shindle_lysolecithin_shindle_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_shindle_lysolecithin_shindle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_shindle_lysolecithin_shindle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

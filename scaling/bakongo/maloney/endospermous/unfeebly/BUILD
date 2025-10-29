@@ -30,7 +30,7 @@ adhoc_tool(
         "bakongo_maloney_endospermous_unfeebly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_maloney_endospermous_unfeebly_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_maloney_endospermous_unfeebly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_maloney_endospermous_unfeebly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

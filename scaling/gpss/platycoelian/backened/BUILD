@@ -41,7 +41,7 @@ adhoc_tool(
 "gpss_platycoelian_backened_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_platycoelian_backened_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_platycoelian_backened_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_platycoelian_backened_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

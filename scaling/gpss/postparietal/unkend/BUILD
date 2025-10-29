@@ -49,7 +49,7 @@ adhoc_tool(
 "gpss_postparietal_unkend_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_postparietal_unkend_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_postparietal_unkend_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_postparietal_unkend_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

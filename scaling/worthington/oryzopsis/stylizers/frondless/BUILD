@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_oryzopsis_stylizers_frondless_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_oryzopsis_stylizers_frondless_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_oryzopsis_stylizers_frondless_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_oryzopsis_stylizers_frondless_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

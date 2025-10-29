@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_educing_snubness_toadies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_educing_snubness_toadies_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_educing_snubness_toadies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_educing_snubness_toadies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

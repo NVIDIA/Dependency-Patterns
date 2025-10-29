@@ -41,7 +41,7 @@ adhoc_tool(
 "worthington_arienzo_lysolecithin_arienzo_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_arienzo_lysolecithin_arienzo_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_arienzo_lysolecithin_arienzo_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_arienzo_lysolecithin_arienzo_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

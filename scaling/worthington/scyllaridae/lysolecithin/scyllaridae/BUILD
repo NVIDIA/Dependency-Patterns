@@ -33,7 +33,7 @@ adhoc_tool(
 "worthington_scyllaridae_lysolecithin_scyllaridae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_scyllaridae_lysolecithin_scyllaridae_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_scyllaridae_lysolecithin_scyllaridae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_scyllaridae_lysolecithin_scyllaridae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

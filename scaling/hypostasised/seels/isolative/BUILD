@@ -97,7 +97,7 @@ adhoc_tool(
 "hypostasised_seels_isolative_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_seels_isolative_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_seels_isolative_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_seels_isolative_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

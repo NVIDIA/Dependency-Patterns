@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_biangular_reitman_biangular_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_biangular_reitman_biangular_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_biangular_reitman_biangular_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_biangular_reitman_biangular_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

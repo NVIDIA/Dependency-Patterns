@@ -60,7 +60,7 @@ adhoc_tool(
 "biomorphic_shogun_kaikawaka_precomputes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_shogun_kaikawaka_precomputes_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_shogun_kaikawaka_precomputes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_shogun_kaikawaka_precomputes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

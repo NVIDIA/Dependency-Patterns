@@ -52,7 +52,7 @@ adhoc_tool(
 "hypostasised_neolatry_agapanthus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_neolatry_agapanthus_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_neolatry_agapanthus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_neolatry_agapanthus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

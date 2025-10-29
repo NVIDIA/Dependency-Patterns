@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_stylosporous_raffaello_synanthetic_nothing_raffaello_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_raffaello_synanthetic_nothing_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_raffaello_synanthetic_nothing_raffaello_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_raffaello_synanthetic_nothing_raffaello_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

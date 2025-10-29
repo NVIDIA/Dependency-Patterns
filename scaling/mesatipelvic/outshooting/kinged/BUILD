@@ -30,7 +30,7 @@ adhoc_tool(
 "mesatipelvic_outshooting_kinged_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_outshooting_kinged_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_outshooting_kinged_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_outshooting_kinged_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

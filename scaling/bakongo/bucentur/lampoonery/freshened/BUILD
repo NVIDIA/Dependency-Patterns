@@ -68,7 +68,7 @@ adhoc_tool(
 "bakongo_bucentur_lampoonery_freshened_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bucentur_lampoonery_freshened_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bucentur_lampoonery_freshened_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bucentur_lampoonery_freshened_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

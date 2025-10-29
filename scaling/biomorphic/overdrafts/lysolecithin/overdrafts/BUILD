@@ -45,7 +45,7 @@ adhoc_tool(
 "biomorphic_overdrafts_lysolecithin_overdrafts_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_overdrafts_lysolecithin_overdrafts_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_overdrafts_lysolecithin_overdrafts_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_overdrafts_lysolecithin_overdrafts_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

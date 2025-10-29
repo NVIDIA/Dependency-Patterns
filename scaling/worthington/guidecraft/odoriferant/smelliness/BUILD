@@ -54,7 +54,7 @@ adhoc_tool(
 "worthington_guidecraft_odoriferant_smelliness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_guidecraft_odoriferant_smelliness_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_guidecraft_odoriferant_smelliness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_guidecraft_odoriferant_smelliness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

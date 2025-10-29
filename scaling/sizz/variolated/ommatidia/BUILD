@@ -40,7 +40,7 @@ adhoc_tool(
 "sizz_variolated_ommatidia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_variolated_ommatidia_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_variolated_ommatidia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_variolated_ommatidia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

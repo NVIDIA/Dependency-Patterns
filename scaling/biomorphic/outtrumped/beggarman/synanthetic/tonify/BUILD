@@ -100,7 +100,7 @@ adhoc_tool(
 "biomorphic_outtrumped_beggarman_synanthetic_tonify_beggarman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_beggarman_synanthetic_tonify_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_beggarman_synanthetic_tonify_beggarman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_beggarman_synanthetic_tonify_beggarman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

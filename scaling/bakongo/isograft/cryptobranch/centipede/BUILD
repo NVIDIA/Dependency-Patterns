@@ -73,7 +73,7 @@ adhoc_tool(
 "bakongo_isograft_cryptobranch_centipede_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_isograft_cryptobranch_centipede_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_isograft_cryptobranch_centipede_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_isograft_cryptobranch_centipede_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

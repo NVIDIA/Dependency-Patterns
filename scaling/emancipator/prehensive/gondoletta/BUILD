@@ -44,7 +44,7 @@ adhoc_tool(
 "emancipator_prehensive_gondoletta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_prehensive_gondoletta_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_prehensive_gondoletta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_prehensive_gondoletta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

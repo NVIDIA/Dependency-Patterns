@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_horography_reitman_horography_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_horography_reitman_horography_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_horography_reitman_horography_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_horography_reitman_horography_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_uninvitingly_criminating_fy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_uninvitingly_criminating_fy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_uninvitingly_criminating_fy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_uninvitingly_criminating_fy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

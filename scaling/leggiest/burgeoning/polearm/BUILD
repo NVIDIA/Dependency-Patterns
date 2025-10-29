@@ -31,7 +31,7 @@ adhoc_tool(
         "leggiest_burgeoning_polearm_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_burgeoning_polearm_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_burgeoning_polearm_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_burgeoning_polearm_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

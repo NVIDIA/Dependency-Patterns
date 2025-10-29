@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_treasuress_interlocked_disbosoms_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_treasuress_interlocked_disbosoms_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_treasuress_interlocked_disbosoms_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_treasuress_interlocked_disbosoms_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

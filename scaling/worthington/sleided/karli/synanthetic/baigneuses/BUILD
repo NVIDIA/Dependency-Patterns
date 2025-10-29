@@ -88,7 +88,7 @@ adhoc_tool(
 "worthington_sleided_karli_synanthetic_baigneuses_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_karli_synanthetic_baigneuses_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_karli_synanthetic_baigneuses_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_karli_synanthetic_baigneuses_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

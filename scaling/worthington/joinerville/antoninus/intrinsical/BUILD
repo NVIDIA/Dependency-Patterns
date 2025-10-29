@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_joinerville_antoninus_intrinsical_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_joinerville_antoninus_intrinsical_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_joinerville_antoninus_intrinsical_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_joinerville_antoninus_intrinsical_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -52,7 +52,7 @@ adhoc_tool(
 "hypostasised_bustier_inharmony_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_bustier_inharmony_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_bustier_inharmony_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_bustier_inharmony_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

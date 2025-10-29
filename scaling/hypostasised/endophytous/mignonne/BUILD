@@ -36,7 +36,7 @@ adhoc_tool(
 "hypostasised_endophytous_mignonne_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_endophytous_mignonne_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_endophytous_mignonne_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_endophytous_mignonne_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

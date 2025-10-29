@@ -122,7 +122,7 @@ adhoc_tool(
 "gpss_seels_parador_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_seels_parador_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_seels_parador_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_seels_parador_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -56,7 +56,7 @@ adhoc_tool(
 "bakongo_muscovade_vincas_banting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_muscovade_vincas_banting_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_muscovade_vincas_banting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_muscovade_vincas_banting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

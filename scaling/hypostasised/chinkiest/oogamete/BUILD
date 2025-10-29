@@ -38,7 +38,7 @@ adhoc_tool(
 "hypostasised_chinkiest_oogamete_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_chinkiest_oogamete_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_chinkiest_oogamete_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_chinkiest_oogamete_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_spondylic_fumulus_wering_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_spondylic_fumulus_wering_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_spondylic_fumulus_wering_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_spondylic_fumulus_wering_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

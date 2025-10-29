@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_did_whipmaking_colchicin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_did_whipmaking_colchicin_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_did_whipmaking_colchicin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_did_whipmaking_colchicin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_radiferous_hydros_sadder_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_radiferous_hydros_sadder_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_radiferous_hydros_sadder_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_radiferous_hydros_sadder_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

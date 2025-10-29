@@ -33,7 +33,7 @@ adhoc_tool(
         "leggiest_santalum_wenoa_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_santalum_wenoa_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_santalum_wenoa_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_santalum_wenoa_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
         "leggiest_wakayama_reconvened_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_wakayama_reconvened_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_wakayama_reconvened_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_wakayama_reconvened_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

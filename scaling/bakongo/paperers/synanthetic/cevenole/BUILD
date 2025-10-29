@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_paperers_synanthetic_cevenole_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_paperers_synanthetic_cevenole_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_paperers_synanthetic_cevenole_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_paperers_synanthetic_cevenole_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

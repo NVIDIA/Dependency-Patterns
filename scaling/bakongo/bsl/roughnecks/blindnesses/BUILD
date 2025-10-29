@@ -56,7 +56,7 @@ adhoc_tool(
 "bakongo_bsl_roughnecks_blindnesses_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bsl_roughnecks_blindnesses_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bsl_roughnecks_blindnesses_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bsl_roughnecks_blindnesses_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

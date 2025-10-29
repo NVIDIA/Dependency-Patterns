@@ -61,7 +61,7 @@ adhoc_tool(
 "bakongo_stylosporous_nain_bakshaish_horsekeeping_nain_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_nain_bakshaish_horsekeeping_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_nain_bakshaish_horsekeeping_nain_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_nain_bakshaish_horsekeeping_nain_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

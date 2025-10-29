@@ -52,7 +52,7 @@ adhoc_tool(
 "sizz_alloquial_kanephore_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_alloquial_kanephore_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_alloquial_kanephore_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_alloquial_kanephore_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_irremovable_bouche_militiamen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_irremovable_bouche_militiamen_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_irremovable_bouche_militiamen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_irremovable_bouche_militiamen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

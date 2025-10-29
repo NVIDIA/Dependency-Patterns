@@ -54,7 +54,7 @@ adhoc_tool(
 "bakongo_jower_vincas_ethnicist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_jower_vincas_ethnicist_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_jower_vincas_ethnicist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_jower_vincas_ethnicist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

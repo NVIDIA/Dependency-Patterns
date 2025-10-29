@@ -80,7 +80,7 @@ adhoc_tool(
 "nonsovereign_detainment_doorwise_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_detainment_doorwise_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_detainment_doorwise_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_detainment_doorwise_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

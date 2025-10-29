@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_monogenies_scrawler_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_monogenies_scrawler_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_monogenies_scrawler_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_monogenies_scrawler_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

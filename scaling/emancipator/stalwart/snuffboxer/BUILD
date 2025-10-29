@@ -62,7 +62,7 @@ adhoc_tool(
 "emancipator_stalwart_snuffboxer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_stalwart_snuffboxer_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_stalwart_snuffboxer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_stalwart_snuffboxer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_phyllade_heliotypic_acmaea_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_phyllade_heliotypic_acmaea_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_phyllade_heliotypic_acmaea_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_phyllade_heliotypic_acmaea_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -46,7 +46,7 @@ adhoc_tool(
 "emancipator_millruns_envenom_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_millruns_envenom_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_millruns_envenom_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_millruns_envenom_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

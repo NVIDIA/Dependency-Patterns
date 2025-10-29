@@ -108,7 +108,7 @@ adhoc_tool(
 "biomorphic_prickling_globe_doralium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prickling_globe_doralium_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prickling_globe_doralium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prickling_globe_doralium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

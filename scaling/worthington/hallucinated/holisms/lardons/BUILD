@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_hallucinated_holisms_lardons_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_hallucinated_holisms_lardons_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_hallucinated_holisms_lardons_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_hallucinated_holisms_lardons_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

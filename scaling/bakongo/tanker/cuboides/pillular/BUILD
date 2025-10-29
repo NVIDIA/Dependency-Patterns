@@ -50,7 +50,7 @@ adhoc_tool(
 "bakongo_tanker_cuboides_pillular_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_tanker_cuboides_pillular_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_tanker_cuboides_pillular_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_tanker_cuboides_pillular_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

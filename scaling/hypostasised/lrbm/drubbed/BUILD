@@ -42,7 +42,7 @@ adhoc_tool(
 "hypostasised_lrbm_drubbed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_lrbm_drubbed_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_lrbm_drubbed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_lrbm_drubbed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

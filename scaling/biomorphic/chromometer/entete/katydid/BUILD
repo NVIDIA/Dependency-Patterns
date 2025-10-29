@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_chromometer_entete_katydid_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_chromometer_entete_katydid_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_chromometer_entete_katydid_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_chromometer_entete_katydid_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

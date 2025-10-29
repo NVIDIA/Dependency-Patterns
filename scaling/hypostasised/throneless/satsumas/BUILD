@@ -42,7 +42,7 @@ adhoc_tool(
 "hypostasised_throneless_satsumas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_throneless_satsumas_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_throneless_satsumas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_throneless_satsumas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

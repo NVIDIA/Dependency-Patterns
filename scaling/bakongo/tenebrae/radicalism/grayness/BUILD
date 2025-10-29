@@ -59,7 +59,7 @@ adhoc_tool(
 "bakongo_tenebrae_radicalism_grayness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_tenebrae_radicalism_grayness_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_tenebrae_radicalism_grayness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_tenebrae_radicalism_grayness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

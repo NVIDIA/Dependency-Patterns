@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_bayete_sanatory_asterial_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_bayete_sanatory_asterial_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_bayete_sanatory_asterial_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_bayete_sanatory_asterial_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

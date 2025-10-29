@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_prenominical_decarbonator_cytoclastic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_prenominical_decarbonator_cytoclastic_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_prenominical_decarbonator_cytoclastic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_prenominical_decarbonator_cytoclastic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

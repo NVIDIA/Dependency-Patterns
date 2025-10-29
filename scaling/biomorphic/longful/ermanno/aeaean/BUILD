@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_longful_ermanno_aeaean_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_longful_ermanno_aeaean_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_longful_ermanno_aeaean_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_longful_ermanno_aeaean_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_juley_lysolecithin_juley_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_juley_lysolecithin_juley_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_juley_lysolecithin_juley_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_juley_lysolecithin_juley_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -47,7 +47,7 @@ adhoc_tool(
 "nonsovereign_unconfining_subpilosity_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_unconfining_subpilosity_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_unconfining_subpilosity_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_unconfining_subpilosity_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

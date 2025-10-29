@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_cornball_shinguard_sufferer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cornball_shinguard_sufferer_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cornball_shinguard_sufferer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cornball_shinguard_sufferer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

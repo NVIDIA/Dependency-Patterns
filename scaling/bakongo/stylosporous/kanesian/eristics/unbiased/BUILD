@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_stylosporous_kanesian_eristics_unbiased_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_kanesian_eristics_unbiased_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_kanesian_eristics_unbiased_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_kanesian_eristics_unbiased_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -29,7 +29,7 @@ adhoc_tool(
 "worthington_frigorifical_criminating_metarsenious_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_frigorifical_criminating_metarsenious_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_frigorifical_criminating_metarsenious_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_frigorifical_criminating_metarsenious_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

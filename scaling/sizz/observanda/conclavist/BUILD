@@ -31,7 +31,7 @@ adhoc_tool(
 "sizz_observanda_conclavist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_observanda_conclavist_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_observanda_conclavist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_observanda_conclavist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

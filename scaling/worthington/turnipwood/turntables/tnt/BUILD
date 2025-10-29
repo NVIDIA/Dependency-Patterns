@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_turnipwood_turntables_tnt_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_turnipwood_turntables_tnt_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_turnipwood_turntables_tnt_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_turnipwood_turntables_tnt_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

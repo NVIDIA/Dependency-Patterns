@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_moldableness_transverter_scoter_logomacher_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_moldableness_transverter_scoter_logomacher_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moldableness_transverter_scoter_logomacher_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_moldableness_transverter_scoter_logomacher_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

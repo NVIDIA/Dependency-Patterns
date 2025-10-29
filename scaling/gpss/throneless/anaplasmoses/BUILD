@@ -42,7 +42,7 @@ adhoc_tool(
 "gpss_throneless_anaplasmoses_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_throneless_anaplasmoses_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_throneless_anaplasmoses_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_throneless_anaplasmoses_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

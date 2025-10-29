@@ -40,7 +40,7 @@ adhoc_tool(
         "worthington_moldableness_transverter_endospermous_helicoidal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_moldableness_transverter_endospermous_helicoidal_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moldableness_transverter_endospermous_helicoidal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_moldableness_transverter_endospermous_helicoidal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

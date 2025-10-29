@@ -40,7 +40,7 @@ adhoc_tool(
 "nonsovereign_nonspeaking_wakandas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_nonspeaking_wakandas_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_nonspeaking_wakandas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_nonspeaking_wakandas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

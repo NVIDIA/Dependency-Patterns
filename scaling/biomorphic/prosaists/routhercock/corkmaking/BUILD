@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_prosaists_routhercock_corkmaking_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prosaists_routhercock_corkmaking_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prosaists_routhercock_corkmaking_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prosaists_routhercock_corkmaking_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

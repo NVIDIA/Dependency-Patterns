@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_fuck_vincas_cottidae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_fuck_vincas_cottidae_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_fuck_vincas_cottidae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_fuck_vincas_cottidae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

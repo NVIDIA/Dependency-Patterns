@@ -111,7 +111,7 @@ adhoc_tool(
 "nonsovereign_napoleons_pommelled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_napoleons_pommelled_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_napoleons_pommelled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_napoleons_pommelled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

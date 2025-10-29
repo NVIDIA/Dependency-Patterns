@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_stylosporous_bassing_conceptional_virnelli_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_bassing_conceptional_virnelli_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_bassing_conceptional_virnelli_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_bassing_conceptional_virnelli_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

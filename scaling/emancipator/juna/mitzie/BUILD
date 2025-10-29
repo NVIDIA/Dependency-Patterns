@@ -83,7 +83,7 @@ adhoc_tool(
 "emancipator_juna_mitzie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_juna_mitzie_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_juna_mitzie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_juna_mitzie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

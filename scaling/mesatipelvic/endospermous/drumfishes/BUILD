@@ -76,7 +76,7 @@ adhoc_tool(
         "mesatipelvic_endospermous_drumfishes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_endospermous_drumfishes_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_endospermous_drumfishes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_endospermous_drumfishes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

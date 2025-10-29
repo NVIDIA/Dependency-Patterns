@@ -45,7 +45,7 @@ adhoc_tool(
 "worthington_hahnville_glomerella_pomato_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_hahnville_glomerella_pomato_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_hahnville_glomerella_pomato_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_hahnville_glomerella_pomato_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

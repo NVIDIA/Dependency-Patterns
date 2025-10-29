@@ -101,7 +101,7 @@ adhoc_tool(
 "sizz_cyclicity_thebit_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_cyclicity_thebit_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_cyclicity_thebit_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_cyclicity_thebit_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

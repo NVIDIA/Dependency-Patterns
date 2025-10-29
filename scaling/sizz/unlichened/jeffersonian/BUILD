@@ -47,7 +47,7 @@ adhoc_tool(
 "sizz_unlichened_jeffersonian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_unlichened_jeffersonian_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_unlichened_jeffersonian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_unlichened_jeffersonian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_limpness_bouche_haciendas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_limpness_bouche_haciendas_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_limpness_bouche_haciendas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_limpness_bouche_haciendas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

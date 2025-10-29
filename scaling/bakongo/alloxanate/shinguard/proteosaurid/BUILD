@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_alloxanate_shinguard_proteosaurid_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_alloxanate_shinguard_proteosaurid_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_alloxanate_shinguard_proteosaurid_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_alloxanate_shinguard_proteosaurid_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

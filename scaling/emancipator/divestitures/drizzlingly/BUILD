@@ -128,7 +128,7 @@ adhoc_tool(
 "emancipator_divestitures_drizzlingly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_divestitures_drizzlingly_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_divestitures_drizzlingly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_divestitures_drizzlingly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -161,7 +161,7 @@ adhoc_tool(
 "emancipator_broadening_contorting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_broadening_contorting_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_broadening_contorting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_broadening_contorting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

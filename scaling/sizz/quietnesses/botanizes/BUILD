@@ -61,7 +61,7 @@ adhoc_tool(
 "sizz_quietnesses_botanizes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_quietnesses_botanizes_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_quietnesses_botanizes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_quietnesses_botanizes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

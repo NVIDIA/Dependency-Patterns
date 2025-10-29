@@ -160,7 +160,7 @@ adhoc_tool(
 "hypostasised_cravat_acater_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_cravat_acater_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_cravat_acater_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_cravat_acater_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

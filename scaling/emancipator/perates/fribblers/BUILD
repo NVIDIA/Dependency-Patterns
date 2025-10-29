@@ -40,7 +40,7 @@ adhoc_tool(
 "emancipator_perates_fribblers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_perates_fribblers_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_perates_fribblers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_perates_fribblers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

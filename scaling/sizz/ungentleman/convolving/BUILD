@@ -95,7 +95,7 @@ adhoc_tool(
 "sizz_ungentleman_convolving_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_ungentleman_convolving_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_ungentleman_convolving_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_ungentleman_convolving_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

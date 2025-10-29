@@ -29,7 +29,7 @@ adhoc_tool(
         "mesatipelvic_vlba_reapprehend_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_vlba_reapprehend_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_vlba_reapprehend_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_vlba_reapprehend_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

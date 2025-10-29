@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_scoops_spastically_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_scoops_spastically_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_scoops_spastically_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_scoops_spastically_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

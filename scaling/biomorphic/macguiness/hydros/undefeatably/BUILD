@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_macguiness_hydros_undefeatably_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_macguiness_hydros_undefeatably_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_macguiness_hydros_undefeatably_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_macguiness_hydros_undefeatably_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

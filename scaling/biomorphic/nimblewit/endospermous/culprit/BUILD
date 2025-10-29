@@ -30,7 +30,7 @@ adhoc_tool(
         "biomorphic_nimblewit_endospermous_culprit_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_nimblewit_endospermous_culprit_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_nimblewit_endospermous_culprit_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_nimblewit_endospermous_culprit_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_lituoline_garin_uranylic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lituoline_garin_uranylic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lituoline_garin_uranylic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lituoline_garin_uranylic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

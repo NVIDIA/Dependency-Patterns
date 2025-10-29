@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_amperes_lysolecithin_emusifies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_amperes_lysolecithin_emusifies_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_amperes_lysolecithin_emusifies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_amperes_lysolecithin_emusifies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

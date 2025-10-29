@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_eciton_hydros_assurgency_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_eciton_hydros_assurgency_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_eciton_hydros_assurgency_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_eciton_hydros_assurgency_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_ribaldly_unqueened_kerning_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ribaldly_unqueened_kerning_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ribaldly_unqueened_kerning_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ribaldly_unqueened_kerning_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

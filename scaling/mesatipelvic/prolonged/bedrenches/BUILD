@@ -35,7 +35,7 @@ adhoc_tool(
         "mesatipelvic_prolonged_bedrenches_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_prolonged_bedrenches_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_prolonged_bedrenches_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_prolonged_bedrenches_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

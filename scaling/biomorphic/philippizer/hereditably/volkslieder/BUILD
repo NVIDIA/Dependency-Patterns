@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_philippizer_hereditably_volkslieder_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_philippizer_hereditably_volkslieder_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_philippizer_hereditably_volkslieder_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_philippizer_hereditably_volkslieder_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

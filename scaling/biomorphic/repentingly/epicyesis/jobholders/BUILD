@@ -54,7 +54,7 @@ adhoc_tool(
 "biomorphic_repentingly_epicyesis_jobholders_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_repentingly_epicyesis_jobholders_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_repentingly_epicyesis_jobholders_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_repentingly_epicyesis_jobholders_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

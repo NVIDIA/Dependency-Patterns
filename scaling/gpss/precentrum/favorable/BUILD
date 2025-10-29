@@ -201,7 +201,7 @@ adhoc_tool(
 "gpss_precentrum_favorable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_precentrum_favorable_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_precentrum_favorable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_precentrum_favorable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

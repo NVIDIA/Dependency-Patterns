@@ -44,7 +44,7 @@ adhoc_tool(
 "sizz_heliconia_viseman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_heliconia_viseman_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_heliconia_viseman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_heliconia_viseman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

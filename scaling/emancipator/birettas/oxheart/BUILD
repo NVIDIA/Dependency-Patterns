@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_birettas_oxheart_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_birettas_oxheart_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_birettas_oxheart_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_birettas_oxheart_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_dipsaceae_rassles_dispend_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_dipsaceae_rassles_dispend_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_dipsaceae_rassles_dispend_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_dipsaceae_rassles_dispend_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

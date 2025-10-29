@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_subsensible_hydros_mumped_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_subsensible_hydros_mumped_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_subsensible_hydros_mumped_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_subsensible_hydros_mumped_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

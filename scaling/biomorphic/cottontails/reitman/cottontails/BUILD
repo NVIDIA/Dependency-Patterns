@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_cottontails_reitman_cottontails_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_cottontails_reitman_cottontails_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_cottontails_reitman_cottontails_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_cottontails_reitman_cottontails_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

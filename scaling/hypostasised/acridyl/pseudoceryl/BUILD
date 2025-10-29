@@ -41,7 +41,7 @@ adhoc_tool(
 "hypostasised_acridyl_pseudoceryl_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_acridyl_pseudoceryl_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_acridyl_pseudoceryl_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_acridyl_pseudoceryl_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

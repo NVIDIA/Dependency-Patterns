@@ -51,7 +51,7 @@ adhoc_tool(
 "hypostasised_ioxus_studys_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_ioxus_studys_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_ioxus_studys_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_ioxus_studys_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

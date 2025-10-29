@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_exited_hydros_nucellus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_exited_hydros_nucellus_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_exited_hydros_nucellus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_exited_hydros_nucellus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

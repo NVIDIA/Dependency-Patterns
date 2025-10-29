@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_deloris_faggoting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_deloris_faggoting_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_deloris_faggoting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_deloris_faggoting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

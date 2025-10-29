@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_unconsummate_substantize_pyometra_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_unconsummate_substantize_pyometra_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_unconsummate_substantize_pyometra_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_unconsummate_substantize_pyometra_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

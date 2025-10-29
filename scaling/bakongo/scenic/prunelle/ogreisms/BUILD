@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_scenic_prunelle_ogreisms_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_scenic_prunelle_ogreisms_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_scenic_prunelle_ogreisms_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_scenic_prunelle_ogreisms_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

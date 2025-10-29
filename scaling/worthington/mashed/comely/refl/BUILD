@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_mashed_comely_refl_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_mashed_comely_refl_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_mashed_comely_refl_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_mashed_comely_refl_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

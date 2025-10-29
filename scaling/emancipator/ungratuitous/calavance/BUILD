@@ -37,7 +37,7 @@ adhoc_tool(
 "emancipator_ungratuitous_calavance_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_ungratuitous_calavance_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_ungratuitous_calavance_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_ungratuitous_calavance_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

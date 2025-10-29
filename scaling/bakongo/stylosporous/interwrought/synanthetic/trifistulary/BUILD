@@ -48,7 +48,7 @@ adhoc_tool(
 "bakongo_stylosporous_interwrought_synanthetic_trifistulary_interwrought_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_interwrought_synanthetic_trifistulary_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_interwrought_synanthetic_trifistulary_interwrought_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_interwrought_synanthetic_trifistulary_interwrought_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

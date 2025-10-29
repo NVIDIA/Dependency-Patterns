@@ -55,7 +55,7 @@ adhoc_tool(
 "biomorphic_bridgeables_ermanno_stalky_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_bridgeables_ermanno_stalky_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_bridgeables_ermanno_stalky_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_bridgeables_ermanno_stalky_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_wilhlem_synanthetic_wilhlem_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_wilhlem_synanthetic_wilhlem_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_wilhlem_synanthetic_wilhlem_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_wilhlem_synanthetic_wilhlem_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

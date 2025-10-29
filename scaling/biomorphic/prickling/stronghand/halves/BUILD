@@ -100,7 +100,7 @@ adhoc_tool(
 "biomorphic_prickling_stronghand_halves_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prickling_stronghand_halves_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prickling_stronghand_halves_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prickling_stronghand_halves_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

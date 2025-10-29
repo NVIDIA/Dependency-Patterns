@@ -81,7 +81,7 @@ adhoc_tool(
 "gpss_gunfighter_prenebular_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_gunfighter_prenebular_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_gunfighter_prenebular_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_gunfighter_prenebular_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

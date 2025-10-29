@@ -37,7 +37,7 @@ adhoc_tool(
 "gpss_saliferous_horseheal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_saliferous_horseheal_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_saliferous_horseheal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_saliferous_horseheal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

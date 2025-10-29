@@ -46,7 +46,7 @@ adhoc_tool(
 "biomorphic_supersmartly_caddises_leakey_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_supersmartly_caddises_leakey_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_supersmartly_caddises_leakey_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_supersmartly_caddises_leakey_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

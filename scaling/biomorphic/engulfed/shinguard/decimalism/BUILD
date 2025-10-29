@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_engulfed_shinguard_decimalism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_engulfed_shinguard_decimalism_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_engulfed_shinguard_decimalism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_engulfed_shinguard_decimalism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

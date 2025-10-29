@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_hotbloods_criminating_nefreteted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_hotbloods_criminating_nefreteted_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_hotbloods_criminating_nefreteted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_hotbloods_criminating_nefreteted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

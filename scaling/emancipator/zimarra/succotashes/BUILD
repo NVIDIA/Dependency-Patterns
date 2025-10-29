@@ -36,7 +36,7 @@ adhoc_tool(
 "emancipator_zimarra_succotashes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_zimarra_succotashes_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_zimarra_succotashes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_zimarra_succotashes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

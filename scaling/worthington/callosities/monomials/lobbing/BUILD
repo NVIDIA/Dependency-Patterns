@@ -41,7 +41,7 @@ adhoc_tool(
 "worthington_callosities_monomials_lobbing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_callosities_monomials_lobbing_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_callosities_monomials_lobbing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_callosities_monomials_lobbing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_langarai_shote_clarissa_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_langarai_shote_clarissa_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_langarai_shote_clarissa_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_langarai_shote_clarissa_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_phyllade_duodenate_holism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_phyllade_duodenate_holism_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_phyllade_duodenate_holism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_phyllade_duodenate_holism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

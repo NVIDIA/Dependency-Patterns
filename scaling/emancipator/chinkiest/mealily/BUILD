@@ -38,7 +38,7 @@ adhoc_tool(
 "emancipator_chinkiest_mealily_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_chinkiest_mealily_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_chinkiest_mealily_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_chinkiest_mealily_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

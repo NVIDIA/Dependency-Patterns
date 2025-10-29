@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_methuen_reitman_methuen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_methuen_reitman_methuen_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_methuen_reitman_methuen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_methuen_reitman_methuen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

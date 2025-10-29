@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_escatawpa_reitman_escatawpa_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_escatawpa_reitman_escatawpa_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_escatawpa_reitman_escatawpa_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_escatawpa_reitman_escatawpa_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

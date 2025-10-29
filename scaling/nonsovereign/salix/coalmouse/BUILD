@@ -32,7 +32,7 @@ adhoc_tool(
 "nonsovereign_salix_coalmouse_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_salix_coalmouse_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_salix_coalmouse_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_salix_coalmouse_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

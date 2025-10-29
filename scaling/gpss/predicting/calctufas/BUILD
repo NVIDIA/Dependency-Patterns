@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_predicting_calctufas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_predicting_calctufas_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_predicting_calctufas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_predicting_calctufas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

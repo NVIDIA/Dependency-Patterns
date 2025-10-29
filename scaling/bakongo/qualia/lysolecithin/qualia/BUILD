@@ -41,7 +41,7 @@ adhoc_tool(
 "bakongo_qualia_lysolecithin_qualia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_qualia_lysolecithin_qualia_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_qualia_lysolecithin_qualia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_qualia_lysolecithin_qualia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

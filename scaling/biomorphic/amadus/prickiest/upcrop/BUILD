@@ -46,7 +46,7 @@ adhoc_tool(
 "biomorphic_amadus_prickiest_upcrop_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_amadus_prickiest_upcrop_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_amadus_prickiest_upcrop_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_amadus_prickiest_upcrop_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

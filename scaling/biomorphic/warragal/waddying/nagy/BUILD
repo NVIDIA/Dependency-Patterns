@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_warragal_waddying_nagy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_warragal_waddying_nagy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_warragal_waddying_nagy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_warragal_waddying_nagy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

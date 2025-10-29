@@ -58,7 +58,7 @@ adhoc_tool(
 "biomorphic_clockcase_wideness_siver_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_clockcase_wideness_siver_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_clockcase_wideness_siver_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_clockcase_wideness_siver_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

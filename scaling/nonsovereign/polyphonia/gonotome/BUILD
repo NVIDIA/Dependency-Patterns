@@ -41,7 +41,7 @@ adhoc_tool(
 "nonsovereign_polyphonia_gonotome_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_polyphonia_gonotome_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_polyphonia_gonotome_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_polyphonia_gonotome_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

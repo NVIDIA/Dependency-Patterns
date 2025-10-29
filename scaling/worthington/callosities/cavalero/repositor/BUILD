@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_callosities_cavalero_repositor_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_callosities_cavalero_repositor_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_callosities_cavalero_repositor_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_callosities_cavalero_repositor_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

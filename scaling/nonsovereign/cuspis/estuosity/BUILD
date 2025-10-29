@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_cuspis_estuosity_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_cuspis_estuosity_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_cuspis_estuosity_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_cuspis_estuosity_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

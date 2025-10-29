@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_iniquity_reitman_iniquity_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_iniquity_reitman_iniquity_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_iniquity_reitman_iniquity_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_iniquity_reitman_iniquity_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

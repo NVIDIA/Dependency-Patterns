@@ -44,7 +44,7 @@ adhoc_tool(
 "worthington_coportion_affirmly_synanthetic_flocker_affirmly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_affirmly_synanthetic_flocker_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_affirmly_synanthetic_flocker_affirmly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_affirmly_synanthetic_flocker_affirmly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

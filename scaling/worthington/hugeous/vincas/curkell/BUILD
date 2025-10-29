@@ -55,7 +55,7 @@ adhoc_tool(
 "worthington_hugeous_vincas_curkell_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_hugeous_vincas_curkell_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_hugeous_vincas_curkell_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_hugeous_vincas_curkell_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_ayubite_chimacum_pitirri_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ayubite_chimacum_pitirri_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ayubite_chimacum_pitirri_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ayubite_chimacum_pitirri_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

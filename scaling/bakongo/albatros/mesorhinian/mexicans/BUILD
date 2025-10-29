@@ -49,7 +49,7 @@ adhoc_tool(
 "bakongo_albatros_mesorhinian_mexicans_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_albatros_mesorhinian_mexicans_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_albatros_mesorhinian_mexicans_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_albatros_mesorhinian_mexicans_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_mex_theologised_elma_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_mex_theologised_elma_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_mex_theologised_elma_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_mex_theologised_elma_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

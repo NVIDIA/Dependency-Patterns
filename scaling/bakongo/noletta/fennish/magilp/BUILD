@@ -54,7 +54,7 @@ adhoc_tool(
 "bakongo_noletta_fennish_magilp_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_noletta_fennish_magilp_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_noletta_fennish_magilp_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_noletta_fennish_magilp_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

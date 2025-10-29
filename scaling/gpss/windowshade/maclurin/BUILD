@@ -43,7 +43,7 @@ adhoc_tool(
 "gpss_windowshade_maclurin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_windowshade_maclurin_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_windowshade_maclurin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_windowshade_maclurin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

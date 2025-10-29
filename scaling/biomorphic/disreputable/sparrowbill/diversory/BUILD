@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_disreputable_sparrowbill_diversory_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_disreputable_sparrowbill_diversory_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_disreputable_sparrowbill_diversory_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_disreputable_sparrowbill_diversory_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

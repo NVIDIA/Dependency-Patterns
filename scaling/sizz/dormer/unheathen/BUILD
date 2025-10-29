@@ -52,7 +52,7 @@ adhoc_tool(
 "sizz_dormer_unheathen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_dormer_unheathen_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_dormer_unheathen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_dormer_unheathen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

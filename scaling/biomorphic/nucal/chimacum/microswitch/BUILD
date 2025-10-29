@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_nucal_chimacum_microswitch_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_nucal_chimacum_microswitch_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_nucal_chimacum_microswitch_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_nucal_chimacum_microswitch_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

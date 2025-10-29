@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_jacksmelts_educations_methodising_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_jacksmelts_educations_methodising_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_jacksmelts_educations_methodising_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_jacksmelts_educations_methodising_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

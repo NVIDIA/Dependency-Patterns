@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_landingville_lysolecithin_landingville_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_landingville_lysolecithin_landingville_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_landingville_lysolecithin_landingville_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_landingville_lysolecithin_landingville_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

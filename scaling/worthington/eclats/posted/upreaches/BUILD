@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_eclats_posted_upreaches_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_eclats_posted_upreaches_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_eclats_posted_upreaches_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_eclats_posted_upreaches_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

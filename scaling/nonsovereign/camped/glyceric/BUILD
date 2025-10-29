@@ -61,7 +61,7 @@ adhoc_tool(
 "nonsovereign_camped_glyceric_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_camped_glyceric_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_camped_glyceric_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_camped_glyceric_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

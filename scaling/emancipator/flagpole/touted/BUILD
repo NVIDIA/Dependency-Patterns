@@ -36,7 +36,7 @@ adhoc_tool(
 "emancipator_flagpole_touted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_flagpole_touted_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_flagpole_touted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_flagpole_touted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -49,7 +49,7 @@ adhoc_tool(
 "biomorphic_thickneck_dyaus_kaligenous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_thickneck_dyaus_kaligenous_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_thickneck_dyaus_kaligenous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_thickneck_dyaus_kaligenous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_guildite_unparch_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_guildite_unparch_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_guildite_unparch_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_guildite_unparch_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "sizz_chinkiest_engrandize_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_chinkiest_engrandize_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_chinkiest_engrandize_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_chinkiest_engrandize_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
         "mesatipelvic_lukaszewicz_joltily_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_lukaszewicz_joltily_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_lukaszewicz_joltily_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_lukaszewicz_joltily_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

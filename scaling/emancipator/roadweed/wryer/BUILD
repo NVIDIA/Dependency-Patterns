@@ -80,7 +80,7 @@ adhoc_tool(
 "emancipator_roadweed_wryer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_roadweed_wryer_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_roadweed_wryer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_roadweed_wryer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

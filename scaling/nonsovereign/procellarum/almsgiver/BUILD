@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_procellarum_almsgiver_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_procellarum_almsgiver_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_procellarum_almsgiver_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_procellarum_almsgiver_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -48,7 +48,7 @@ adhoc_tool(
 "gpss_lutrin_vocalists_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_lutrin_vocalists_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_lutrin_vocalists_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_lutrin_vocalists_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

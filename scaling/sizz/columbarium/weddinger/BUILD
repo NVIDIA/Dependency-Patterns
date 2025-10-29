@@ -62,7 +62,7 @@ adhoc_tool(
 "sizz_columbarium_weddinger_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_columbarium_weddinger_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_columbarium_weddinger_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_columbarium_weddinger_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_nierman_barbigerous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_nierman_barbigerous_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_nierman_barbigerous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_nierman_barbigerous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

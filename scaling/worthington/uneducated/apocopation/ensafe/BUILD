@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_uneducated_apocopation_ensafe_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_uneducated_apocopation_ensafe_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_uneducated_apocopation_ensafe_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_uneducated_apocopation_ensafe_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

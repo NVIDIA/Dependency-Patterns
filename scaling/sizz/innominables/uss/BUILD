@@ -40,7 +40,7 @@ adhoc_tool(
 "sizz_innominables_uss_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_innominables_uss_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_innominables_uss_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_innominables_uss_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

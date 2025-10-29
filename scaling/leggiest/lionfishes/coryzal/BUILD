@@ -34,7 +34,7 @@ adhoc_tool(
         "leggiest_lionfishes_coryzal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_lionfishes_coryzal_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_lionfishes_coryzal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_lionfishes_coryzal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

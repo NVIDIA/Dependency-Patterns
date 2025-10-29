@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_inheritance_stilyagi_anodine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_inheritance_stilyagi_anodine_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_inheritance_stilyagi_anodine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_inheritance_stilyagi_anodine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -49,7 +49,7 @@ adhoc_tool(
 "worthington_inexpectant_studs_waterside_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_inexpectant_studs_waterside_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_inexpectant_studs_waterside_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_inexpectant_studs_waterside_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

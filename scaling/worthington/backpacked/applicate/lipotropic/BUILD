@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_backpacked_applicate_lipotropic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_backpacked_applicate_lipotropic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_backpacked_applicate_lipotropic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_backpacked_applicate_lipotropic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

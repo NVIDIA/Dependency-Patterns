@@ -53,7 +53,7 @@ adhoc_tool(
 "bakongo_benvenuto_cinchonising_trinucleate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_benvenuto_cinchonising_trinucleate_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_benvenuto_cinchonising_trinucleate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_benvenuto_cinchonising_trinucleate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

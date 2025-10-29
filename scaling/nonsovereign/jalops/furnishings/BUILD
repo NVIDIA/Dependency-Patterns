@@ -39,7 +39,7 @@ adhoc_tool(
 "nonsovereign_jalops_furnishings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_jalops_furnishings_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_jalops_furnishings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_jalops_furnishings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

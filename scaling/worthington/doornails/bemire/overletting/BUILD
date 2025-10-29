@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_doornails_bemire_overletting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_doornails_bemire_overletting_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_doornails_bemire_overletting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_doornails_bemire_overletting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

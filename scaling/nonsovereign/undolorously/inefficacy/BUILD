@@ -41,7 +41,7 @@ adhoc_tool(
 "nonsovereign_undolorously_inefficacy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_undolorously_inefficacy_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_undolorously_inefficacy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_undolorously_inefficacy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

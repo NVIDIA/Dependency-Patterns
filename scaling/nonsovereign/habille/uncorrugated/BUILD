@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_habille_uncorrugated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_habille_uncorrugated_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_habille_uncorrugated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_habille_uncorrugated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

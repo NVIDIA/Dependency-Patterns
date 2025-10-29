@@ -50,7 +50,7 @@ adhoc_tool(
 "gpss_shillelah_aperitif_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_shillelah_aperitif_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_shillelah_aperitif_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_shillelah_aperitif_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

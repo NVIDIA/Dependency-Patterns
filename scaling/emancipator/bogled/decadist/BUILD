@@ -71,7 +71,7 @@ adhoc_tool(
 "emancipator_bogled_decadist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_bogled_decadist_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_bogled_decadist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_bogled_decadist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

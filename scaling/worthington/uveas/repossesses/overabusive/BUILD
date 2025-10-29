@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_uveas_repossesses_overabusive_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_uveas_repossesses_overabusive_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_uveas_repossesses_overabusive_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_uveas_repossesses_overabusive_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

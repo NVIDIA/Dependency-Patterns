@@ -30,7 +30,7 @@ adhoc_tool(
 "sizz_careenage_boarders_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_careenage_boarders_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_careenage_boarders_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_careenage_boarders_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_talipomanus_acrocorinth_operon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_talipomanus_acrocorinth_operon_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_talipomanus_acrocorinth_operon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_talipomanus_acrocorinth_operon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

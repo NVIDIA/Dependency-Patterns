@@ -45,7 +45,7 @@ adhoc_tool(
 "gpss_reatus_intertarsal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_reatus_intertarsal_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_reatus_intertarsal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_reatus_intertarsal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

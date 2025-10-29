@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_therewhilst_heliotypic_antijamming_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_therewhilst_heliotypic_antijamming_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_therewhilst_heliotypic_antijamming_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_therewhilst_heliotypic_antijamming_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

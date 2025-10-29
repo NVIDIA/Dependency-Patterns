@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_gath_antoninus_albumose_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_gath_antoninus_albumose_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_gath_antoninus_albumose_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_gath_antoninus_albumose_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_zeugite_beclasps_greenes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_zeugite_beclasps_greenes_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_zeugite_beclasps_greenes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_zeugite_beclasps_greenes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

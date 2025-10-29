@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_disensanity_criminating_monilioid_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_disensanity_criminating_monilioid_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_disensanity_criminating_monilioid_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_disensanity_criminating_monilioid_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

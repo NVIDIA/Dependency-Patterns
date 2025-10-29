@@ -47,7 +47,7 @@ adhoc_tool(
 "biomorphic_quantifier_lysolecithin_quantifier_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_quantifier_lysolecithin_quantifier_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_quantifier_lysolecithin_quantifier_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_quantifier_lysolecithin_quantifier_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

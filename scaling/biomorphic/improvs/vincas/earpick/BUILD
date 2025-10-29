@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_improvs_vincas_earpick_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_improvs_vincas_earpick_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_improvs_vincas_earpick_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_improvs_vincas_earpick_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

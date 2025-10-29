@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_araise_hydros_verbenia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_araise_hydros_verbenia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_araise_hydros_verbenia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_araise_hydros_verbenia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

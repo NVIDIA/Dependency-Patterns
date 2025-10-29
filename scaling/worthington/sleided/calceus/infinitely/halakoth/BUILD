@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_sleided_calceus_infinitely_halakoth_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_calceus_infinitely_halakoth_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_calceus_infinitely_halakoth_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_calceus_infinitely_halakoth_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

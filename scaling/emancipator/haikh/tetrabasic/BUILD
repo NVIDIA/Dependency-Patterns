@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_haikh_tetrabasic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_haikh_tetrabasic_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_haikh_tetrabasic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_haikh_tetrabasic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

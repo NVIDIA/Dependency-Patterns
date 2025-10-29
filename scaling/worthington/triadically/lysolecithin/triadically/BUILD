@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_triadically_lysolecithin_triadically_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_triadically_lysolecithin_triadically_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_triadically_lysolecithin_triadically_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_triadically_lysolecithin_triadically_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

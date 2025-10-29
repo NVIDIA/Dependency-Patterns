@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_wauseon_reitman_wauseon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_wauseon_reitman_wauseon_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_wauseon_reitman_wauseon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_wauseon_reitman_wauseon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

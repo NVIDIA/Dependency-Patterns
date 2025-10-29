@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_outtrumped_broadness_outclassed_juiciness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_broadness_outclassed_juiciness_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_broadness_outclassed_juiciness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_broadness_outclassed_juiciness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

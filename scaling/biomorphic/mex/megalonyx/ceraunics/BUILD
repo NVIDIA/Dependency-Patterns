@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_mex_megalonyx_ceraunics_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_mex_megalonyx_ceraunics_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_mex_megalonyx_ceraunics_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_mex_megalonyx_ceraunics_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

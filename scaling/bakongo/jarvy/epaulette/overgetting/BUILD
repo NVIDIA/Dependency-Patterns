@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_jarvy_epaulette_overgetting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_jarvy_epaulette_overgetting_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_jarvy_epaulette_overgetting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_jarvy_epaulette_overgetting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -36,7 +36,7 @@ adhoc_tool(
         "mesatipelvic_wots_nongerundial_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_wots_nongerundial_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_wots_nongerundial_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_wots_nongerundial_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

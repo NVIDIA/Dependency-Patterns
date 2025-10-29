@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_lathers_synanthetic_limaville_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_lathers_synanthetic_limaville_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_lathers_synanthetic_limaville_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_lathers_synanthetic_limaville_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

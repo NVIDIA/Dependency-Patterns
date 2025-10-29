@@ -43,7 +43,7 @@ adhoc_tool(
 "gpss_pullovers_clays_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_pullovers_clays_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_pullovers_clays_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_pullovers_clays_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

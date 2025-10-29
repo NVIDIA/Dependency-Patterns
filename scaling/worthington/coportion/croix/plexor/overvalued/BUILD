@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_coportion_croix_plexor_overvalued_croix_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_croix_plexor_overvalued_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_croix_plexor_overvalued_croix_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_croix_plexor_overvalued_croix_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

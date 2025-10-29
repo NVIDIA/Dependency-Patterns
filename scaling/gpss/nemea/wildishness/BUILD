@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_nemea_wildishness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_nemea_wildishness_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_nemea_wildishness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_nemea_wildishness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -29,7 +29,7 @@ adhoc_tool(
 "worthington_primevity_haircuts_evanesces_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_primevity_haircuts_evanesces_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_primevity_haircuts_evanesces_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_primevity_haircuts_evanesces_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

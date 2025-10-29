@@ -35,7 +35,7 @@ adhoc_tool(
 "bakongo_poetito_reitman_poetito_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_poetito_reitman_poetito_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_poetito_reitman_poetito_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_poetito_reitman_poetito_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

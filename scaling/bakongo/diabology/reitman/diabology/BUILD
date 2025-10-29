@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_diabology_reitman_diabology_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_diabology_reitman_diabology_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_diabology_reitman_diabology_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_diabology_reitman_diabology_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

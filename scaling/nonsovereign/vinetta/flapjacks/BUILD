@@ -35,7 +35,7 @@ adhoc_tool(
 "nonsovereign_vinetta_flapjacks_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_vinetta_flapjacks_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_vinetta_flapjacks_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_vinetta_flapjacks_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

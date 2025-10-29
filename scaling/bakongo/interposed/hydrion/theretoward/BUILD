@@ -41,7 +41,7 @@ adhoc_tool(
 "bakongo_interposed_hydrion_theretoward_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_interposed_hydrion_theretoward_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_interposed_hydrion_theretoward_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_interposed_hydrion_theretoward_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

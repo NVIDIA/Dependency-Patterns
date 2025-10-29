@@ -109,7 +109,7 @@ adhoc_tool(
 "biomorphic_outtrumped_misguesses_matcher_rosinols_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_misguesses_matcher_rosinols_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_misguesses_matcher_rosinols_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_misguesses_matcher_rosinols_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

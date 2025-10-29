@@ -35,7 +35,7 @@ adhoc_tool(
 "bakongo_oiw_burgers_abyssinian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_oiw_burgers_abyssinian_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_oiw_burgers_abyssinian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_oiw_burgers_abyssinian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

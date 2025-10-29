@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_did_pneumas_southwood_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_did_pneumas_southwood_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_did_pneumas_southwood_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_did_pneumas_southwood_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

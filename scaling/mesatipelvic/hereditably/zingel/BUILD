@@ -51,7 +51,7 @@ adhoc_tool(
         "mesatipelvic_hereditably_zingel_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_hereditably_zingel_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_hereditably_zingel_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_hereditably_zingel_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

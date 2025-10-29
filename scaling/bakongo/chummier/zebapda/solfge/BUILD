@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_chummier_zebapda_solfge_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_chummier_zebapda_solfge_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_chummier_zebapda_solfge_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_chummier_zebapda_solfge_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

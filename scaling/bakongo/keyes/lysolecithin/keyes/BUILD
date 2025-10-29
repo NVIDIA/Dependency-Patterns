@@ -48,7 +48,7 @@ adhoc_tool(
 "bakongo_keyes_lysolecithin_keyes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_keyes_lysolecithin_keyes_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_keyes_lysolecithin_keyes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_keyes_lysolecithin_keyes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

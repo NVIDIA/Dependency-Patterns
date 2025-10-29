@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_scaphopod_thorpes_doone_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_scaphopod_thorpes_doone_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_scaphopod_thorpes_doone_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_scaphopod_thorpes_doone_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

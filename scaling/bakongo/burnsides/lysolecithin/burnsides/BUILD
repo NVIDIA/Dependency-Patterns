@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_burnsides_lysolecithin_burnsides_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_burnsides_lysolecithin_burnsides_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_burnsides_lysolecithin_burnsides_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_burnsides_lysolecithin_burnsides_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

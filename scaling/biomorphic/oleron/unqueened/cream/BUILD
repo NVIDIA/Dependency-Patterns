@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_oleron_unqueened_cream_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_oleron_unqueened_cream_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_oleron_unqueened_cream_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_oleron_unqueened_cream_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

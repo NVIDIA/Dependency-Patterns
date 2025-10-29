@@ -322,7 +322,7 @@ adhoc_tool(
 "worthington_sweetiewife_castellatus_eudo_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sweetiewife_castellatus_eudo_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sweetiewife_castellatus_eudo_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sweetiewife_castellatus_eudo_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

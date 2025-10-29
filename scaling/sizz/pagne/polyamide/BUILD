@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_pagne_polyamide_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_pagne_polyamide_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_pagne_polyamide_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_pagne_polyamide_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

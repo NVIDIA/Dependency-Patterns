@@ -35,7 +35,7 @@ adhoc_tool(
 "bakongo_lobstering_obliquity_oboist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_lobstering_obliquity_oboist_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_lobstering_obliquity_oboist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_lobstering_obliquity_oboist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

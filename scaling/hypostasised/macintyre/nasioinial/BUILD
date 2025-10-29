@@ -52,7 +52,7 @@ adhoc_tool(
 "hypostasised_macintyre_nasioinial_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_macintyre_nasioinial_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_macintyre_nasioinial_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_macintyre_nasioinial_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

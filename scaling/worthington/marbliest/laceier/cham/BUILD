@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_marbliest_laceier_cham_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_marbliest_laceier_cham_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_marbliest_laceier_cham_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_marbliest_laceier_cham_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

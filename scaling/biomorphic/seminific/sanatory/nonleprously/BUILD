@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_seminific_sanatory_nonleprously_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_seminific_sanatory_nonleprously_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_seminific_sanatory_nonleprously_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_seminific_sanatory_nonleprously_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

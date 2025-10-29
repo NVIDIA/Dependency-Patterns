@@ -109,7 +109,7 @@ adhoc_tool(
 "sizz_unglozed_hatcheled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_unglozed_hatcheled_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_unglozed_hatcheled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_unglozed_hatcheled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

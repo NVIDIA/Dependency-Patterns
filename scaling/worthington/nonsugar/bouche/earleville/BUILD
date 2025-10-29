@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_nonsugar_bouche_earleville_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_nonsugar_bouche_earleville_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_nonsugar_bouche_earleville_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_nonsugar_bouche_earleville_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

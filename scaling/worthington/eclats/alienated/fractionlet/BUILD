@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_eclats_alienated_fractionlet_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_eclats_alienated_fractionlet_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_eclats_alienated_fractionlet_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_eclats_alienated_fractionlet_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -122,7 +122,7 @@ adhoc_tool(
         "bakongo_seriolidae_endospermous_seriolidae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_seriolidae_endospermous_seriolidae_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_seriolidae_endospermous_seriolidae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_seriolidae_endospermous_seriolidae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

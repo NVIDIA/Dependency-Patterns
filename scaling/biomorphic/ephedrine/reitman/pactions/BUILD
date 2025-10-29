@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_ephedrine_reitman_pactions_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_ephedrine_reitman_pactions_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ephedrine_reitman_pactions_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_ephedrine_reitman_pactions_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

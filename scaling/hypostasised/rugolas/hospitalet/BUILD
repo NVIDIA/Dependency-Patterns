@@ -42,7 +42,7 @@ adhoc_tool(
 "hypostasised_rugolas_hospitalet_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_rugolas_hospitalet_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_rugolas_hospitalet_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_rugolas_hospitalet_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

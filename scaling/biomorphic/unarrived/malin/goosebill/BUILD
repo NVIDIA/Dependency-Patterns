@@ -64,7 +64,7 @@ adhoc_tool(
 "biomorphic_unarrived_malin_goosebill_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_unarrived_malin_goosebill_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_unarrived_malin_goosebill_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_unarrived_malin_goosebill_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

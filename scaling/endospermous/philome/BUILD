@@ -29,7 +29,7 @@ adhoc_tool(
         "endospermous_philome_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["endospermous_philome_{chroot}/common_scripts/run_build.sh", "{chroot}", "endospermous_philome_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "endospermous_philome_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

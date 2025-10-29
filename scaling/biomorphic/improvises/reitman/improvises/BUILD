@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_improvises_reitman_improvises_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_improvises_reitman_improvises_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_improvises_reitman_improvises_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_improvises_reitman_improvises_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

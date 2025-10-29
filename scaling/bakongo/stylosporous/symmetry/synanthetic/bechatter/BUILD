@@ -57,7 +57,7 @@ adhoc_tool(
 "bakongo_stylosporous_symmetry_synanthetic_bechatter_symmetry_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_symmetry_synanthetic_bechatter_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_symmetry_synanthetic_bechatter_symmetry_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_symmetry_synanthetic_bechatter_symmetry_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

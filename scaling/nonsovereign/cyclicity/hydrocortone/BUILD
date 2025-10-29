@@ -47,7 +47,7 @@ adhoc_tool(
 "nonsovereign_cyclicity_hydrocortone_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_cyclicity_hydrocortone_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_cyclicity_hydrocortone_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_cyclicity_hydrocortone_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

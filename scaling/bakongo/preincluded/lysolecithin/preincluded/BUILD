@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_preincluded_lysolecithin_preincluded_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_preincluded_lysolecithin_preincluded_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_preincluded_lysolecithin_preincluded_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_preincluded_lysolecithin_preincluded_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

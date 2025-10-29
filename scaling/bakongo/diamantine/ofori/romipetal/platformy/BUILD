@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_diamantine_ofori_romipetal_platformy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_diamantine_ofori_romipetal_platformy_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_diamantine_ofori_romipetal_platformy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_diamantine_ofori_romipetal_platformy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

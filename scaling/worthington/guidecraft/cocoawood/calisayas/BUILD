@@ -53,7 +53,7 @@ adhoc_tool(
 "worthington_guidecraft_cocoawood_calisayas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_guidecraft_cocoawood_calisayas_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_guidecraft_cocoawood_calisayas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_guidecraft_cocoawood_calisayas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

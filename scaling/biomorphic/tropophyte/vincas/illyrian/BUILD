@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_tropophyte_vincas_illyrian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_tropophyte_vincas_illyrian_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_tropophyte_vincas_illyrian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_tropophyte_vincas_illyrian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

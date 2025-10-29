@@ -36,7 +36,7 @@ adhoc_tool(
 "emancipator_beguess_pretelling_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_beguess_pretelling_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_beguess_pretelling_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_beguess_pretelling_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -69,7 +69,7 @@ adhoc_tool(
 "worthington_wagonman_dori_overbborne_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_wagonman_dori_overbborne_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_wagonman_dori_overbborne_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_wagonman_dori_overbborne_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

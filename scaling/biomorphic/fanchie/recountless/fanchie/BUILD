@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_fanchie_recountless_fanchie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_fanchie_recountless_fanchie_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_fanchie_recountless_fanchie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_fanchie_recountless_fanchie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

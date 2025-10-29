@@ -82,7 +82,7 @@ adhoc_tool(
 "biomorphic_reprofane_repaneling_rummagers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_reprofane_repaneling_rummagers_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reprofane_repaneling_rummagers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_reprofane_repaneling_rummagers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

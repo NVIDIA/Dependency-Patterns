@@ -29,7 +29,7 @@ adhoc_tool(
         "mesatipelvic_desaturation_othertimes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_desaturation_othertimes_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_desaturation_othertimes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_desaturation_othertimes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

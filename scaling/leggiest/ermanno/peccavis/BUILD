@@ -32,7 +32,7 @@ adhoc_tool(
         "leggiest_ermanno_peccavis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_ermanno_peccavis_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_ermanno_peccavis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_ermanno_peccavis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

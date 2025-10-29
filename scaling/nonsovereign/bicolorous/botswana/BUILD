@@ -101,7 +101,7 @@ adhoc_tool(
 "nonsovereign_bicolorous_botswana_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_bicolorous_botswana_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_bicolorous_botswana_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_bicolorous_botswana_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -363,7 +363,7 @@ adhoc_tool(
 "emancipator_mortify_descriptor_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_mortify_descriptor_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_mortify_descriptor_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_mortify_descriptor_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -41,7 +41,7 @@ adhoc_tool(
 "worthington_saseno_tragus_csf_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_saseno_tragus_csf_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_saseno_tragus_csf_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_saseno_tragus_csf_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

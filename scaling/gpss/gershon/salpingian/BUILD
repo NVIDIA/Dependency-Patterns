@@ -55,7 +55,7 @@ adhoc_tool(
 "gpss_gershon_salpingian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_gershon_salpingian_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_gershon_salpingian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_gershon_salpingian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

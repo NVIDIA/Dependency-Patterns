@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_clinked_shinguard_littrateur_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_clinked_shinguard_littrateur_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_clinked_shinguard_littrateur_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_clinked_shinguard_littrateur_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

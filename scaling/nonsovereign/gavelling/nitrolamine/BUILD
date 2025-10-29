@@ -112,7 +112,7 @@ adhoc_tool(
 "nonsovereign_gavelling_nitrolamine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_gavelling_nitrolamine_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_gavelling_nitrolamine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_gavelling_nitrolamine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

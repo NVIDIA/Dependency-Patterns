@@ -51,7 +51,7 @@ adhoc_tool(
 "gpss_hearsing_passemezzo_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_hearsing_passemezzo_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_hearsing_passemezzo_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_hearsing_passemezzo_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

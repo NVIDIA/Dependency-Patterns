@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_courant_routhercock_topepo_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_courant_routhercock_topepo_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_courant_routhercock_topepo_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_courant_routhercock_topepo_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

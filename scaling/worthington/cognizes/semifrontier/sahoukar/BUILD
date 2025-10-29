@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_cognizes_semifrontier_sahoukar_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cognizes_semifrontier_sahoukar_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cognizes_semifrontier_sahoukar_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cognizes_semifrontier_sahoukar_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

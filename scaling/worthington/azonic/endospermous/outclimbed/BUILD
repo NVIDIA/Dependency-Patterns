@@ -75,7 +75,7 @@ adhoc_tool(
         "worthington_azonic_endospermous_outclimbed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_azonic_endospermous_outclimbed_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_azonic_endospermous_outclimbed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_azonic_endospermous_outclimbed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

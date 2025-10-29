@@ -210,7 +210,7 @@ adhoc_tool(
 "emancipator_griotte_lackeyism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_griotte_lackeyism_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_griotte_lackeyism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_griotte_lackeyism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

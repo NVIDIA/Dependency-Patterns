@@ -51,7 +51,7 @@ adhoc_tool(
 "worthington_fulbright_lacertian_ovated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_fulbright_lacertian_ovated_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_fulbright_lacertian_ovated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_fulbright_lacertian_ovated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

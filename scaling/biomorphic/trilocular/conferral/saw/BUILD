@@ -57,7 +57,7 @@ adhoc_tool(
 "biomorphic_trilocular_conferral_saw_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_trilocular_conferral_saw_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_trilocular_conferral_saw_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_trilocular_conferral_saw_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

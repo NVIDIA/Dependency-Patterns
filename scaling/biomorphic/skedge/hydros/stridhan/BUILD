@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_skedge_hydros_stridhan_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_skedge_hydros_stridhan_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_skedge_hydros_stridhan_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_skedge_hydros_stridhan_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

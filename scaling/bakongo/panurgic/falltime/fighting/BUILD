@@ -43,7 +43,7 @@ adhoc_tool(
 "bakongo_panurgic_falltime_fighting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_panurgic_falltime_fighting_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_panurgic_falltime_fighting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_panurgic_falltime_fighting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

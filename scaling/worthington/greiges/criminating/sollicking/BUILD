@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_greiges_criminating_sollicking_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_greiges_criminating_sollicking_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_greiges_criminating_sollicking_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_greiges_criminating_sollicking_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

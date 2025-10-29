@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_jujutsu_unspiteful_attapulgus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_jujutsu_unspiteful_attapulgus_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_jujutsu_unspiteful_attapulgus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_jujutsu_unspiteful_attapulgus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

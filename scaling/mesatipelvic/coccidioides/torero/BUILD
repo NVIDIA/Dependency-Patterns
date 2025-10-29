@@ -39,7 +39,7 @@ adhoc_tool(
         "mesatipelvic_coccidioides_torero_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_coccidioides_torero_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_coccidioides_torero_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_coccidioides_torero_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

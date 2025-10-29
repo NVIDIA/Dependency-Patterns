@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_sidestepper_bouche_overexposed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sidestepper_bouche_overexposed_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sidestepper_bouche_overexposed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sidestepper_bouche_overexposed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

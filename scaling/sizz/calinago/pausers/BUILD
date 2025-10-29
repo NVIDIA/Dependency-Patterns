@@ -40,7 +40,7 @@ adhoc_tool(
 "sizz_calinago_pausers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_calinago_pausers_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_calinago_pausers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_calinago_pausers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -29,7 +29,7 @@ adhoc_tool(
 "biomorphic_chromometer_pirtleville_scufflers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_chromometer_pirtleville_scufflers_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_chromometer_pirtleville_scufflers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_chromometer_pirtleville_scufflers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

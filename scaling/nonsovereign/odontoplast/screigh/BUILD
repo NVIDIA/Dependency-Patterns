@@ -47,7 +47,7 @@ adhoc_tool(
 "nonsovereign_odontoplast_screigh_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_odontoplast_screigh_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_odontoplast_screigh_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_odontoplast_screigh_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

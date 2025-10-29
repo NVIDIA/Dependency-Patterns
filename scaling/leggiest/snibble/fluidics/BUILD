@@ -36,7 +36,7 @@ adhoc_tool(
         "leggiest_snibble_fluidics_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_snibble_fluidics_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_snibble_fluidics_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_snibble_fluidics_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

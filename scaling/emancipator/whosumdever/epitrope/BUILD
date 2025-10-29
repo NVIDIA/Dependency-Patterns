@@ -35,7 +35,7 @@ adhoc_tool(
 "emancipator_whosumdever_epitrope_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_whosumdever_epitrope_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_whosumdever_epitrope_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_whosumdever_epitrope_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

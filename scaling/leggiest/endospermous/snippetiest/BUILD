@@ -60,7 +60,7 @@ adhoc_tool(
         "leggiest_endospermous_snippetiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_endospermous_snippetiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_endospermous_snippetiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_endospermous_snippetiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

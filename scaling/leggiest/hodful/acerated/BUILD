@@ -32,7 +32,7 @@ adhoc_tool(
         "leggiest_hodful_acerated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_hodful_acerated_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_hodful_acerated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_hodful_acerated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

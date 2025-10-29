@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_fiddlehead_richards_appercipient_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_fiddlehead_richards_appercipient_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_fiddlehead_richards_appercipient_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_fiddlehead_richards_appercipient_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

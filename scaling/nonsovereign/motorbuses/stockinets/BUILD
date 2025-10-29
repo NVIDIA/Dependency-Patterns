@@ -37,7 +37,7 @@ adhoc_tool(
 "nonsovereign_motorbuses_stockinets_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_motorbuses_stockinets_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_motorbuses_stockinets_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_motorbuses_stockinets_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

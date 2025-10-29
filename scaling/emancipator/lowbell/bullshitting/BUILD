@@ -41,7 +41,7 @@ adhoc_tool(
 "emancipator_lowbell_bullshitting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_lowbell_bullshitting_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_lowbell_bullshitting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_lowbell_bullshitting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

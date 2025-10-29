@@ -56,7 +56,7 @@ adhoc_tool(
 "worthington_unmerciless_vincas_dia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unmerciless_vincas_dia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unmerciless_vincas_dia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unmerciless_vincas_dia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

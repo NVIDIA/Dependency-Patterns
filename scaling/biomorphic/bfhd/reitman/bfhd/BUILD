@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_bfhd_reitman_bfhd_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_bfhd_reitman_bfhd_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_bfhd_reitman_bfhd_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_bfhd_reitman_bfhd_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

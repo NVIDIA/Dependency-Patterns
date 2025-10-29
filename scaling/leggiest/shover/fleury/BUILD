@@ -31,7 +31,7 @@ adhoc_tool(
         "leggiest_shover_fleury_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_shover_fleury_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_shover_fleury_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_shover_fleury_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

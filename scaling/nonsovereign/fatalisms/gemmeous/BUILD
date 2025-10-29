@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_fatalisms_gemmeous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_fatalisms_gemmeous_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_fatalisms_gemmeous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_fatalisms_gemmeous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

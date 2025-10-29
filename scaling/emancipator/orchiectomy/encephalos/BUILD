@@ -40,7 +40,7 @@ adhoc_tool(
 "emancipator_orchiectomy_encephalos_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_orchiectomy_encephalos_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_orchiectomy_encephalos_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_orchiectomy_encephalos_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

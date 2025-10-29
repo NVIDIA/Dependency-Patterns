@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_cloudburst_olona_dihydrogen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cloudburst_olona_dihydrogen_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cloudburst_olona_dihydrogen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cloudburst_olona_dihydrogen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_anisomyodous_reitman_anisomyodous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_anisomyodous_reitman_anisomyodous_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_anisomyodous_reitman_anisomyodous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_anisomyodous_reitman_anisomyodous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

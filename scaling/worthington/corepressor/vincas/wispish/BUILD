@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_corepressor_vincas_wispish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_corepressor_vincas_wispish_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_corepressor_vincas_wispish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_corepressor_vincas_wispish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

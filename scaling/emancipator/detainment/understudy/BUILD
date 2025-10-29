@@ -80,7 +80,7 @@ adhoc_tool(
 "emancipator_detainment_understudy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_detainment_understudy_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_detainment_understudy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_detainment_understudy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

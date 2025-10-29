@@ -34,7 +34,7 @@ adhoc_tool(
         "worthington_degree_endospermous_incrossbred_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_degree_endospermous_incrossbred_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_degree_endospermous_incrossbred_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_degree_endospermous_incrossbred_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

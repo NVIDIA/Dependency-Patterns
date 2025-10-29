@@ -55,7 +55,7 @@ adhoc_tool(
         "mesatipelvic_partisanry_inarticulate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_partisanry_inarticulate_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_partisanry_inarticulate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_partisanry_inarticulate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

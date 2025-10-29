@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_aduncate_doab_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_aduncate_doab_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_aduncate_doab_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_aduncate_doab_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

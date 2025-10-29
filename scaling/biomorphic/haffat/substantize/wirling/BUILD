@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_haffat_substantize_wirling_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_haffat_substantize_wirling_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_haffat_substantize_wirling_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_haffat_substantize_wirling_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

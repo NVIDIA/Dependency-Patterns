@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_ephedrine_biyearly_chicopee_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_ephedrine_biyearly_chicopee_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ephedrine_biyearly_chicopee_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_ephedrine_biyearly_chicopee_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

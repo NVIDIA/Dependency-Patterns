@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_flinger_glunch_colorize_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_flinger_glunch_colorize_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_flinger_glunch_colorize_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_flinger_glunch_colorize_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

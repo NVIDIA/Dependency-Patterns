@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_prickling_medicaids_stirrupwise_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prickling_medicaids_stirrupwise_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prickling_medicaids_stirrupwise_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prickling_medicaids_stirrupwise_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

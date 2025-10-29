@@ -52,7 +52,7 @@ adhoc_tool(
 "sizz_bustier_suricata_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_bustier_suricata_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_bustier_suricata_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_bustier_suricata_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

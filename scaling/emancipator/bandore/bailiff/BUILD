@@ -38,7 +38,7 @@ adhoc_tool(
 "emancipator_bandore_bailiff_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_bandore_bailiff_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_bandore_bailiff_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_bandore_bailiff_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

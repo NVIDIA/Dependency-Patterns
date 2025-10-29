@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_combater_lysolecithin_combater_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_combater_lysolecithin_combater_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_combater_lysolecithin_combater_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_combater_lysolecithin_combater_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

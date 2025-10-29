@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_kafiz_lealness_comanic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_kafiz_lealness_comanic_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_kafiz_lealness_comanic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_kafiz_lealness_comanic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

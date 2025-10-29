@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_seybertite_shinguard_hymettic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_seybertite_shinguard_hymettic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_seybertite_shinguard_hymettic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_seybertite_shinguard_hymettic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

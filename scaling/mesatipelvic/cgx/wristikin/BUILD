@@ -44,7 +44,7 @@ adhoc_tool(
         "mesatipelvic_cgx_wristikin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_cgx_wristikin_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_cgx_wristikin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_cgx_wristikin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

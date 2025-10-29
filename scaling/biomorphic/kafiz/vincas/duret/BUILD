@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_kafiz_vincas_duret_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_kafiz_vincas_duret_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_kafiz_vincas_duret_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_kafiz_vincas_duret_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "emancipator_inhalers_enervate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_inhalers_enervate_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_inhalers_enervate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_inhalers_enervate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

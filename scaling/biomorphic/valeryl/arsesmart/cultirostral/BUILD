@@ -60,7 +60,7 @@ adhoc_tool(
 "biomorphic_valeryl_arsesmart_cultirostral_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_valeryl_arsesmart_cultirostral_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_valeryl_arsesmart_cultirostral_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_valeryl_arsesmart_cultirostral_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

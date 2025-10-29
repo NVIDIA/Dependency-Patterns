@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_accompanable_londrina_accompanable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_accompanable_londrina_accompanable_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_accompanable_londrina_accompanable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_accompanable_londrina_accompanable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_subhymenium_hierro_encaustes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_subhymenium_hierro_encaustes_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_subhymenium_hierro_encaustes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_subhymenium_hierro_encaustes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

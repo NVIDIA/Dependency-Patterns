@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_acclimatised_shinguard_achromatium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_acclimatised_shinguard_achromatium_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_acclimatised_shinguard_achromatium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_acclimatised_shinguard_achromatium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

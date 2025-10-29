@@ -60,7 +60,7 @@ adhoc_tool(
 "bakongo_puparia_kaikawaka_contacting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_puparia_kaikawaka_contacting_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_puparia_kaikawaka_contacting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_puparia_kaikawaka_contacting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

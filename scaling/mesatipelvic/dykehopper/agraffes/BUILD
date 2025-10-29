@@ -36,7 +36,7 @@ adhoc_tool(
         "mesatipelvic_dykehopper_agraffes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_dykehopper_agraffes_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_dykehopper_agraffes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_dykehopper_agraffes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

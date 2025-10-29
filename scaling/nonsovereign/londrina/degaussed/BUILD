@@ -37,7 +37,7 @@ adhoc_tool(
 "nonsovereign_londrina_degaussed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_londrina_degaussed_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_londrina_degaussed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_londrina_degaussed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

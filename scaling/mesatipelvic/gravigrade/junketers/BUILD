@@ -34,7 +34,7 @@ adhoc_tool(
 "mesatipelvic_gravigrade_junketers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_gravigrade_junketers_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_gravigrade_junketers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_gravigrade_junketers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_matagory_londrina_cushaw_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_matagory_londrina_cushaw_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_matagory_londrina_cushaw_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_matagory_londrina_cushaw_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

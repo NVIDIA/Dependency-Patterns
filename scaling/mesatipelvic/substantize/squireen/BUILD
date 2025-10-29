@@ -34,7 +34,7 @@ adhoc_tool(
         "mesatipelvic_substantize_squireen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_substantize_squireen_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_substantize_squireen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_substantize_squireen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

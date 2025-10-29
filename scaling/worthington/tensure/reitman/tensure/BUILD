@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_tensure_reitman_tensure_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_tensure_reitman_tensure_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_tensure_reitman_tensure_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_tensure_reitman_tensure_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

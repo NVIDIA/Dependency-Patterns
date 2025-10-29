@@ -52,7 +52,7 @@ adhoc_tool(
 "sizz_discovered_enveloper_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_discovered_enveloper_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_discovered_enveloper_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_discovered_enveloper_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_shabbiness_tussores_voltaplast_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_shabbiness_tussores_voltaplast_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_shabbiness_tussores_voltaplast_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_shabbiness_tussores_voltaplast_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

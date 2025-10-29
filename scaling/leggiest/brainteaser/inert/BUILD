@@ -43,7 +43,7 @@ adhoc_tool(
         "leggiest_brainteaser_inert_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_brainteaser_inert_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_brainteaser_inert_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_brainteaser_inert_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

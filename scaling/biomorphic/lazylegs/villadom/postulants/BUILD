@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_lazylegs_villadom_postulants_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_lazylegs_villadom_postulants_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_lazylegs_villadom_postulants_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_lazylegs_villadom_postulants_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

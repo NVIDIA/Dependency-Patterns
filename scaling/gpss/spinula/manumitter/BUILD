@@ -37,7 +37,7 @@ adhoc_tool(
 "gpss_spinula_manumitter_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_spinula_manumitter_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_spinula_manumitter_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_spinula_manumitter_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

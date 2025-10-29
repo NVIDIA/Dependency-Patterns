@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_herbarium_bouche_ringwall_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_herbarium_bouche_ringwall_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_herbarium_bouche_ringwall_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_herbarium_bouche_ringwall_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

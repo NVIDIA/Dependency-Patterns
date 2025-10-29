@@ -95,7 +95,7 @@ adhoc_tool(
 "gpss_ungentleman_swordknot_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_ungentleman_swordknot_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_ungentleman_swordknot_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_ungentleman_swordknot_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

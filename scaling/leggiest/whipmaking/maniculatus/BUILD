@@ -36,7 +36,7 @@ adhoc_tool(
         "leggiest_whipmaking_maniculatus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_whipmaking_maniculatus_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_whipmaking_maniculatus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_whipmaking_maniculatus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

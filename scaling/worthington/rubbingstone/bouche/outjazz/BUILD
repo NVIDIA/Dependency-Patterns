@@ -47,7 +47,7 @@ adhoc_tool(
 "worthington_rubbingstone_bouche_outjazz_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rubbingstone_bouche_outjazz_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rubbingstone_bouche_outjazz_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rubbingstone_bouche_outjazz_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

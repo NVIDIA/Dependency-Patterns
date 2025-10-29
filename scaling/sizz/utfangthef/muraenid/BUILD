@@ -44,7 +44,7 @@ adhoc_tool(
 "sizz_utfangthef_muraenid_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_utfangthef_muraenid_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_utfangthef_muraenid_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_utfangthef_muraenid_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

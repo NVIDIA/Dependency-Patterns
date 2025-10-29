@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_educing_counterprick_deflux_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_educing_counterprick_deflux_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_educing_counterprick_deflux_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_educing_counterprick_deflux_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

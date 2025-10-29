@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_carlsbad_waddying_subcutis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_carlsbad_waddying_subcutis_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_carlsbad_waddying_subcutis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_carlsbad_waddying_subcutis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -60,7 +60,7 @@ adhoc_tool(
         "mesatipelvic_finalis_islam_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_finalis_islam_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_finalis_islam_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_finalis_islam_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
         "biomorphic_esau_endospermous_styler_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_esau_endospermous_styler_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_esau_endospermous_styler_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_esau_endospermous_styler_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

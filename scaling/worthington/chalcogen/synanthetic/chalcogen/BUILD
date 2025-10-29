@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_chalcogen_synanthetic_chalcogen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_chalcogen_synanthetic_chalcogen_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_chalcogen_synanthetic_chalcogen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_chalcogen_synanthetic_chalcogen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

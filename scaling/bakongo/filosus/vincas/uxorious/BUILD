@@ -51,7 +51,7 @@ adhoc_tool(
 "bakongo_filosus_vincas_uxorious_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_filosus_vincas_uxorious_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_filosus_vincas_uxorious_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_filosus_vincas_uxorious_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "emancipator_sogdiana_galinthias_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_sogdiana_galinthias_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_sogdiana_galinthias_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_sogdiana_galinthias_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -46,7 +46,7 @@ adhoc_tool(
 "gpss_niland_libbna_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_niland_libbna_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_niland_libbna_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_niland_libbna_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

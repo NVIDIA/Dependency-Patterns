@@ -126,7 +126,7 @@ adhoc_tool(
         "bakongo_upglide_endospermous_radiability_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_upglide_endospermous_radiability_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_upglide_endospermous_radiability_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_upglide_endospermous_radiability_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -44,7 +44,7 @@ adhoc_tool(
 "nonsovereign_prehensive_antennaria_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_prehensive_antennaria_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_prehensive_antennaria_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_prehensive_antennaria_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

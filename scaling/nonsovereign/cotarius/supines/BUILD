@@ -57,7 +57,7 @@ adhoc_tool(
 "nonsovereign_cotarius_supines_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_cotarius_supines_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_cotarius_supines_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_cotarius_supines_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

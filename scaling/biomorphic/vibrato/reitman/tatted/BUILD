@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_vibrato_reitman_tatted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_vibrato_reitman_tatted_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_vibrato_reitman_tatted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_vibrato_reitman_tatted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

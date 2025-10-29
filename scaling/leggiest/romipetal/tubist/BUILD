@@ -40,7 +40,7 @@ adhoc_tool(
         "leggiest_romipetal_tubist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_romipetal_tubist_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_romipetal_tubist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_romipetal_tubist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_backpacked_anglist_horne_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_backpacked_anglist_horne_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_backpacked_anglist_horne_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_backpacked_anglist_horne_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

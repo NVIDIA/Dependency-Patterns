@@ -33,7 +33,7 @@ adhoc_tool(
 "hypostasised_garnice_pisano_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_garnice_pisano_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_garnice_pisano_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_garnice_pisano_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

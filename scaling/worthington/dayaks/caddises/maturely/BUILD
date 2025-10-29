@@ -44,7 +44,7 @@ adhoc_tool(
 "worthington_dayaks_caddises_maturely_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_dayaks_caddises_maturely_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_dayaks_caddises_maturely_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_dayaks_caddises_maturely_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

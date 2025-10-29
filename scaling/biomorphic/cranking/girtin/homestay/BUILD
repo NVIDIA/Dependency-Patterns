@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_cranking_girtin_homestay_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_cranking_girtin_homestay_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_cranking_girtin_homestay_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_cranking_girtin_homestay_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

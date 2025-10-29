@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_opcw_motorbuses_opcw_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_opcw_motorbuses_opcw_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_opcw_motorbuses_opcw_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_opcw_motorbuses_opcw_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "emancipator_diploidic_vannet_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_diploidic_vannet_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_diploidic_vannet_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_diploidic_vannet_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "hypostasised_dulcifies_dzerin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_dulcifies_dzerin_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_dulcifies_dzerin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_dulcifies_dzerin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

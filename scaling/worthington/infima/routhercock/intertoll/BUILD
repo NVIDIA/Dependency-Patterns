@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_infima_routhercock_intertoll_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_infima_routhercock_intertoll_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_infima_routhercock_intertoll_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_infima_routhercock_intertoll_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

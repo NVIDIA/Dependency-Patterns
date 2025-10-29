@@ -210,7 +210,7 @@ adhoc_tool(
 "sizz_meloplastic_unprojective_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_meloplastic_unprojective_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_meloplastic_unprojective_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_meloplastic_unprojective_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

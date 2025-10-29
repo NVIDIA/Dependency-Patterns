@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_klong_lysolecithin_klong_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_klong_lysolecithin_klong_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_klong_lysolecithin_klong_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_klong_lysolecithin_klong_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

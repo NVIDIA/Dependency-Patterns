@@ -37,7 +37,7 @@ adhoc_tool(
 "emancipator_athrepsia_unsadistic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_athrepsia_unsadistic_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_athrepsia_unsadistic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_athrepsia_unsadistic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

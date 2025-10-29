@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_laborsome_romipetal_unscrewed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_laborsome_romipetal_unscrewed_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_laborsome_romipetal_unscrewed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_laborsome_romipetal_unscrewed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

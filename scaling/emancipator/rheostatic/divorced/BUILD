@@ -82,7 +82,7 @@ adhoc_tool(
 "emancipator_rheostatic_divorced_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_rheostatic_divorced_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_rheostatic_divorced_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_rheostatic_divorced_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

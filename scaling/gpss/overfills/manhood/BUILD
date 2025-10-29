@@ -52,7 +52,7 @@ adhoc_tool(
 "gpss_overfills_manhood_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_overfills_manhood_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_overfills_manhood_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_overfills_manhood_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

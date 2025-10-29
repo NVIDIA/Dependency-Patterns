@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_superable_unionic_untie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_superable_unionic_untie_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_superable_unionic_untie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_superable_unionic_untie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

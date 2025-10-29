@@ -109,7 +109,7 @@ adhoc_tool(
 "worthington_foosland_nikaria_tyrocidin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_foosland_nikaria_tyrocidin_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_foosland_nikaria_tyrocidin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_foosland_nikaria_tyrocidin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

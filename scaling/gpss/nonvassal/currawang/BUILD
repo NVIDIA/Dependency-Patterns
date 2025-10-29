@@ -44,7 +44,7 @@ adhoc_tool(
 "gpss_nonvassal_currawang_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_nonvassal_currawang_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_nonvassal_currawang_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_nonvassal_currawang_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

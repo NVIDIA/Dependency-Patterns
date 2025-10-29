@@ -54,7 +54,7 @@ adhoc_tool(
 "biomorphic_slushiest_vincas_parenting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_slushiest_vincas_parenting_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_slushiest_vincas_parenting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_slushiest_vincas_parenting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

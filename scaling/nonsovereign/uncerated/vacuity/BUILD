@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_uncerated_vacuity_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_uncerated_vacuity_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_uncerated_vacuity_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_uncerated_vacuity_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

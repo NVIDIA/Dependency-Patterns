@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_boweryish_blustery_supergenual_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_boweryish_blustery_supergenual_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_boweryish_blustery_supergenual_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_boweryish_blustery_supergenual_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -73,7 +73,7 @@ adhoc_tool(
 "emancipator_popularizes_podded_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_popularizes_podded_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_popularizes_podded_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_popularizes_podded_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

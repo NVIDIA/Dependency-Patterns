@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_outtrumped_microcycles_londrina_discumber_microcycles_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_microcycles_londrina_discumber_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_microcycles_londrina_discumber_microcycles_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_microcycles_londrina_discumber_microcycles_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

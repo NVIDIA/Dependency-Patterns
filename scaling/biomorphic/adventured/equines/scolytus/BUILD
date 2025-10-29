@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_adventured_equines_scolytus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_adventured_equines_scolytus_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_adventured_equines_scolytus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_adventured_equines_scolytus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

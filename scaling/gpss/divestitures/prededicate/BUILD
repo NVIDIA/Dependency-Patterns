@@ -130,7 +130,7 @@ adhoc_tool(
 "gpss_divestitures_prededicate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_divestitures_prededicate_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_divestitures_prededicate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_divestitures_prededicate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

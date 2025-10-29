@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_stupendious_bemire_acrosticism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_stupendious_bemire_acrosticism_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_stupendious_bemire_acrosticism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_stupendious_bemire_acrosticism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

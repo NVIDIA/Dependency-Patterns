@@ -30,7 +30,7 @@ adhoc_tool(
 "hypostasised_interblended_selfsameness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_interblended_selfsameness_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_interblended_selfsameness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_interblended_selfsameness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

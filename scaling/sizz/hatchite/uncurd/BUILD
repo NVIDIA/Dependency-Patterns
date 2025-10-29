@@ -34,7 +34,7 @@ adhoc_tool(
 "sizz_hatchite_uncurd_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_hatchite_uncurd_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_hatchite_uncurd_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_hatchite_uncurd_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

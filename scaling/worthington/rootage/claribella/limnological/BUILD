@@ -51,7 +51,7 @@ adhoc_tool(
 "worthington_rootage_claribella_limnological_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rootage_claribella_limnological_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rootage_claribella_limnological_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rootage_claribella_limnological_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_shipmate_antoninus_fricando_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_shipmate_antoninus_fricando_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_shipmate_antoninus_fricando_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_shipmate_antoninus_fricando_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

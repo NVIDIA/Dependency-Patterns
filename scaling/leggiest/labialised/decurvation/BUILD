@@ -32,7 +32,7 @@ adhoc_tool(
         "leggiest_labialised_decurvation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_labialised_decurvation_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_labialised_decurvation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_labialised_decurvation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

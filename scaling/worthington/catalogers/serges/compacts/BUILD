@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_catalogers_serges_compacts_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_catalogers_serges_compacts_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_catalogers_serges_compacts_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_catalogers_serges_compacts_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

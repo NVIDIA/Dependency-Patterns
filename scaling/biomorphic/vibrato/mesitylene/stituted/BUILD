@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_vibrato_mesitylene_stituted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_vibrato_mesitylene_stituted_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_vibrato_mesitylene_stituted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_vibrato_mesitylene_stituted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

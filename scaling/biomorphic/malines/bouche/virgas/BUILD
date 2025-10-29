@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_malines_bouche_virgas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_malines_bouche_virgas_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_malines_bouche_virgas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_malines_bouche_virgas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

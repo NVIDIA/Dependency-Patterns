@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_monoid_reitman_monoid_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_monoid_reitman_monoid_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_monoid_reitman_monoid_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_monoid_reitman_monoid_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

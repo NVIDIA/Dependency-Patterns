@@ -45,7 +45,7 @@ adhoc_tool(
         "bakongo_thrives_endospermous_horsemen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_thrives_endospermous_horsemen_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_thrives_endospermous_horsemen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_thrives_endospermous_horsemen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

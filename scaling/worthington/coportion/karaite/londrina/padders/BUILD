@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_coportion_karaite_londrina_padders_karaite_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_karaite_londrina_padders_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_karaite_londrina_padders_karaite_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_karaite_londrina_padders_karaite_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_stylosporous_bowdoin_banagos_bounce_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_bowdoin_banagos_bounce_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_bowdoin_banagos_bounce_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_bowdoin_banagos_bounce_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_overdrapery_hereditably_parabolising_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_overdrapery_hereditably_parabolising_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_overdrapery_hereditably_parabolising_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_overdrapery_hereditably_parabolising_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

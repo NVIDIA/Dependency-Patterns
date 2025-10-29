@@ -40,7 +40,7 @@ adhoc_tool(
 "gpss_kwanzas_mathewson_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_kwanzas_mathewson_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_kwanzas_mathewson_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_kwanzas_mathewson_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

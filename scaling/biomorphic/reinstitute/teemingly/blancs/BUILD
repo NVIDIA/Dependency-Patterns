@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_reinstitute_teemingly_blancs_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_reinstitute_teemingly_blancs_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reinstitute_teemingly_blancs_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_reinstitute_teemingly_blancs_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

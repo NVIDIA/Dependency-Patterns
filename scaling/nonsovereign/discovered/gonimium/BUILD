@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_discovered_gonimium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_discovered_gonimium_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_discovered_gonimium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_discovered_gonimium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

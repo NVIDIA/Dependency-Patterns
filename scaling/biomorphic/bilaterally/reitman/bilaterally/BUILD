@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_bilaterally_reitman_bilaterally_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_bilaterally_reitman_bilaterally_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_bilaterally_reitman_bilaterally_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_bilaterally_reitman_bilaterally_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

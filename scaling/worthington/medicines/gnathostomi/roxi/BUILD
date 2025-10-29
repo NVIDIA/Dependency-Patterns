@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_medicines_gnathostomi_roxi_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_medicines_gnathostomi_roxi_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_medicines_gnathostomi_roxi_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_medicines_gnathostomi_roxi_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

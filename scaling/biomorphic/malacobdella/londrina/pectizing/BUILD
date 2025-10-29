@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_malacobdella_londrina_pectizing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_malacobdella_londrina_pectizing_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_malacobdella_londrina_pectizing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_malacobdella_londrina_pectizing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

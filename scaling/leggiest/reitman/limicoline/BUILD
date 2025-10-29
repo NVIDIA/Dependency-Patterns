@@ -35,7 +35,7 @@ adhoc_tool(
         "leggiest_reitman_limicoline_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_reitman_limicoline_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_reitman_limicoline_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_reitman_limicoline_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

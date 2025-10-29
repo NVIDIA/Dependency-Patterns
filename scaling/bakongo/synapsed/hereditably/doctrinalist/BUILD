@@ -79,7 +79,7 @@ adhoc_tool(
 "bakongo_synapsed_hereditably_doctrinalist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_synapsed_hereditably_doctrinalist_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_synapsed_hereditably_doctrinalist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_synapsed_hereditably_doctrinalist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

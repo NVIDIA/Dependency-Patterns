@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_filaricidal_unqueened_lovel_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_filaricidal_unqueened_lovel_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_filaricidal_unqueened_lovel_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_filaricidal_unqueened_lovel_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

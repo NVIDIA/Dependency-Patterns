@@ -98,7 +98,7 @@ adhoc_tool(
 "worthington_sleided_kalinite_synanthetic_mutabilia_kalinite_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_kalinite_synanthetic_mutabilia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_kalinite_synanthetic_mutabilia_kalinite_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_kalinite_synanthetic_mutabilia_kalinite_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

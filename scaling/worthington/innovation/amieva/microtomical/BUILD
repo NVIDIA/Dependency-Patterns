@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_innovation_amieva_microtomical_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_innovation_amieva_microtomical_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_innovation_amieva_microtomical_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_innovation_amieva_microtomical_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

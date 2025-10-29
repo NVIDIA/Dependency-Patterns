@@ -42,7 +42,7 @@ adhoc_tool(
 "gpss_roentgenism_scleroma_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_roentgenism_scleroma_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_roentgenism_scleroma_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_roentgenism_scleroma_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

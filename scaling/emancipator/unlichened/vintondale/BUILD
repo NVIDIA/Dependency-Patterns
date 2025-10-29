@@ -72,7 +72,7 @@ adhoc_tool(
 "emancipator_unlichened_vintondale_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_unlichened_vintondale_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_unlichened_vintondale_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_unlichened_vintondale_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

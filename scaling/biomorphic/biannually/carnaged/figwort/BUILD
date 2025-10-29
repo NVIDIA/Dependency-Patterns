@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_biannually_carnaged_figwort_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_biannually_carnaged_figwort_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_biannually_carnaged_figwort_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_biannually_carnaged_figwort_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

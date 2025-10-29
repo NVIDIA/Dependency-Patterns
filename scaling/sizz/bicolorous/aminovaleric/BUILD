@@ -37,7 +37,7 @@ adhoc_tool(
 "sizz_bicolorous_aminovaleric_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_bicolorous_aminovaleric_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_bicolorous_aminovaleric_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_bicolorous_aminovaleric_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

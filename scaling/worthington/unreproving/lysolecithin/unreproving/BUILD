@@ -48,7 +48,7 @@ adhoc_tool(
 "worthington_unreproving_lysolecithin_unreproving_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_unreproving_lysolecithin_unreproving_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_unreproving_lysolecithin_unreproving_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_unreproving_lysolecithin_unreproving_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

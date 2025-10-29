@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_pretorian_reitman_pretorian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_pretorian_reitman_pretorian_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_pretorian_reitman_pretorian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_pretorian_reitman_pretorian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

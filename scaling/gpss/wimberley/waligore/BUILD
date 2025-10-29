@@ -98,7 +98,7 @@ adhoc_tool(
 "gpss_wimberley_waligore_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_wimberley_waligore_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_wimberley_waligore_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_wimberley_waligore_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

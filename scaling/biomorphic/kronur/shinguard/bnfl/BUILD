@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_kronur_shinguard_bnfl_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_kronur_shinguard_bnfl_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_kronur_shinguard_bnfl_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_kronur_shinguard_bnfl_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -71,7 +71,7 @@ adhoc_tool(
 "worthington_twistily_agronomial_hesperidium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_twistily_agronomial_hesperidium_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_twistily_agronomial_hesperidium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_twistily_agronomial_hesperidium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

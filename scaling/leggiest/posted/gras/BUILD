@@ -37,7 +37,7 @@ adhoc_tool(
         "leggiest_posted_gras_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_posted_gras_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_posted_gras_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_posted_gras_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

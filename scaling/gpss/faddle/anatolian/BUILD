@@ -52,7 +52,7 @@ adhoc_tool(
 "gpss_faddle_anatolian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_faddle_anatolian_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_faddle_anatolian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_faddle_anatolian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

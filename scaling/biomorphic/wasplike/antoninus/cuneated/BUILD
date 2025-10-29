@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_wasplike_antoninus_cuneated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_wasplike_antoninus_cuneated_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_wasplike_antoninus_cuneated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_wasplike_antoninus_cuneated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

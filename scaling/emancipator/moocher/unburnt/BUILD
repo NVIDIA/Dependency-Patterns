@@ -52,7 +52,7 @@ adhoc_tool(
 "emancipator_moocher_unburnt_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_moocher_unburnt_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_moocher_unburnt_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_moocher_unburnt_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

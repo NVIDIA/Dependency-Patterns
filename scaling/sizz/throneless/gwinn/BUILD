@@ -42,7 +42,7 @@ adhoc_tool(
 "sizz_throneless_gwinn_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_throneless_gwinn_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_throneless_gwinn_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_throneless_gwinn_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

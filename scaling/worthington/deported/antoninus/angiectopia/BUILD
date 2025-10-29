@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_deported_antoninus_angiectopia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_deported_antoninus_angiectopia_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_deported_antoninus_angiectopia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_deported_antoninus_angiectopia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_sizarship_vincas_unarisen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sizarship_vincas_unarisen_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sizarship_vincas_unarisen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sizarship_vincas_unarisen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

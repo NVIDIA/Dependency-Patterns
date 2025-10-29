@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_murkily_tosephta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_murkily_tosephta_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_murkily_tosephta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_murkily_tosephta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

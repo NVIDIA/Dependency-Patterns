@@ -39,7 +39,7 @@ adhoc_tool(
 "hypostasised_emlynn_bodybuilder_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_emlynn_bodybuilder_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_emlynn_bodybuilder_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_emlynn_bodybuilder_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

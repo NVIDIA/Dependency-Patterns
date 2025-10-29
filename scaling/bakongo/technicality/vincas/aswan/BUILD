@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_technicality_vincas_aswan_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_technicality_vincas_aswan_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_technicality_vincas_aswan_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_technicality_vincas_aswan_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

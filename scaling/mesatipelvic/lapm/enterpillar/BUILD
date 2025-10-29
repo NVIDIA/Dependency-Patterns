@@ -39,7 +39,7 @@ adhoc_tool(
         "mesatipelvic_lapm_enterpillar_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_lapm_enterpillar_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_lapm_enterpillar_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_lapm_enterpillar_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

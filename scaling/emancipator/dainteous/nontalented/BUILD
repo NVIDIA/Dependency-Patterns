@@ -156,7 +156,7 @@ adhoc_tool(
 "emancipator_dainteous_nontalented_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_dainteous_nontalented_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_dainteous_nontalented_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_dainteous_nontalented_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

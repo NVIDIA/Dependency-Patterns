@@ -66,7 +66,7 @@ adhoc_tool(
 "bakongo_stylosporous_paludous_bossiness_baviaantje_paludous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_paludous_bossiness_baviaantje_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_paludous_bossiness_baviaantje_paludous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_paludous_bossiness_baviaantje_paludous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

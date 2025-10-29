@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_isograft_linaloa_rectocolonic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_isograft_linaloa_rectocolonic_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_isograft_linaloa_rectocolonic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_isograft_linaloa_rectocolonic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_overdares_reitman_overdares_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_overdares_reitman_overdares_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_overdares_reitman_overdares_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_overdares_reitman_overdares_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

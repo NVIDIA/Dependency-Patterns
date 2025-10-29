@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_lydite_criminating_menhadens_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lydite_criminating_menhadens_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lydite_criminating_menhadens_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lydite_criminating_menhadens_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

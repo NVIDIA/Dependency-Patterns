@@ -48,7 +48,7 @@ adhoc_tool(
 "emancipator_unbecomingly_scharaga_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_unbecomingly_scharaga_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_unbecomingly_scharaga_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_unbecomingly_scharaga_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

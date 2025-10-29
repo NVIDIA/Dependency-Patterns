@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_overlapping_shinguard_nonasbestine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_overlapping_shinguard_nonasbestine_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_overlapping_shinguard_nonasbestine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_overlapping_shinguard_nonasbestine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

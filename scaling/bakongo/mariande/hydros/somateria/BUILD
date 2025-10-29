@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_mariande_hydros_somateria_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_mariande_hydros_somateria_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_mariande_hydros_somateria_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_mariande_hydros_somateria_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
         "leggiest_krepis_viga_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_krepis_viga_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_krepis_viga_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_krepis_viga_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_chartreux_unspiteful_antilogic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_chartreux_unspiteful_antilogic_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_chartreux_unspiteful_antilogic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_chartreux_unspiteful_antilogic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

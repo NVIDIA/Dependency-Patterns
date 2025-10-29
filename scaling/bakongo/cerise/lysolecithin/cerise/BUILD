@@ -40,7 +40,7 @@ adhoc_tool(
 "bakongo_cerise_lysolecithin_cerise_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_cerise_lysolecithin_cerise_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_cerise_lysolecithin_cerise_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_cerise_lysolecithin_cerise_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

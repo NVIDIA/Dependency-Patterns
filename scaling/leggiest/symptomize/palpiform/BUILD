@@ -35,7 +35,7 @@ adhoc_tool(
         "leggiest_symptomize_palpiform_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_symptomize_palpiform_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_symptomize_palpiform_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_symptomize_palpiform_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

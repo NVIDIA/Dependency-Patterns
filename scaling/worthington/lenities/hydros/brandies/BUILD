@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_lenities_hydros_brandies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lenities_hydros_brandies_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lenities_hydros_brandies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lenities_hydros_brandies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

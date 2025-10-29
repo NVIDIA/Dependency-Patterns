@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_prestomial_hydrion_bromberg_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prestomial_hydrion_bromberg_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prestomial_hydrion_bromberg_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prestomial_hydrion_bromberg_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

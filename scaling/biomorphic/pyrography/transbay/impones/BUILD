@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_pyrography_transbay_impones_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_pyrography_transbay_impones_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_pyrography_transbay_impones_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_pyrography_transbay_impones_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

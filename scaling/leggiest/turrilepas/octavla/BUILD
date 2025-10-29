@@ -38,7 +38,7 @@ adhoc_tool(
         "leggiest_turrilepas_octavla_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_turrilepas_octavla_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_turrilepas_octavla_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_turrilepas_octavla_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

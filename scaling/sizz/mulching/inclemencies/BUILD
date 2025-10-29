@@ -34,7 +34,7 @@ adhoc_tool(
 "sizz_mulching_inclemencies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_mulching_inclemencies_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_mulching_inclemencies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_mulching_inclemencies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

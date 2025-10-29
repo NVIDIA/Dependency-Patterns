@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_coportion_misturn_lepsaria_draegerman_misturn_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_misturn_lepsaria_draegerman_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_misturn_lepsaria_draegerman_misturn_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_misturn_lepsaria_draegerman_misturn_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

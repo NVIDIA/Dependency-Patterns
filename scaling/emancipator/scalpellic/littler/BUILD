@@ -41,7 +41,7 @@ adhoc_tool(
 "emancipator_scalpellic_littler_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_scalpellic_littler_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_scalpellic_littler_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_scalpellic_littler_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

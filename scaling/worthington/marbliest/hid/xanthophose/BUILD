@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_marbliest_hid_xanthophose_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_marbliest_hid_xanthophose_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_marbliest_hid_xanthophose_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_marbliest_hid_xanthophose_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

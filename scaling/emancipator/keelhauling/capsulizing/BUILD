@@ -33,7 +33,7 @@ adhoc_tool(
 "emancipator_keelhauling_capsulizing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_keelhauling_capsulizing_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_keelhauling_capsulizing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_keelhauling_capsulizing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_prebendal_lysolecithin_prebendal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prebendal_lysolecithin_prebendal_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prebendal_lysolecithin_prebendal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prebendal_lysolecithin_prebendal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

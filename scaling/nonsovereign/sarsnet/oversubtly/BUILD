@@ -39,7 +39,7 @@ adhoc_tool(
 "nonsovereign_sarsnet_oversubtly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_sarsnet_oversubtly_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_sarsnet_oversubtly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_sarsnet_oversubtly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

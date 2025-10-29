@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_enterozoa_abhiseka_uncabled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_enterozoa_abhiseka_uncabled_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_enterozoa_abhiseka_uncabled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_enterozoa_abhiseka_uncabled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

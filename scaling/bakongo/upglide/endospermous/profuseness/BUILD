@@ -106,7 +106,7 @@ adhoc_tool(
         "bakongo_upglide_endospermous_profuseness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_upglide_endospermous_profuseness_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_upglide_endospermous_profuseness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_upglide_endospermous_profuseness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

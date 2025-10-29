@@ -59,7 +59,7 @@ adhoc_tool(
 "worthington_coportion_autodial_scandalproof_fulgurantly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_autodial_scandalproof_fulgurantly_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_autodial_scandalproof_fulgurantly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_autodial_scandalproof_fulgurantly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

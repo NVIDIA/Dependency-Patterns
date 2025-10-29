@@ -58,7 +58,7 @@ adhoc_tool(
 "worthington_tarri_seamancraft_amidopyrine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_tarri_seamancraft_amidopyrine_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_tarri_seamancraft_amidopyrine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_tarri_seamancraft_amidopyrine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

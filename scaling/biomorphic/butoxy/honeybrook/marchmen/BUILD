@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_butoxy_honeybrook_marchmen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_butoxy_honeybrook_marchmen_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_butoxy_honeybrook_marchmen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_butoxy_honeybrook_marchmen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

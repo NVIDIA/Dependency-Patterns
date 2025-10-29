@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_midspaces_pompholix_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_midspaces_pompholix_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_midspaces_pompholix_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_midspaces_pompholix_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -43,7 +43,7 @@ adhoc_tool(
 "emancipator_previewed_accruer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_previewed_accruer_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_previewed_accruer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_previewed_accruer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

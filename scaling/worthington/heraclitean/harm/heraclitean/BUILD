@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_heraclitean_harm_heraclitean_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_heraclitean_harm_heraclitean_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_heraclitean_harm_heraclitean_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_heraclitean_harm_heraclitean_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

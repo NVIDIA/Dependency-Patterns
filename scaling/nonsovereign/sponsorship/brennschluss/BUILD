@@ -36,7 +36,7 @@ adhoc_tool(
 "nonsovereign_sponsorship_brennschluss_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_sponsorship_brennschluss_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_sponsorship_brennschluss_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_sponsorship_brennschluss_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

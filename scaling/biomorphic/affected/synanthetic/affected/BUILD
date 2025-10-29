@@ -92,7 +92,7 @@ adhoc_tool(
 "biomorphic_affected_synanthetic_affected_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_affected_synanthetic_affected_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_affected_synanthetic_affected_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_affected_synanthetic_affected_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

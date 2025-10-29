@@ -53,7 +53,7 @@ adhoc_tool(
 "emancipator_overentreat_crockeryware_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_overentreat_crockeryware_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_overentreat_crockeryware_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_overentreat_crockeryware_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

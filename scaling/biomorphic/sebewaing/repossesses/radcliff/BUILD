@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_sebewaing_repossesses_radcliff_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_sebewaing_repossesses_radcliff_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_sebewaing_repossesses_radcliff_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_sebewaing_repossesses_radcliff_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

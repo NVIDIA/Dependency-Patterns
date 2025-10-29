@@ -33,7 +33,7 @@ adhoc_tool(
         "leggiest_endospermous_zygomycetes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_endospermous_zygomycetes_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_endospermous_zygomycetes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_endospermous_zygomycetes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

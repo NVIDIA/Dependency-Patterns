@@ -74,7 +74,7 @@ adhoc_tool(
 "worthington_rendition_landholdings_snobbers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rendition_landholdings_snobbers_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rendition_landholdings_snobbers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rendition_landholdings_snobbers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "hypostasised_bebilya_chaoan_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_bebilya_chaoan_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_bebilya_chaoan_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_bebilya_chaoan_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

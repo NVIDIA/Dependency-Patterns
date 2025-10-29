@@ -163,7 +163,7 @@ adhoc_tool(
 "nonsovereign_cravat_paradoxical_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_cravat_paradoxical_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_cravat_paradoxical_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_cravat_paradoxical_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

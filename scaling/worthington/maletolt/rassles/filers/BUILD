@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_maletolt_rassles_filers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_maletolt_rassles_filers_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_maletolt_rassles_filers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_maletolt_rassles_filers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

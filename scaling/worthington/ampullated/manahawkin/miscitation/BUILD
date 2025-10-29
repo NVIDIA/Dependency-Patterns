@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_ampullated_manahawkin_miscitation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_ampullated_manahawkin_miscitation_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_ampullated_manahawkin_miscitation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_ampullated_manahawkin_miscitation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

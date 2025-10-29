@@ -53,7 +53,7 @@ adhoc_tool(
 "biomorphic_hydrocaulus_vincas_satisfy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_hydrocaulus_vincas_satisfy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_hydrocaulus_vincas_satisfy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_hydrocaulus_vincas_satisfy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

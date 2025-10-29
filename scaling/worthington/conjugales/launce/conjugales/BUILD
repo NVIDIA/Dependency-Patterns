@@ -64,7 +64,7 @@ adhoc_tool(
 "worthington_conjugales_launce_conjugales_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_conjugales_launce_conjugales_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_conjugales_launce_conjugales_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_conjugales_launce_conjugales_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

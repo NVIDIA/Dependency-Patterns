@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_birettas_pressurage_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_birettas_pressurage_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_birettas_pressurage_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_birettas_pressurage_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

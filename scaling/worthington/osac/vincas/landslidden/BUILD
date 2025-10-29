@@ -55,7 +55,7 @@ adhoc_tool(
 "worthington_osac_vincas_landslidden_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_osac_vincas_landslidden_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_osac_vincas_landslidden_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_osac_vincas_landslidden_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

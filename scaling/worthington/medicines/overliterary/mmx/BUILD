@@ -61,7 +61,7 @@ adhoc_tool(
 "worthington_medicines_overliterary_mmx_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_medicines_overliterary_mmx_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_medicines_overliterary_mmx_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_medicines_overliterary_mmx_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -53,7 +53,7 @@ adhoc_tool(
 "nonsovereign_phocodont_romantically_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_phocodont_romantically_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_phocodont_romantically_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_phocodont_romantically_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

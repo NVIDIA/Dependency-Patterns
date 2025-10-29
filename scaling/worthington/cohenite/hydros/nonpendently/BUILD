@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_cohenite_hydros_nonpendently_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cohenite_hydros_nonpendently_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cohenite_hydros_nonpendently_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cohenite_hydros_nonpendently_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

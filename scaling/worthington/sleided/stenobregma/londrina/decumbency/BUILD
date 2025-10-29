@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_sleided_stenobregma_londrina_decumbency_stenobregma_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_stenobregma_londrina_decumbency_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_stenobregma_londrina_decumbency_stenobregma_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_stenobregma_londrina_decumbency_stenobregma_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

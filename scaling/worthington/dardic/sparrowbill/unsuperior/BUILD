@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_dardic_sparrowbill_unsuperior_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_dardic_sparrowbill_unsuperior_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_dardic_sparrowbill_unsuperior_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_dardic_sparrowbill_unsuperior_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

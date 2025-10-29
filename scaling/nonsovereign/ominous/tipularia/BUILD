@@ -32,7 +32,7 @@ adhoc_tool(
 "nonsovereign_ominous_tipularia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_ominous_tipularia_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_ominous_tipularia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_ominous_tipularia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

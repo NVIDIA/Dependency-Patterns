@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_waywode_unqueened_verbifies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_waywode_unqueened_verbifies_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_waywode_unqueened_verbifies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_waywode_unqueened_verbifies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

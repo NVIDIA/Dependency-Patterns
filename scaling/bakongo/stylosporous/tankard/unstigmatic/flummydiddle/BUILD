@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_stylosporous_tankard_unstigmatic_flummydiddle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_tankard_unstigmatic_flummydiddle_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_tankard_unstigmatic_flummydiddle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_tankard_unstigmatic_flummydiddle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

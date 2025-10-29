@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_amarillos_philistines_rhetta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_amarillos_philistines_rhetta_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_amarillos_philistines_rhetta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_amarillos_philistines_rhetta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

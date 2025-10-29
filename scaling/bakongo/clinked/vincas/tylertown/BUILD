@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_clinked_vincas_tylertown_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_clinked_vincas_tylertown_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_clinked_vincas_tylertown_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_clinked_vincas_tylertown_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

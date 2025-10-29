@@ -61,7 +61,7 @@ adhoc_tool(
 "sizz_prehumans_salique_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_prehumans_salique_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_prehumans_salique_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_prehumans_salique_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

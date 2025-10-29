@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_uninvitingly_shinguard_bog_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_uninvitingly_shinguard_bog_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_uninvitingly_shinguard_bog_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_uninvitingly_shinguard_bog_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

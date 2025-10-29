@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_fathogram_rugolas_demibarrel_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_fathogram_rugolas_demibarrel_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_fathogram_rugolas_demibarrel_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_fathogram_rugolas_demibarrel_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

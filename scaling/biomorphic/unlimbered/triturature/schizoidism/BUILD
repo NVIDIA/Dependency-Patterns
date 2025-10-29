@@ -56,7 +56,7 @@ adhoc_tool(
 "biomorphic_unlimbered_triturature_schizoidism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_unlimbered_triturature_schizoidism_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_unlimbered_triturature_schizoidism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_unlimbered_triturature_schizoidism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

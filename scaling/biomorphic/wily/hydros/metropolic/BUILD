@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_wily_hydros_metropolic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_wily_hydros_metropolic_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_wily_hydros_metropolic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_wily_hydros_metropolic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

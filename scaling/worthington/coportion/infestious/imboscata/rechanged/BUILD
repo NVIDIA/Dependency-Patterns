@@ -33,7 +33,7 @@ adhoc_tool(
 "worthington_coportion_infestious_imboscata_rechanged_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_infestious_imboscata_rechanged_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_infestious_imboscata_rechanged_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_infestious_imboscata_rechanged_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

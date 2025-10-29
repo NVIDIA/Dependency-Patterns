@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_swaziland_vincas_capitation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_swaziland_vincas_capitation_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_swaziland_vincas_capitation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_swaziland_vincas_capitation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

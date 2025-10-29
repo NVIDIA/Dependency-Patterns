@@ -37,7 +37,7 @@ adhoc_tool(
 "emancipator_dumbarton_teat_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_dumbarton_teat_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_dumbarton_teat_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_dumbarton_teat_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

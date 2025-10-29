@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_ninnyism_unlived_astronomize_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_ninnyism_unlived_astronomize_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ninnyism_unlived_astronomize_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_ninnyism_unlived_astronomize_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

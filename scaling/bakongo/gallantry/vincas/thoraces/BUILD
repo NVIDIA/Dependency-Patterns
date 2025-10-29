@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_gallantry_vincas_thoraces_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_gallantry_vincas_thoraces_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_gallantry_vincas_thoraces_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_gallantry_vincas_thoraces_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

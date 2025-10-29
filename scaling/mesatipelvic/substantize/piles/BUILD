@@ -32,7 +32,7 @@ adhoc_tool(
         "mesatipelvic_substantize_piles_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_substantize_piles_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_substantize_piles_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_substantize_piles_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

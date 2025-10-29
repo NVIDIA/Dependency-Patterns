@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_preconfound_criminating_sizal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_preconfound_criminating_sizal_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_preconfound_criminating_sizal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_preconfound_criminating_sizal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

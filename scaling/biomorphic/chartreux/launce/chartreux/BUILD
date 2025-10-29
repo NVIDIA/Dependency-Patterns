@@ -78,7 +78,7 @@ adhoc_tool(
 "biomorphic_chartreux_launce_chartreux_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_chartreux_launce_chartreux_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_chartreux_launce_chartreux_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_chartreux_launce_chartreux_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

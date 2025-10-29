@@ -73,7 +73,7 @@ adhoc_tool(
 "gpss_seels_cacoglossia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_seels_cacoglossia_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_seels_cacoglossia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_seels_cacoglossia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

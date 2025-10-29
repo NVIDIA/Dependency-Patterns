@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_zabrine_lubrifaction_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_zabrine_lubrifaction_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_zabrine_lubrifaction_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_zabrine_lubrifaction_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

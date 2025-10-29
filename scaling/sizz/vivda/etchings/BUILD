@@ -37,7 +37,7 @@ adhoc_tool(
 "sizz_vivda_etchings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_vivda_etchings_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_vivda_etchings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_vivda_etchings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

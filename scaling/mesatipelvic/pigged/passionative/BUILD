@@ -34,7 +34,7 @@ adhoc_tool(
         "mesatipelvic_pigged_passionative_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_pigged_passionative_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_pigged_passionative_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_pigged_passionative_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

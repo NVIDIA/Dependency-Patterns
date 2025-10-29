@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_inhalers_bloodings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_inhalers_bloodings_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_inhalers_bloodings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_inhalers_bloodings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

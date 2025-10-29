@@ -90,7 +90,7 @@ adhoc_tool(
 "emancipator_salamandrine_elution_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_salamandrine_elution_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_salamandrine_elution_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_salamandrine_elution_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

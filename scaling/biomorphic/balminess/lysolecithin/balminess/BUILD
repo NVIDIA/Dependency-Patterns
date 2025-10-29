@@ -47,7 +47,7 @@ adhoc_tool(
 "biomorphic_balminess_lysolecithin_balminess_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_balminess_lysolecithin_balminess_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_balminess_lysolecithin_balminess_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_balminess_lysolecithin_balminess_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

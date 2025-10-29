@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_hayings_londrina_hayings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_hayings_londrina_hayings_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_hayings_londrina_hayings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_hayings_londrina_hayings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

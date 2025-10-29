@@ -35,7 +35,7 @@ adhoc_tool(
 "nonsovereign_commandress_inogenesis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_commandress_inogenesis_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_commandress_inogenesis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_commandress_inogenesis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

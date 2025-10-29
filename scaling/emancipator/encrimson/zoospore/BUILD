@@ -812,7 +812,7 @@ adhoc_tool(
 "emancipator_encrimson_zoospore_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_encrimson_zoospore_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_encrimson_zoospore_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_encrimson_zoospore_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

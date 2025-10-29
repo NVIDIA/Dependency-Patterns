@@ -50,7 +50,7 @@ adhoc_tool(
 "emancipator_tinkerbird_scottown_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_tinkerbird_scottown_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_tinkerbird_scottown_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_tinkerbird_scottown_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

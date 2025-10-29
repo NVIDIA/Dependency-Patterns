@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_fiddlehead_regioned_crabbedly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_fiddlehead_regioned_crabbedly_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_fiddlehead_regioned_crabbedly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_fiddlehead_regioned_crabbedly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

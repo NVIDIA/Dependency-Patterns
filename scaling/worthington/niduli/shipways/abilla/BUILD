@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_niduli_shipways_abilla_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_niduli_shipways_abilla_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_niduli_shipways_abilla_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_niduli_shipways_abilla_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

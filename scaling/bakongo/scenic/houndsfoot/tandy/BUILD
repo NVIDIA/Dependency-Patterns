@@ -45,7 +45,7 @@ adhoc_tool(
 "bakongo_scenic_houndsfoot_tandy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_scenic_houndsfoot_tandy_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_scenic_houndsfoot_tandy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_scenic_houndsfoot_tandy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

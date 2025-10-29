@@ -54,7 +54,7 @@ adhoc_tool(
 "emancipator_ampasimenite_palynologist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_ampasimenite_palynologist_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_ampasimenite_palynologist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_ampasimenite_palynologist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

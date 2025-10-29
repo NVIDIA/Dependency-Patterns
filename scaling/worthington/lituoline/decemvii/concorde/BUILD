@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_lituoline_decemvii_concorde_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lituoline_decemvii_concorde_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lituoline_decemvii_concorde_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lituoline_decemvii_concorde_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -47,7 +47,7 @@ adhoc_tool(
 "gpss_minivers_blowzy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_minivers_blowzy_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_minivers_blowzy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_minivers_blowzy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -39,7 +39,7 @@ adhoc_tool(
 "emancipator_suboptic_corkier_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_suboptic_corkier_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_suboptic_corkier_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_suboptic_corkier_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

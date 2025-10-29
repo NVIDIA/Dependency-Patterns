@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_untieing_patnesses_phylarchic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_untieing_patnesses_phylarchic_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_untieing_patnesses_phylarchic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_untieing_patnesses_phylarchic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

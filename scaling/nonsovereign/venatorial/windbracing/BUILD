@@ -215,7 +215,7 @@ adhoc_tool(
 "nonsovereign_venatorial_windbracing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_venatorial_windbracing_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_venatorial_windbracing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_venatorial_windbracing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

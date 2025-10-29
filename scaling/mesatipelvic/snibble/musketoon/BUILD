@@ -36,7 +36,7 @@ adhoc_tool(
         "mesatipelvic_snibble_musketoon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_snibble_musketoon_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_snibble_musketoon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_snibble_musketoon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

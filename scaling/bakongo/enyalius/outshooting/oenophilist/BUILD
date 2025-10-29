@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_enyalius_outshooting_oenophilist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_enyalius_outshooting_oenophilist_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_enyalius_outshooting_oenophilist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_enyalius_outshooting_oenophilist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

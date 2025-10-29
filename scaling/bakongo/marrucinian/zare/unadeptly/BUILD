@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_marrucinian_zare_unadeptly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_marrucinian_zare_unadeptly_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_marrucinian_zare_unadeptly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_marrucinian_zare_unadeptly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

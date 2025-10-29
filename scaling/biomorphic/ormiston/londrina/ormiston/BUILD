@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_ormiston_londrina_ormiston_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_ormiston_londrina_ormiston_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ormiston_londrina_ormiston_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_ormiston_londrina_ormiston_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

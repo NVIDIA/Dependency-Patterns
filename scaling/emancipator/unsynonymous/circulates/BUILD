@@ -139,7 +139,7 @@ adhoc_tool(
 "emancipator_unsynonymous_circulates_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_unsynonymous_circulates_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_unsynonymous_circulates_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_unsynonymous_circulates_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

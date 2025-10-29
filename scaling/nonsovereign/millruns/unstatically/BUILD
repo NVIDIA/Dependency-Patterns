@@ -46,7 +46,7 @@ adhoc_tool(
 "nonsovereign_millruns_unstatically_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_millruns_unstatically_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_millruns_unstatically_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_millruns_unstatically_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_jaggery_londrina_enterprised_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_jaggery_londrina_enterprised_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_jaggery_londrina_enterprised_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_jaggery_londrina_enterprised_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

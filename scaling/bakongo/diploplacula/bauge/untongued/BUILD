@@ -43,7 +43,7 @@ adhoc_tool(
 "bakongo_diploplacula_bauge_untongued_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_diploplacula_bauge_untongued_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_diploplacula_bauge_untongued_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_diploplacula_bauge_untongued_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

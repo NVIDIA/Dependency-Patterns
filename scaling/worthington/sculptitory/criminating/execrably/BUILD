@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_sculptitory_criminating_execrably_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sculptitory_criminating_execrably_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sculptitory_criminating_execrably_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sculptitory_criminating_execrably_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

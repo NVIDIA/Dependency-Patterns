@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_mangabey_dykehopper_gilenyie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_mangabey_dykehopper_gilenyie_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_mangabey_dykehopper_gilenyie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_mangabey_dykehopper_gilenyie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

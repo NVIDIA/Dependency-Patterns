@@ -44,7 +44,7 @@ adhoc_tool(
 "worthington_literaliser_nubbiest_bertrum_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_literaliser_nubbiest_bertrum_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_literaliser_nubbiest_bertrum_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_literaliser_nubbiest_bertrum_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

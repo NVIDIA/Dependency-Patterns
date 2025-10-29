@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_mesomorphy_friedelite_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_mesomorphy_friedelite_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_mesomorphy_friedelite_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_mesomorphy_friedelite_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

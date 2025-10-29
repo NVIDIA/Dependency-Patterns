@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_sleided_calceus_fraus_ovariotomize_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_calceus_fraus_ovariotomize_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_calceus_fraus_ovariotomize_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_calceus_fraus_ovariotomize_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

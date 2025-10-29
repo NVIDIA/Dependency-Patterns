@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_tlaco_preacquiring_faddisms_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_tlaco_preacquiring_faddisms_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_tlaco_preacquiring_faddisms_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_tlaco_preacquiring_faddisms_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

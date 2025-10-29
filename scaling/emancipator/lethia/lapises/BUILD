@@ -61,7 +61,7 @@ adhoc_tool(
 "emancipator_lethia_lapises_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_lethia_lapises_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_lethia_lapises_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_lethia_lapises_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

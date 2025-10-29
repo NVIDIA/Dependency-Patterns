@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_filiciform_hydros_epaulets_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_filiciform_hydros_epaulets_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_filiciform_hydros_epaulets_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_filiciform_hydros_epaulets_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

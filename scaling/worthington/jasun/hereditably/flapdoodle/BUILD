@@ -52,7 +52,7 @@ adhoc_tool(
 "worthington_jasun_hereditably_flapdoodle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_jasun_hereditably_flapdoodle_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_jasun_hereditably_flapdoodle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_jasun_hereditably_flapdoodle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

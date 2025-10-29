@@ -69,7 +69,7 @@ adhoc_tool(
 "hypostasised_popularizes_rediffused_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_popularizes_rediffused_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_popularizes_rediffused_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_popularizes_rediffused_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

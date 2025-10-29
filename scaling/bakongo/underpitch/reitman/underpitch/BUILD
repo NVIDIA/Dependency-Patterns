@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_underpitch_reitman_underpitch_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_underpitch_reitman_underpitch_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_underpitch_reitman_underpitch_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_underpitch_reitman_underpitch_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_totemically_hydros_hemistichal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_totemically_hydros_hemistichal_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_totemically_hydros_hemistichal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_totemically_hydros_hemistichal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

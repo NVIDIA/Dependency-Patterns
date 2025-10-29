@@ -140,7 +140,7 @@ adhoc_tool(
 "emancipator_aberdevine_antenatus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_aberdevine_antenatus_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_aberdevine_antenatus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_aberdevine_antenatus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

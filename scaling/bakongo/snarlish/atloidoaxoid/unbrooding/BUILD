@@ -59,7 +59,7 @@ adhoc_tool(
 "bakongo_snarlish_atloidoaxoid_unbrooding_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_snarlish_atloidoaxoid_unbrooding_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_snarlish_atloidoaxoid_unbrooding_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_snarlish_atloidoaxoid_unbrooding_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

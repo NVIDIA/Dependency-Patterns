@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_egoism_sanatory_unmetered_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_egoism_sanatory_unmetered_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_egoism_sanatory_unmetered_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_egoism_sanatory_unmetered_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -76,7 +76,7 @@ adhoc_tool(
 "bakongo_bowknot_diprotic_backers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bowknot_diprotic_backers_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bowknot_diprotic_backers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bowknot_diprotic_backers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

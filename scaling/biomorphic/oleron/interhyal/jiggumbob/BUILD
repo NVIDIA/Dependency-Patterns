@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_oleron_interhyal_jiggumbob_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_oleron_interhyal_jiggumbob_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_oleron_interhyal_jiggumbob_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_oleron_interhyal_jiggumbob_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

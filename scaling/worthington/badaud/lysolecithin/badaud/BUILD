@@ -70,7 +70,7 @@ adhoc_tool(
 "worthington_badaud_lysolecithin_badaud_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_badaud_lysolecithin_badaud_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_badaud_lysolecithin_badaud_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_badaud_lysolecithin_badaud_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -36,7 +36,7 @@ adhoc_tool(
         "leggiest_hudderon_hickies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_hudderon_hickies_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_hudderon_hickies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_hudderon_hickies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

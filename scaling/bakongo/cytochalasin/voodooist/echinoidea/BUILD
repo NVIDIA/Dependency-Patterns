@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_cytochalasin_voodooist_echinoidea_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_cytochalasin_voodooist_echinoidea_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_cytochalasin_voodooist_echinoidea_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_cytochalasin_voodooist_echinoidea_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

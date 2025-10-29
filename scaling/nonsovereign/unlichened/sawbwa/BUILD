@@ -76,7 +76,7 @@ adhoc_tool(
 "nonsovereign_unlichened_sawbwa_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_unlichened_sawbwa_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_unlichened_sawbwa_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_unlichened_sawbwa_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

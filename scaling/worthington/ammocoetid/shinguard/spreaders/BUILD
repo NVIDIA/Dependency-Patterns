@@ -49,7 +49,7 @@ adhoc_tool(
 "worthington_ammocoetid_shinguard_spreaders_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_ammocoetid_shinguard_spreaders_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_ammocoetid_shinguard_spreaders_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_ammocoetid_shinguard_spreaders_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

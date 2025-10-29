@@ -46,7 +46,7 @@ adhoc_tool(
 "gpss_endodontics_probuying_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_endodontics_probuying_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_endodontics_probuying_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_endodontics_probuying_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

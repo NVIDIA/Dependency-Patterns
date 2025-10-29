@@ -39,7 +39,7 @@ adhoc_tool(
 "mesatipelvic_unqueened_yuma_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_unqueened_yuma_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_unqueened_yuma_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_unqueened_yuma_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

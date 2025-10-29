@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_sleided_anisodactyla_autarchy_geodynamics_anisodactyla_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_anisodactyla_autarchy_geodynamics_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_anisodactyla_autarchy_geodynamics_anisodactyla_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_anisodactyla_autarchy_geodynamics_anisodactyla_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

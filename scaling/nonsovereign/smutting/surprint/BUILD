@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_smutting_surprint_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_smutting_surprint_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_smutting_surprint_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_smutting_surprint_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

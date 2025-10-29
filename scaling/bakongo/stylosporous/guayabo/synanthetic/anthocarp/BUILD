@@ -73,7 +73,7 @@ adhoc_tool(
 "bakongo_stylosporous_guayabo_synanthetic_anthocarp_guayabo_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_guayabo_synanthetic_anthocarp_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_guayabo_synanthetic_anthocarp_guayabo_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_guayabo_synanthetic_anthocarp_guayabo_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

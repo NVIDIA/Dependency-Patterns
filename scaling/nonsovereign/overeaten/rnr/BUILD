@@ -48,7 +48,7 @@ adhoc_tool(
 "nonsovereign_overeaten_rnr_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_overeaten_rnr_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_overeaten_rnr_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_overeaten_rnr_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

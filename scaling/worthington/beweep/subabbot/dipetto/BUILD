@@ -56,7 +56,7 @@ adhoc_tool(
 "worthington_beweep_subabbot_dipetto_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beweep_subabbot_dipetto_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beweep_subabbot_dipetto_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beweep_subabbot_dipetto_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

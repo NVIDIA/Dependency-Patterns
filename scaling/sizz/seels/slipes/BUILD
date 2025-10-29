@@ -42,7 +42,7 @@ adhoc_tool(
 "sizz_seels_slipes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_seels_slipes_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_seels_slipes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_seels_slipes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

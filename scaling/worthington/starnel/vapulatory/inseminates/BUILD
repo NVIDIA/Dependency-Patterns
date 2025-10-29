@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_starnel_vapulatory_inseminates_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_starnel_vapulatory_inseminates_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_starnel_vapulatory_inseminates_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_starnel_vapulatory_inseminates_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_housemothers_disseizing_maneuverer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_housemothers_disseizing_maneuverer_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_housemothers_disseizing_maneuverer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_housemothers_disseizing_maneuverer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

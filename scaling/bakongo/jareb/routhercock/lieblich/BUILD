@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_jareb_routhercock_lieblich_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_jareb_routhercock_lieblich_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_jareb_routhercock_lieblich_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_jareb_routhercock_lieblich_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

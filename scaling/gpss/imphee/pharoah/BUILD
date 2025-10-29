@@ -33,7 +33,7 @@ adhoc_tool(
 "gpss_imphee_pharoah_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_imphee_pharoah_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_imphee_pharoah_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_imphee_pharoah_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

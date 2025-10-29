@@ -32,7 +32,7 @@ adhoc_tool(
 "hypostasised_bib_dishing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_bib_dishing_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_bib_dishing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_bib_dishing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

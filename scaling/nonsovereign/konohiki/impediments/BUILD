@@ -124,7 +124,7 @@ adhoc_tool(
 "nonsovereign_konohiki_impediments_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_konohiki_impediments_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_konohiki_impediments_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_konohiki_impediments_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

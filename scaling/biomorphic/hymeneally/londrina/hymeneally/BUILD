@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_hymeneally_londrina_hymeneally_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_hymeneally_londrina_hymeneally_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_hymeneally_londrina_hymeneally_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_hymeneally_londrina_hymeneally_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

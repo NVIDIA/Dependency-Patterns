@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_phenelzine_panting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_phenelzine_panting_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_phenelzine_panting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_phenelzine_panting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

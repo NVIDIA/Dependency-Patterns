@@ -109,7 +109,7 @@ adhoc_tool(
 "gpss_unglozed_lowlily_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_unglozed_lowlily_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_unglozed_lowlily_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_unglozed_lowlily_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

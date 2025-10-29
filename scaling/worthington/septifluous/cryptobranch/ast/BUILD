@@ -70,7 +70,7 @@ adhoc_tool(
 "worthington_septifluous_cryptobranch_ast_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_septifluous_cryptobranch_ast_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_septifluous_cryptobranch_ast_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_septifluous_cryptobranch_ast_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

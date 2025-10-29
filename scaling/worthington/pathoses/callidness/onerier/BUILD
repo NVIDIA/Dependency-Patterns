@@ -46,7 +46,7 @@ adhoc_tool(
 "worthington_pathoses_callidness_onerier_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_pathoses_callidness_onerier_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_pathoses_callidness_onerier_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_pathoses_callidness_onerier_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

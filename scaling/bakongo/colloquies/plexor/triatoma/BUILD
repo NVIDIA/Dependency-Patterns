@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_colloquies_plexor_triatoma_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_colloquies_plexor_triatoma_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_colloquies_plexor_triatoma_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_colloquies_plexor_triatoma_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

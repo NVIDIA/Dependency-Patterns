@@ -51,7 +51,7 @@ adhoc_tool(
 "emancipator_benchfellow_churls_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_benchfellow_churls_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_benchfellow_churls_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_benchfellow_churls_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

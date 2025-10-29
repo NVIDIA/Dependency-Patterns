@@ -32,7 +32,7 @@ adhoc_tool(
 "emancipator_sunscreen_tentaculum_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_sunscreen_tentaculum_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_sunscreen_tentaculum_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_sunscreen_tentaculum_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

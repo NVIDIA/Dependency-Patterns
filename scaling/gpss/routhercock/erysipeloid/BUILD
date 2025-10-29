@@ -34,7 +34,7 @@ adhoc_tool(
 "gpss_routhercock_erysipeloid_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_routhercock_erysipeloid_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_routhercock_erysipeloid_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_routhercock_erysipeloid_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

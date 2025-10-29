@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_subhymenium_spruiker_gorakhpur_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_subhymenium_spruiker_gorakhpur_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_subhymenium_spruiker_gorakhpur_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_subhymenium_spruiker_gorakhpur_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

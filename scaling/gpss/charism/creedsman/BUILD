@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_charism_creedsman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_charism_creedsman_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_charism_creedsman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_charism_creedsman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_subidar_unhideously_cynegetic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_subidar_unhideously_cynegetic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_subidar_unhideously_cynegetic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_subidar_unhideously_cynegetic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_beltine_antoninus_scapegoating_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_beltine_antoninus_scapegoating_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_beltine_antoninus_scapegoating_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_beltine_antoninus_scapegoating_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

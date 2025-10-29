@@ -32,7 +32,7 @@ adhoc_tool(
 "sizz_bodegones_metrazol_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_bodegones_metrazol_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_bodegones_metrazol_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_bodegones_metrazol_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

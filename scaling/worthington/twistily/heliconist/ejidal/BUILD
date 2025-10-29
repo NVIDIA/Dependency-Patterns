@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_twistily_heliconist_ejidal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_twistily_heliconist_ejidal_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_twistily_heliconist_ejidal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_twistily_heliconist_ejidal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

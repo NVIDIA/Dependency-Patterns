@@ -62,7 +62,7 @@ adhoc_tool(
 "nonsovereign_mustards_everes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_mustards_everes_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_mustards_everes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_mustards_everes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

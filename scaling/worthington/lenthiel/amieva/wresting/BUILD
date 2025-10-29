@@ -85,7 +85,7 @@ adhoc_tool(
 "worthington_lenthiel_amieva_wresting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lenthiel_amieva_wresting_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lenthiel_amieva_wresting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lenthiel_amieva_wresting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_disembodied_indubitable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_disembodied_indubitable_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_disembodied_indubitable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_disembodied_indubitable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

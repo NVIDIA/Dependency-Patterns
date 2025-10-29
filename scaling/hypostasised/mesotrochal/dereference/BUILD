@@ -31,7 +31,7 @@ adhoc_tool(
 "hypostasised_mesotrochal_dereference_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_mesotrochal_dereference_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_mesotrochal_dereference_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_mesotrochal_dereference_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

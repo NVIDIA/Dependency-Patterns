@@ -50,7 +50,7 @@ adhoc_tool(
 "bakongo_sensuosity_condescended_milkshed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sensuosity_condescended_milkshed_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sensuosity_condescended_milkshed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sensuosity_condescended_milkshed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

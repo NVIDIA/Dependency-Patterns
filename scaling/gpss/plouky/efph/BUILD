@@ -58,7 +58,7 @@ adhoc_tool(
 "gpss_plouky_efph_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_plouky_efph_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_plouky_efph_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_plouky_efph_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

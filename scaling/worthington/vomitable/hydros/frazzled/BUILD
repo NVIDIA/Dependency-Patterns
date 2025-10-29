@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_vomitable_hydros_frazzled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_vomitable_hydros_frazzled_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_vomitable_hydros_frazzled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_vomitable_hydros_frazzled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "sizz_portioners_safranophil_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_portioners_safranophil_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_portioners_safranophil_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_portioners_safranophil_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

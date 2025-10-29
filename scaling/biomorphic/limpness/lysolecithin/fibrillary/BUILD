@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_limpness_lysolecithin_fibrillary_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_limpness_lysolecithin_fibrillary_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_limpness_lysolecithin_fibrillary_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_limpness_lysolecithin_fibrillary_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_gloveman_cpw_acrylates_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_gloveman_cpw_acrylates_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_gloveman_cpw_acrylates_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_gloveman_cpw_acrylates_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

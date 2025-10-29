@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_interseptal_routhercock_pulvino_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_interseptal_routhercock_pulvino_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_interseptal_routhercock_pulvino_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_interseptal_routhercock_pulvino_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

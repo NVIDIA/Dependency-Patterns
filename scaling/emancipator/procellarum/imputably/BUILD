@@ -53,7 +53,7 @@ adhoc_tool(
 "emancipator_procellarum_imputably_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_procellarum_imputably_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_procellarum_imputably_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_procellarum_imputably_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

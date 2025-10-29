@@ -204,7 +204,7 @@ adhoc_tool(
 "gpss_hoodmold_dairywomen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_hoodmold_dairywomen_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_hoodmold_dairywomen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_hoodmold_dairywomen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

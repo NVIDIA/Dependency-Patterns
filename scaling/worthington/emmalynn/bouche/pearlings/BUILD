@@ -48,7 +48,7 @@ adhoc_tool(
 "worthington_emmalynn_bouche_pearlings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_emmalynn_bouche_pearlings_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_emmalynn_bouche_pearlings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_emmalynn_bouche_pearlings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

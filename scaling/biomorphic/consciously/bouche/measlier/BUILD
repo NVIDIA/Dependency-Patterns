@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_consciously_bouche_measlier_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_consciously_bouche_measlier_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_consciously_bouche_measlier_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_consciously_bouche_measlier_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

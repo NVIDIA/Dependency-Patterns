@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_melancholily_hoagie_dalyce_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_melancholily_hoagie_dalyce_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_melancholily_hoagie_dalyce_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_melancholily_hoagie_dalyce_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

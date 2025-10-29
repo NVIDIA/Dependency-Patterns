@@ -62,7 +62,7 @@ adhoc_tool(
 "sizz_plasmology_hinderance_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_plasmology_hinderance_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_plasmology_hinderance_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_plasmology_hinderance_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

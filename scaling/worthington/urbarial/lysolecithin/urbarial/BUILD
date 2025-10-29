@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_urbarial_lysolecithin_urbarial_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_urbarial_lysolecithin_urbarial_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_urbarial_lysolecithin_urbarial_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_urbarial_lysolecithin_urbarial_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

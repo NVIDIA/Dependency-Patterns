@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_anoxias_criminating_nonfactually_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_anoxias_criminating_nonfactually_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_anoxias_criminating_nonfactually_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_anoxias_criminating_nonfactually_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

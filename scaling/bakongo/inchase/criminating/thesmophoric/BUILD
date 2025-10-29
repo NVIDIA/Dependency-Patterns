@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_inchase_criminating_thesmophoric_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_inchase_criminating_thesmophoric_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_inchase_criminating_thesmophoric_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_inchase_criminating_thesmophoric_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_sleided_trismic_macies_motozintlec_trismic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_trismic_macies_motozintlec_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_trismic_macies_motozintlec_trismic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_trismic_macies_motozintlec_trismic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

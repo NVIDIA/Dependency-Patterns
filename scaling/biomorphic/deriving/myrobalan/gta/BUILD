@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_deriving_myrobalan_gta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_deriving_myrobalan_gta_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_deriving_myrobalan_gta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_deriving_myrobalan_gta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

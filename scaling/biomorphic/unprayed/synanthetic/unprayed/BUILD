@@ -42,7 +42,7 @@ adhoc_tool(
 "biomorphic_unprayed_synanthetic_unprayed_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_unprayed_synanthetic_unprayed_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_unprayed_synanthetic_unprayed_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_unprayed_synanthetic_unprayed_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

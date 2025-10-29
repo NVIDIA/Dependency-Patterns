@@ -79,7 +79,7 @@ adhoc_tool(
 "bakongo_ogle_lona_prevoted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ogle_lona_prevoted_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ogle_lona_prevoted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ogle_lona_prevoted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

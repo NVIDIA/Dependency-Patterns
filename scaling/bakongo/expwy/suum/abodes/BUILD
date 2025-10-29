@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_expwy_suum_abodes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_expwy_suum_abodes_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_expwy_suum_abodes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_expwy_suum_abodes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

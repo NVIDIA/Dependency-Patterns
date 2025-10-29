@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_bolos_manahawkin_vena_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bolos_manahawkin_vena_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bolos_manahawkin_vena_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bolos_manahawkin_vena_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

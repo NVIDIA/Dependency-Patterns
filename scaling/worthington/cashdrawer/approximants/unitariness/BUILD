@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_cashdrawer_approximants_unitariness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cashdrawer_approximants_unitariness_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cashdrawer_approximants_unitariness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cashdrawer_approximants_unitariness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_prevoidance_shinguard_reveneer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_prevoidance_shinguard_reveneer_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_prevoidance_shinguard_reveneer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_prevoidance_shinguard_reveneer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

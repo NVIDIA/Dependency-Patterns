@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_biophysicist_amboina_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_biophysicist_amboina_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_biophysicist_amboina_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_biophysicist_amboina_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

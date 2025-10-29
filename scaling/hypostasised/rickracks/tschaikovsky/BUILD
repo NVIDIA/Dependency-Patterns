@@ -31,7 +31,7 @@ adhoc_tool(
 "hypostasised_rickracks_tschaikovsky_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_rickracks_tschaikovsky_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_rickracks_tschaikovsky_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_rickracks_tschaikovsky_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

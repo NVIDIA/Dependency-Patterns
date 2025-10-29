@@ -37,7 +37,7 @@ adhoc_tool(
 "nonsovereign_hipnesses_spoilful_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_hipnesses_spoilful_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_hipnesses_spoilful_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_hipnesses_spoilful_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

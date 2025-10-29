@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_ephedra_shover_nulliporous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ephedra_shover_nulliporous_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ephedra_shover_nulliporous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ephedra_shover_nulliporous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

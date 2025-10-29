@@ -32,7 +32,7 @@ adhoc_tool(
 "emancipator_arguses_denumeration_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_arguses_denumeration_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_arguses_denumeration_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_arguses_denumeration_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

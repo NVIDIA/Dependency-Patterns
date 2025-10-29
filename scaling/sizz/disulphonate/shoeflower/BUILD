@@ -35,7 +35,7 @@ adhoc_tool(
 "sizz_disulphonate_shoeflower_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_disulphonate_shoeflower_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_disulphonate_shoeflower_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_disulphonate_shoeflower_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

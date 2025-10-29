@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_transpired_hydros_rattingly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_transpired_hydros_rattingly_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_transpired_hydros_rattingly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_transpired_hydros_rattingly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

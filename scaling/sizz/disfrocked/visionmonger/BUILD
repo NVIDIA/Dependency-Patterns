@@ -34,7 +34,7 @@ adhoc_tool(
 "sizz_disfrocked_visionmonger_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_disfrocked_visionmonger_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_disfrocked_visionmonger_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_disfrocked_visionmonger_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

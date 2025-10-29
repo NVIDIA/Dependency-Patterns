@@ -154,7 +154,7 @@ adhoc_tool(
 "gpss_cravat_eisegetic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_cravat_eisegetic_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_cravat_eisegetic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_cravat_eisegetic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

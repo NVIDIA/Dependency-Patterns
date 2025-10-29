@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_chartreux_waddying_sprunny_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_chartreux_waddying_sprunny_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_chartreux_waddying_sprunny_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_chartreux_waddying_sprunny_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

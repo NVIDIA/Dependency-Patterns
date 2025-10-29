@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_amarillos_shock_atlantes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_amarillos_shock_atlantes_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_amarillos_shock_atlantes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_amarillos_shock_atlantes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

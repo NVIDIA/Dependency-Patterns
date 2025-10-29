@@ -52,7 +52,7 @@ adhoc_tool(
 "worthington_remixture_lysolecithin_remixture_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_remixture_lysolecithin_remixture_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_remixture_lysolecithin_remixture_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_remixture_lysolecithin_remixture_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

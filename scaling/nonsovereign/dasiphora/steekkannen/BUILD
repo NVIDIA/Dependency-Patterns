@@ -36,7 +36,7 @@ adhoc_tool(
 "nonsovereign_dasiphora_steekkannen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_dasiphora_steekkannen_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_dasiphora_steekkannen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_dasiphora_steekkannen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

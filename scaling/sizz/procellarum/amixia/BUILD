@@ -54,7 +54,7 @@ adhoc_tool(
 "sizz_procellarum_amixia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_procellarum_amixia_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_procellarum_amixia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_procellarum_amixia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

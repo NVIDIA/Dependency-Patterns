@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_copenetrate_fionnuala_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_copenetrate_fionnuala_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_copenetrate_fionnuala_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_copenetrate_fionnuala_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_gloveman_autoclaves_bergess_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_gloveman_autoclaves_bergess_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_gloveman_autoclaves_bergess_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_gloveman_autoclaves_bergess_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

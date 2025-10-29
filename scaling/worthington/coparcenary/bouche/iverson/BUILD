@@ -55,7 +55,7 @@ adhoc_tool(
 "worthington_coparcenary_bouche_iverson_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coparcenary_bouche_iverson_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coparcenary_bouche_iverson_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coparcenary_bouche_iverson_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

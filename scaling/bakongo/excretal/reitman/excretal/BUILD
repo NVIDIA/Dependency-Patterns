@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_excretal_reitman_excretal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_excretal_reitman_excretal_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_excretal_reitman_excretal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_excretal_reitman_excretal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

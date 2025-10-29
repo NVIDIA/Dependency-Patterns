@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_wilsons_chimacum_outfits_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_wilsons_chimacum_outfits_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_wilsons_chimacum_outfits_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_wilsons_chimacum_outfits_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

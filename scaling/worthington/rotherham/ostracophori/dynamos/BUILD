@@ -45,7 +45,7 @@ adhoc_tool(
 "worthington_rotherham_ostracophori_dynamos_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rotherham_ostracophori_dynamos_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rotherham_ostracophori_dynamos_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rotherham_ostracophori_dynamos_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

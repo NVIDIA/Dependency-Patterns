@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_miserere_substantize_buzzbomb_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_miserere_substantize_buzzbomb_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_miserere_substantize_buzzbomb_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_miserere_substantize_buzzbomb_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

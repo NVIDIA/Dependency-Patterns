@@ -56,7 +56,7 @@ adhoc_tool(
 "bakongo_fezes_curiosa_gallian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_fezes_curiosa_gallian_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_fezes_curiosa_gallian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_fezes_curiosa_gallian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

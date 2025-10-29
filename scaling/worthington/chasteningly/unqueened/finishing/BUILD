@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_chasteningly_unqueened_finishing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_chasteningly_unqueened_finishing_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_chasteningly_unqueened_finishing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_chasteningly_unqueened_finishing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

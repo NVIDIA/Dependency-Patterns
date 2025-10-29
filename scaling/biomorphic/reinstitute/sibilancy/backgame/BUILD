@@ -35,7 +35,7 @@ adhoc_tool(
 "biomorphic_reinstitute_sibilancy_backgame_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_reinstitute_sibilancy_backgame_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reinstitute_sibilancy_backgame_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_reinstitute_sibilancy_backgame_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

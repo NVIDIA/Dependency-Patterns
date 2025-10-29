@@ -29,7 +29,7 @@ adhoc_tool(
         "leggiest_pirtleville_fibrose_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_pirtleville_fibrose_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_pirtleville_fibrose_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_pirtleville_fibrose_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

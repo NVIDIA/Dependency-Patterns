@@ -34,7 +34,7 @@ adhoc_tool(
         "leggiest_torbert_leann_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_torbert_leann_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_torbert_leann_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_torbert_leann_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

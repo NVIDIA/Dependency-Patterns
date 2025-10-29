@@ -49,7 +49,7 @@ adhoc_tool(
 "bakongo_sapphera_elastica_bornitic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_sapphera_elastica_bornitic_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_sapphera_elastica_bornitic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_sapphera_elastica_bornitic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

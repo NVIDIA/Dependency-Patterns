@@ -51,7 +51,7 @@ adhoc_tool(
 "nonsovereign_cacciatore_nonadmission_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_cacciatore_nonadmission_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_cacciatore_nonadmission_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_cacciatore_nonadmission_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

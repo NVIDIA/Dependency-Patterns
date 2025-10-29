@@ -43,7 +43,7 @@ adhoc_tool(
 "bakongo_theodicaea_frenchwomen_nonabjurer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_theodicaea_frenchwomen_nonabjurer_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_theodicaea_frenchwomen_nonabjurer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_theodicaea_frenchwomen_nonabjurer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

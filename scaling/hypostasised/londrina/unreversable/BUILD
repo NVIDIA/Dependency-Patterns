@@ -30,7 +30,7 @@ adhoc_tool(
 "hypostasised_londrina_unreversable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_londrina_unreversable_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_londrina_unreversable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_londrina_unreversable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

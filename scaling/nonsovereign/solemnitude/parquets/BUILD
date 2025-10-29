@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_solemnitude_parquets_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_solemnitude_parquets_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_solemnitude_parquets_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_solemnitude_parquets_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

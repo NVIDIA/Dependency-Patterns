@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_melancholily_unionic_elevenfold_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_melancholily_unionic_elevenfold_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_melancholily_unionic_elevenfold_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_melancholily_unionic_elevenfold_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

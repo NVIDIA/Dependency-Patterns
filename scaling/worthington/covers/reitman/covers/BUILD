@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_covers_reitman_covers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_covers_reitman_covers_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_covers_reitman_covers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_covers_reitman_covers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_mangabey_criminating_necessarius_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_mangabey_criminating_necessarius_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_mangabey_criminating_necessarius_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_mangabey_criminating_necessarius_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

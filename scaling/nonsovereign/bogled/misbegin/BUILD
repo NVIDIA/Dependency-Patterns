@@ -71,7 +71,7 @@ adhoc_tool(
 "nonsovereign_bogled_misbegin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_bogled_misbegin_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_bogled_misbegin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_bogled_misbegin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

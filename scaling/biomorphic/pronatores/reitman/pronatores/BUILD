@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_pronatores_reitman_pronatores_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_pronatores_reitman_pronatores_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_pronatores_reitman_pronatores_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_pronatores_reitman_pronatores_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

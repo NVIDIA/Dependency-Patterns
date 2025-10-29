@@ -32,7 +32,7 @@ adhoc_tool(
 "gpss_predictating_rexen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_predictating_rexen_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_predictating_rexen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_predictating_rexen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -88,7 +88,7 @@ adhoc_tool(
 "biomorphic_sherard_cytogamy_virtuefy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_sherard_cytogamy_virtuefy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_sherard_cytogamy_virtuefy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_sherard_cytogamy_virtuefy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

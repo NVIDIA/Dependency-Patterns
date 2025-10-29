@@ -49,7 +49,7 @@ adhoc_tool(
 "emancipator_quelea_mallei_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_quelea_mallei_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_quelea_mallei_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_quelea_mallei_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

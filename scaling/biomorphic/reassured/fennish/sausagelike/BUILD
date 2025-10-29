@@ -54,7 +54,7 @@ adhoc_tool(
 "biomorphic_reassured_fennish_sausagelike_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_reassured_fennish_sausagelike_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_reassured_fennish_sausagelike_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_reassured_fennish_sausagelike_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

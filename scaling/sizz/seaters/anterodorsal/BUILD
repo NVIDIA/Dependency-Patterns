@@ -60,7 +60,7 @@ adhoc_tool(
 "sizz_seaters_anterodorsal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_seaters_anterodorsal_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_seaters_anterodorsal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_seaters_anterodorsal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

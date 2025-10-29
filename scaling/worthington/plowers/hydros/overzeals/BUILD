@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_plowers_hydros_overzeals_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_plowers_hydros_overzeals_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_plowers_hydros_overzeals_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_plowers_hydros_overzeals_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

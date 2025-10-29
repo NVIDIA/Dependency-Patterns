@@ -39,7 +39,7 @@ adhoc_tool(
 "gpss_shinguard_warsaw_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_shinguard_warsaw_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_shinguard_warsaw_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_shinguard_warsaw_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -82,7 +82,7 @@ adhoc_tool(
 "bakongo_ogle_denatures_sundry_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ogle_denatures_sundry_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ogle_denatures_sundry_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ogle_denatures_sundry_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

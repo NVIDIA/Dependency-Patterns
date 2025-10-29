@@ -76,7 +76,7 @@ adhoc_tool(
         "mesatipelvic_hereditably_wolflike_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_hereditably_wolflike_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_hereditably_wolflike_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_hereditably_wolflike_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

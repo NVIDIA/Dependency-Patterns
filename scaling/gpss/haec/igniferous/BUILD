@@ -51,7 +51,7 @@ adhoc_tool(
 "gpss_haec_igniferous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_haec_igniferous_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_haec_igniferous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_haec_igniferous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

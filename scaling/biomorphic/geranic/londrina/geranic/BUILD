@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_geranic_londrina_geranic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_geranic_londrina_geranic_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_geranic_londrina_geranic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_geranic_londrina_geranic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "nonsovereign_disfrocked_nitrifies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_disfrocked_nitrifies_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_disfrocked_nitrifies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_disfrocked_nitrifies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

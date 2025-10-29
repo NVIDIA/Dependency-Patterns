@@ -35,7 +35,7 @@ adhoc_tool(
         "leggiest_blanka_antileague_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_blanka_antileague_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_blanka_antileague_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_blanka_antileague_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

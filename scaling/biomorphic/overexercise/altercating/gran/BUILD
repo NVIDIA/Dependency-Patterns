@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_overexercise_altercating_gran_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_overexercise_altercating_gran_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_overexercise_altercating_gran_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_overexercise_altercating_gran_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

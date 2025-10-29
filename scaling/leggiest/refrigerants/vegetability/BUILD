@@ -39,7 +39,7 @@ adhoc_tool(
         "leggiest_refrigerants_vegetability_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_refrigerants_vegetability_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_refrigerants_vegetability_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_refrigerants_vegetability_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

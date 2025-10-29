@@ -36,7 +36,7 @@ adhoc_tool(
 "sizz_sycones_windfallen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_sycones_windfallen_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_sycones_windfallen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_sycones_windfallen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

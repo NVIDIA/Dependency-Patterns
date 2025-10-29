@@ -76,7 +76,7 @@ adhoc_tool(
 "biomorphic_untall_cultual_kandinski_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_untall_cultual_kandinski_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_untall_cultual_kandinski_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_untall_cultual_kandinski_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_runlet_regioned_branchiae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_runlet_regioned_branchiae_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_runlet_regioned_branchiae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_runlet_regioned_branchiae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

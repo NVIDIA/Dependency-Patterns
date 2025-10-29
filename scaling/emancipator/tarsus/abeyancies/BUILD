@@ -36,7 +36,7 @@ adhoc_tool(
 "emancipator_tarsus_abeyancies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_tarsus_abeyancies_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_tarsus_abeyancies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_tarsus_abeyancies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

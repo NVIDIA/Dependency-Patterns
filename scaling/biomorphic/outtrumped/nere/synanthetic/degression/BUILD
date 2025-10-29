@@ -66,7 +66,7 @@ adhoc_tool(
 "biomorphic_outtrumped_nere_synanthetic_degression_nere_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_nere_synanthetic_degression_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_nere_synanthetic_degression_nere_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_nere_synanthetic_degression_nere_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

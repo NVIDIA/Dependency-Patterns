@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_moldableness_thrasher_uncustomed_temperatures_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_moldableness_thrasher_uncustomed_temperatures_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_uncustomed_temperatures_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_uncustomed_temperatures_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

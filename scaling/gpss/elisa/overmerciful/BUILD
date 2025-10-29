@@ -73,7 +73,7 @@ adhoc_tool(
 "gpss_elisa_overmerciful_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_elisa_overmerciful_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_elisa_overmerciful_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_elisa_overmerciful_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

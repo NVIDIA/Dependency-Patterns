@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_cladothrix_lysolecithin_cladothrix_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cladothrix_lysolecithin_cladothrix_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cladothrix_lysolecithin_cladothrix_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cladothrix_lysolecithin_cladothrix_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

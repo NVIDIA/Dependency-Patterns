@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_eximiousness_reitman_eximiousness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_eximiousness_reitman_eximiousness_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_eximiousness_reitman_eximiousness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_eximiousness_reitman_eximiousness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

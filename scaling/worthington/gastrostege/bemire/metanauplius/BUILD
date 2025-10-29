@@ -33,7 +33,7 @@ adhoc_tool(
 "worthington_gastrostege_bemire_metanauplius_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_gastrostege_bemire_metanauplius_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_gastrostege_bemire_metanauplius_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_gastrostege_bemire_metanauplius_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_kemppe_unifiedly_frazer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_kemppe_unifiedly_frazer_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_kemppe_unifiedly_frazer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_kemppe_unifiedly_frazer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

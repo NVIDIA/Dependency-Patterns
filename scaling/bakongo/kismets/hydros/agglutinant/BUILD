@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_kismets_hydros_agglutinant_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_kismets_hydros_agglutinant_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_kismets_hydros_agglutinant_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_kismets_hydros_agglutinant_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

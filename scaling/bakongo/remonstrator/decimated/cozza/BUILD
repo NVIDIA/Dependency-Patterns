@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_remonstrator_decimated_cozza_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_remonstrator_decimated_cozza_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_remonstrator_decimated_cozza_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_remonstrator_decimated_cozza_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

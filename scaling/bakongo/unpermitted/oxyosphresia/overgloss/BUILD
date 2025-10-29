@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_unpermitted_oxyosphresia_overgloss_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_unpermitted_oxyosphresia_overgloss_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_unpermitted_oxyosphresia_overgloss_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_unpermitted_oxyosphresia_overgloss_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -62,7 +62,7 @@ adhoc_tool(
 "sizz_thrombopenia_unform_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_thrombopenia_unform_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_thrombopenia_unform_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_thrombopenia_unform_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

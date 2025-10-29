@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_pastile_unburnished_eugenle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_pastile_unburnished_eugenle_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_pastile_unburnished_eugenle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_pastile_unburnished_eugenle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_ninnyism_croc_trustihood_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_ninnyism_croc_trustihood_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_ninnyism_croc_trustihood_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_ninnyism_croc_trustihood_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

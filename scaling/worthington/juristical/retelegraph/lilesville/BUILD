@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_juristical_retelegraph_lilesville_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_juristical_retelegraph_lilesville_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_juristical_retelegraph_lilesville_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_juristical_retelegraph_lilesville_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

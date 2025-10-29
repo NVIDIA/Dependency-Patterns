@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_insident_picco_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_insident_picco_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_insident_picco_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_insident_picco_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

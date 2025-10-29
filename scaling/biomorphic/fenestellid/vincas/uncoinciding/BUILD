@@ -57,7 +57,7 @@ adhoc_tool(
 "biomorphic_fenestellid_vincas_uncoinciding_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_fenestellid_vincas_uncoinciding_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_fenestellid_vincas_uncoinciding_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_fenestellid_vincas_uncoinciding_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

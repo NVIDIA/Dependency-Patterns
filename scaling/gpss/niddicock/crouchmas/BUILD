@@ -42,7 +42,7 @@ adhoc_tool(
 "gpss_niddicock_crouchmas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_niddicock_crouchmas_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_niddicock_crouchmas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_niddicock_crouchmas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

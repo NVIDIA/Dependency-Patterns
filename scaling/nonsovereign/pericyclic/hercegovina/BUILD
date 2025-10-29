@@ -73,7 +73,7 @@ adhoc_tool(
 "nonsovereign_pericyclic_hercegovina_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_pericyclic_hercegovina_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_pericyclic_hercegovina_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_pericyclic_hercegovina_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

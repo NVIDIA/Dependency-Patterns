@@ -80,7 +80,7 @@ adhoc_tool(
 "sizz_didactics_hypaethral_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_didactics_hypaethral_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_didactics_hypaethral_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_didactics_hypaethral_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

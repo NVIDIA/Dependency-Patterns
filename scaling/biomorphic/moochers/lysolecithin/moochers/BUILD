@@ -42,7 +42,7 @@ adhoc_tool(
 "biomorphic_moochers_lysolecithin_moochers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_moochers_lysolecithin_moochers_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_moochers_lysolecithin_moochers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_moochers_lysolecithin_moochers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

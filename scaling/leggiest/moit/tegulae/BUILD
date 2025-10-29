@@ -74,7 +74,7 @@ adhoc_tool(
         "leggiest_moit_tegulae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_moit_tegulae_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_moit_tegulae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_moit_tegulae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

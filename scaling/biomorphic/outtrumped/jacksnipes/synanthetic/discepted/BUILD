@@ -96,7 +96,7 @@ adhoc_tool(
 "biomorphic_outtrumped_jacksnipes_synanthetic_discepted_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_jacksnipes_synanthetic_discepted_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_jacksnipes_synanthetic_discepted_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_jacksnipes_synanthetic_discepted_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_primevity_aftereffects_antinganting_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_primevity_aftereffects_antinganting_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_primevity_aftereffects_antinganting_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_primevity_aftereffects_antinganting_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

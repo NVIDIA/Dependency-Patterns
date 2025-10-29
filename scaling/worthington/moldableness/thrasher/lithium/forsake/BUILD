@@ -33,7 +33,7 @@ adhoc_tool(
 "worthington_moldableness_thrasher_lithium_forsake_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_moldableness_thrasher_lithium_forsake_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_lithium_forsake_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_moldableness_thrasher_lithium_forsake_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

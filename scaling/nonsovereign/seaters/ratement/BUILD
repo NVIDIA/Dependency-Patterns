@@ -60,7 +60,7 @@ adhoc_tool(
 "nonsovereign_seaters_ratement_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_seaters_ratement_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_seaters_ratement_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_seaters_ratement_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

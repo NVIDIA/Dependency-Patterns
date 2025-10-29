@@ -47,7 +47,7 @@ adhoc_tool(
 "bakongo_scenic_feps_lisbeth_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_scenic_feps_lisbeth_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_scenic_feps_lisbeth_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_scenic_feps_lisbeth_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

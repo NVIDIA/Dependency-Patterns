@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_entoplastral_hydros_pifine_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_entoplastral_hydros_pifine_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_entoplastral_hydros_pifine_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_entoplastral_hydros_pifine_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

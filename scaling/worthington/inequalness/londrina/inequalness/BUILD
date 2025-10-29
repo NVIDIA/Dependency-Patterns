@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_inequalness_londrina_inequalness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_inequalness_londrina_inequalness_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_inequalness_londrina_inequalness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_inequalness_londrina_inequalness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

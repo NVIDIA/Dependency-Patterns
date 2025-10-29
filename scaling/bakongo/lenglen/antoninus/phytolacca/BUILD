@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_lenglen_antoninus_phytolacca_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_lenglen_antoninus_phytolacca_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_lenglen_antoninus_phytolacca_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_lenglen_antoninus_phytolacca_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

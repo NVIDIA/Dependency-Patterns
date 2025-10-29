@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_tailorwise_cgx_hotdog_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_tailorwise_cgx_hotdog_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_tailorwise_cgx_hotdog_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_tailorwise_cgx_hotdog_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -33,7 +33,7 @@ adhoc_tool(
 "worthington_hyporadius_criminating_forbye_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_hyporadius_criminating_forbye_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_hyporadius_criminating_forbye_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_hyporadius_criminating_forbye_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

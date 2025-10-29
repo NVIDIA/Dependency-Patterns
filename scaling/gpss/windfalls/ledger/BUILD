@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_windfalls_ledger_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_windfalls_ledger_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_windfalls_ledger_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_windfalls_ledger_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

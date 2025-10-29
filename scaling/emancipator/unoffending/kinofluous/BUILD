@@ -80,7 +80,7 @@ adhoc_tool(
 "emancipator_unoffending_kinofluous_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_unoffending_kinofluous_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_unoffending_kinofluous_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_unoffending_kinofluous_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

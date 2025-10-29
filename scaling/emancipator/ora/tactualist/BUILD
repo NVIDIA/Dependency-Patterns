@@ -51,7 +51,7 @@ adhoc_tool(
 "emancipator_ora_tactualist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_ora_tactualist_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_ora_tactualist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_ora_tactualist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

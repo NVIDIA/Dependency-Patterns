@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_gibbals_keifer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_gibbals_keifer_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_gibbals_keifer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_gibbals_keifer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

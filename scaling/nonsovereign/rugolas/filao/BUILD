@@ -42,7 +42,7 @@ adhoc_tool(
 "nonsovereign_rugolas_filao_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_rugolas_filao_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_rugolas_filao_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_rugolas_filao_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

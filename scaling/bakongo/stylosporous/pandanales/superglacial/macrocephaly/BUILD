@@ -68,7 +68,7 @@ adhoc_tool(
 "bakongo_stylosporous_pandanales_superglacial_macrocephaly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_pandanales_superglacial_macrocephaly_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_pandanales_superglacial_macrocephaly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_pandanales_superglacial_macrocephaly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

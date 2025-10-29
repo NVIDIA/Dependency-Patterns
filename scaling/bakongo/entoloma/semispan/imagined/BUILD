@@ -50,7 +50,7 @@ adhoc_tool(
 "bakongo_entoloma_semispan_imagined_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_entoloma_semispan_imagined_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_entoloma_semispan_imagined_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_entoloma_semispan_imagined_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_spondylic_arsesmart_discomycetes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_spondylic_arsesmart_discomycetes_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_spondylic_arsesmart_discomycetes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_spondylic_arsesmart_discomycetes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

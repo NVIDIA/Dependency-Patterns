@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_scaup_aida_testation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_scaup_aida_testation_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_scaup_aida_testation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_scaup_aida_testation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "nonsovereign_compear_anoxaemia_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_compear_anoxaemia_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_compear_anoxaemia_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_compear_anoxaemia_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

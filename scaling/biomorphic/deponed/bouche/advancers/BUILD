@@ -63,7 +63,7 @@ adhoc_tool(
 "biomorphic_deponed_bouche_advancers_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_deponed_bouche_advancers_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_deponed_bouche_advancers_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_deponed_bouche_advancers_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

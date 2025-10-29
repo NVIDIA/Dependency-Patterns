@@ -33,7 +33,7 @@ adhoc_tool(
 "sizz_begumming_rowley_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_begumming_rowley_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_begumming_rowley_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_begumming_rowley_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

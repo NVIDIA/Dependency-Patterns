@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_filiciform_lysolecithin_schoolable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_filiciform_lysolecithin_schoolable_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_filiciform_lysolecithin_schoolable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_filiciform_lysolecithin_schoolable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

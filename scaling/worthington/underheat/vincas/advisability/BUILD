@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_underheat_vincas_advisability_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_underheat_vincas_advisability_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_underheat_vincas_advisability_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_underheat_vincas_advisability_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

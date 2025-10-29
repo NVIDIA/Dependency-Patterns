@@ -34,7 +34,7 @@ adhoc_tool(
 "emancipator_cloturing_calyciform_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_cloturing_calyciform_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_cloturing_calyciform_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_cloturing_calyciform_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

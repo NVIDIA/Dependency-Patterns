@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_uneschewably_circaea_volvox_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_uneschewably_circaea_volvox_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_uneschewably_circaea_volvox_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_uneschewably_circaea_volvox_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

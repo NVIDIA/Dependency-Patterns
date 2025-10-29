@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_beslaved_urinalist_scottsboro_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_beslaved_urinalist_scottsboro_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_beslaved_urinalist_scottsboro_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_beslaved_urinalist_scottsboro_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

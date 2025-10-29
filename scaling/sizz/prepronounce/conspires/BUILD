@@ -36,7 +36,7 @@ adhoc_tool(
 "sizz_prepronounce_conspires_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_prepronounce_conspires_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_prepronounce_conspires_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_prepronounce_conspires_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

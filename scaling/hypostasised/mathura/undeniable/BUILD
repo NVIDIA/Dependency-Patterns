@@ -61,7 +61,7 @@ adhoc_tool(
 "hypostasised_mathura_undeniable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_mathura_undeniable_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_mathura_undeniable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_mathura_undeniable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_coportion_conformate_chatchkes_sapphisms_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_conformate_chatchkes_sapphisms_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_conformate_chatchkes_sapphisms_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_conformate_chatchkes_sapphisms_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

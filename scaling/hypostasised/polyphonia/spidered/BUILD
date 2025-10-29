@@ -41,7 +41,7 @@ adhoc_tool(
 "hypostasised_polyphonia_spidered_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_polyphonia_spidered_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_polyphonia_spidered_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_polyphonia_spidered_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

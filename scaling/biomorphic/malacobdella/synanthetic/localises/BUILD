@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_malacobdella_synanthetic_localises_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_malacobdella_synanthetic_localises_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_malacobdella_synanthetic_localises_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_malacobdella_synanthetic_localises_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

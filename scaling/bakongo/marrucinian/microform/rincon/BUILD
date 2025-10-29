@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_marrucinian_microform_rincon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_marrucinian_microform_rincon_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_marrucinian_microform_rincon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_marrucinian_microform_rincon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

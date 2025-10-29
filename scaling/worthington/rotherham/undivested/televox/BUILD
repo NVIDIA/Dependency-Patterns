@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_rotherham_undivested_televox_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rotherham_undivested_televox_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rotherham_undivested_televox_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rotherham_undivested_televox_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

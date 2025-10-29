@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_ammocoetid_blustery_passaree_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_ammocoetid_blustery_passaree_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_ammocoetid_blustery_passaree_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_ammocoetid_blustery_passaree_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

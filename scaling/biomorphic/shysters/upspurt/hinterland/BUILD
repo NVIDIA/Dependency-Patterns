@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_shysters_upspurt_hinterland_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_shysters_upspurt_hinterland_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_shysters_upspurt_hinterland_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_shysters_upspurt_hinterland_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

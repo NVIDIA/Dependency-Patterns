@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_felspathic_triturature_simonizes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_felspathic_triturature_simonizes_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_felspathic_triturature_simonizes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_felspathic_triturature_simonizes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

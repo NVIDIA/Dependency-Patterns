@@ -38,7 +38,7 @@ adhoc_tool(
         "leggiest_rebestow_trilingually_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_rebestow_trilingually_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_rebestow_trilingually_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_rebestow_trilingually_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

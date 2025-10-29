@@ -36,7 +36,7 @@ adhoc_tool(
 "biomorphic_avocatory_antoninus_jamadar_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_avocatory_antoninus_jamadar_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_avocatory_antoninus_jamadar_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_avocatory_antoninus_jamadar_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

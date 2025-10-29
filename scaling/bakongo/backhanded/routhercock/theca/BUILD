@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_backhanded_routhercock_theca_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_backhanded_routhercock_theca_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_backhanded_routhercock_theca_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_backhanded_routhercock_theca_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

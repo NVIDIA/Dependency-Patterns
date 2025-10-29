@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_hyporadius_shinguard_ameerate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_hyporadius_shinguard_ameerate_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_hyporadius_shinguard_ameerate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_hyporadius_shinguard_ameerate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

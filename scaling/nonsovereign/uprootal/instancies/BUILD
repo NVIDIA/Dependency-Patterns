@@ -33,7 +33,7 @@ adhoc_tool(
 "nonsovereign_uprootal_instancies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_uprootal_instancies_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_uprootal_instancies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_uprootal_instancies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

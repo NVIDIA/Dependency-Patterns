@@ -61,7 +61,7 @@ adhoc_tool(
 "gpss_prehumans_baptized_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_prehumans_baptized_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_prehumans_baptized_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_prehumans_baptized_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_scone_feuchtwanger_cryptodiran_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_scone_feuchtwanger_cryptodiran_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_scone_feuchtwanger_cryptodiran_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_scone_feuchtwanger_cryptodiran_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

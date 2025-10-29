@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_stockwood_entrechat_marse_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stockwood_entrechat_marse_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stockwood_entrechat_marse_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stockwood_entrechat_marse_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

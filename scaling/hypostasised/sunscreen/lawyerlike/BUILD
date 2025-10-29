@@ -32,7 +32,7 @@ adhoc_tool(
 "hypostasised_sunscreen_lawyerlike_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_sunscreen_lawyerlike_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_sunscreen_lawyerlike_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_sunscreen_lawyerlike_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

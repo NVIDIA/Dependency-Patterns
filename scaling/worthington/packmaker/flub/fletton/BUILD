@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_packmaker_flub_fletton_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_packmaker_flub_fletton_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_packmaker_flub_fletton_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_packmaker_flub_fletton_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

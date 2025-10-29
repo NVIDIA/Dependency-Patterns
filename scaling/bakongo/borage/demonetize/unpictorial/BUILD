@@ -70,7 +70,7 @@ adhoc_tool(
 "bakongo_borage_demonetize_unpictorial_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_borage_demonetize_unpictorial_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_borage_demonetize_unpictorial_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_borage_demonetize_unpictorial_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

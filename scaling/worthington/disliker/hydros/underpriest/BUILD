@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_disliker_hydros_underpriest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_disliker_hydros_underpriest_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_disliker_hydros_underpriest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_disliker_hydros_underpriest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

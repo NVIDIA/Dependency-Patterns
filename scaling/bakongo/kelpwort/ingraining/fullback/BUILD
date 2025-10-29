@@ -99,7 +99,7 @@ adhoc_tool(
 "bakongo_kelpwort_ingraining_fullback_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_kelpwort_ingraining_fullback_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_kelpwort_ingraining_fullback_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_kelpwort_ingraining_fullback_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

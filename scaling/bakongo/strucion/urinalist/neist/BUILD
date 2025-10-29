@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_strucion_urinalist_neist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_strucion_urinalist_neist_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_strucion_urinalist_neist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_strucion_urinalist_neist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

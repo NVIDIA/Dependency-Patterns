@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_skiis_antoninus_turnplate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_skiis_antoninus_turnplate_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_skiis_antoninus_turnplate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_skiis_antoninus_turnplate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

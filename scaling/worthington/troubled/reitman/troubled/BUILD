@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_troubled_reitman_troubled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_troubled_reitman_troubled_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_troubled_reitman_troubled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_troubled_reitman_troubled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_melanoplakia_riteless_gelsemium_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_melanoplakia_riteless_gelsemium_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_melanoplakia_riteless_gelsemium_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_melanoplakia_riteless_gelsemium_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

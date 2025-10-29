@@ -155,7 +155,7 @@ adhoc_tool(
 "nonsovereign_domination_quietens_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_domination_quietens_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_domination_quietens_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_domination_quietens_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

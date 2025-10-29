@@ -43,7 +43,7 @@ adhoc_tool(
 "sizz_stanza_tympanic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_stanza_tympanic_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_stanza_tympanic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_stanza_tympanic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

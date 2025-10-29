@@ -41,7 +41,7 @@ adhoc_tool(
 "bakongo_obstructedly_lysolecithin_obstructedly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_obstructedly_lysolecithin_obstructedly_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_obstructedly_lysolecithin_obstructedly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_obstructedly_lysolecithin_obstructedly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

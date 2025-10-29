@@ -52,7 +52,7 @@ adhoc_tool(
 "sizz_salvatella_coprostasis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_salvatella_coprostasis_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_salvatella_coprostasis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_salvatella_coprostasis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

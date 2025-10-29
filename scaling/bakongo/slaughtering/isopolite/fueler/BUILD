@@ -53,7 +53,7 @@ adhoc_tool(
 "bakongo_slaughtering_isopolite_fueler_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_slaughtering_isopolite_fueler_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_slaughtering_isopolite_fueler_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_slaughtering_isopolite_fueler_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_wrestable_reitman_wrestable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_wrestable_reitman_wrestable_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_wrestable_reitman_wrestable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_wrestable_reitman_wrestable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

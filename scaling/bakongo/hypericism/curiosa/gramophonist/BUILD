@@ -47,7 +47,7 @@ adhoc_tool(
 "bakongo_hypericism_curiosa_gramophonist_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_hypericism_curiosa_gramophonist_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_hypericism_curiosa_gramophonist_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_hypericism_curiosa_gramophonist_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

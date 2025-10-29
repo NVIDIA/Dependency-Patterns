@@ -30,7 +30,7 @@ adhoc_tool(
         "mesatipelvic_antoninus_uneffusive_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_antoninus_uneffusive_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_antoninus_uneffusive_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_antoninus_uneffusive_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

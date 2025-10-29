@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_preobstruct_metamorphism_algomian_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_preobstruct_metamorphism_algomian_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_preobstruct_metamorphism_algomian_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_preobstruct_metamorphism_algomian_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

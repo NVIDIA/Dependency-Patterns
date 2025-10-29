@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_palingenic_reitman_palingenic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_palingenic_reitman_palingenic_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_palingenic_reitman_palingenic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_palingenic_reitman_palingenic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

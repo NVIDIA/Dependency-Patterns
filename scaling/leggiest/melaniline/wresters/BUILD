@@ -33,7 +33,7 @@ adhoc_tool(
         "leggiest_melaniline_wresters_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_melaniline_wresters_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_melaniline_wresters_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_melaniline_wresters_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

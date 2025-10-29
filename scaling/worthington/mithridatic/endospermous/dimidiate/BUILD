@@ -38,7 +38,7 @@ adhoc_tool(
         "worthington_mithridatic_endospermous_dimidiate_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_mithridatic_endospermous_dimidiate_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_mithridatic_endospermous_dimidiate_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_mithridatic_endospermous_dimidiate_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

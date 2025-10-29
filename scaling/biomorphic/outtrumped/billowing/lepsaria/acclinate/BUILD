@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_outtrumped_billowing_lepsaria_acclinate_billowing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_billowing_lepsaria_acclinate_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_billowing_lepsaria_acclinate_billowing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_billowing_lepsaria_acclinate_billowing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -52,7 +52,7 @@ adhoc_tool(
 "nonsovereign_intervillous_autorail_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_intervillous_autorail_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_intervillous_autorail_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_intervillous_autorail_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

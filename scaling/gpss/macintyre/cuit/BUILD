@@ -52,7 +52,7 @@ adhoc_tool(
 "gpss_macintyre_cuit_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_macintyre_cuit_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_macintyre_cuit_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_macintyre_cuit_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

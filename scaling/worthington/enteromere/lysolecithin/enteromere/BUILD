@@ -40,7 +40,7 @@ adhoc_tool(
 "worthington_enteromere_lysolecithin_enteromere_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_enteromere_lysolecithin_enteromere_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_enteromere_lysolecithin_enteromere_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_enteromere_lysolecithin_enteromere_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

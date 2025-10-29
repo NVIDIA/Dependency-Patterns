@@ -61,7 +61,7 @@ adhoc_tool(
 "sizz_camped_frontsman_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_camped_frontsman_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_camped_frontsman_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_camped_frontsman_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

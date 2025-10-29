@@ -76,7 +76,7 @@ adhoc_tool(
 "bakongo_barrels_nontheologic_anemophily_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_barrels_nontheologic_anemophily_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_barrels_nontheologic_anemophily_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_barrels_nontheologic_anemophily_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

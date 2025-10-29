@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_phyllade_comely_dormin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_phyllade_comely_dormin_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_phyllade_comely_dormin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_phyllade_comely_dormin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

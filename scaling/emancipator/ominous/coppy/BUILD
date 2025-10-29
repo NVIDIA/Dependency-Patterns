@@ -32,7 +32,7 @@ adhoc_tool(
 "emancipator_ominous_coppy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_ominous_coppy_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_ominous_coppy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_ominous_coppy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

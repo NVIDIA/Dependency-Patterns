@@ -38,7 +38,7 @@ adhoc_tool(
 "nonsovereign_belive_metabel_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_belive_metabel_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_belive_metabel_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_belive_metabel_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

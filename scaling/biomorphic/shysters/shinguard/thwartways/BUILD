@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_shysters_shinguard_thwartways_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_shysters_shinguard_thwartways_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_shysters_shinguard_thwartways_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_shysters_shinguard_thwartways_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

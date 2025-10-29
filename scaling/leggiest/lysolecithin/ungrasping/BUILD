@@ -70,7 +70,7 @@ adhoc_tool(
         "leggiest_lysolecithin_ungrasping_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_lysolecithin_ungrasping_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_lysolecithin_ungrasping_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_lysolecithin_ungrasping_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

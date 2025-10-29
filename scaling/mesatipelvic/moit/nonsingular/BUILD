@@ -74,7 +74,7 @@ adhoc_tool(
         "mesatipelvic_moit_nonsingular_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_moit_nonsingular_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_moit_nonsingular_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_moit_nonsingular_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

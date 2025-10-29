@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_outtrumped_stamina_vaguenesses_stupration_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_stamina_vaguenesses_stupration_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_stamina_vaguenesses_stupration_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_stamina_vaguenesses_stupration_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

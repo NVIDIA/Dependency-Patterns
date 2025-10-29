@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_ungreatness_springvale_coccids_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ungreatness_springvale_coccids_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ungreatness_springvale_coccids_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ungreatness_springvale_coccids_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

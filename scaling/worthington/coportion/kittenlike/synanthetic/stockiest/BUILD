@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_coportion_kittenlike_synanthetic_stockiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_kittenlike_synanthetic_stockiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_kittenlike_synanthetic_stockiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_kittenlike_synanthetic_stockiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

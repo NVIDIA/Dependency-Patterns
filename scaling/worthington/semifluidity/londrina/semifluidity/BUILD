@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_semifluidity_londrina_semifluidity_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_semifluidity_londrina_semifluidity_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_semifluidity_londrina_semifluidity_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_semifluidity_londrina_semifluidity_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -49,7 +49,7 @@ adhoc_tool(
 "worthington_preconvict_exospheric_scutellum_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_preconvict_exospheric_scutellum_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_preconvict_exospheric_scutellum_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_preconvict_exospheric_scutellum_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

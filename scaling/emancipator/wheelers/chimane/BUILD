@@ -65,7 +65,7 @@ adhoc_tool(
 "emancipator_wheelers_chimane_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_wheelers_chimane_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_wheelers_chimane_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_wheelers_chimane_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -67,7 +67,7 @@ adhoc_tool(
 "worthington_cinephone_ensiling_serviced_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_cinephone_ensiling_serviced_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_cinephone_ensiling_serviced_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_cinephone_ensiling_serviced_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

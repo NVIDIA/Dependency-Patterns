@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_incorrigible_stylizers_depoliti_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_incorrigible_stylizers_depoliti_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_incorrigible_stylizers_depoliti_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_incorrigible_stylizers_depoliti_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

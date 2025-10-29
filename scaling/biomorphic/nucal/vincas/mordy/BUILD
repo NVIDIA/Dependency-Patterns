@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_nucal_vincas_mordy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_nucal_vincas_mordy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_nucal_vincas_mordy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_nucal_vincas_mordy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

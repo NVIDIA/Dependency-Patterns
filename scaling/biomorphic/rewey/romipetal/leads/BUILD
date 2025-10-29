@@ -42,7 +42,7 @@ adhoc_tool(
 "biomorphic_rewey_romipetal_leads_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_rewey_romipetal_leads_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_rewey_romipetal_leads_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_rewey_romipetal_leads_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

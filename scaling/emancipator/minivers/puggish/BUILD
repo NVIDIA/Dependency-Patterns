@@ -47,7 +47,7 @@ adhoc_tool(
 "emancipator_minivers_puggish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_minivers_puggish_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_minivers_puggish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_minivers_puggish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

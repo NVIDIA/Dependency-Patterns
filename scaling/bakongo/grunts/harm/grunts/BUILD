@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_grunts_harm_grunts_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_grunts_harm_grunts_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_grunts_harm_grunts_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_grunts_harm_grunts_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

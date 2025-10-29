@@ -49,7 +49,7 @@ adhoc_tool(
 "biomorphic_opportunism_lysolecithin_opportunism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_opportunism_lysolecithin_opportunism_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_opportunism_lysolecithin_opportunism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_opportunism_lysolecithin_opportunism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

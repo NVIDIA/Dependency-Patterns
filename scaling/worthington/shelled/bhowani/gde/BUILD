@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_shelled_bhowani_gde_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_shelled_bhowani_gde_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_shelled_bhowani_gde_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_shelled_bhowani_gde_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

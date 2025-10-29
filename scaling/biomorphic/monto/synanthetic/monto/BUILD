@@ -56,7 +56,7 @@ adhoc_tool(
 "biomorphic_monto_synanthetic_monto_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_monto_synanthetic_monto_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_monto_synanthetic_monto_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_monto_synanthetic_monto_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

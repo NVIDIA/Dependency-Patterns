@@ -65,7 +65,7 @@ adhoc_tool(
 "worthington_jujutsu_ununanimity_factorship_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_jujutsu_ununanimity_factorship_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_jujutsu_ununanimity_factorship_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_jujutsu_ununanimity_factorship_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

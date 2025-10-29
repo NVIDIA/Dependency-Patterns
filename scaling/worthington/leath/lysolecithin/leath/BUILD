@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_leath_lysolecithin_leath_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_leath_lysolecithin_leath_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_leath_lysolecithin_leath_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_leath_lysolecithin_leath_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -49,7 +49,7 @@ adhoc_tool(
 "emancipator_overeaten_omnivarious_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_overeaten_omnivarious_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_overeaten_omnivarious_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_overeaten_omnivarious_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

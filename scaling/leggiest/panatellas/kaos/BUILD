@@ -35,7 +35,7 @@ adhoc_tool(
         "leggiest_panatellas_kaos_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_panatellas_kaos_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_panatellas_kaos_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_panatellas_kaos_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

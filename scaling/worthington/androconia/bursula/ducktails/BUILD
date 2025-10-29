@@ -72,7 +72,7 @@ adhoc_tool(
 "worthington_androconia_bursula_ducktails_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_androconia_bursula_ducktails_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_androconia_bursula_ducktails_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_androconia_bursula_ducktails_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

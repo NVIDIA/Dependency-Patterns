@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_scopulate_braithwaite_clarion_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_scopulate_braithwaite_clarion_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_scopulate_braithwaite_clarion_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_scopulate_braithwaite_clarion_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

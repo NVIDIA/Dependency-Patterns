@@ -63,7 +63,7 @@ adhoc_tool(
         "leggiest_edveh_unsunburnt_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_edveh_unsunburnt_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_edveh_unsunburnt_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_edveh_unsunburnt_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

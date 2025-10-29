@@ -46,7 +46,7 @@ adhoc_tool(
 "biomorphic_sexlocular_berberi_nonsailor_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_sexlocular_berberi_nonsailor_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_sexlocular_berberi_nonsailor_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_sexlocular_berberi_nonsailor_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

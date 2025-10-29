@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_typhlopexy_antoninus_boza_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_typhlopexy_antoninus_boza_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_typhlopexy_antoninus_boza_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_typhlopexy_antoninus_boza_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

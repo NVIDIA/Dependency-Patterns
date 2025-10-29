@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_brahmaic_czars_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_brahmaic_czars_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_brahmaic_czars_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_brahmaic_czars_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

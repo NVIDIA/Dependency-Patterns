@@ -34,7 +34,7 @@ adhoc_tool(
 "hypostasised_emelda_xview_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_emelda_xview_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_emelda_xview_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_emelda_xview_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

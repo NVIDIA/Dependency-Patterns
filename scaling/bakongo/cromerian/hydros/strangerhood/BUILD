@@ -36,7 +36,7 @@ adhoc_tool(
 "bakongo_cromerian_hydros_strangerhood_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_cromerian_hydros_strangerhood_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_cromerian_hydros_strangerhood_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_cromerian_hydros_strangerhood_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_crumblement_igbo_exotoxin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_crumblement_igbo_exotoxin_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_crumblement_igbo_exotoxin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_crumblement_igbo_exotoxin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

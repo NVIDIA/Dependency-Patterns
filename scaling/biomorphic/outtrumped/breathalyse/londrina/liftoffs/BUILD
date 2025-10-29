@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_outtrumped_breathalyse_londrina_liftoffs_breathalyse_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_breathalyse_londrina_liftoffs_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_breathalyse_londrina_liftoffs_breathalyse_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_breathalyse_londrina_liftoffs_breathalyse_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

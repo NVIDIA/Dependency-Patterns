@@ -32,7 +32,7 @@ adhoc_tool(
 "emancipator_pemmicans_leaper_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_pemmicans_leaper_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_pemmicans_leaper_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_pemmicans_leaper_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

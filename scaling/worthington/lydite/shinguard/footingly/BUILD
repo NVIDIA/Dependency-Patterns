@@ -31,7 +31,7 @@ adhoc_tool(
 "worthington_lydite_shinguard_footingly_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_lydite_shinguard_footingly_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_lydite_shinguard_footingly_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_lydite_shinguard_footingly_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

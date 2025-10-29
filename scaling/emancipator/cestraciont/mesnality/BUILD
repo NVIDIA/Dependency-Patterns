@@ -83,7 +83,7 @@ adhoc_tool(
 "emancipator_cestraciont_mesnality_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_cestraciont_mesnality_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_cestraciont_mesnality_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_cestraciont_mesnality_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

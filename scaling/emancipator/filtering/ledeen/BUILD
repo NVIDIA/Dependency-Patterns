@@ -44,7 +44,7 @@ adhoc_tool(
 "emancipator_filtering_ledeen_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_filtering_ledeen_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_filtering_ledeen_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_filtering_ledeen_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

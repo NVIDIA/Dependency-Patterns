@@ -57,7 +57,7 @@ adhoc_tool(
 "bakongo_bjork_triturature_judgments_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_bjork_triturature_judgments_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_bjork_triturature_judgments_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_bjork_triturature_judgments_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

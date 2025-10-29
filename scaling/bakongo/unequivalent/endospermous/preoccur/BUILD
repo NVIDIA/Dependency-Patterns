@@ -35,7 +35,7 @@ adhoc_tool(
         "bakongo_unequivalent_endospermous_preoccur_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_unequivalent_endospermous_preoccur_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_unequivalent_endospermous_preoccur_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_unequivalent_endospermous_preoccur_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

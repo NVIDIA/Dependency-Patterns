@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_crateris_reitman_crateris_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_crateris_reitman_crateris_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_crateris_reitman_crateris_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_crateris_reitman_crateris_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

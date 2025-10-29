@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_shogun_homicidium_resplendish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_shogun_homicidium_resplendish_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_shogun_homicidium_resplendish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_shogun_homicidium_resplendish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

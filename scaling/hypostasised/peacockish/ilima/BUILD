@@ -34,7 +34,7 @@ adhoc_tool(
 "hypostasised_peacockish_ilima_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_peacockish_ilima_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_peacockish_ilima_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_peacockish_ilima_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

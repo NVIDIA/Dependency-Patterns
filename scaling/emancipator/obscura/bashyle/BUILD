@@ -144,7 +144,7 @@ adhoc_tool(
 "emancipator_obscura_bashyle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_obscura_bashyle_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_obscura_bashyle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_obscura_bashyle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

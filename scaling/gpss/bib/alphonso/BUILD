@@ -32,7 +32,7 @@ adhoc_tool(
 "gpss_bib_alphonso_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_bib_alphonso_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_bib_alphonso_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_bib_alphonso_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

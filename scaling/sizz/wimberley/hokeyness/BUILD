@@ -98,7 +98,7 @@ adhoc_tool(
 "sizz_wimberley_hokeyness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_wimberley_hokeyness_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_wimberley_hokeyness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_wimberley_hokeyness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

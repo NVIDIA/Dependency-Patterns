@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_prestomial_vincas_nightmary_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_prestomial_vincas_nightmary_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_prestomial_vincas_nightmary_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_prestomial_vincas_nightmary_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

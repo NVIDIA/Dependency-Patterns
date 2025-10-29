@@ -53,7 +53,7 @@ adhoc_tool(
 "biomorphic_liparidae_hereditably_miniskis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_liparidae_hereditably_miniskis_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_liparidae_hereditably_miniskis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_liparidae_hereditably_miniskis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

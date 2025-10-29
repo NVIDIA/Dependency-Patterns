@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_vignettists_routhercock_bleach_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_vignettists_routhercock_bleach_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_vignettists_routhercock_bleach_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_vignettists_routhercock_bleach_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

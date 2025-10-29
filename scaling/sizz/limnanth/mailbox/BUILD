@@ -51,7 +51,7 @@ adhoc_tool(
 "sizz_limnanth_mailbox_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_limnanth_mailbox_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_limnanth_mailbox_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_limnanth_mailbox_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

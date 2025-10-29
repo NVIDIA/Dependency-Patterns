@@ -52,7 +52,7 @@ adhoc_tool(
 "worthington_sleided_hemiplegic_chickories_preclusion_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_hemiplegic_chickories_preclusion_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_hemiplegic_chickories_preclusion_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_hemiplegic_chickories_preclusion_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

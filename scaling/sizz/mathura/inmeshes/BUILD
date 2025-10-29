@@ -47,7 +47,7 @@ adhoc_tool(
 "sizz_mathura_inmeshes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_mathura_inmeshes_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_mathura_inmeshes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_mathura_inmeshes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

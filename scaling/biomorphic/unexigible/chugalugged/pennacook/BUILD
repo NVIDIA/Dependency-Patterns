@@ -32,7 +32,7 @@ adhoc_tool(
 "biomorphic_unexigible_chugalugged_pennacook_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_unexigible_chugalugged_pennacook_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_unexigible_chugalugged_pennacook_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_unexigible_chugalugged_pennacook_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
         "mesatipelvic_lysolecithin_vilipends_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_lysolecithin_vilipends_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_lysolecithin_vilipends_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_lysolecithin_vilipends_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

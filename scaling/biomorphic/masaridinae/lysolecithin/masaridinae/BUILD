@@ -50,7 +50,7 @@ adhoc_tool(
 "biomorphic_masaridinae_lysolecithin_masaridinae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_masaridinae_lysolecithin_masaridinae_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_masaridinae_lysolecithin_masaridinae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_masaridinae_lysolecithin_masaridinae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

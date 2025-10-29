@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_xylylene_londrina_xylylene_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_xylylene_londrina_xylylene_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_xylylene_londrina_xylylene_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_xylylene_londrina_xylylene_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

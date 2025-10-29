@@ -34,7 +34,7 @@ adhoc_tool(
 "hypostasised_cloturing_apicilar_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_cloturing_apicilar_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_cloturing_apicilar_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_cloturing_apicilar_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

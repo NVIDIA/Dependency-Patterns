@@ -44,7 +44,7 @@ adhoc_tool(
 "biomorphic_coarsest_fraudulently_rdp_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_coarsest_fraudulently_rdp_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_coarsest_fraudulently_rdp_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_coarsest_fraudulently_rdp_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

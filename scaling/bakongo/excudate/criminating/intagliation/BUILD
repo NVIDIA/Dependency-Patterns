@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_excudate_criminating_intagliation_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_excudate_criminating_intagliation_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_excudate_criminating_intagliation_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_excudate_criminating_intagliation_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -35,7 +35,7 @@ adhoc_tool(
 "nonsovereign_photochemic_goutish_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_photochemic_goutish_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_photochemic_goutish_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_photochemic_goutish_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

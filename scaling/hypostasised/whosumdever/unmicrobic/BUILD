@@ -35,7 +35,7 @@ adhoc_tool(
 "hypostasised_whosumdever_unmicrobic_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_whosumdever_unmicrobic_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_whosumdever_unmicrobic_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_whosumdever_unmicrobic_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

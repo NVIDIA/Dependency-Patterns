@@ -39,7 +39,7 @@ adhoc_tool(
 "worthington_tassal_disawa_levels_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_tassal_disawa_levels_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_tassal_disawa_levels_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_tassal_disawa_levels_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_azotize_shover_punjabi_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_azotize_shover_punjabi_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_azotize_shover_punjabi_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_azotize_shover_punjabi_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

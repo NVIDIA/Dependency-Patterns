@@ -80,7 +80,7 @@ adhoc_tool(
 "emancipator_uxoricidal_praepositus_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_uxoricidal_praepositus_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_uxoricidal_praepositus_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_uxoricidal_praepositus_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

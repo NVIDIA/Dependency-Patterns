@@ -36,7 +36,7 @@ adhoc_tool(
 "emancipator_chalcididae_unauctioned_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_chalcididae_unauctioned_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_chalcididae_unauctioned_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_chalcididae_unauctioned_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "worthington_infima_chugalugged_colley_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_infima_chugalugged_colley_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_infima_chugalugged_colley_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_infima_chugalugged_colley_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

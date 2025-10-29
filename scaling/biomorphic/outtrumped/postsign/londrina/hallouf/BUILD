@@ -30,7 +30,7 @@ adhoc_tool(
 "biomorphic_outtrumped_postsign_londrina_hallouf_postsign_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_postsign_londrina_hallouf_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_postsign_londrina_hallouf_postsign_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_postsign_londrina_hallouf_postsign_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

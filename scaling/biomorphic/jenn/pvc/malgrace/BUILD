@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_jenn_pvc_malgrace_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_jenn_pvc_malgrace_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_jenn_pvc_malgrace_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_jenn_pvc_malgrace_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

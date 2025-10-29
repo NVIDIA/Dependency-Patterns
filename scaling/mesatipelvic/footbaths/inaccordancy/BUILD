@@ -34,7 +34,7 @@ adhoc_tool(
         "mesatipelvic_footbaths_inaccordancy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_footbaths_inaccordancy_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_footbaths_inaccordancy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_footbaths_inaccordancy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_motherhouse_reitman_motherhouse_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_motherhouse_reitman_motherhouse_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_motherhouse_reitman_motherhouse_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_motherhouse_reitman_motherhouse_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

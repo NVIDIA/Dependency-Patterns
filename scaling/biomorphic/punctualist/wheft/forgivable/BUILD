@@ -38,7 +38,7 @@ adhoc_tool(
 "biomorphic_punctualist_wheft_forgivable_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_punctualist_wheft_forgivable_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_punctualist_wheft_forgivable_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_punctualist_wheft_forgivable_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

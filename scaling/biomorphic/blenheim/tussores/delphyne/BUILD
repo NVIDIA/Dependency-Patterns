@@ -33,7 +33,7 @@ adhoc_tool(
 "biomorphic_blenheim_tussores_delphyne_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_blenheim_tussores_delphyne_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_blenheim_tussores_delphyne_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_blenheim_tussores_delphyne_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

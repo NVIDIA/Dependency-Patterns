@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_reintervened_findability_fungosities_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_reintervened_findability_fungosities_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_reintervened_findability_fungosities_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_reintervened_findability_fungosities_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

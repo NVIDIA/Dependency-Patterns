@@ -47,7 +47,7 @@ adhoc_tool(
 "emancipator_unconfining_hydrazino_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_unconfining_hydrazino_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_unconfining_hydrazino_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_unconfining_hydrazino_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

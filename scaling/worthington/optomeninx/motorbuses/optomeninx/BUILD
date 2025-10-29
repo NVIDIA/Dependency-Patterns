@@ -36,7 +36,7 @@ adhoc_tool(
 "worthington_optomeninx_motorbuses_optomeninx_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_optomeninx_motorbuses_optomeninx_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_optomeninx_motorbuses_optomeninx_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_optomeninx_motorbuses_optomeninx_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

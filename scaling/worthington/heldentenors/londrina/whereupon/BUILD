@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_heldentenors_londrina_whereupon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_heldentenors_londrina_whereupon_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_heldentenors_londrina_whereupon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_heldentenors_londrina_whereupon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

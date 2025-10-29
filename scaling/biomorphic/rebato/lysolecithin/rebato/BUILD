@@ -34,7 +34,7 @@ adhoc_tool(
 "biomorphic_rebato_lysolecithin_rebato_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_rebato_lysolecithin_rebato_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_rebato_lysolecithin_rebato_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_rebato_lysolecithin_rebato_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

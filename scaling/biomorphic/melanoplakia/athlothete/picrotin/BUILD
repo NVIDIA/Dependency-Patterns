@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_melanoplakia_athlothete_picrotin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_melanoplakia_athlothete_picrotin_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_melanoplakia_athlothete_picrotin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_melanoplakia_athlothete_picrotin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -29,7 +29,7 @@ adhoc_tool(
 "bakongo_aloxite_criminating_parled_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_aloxite_criminating_parled_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_aloxite_criminating_parled_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_aloxite_criminating_parled_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

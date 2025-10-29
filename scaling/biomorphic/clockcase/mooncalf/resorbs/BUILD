@@ -50,7 +50,7 @@ adhoc_tool(
 "biomorphic_clockcase_mooncalf_resorbs_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_clockcase_mooncalf_resorbs_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_clockcase_mooncalf_resorbs_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_clockcase_mooncalf_resorbs_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

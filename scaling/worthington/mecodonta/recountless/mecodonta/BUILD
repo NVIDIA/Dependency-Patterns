@@ -38,7 +38,7 @@ adhoc_tool(
 "worthington_mecodonta_recountless_mecodonta_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_mecodonta_recountless_mecodonta_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_mecodonta_recountless_mecodonta_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_mecodonta_recountless_mecodonta_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

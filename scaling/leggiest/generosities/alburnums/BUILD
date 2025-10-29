@@ -41,7 +41,7 @@ adhoc_tool(
         "leggiest_generosities_alburnums_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_generosities_alburnums_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_generosities_alburnums_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_generosities_alburnums_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

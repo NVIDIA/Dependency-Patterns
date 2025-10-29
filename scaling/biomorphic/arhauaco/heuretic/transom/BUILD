@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_arhauaco_heuretic_transom_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_arhauaco_heuretic_transom_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_arhauaco_heuretic_transom_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_arhauaco_heuretic_transom_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

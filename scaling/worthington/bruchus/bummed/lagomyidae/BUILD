@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_bruchus_bummed_lagomyidae_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_bruchus_bummed_lagomyidae_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_bruchus_bummed_lagomyidae_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_bruchus_bummed_lagomyidae_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

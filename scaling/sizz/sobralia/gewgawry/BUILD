@@ -99,7 +99,7 @@ adhoc_tool(
 "sizz_sobralia_gewgawry_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_sobralia_gewgawry_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_sobralia_gewgawry_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_sobralia_gewgawry_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

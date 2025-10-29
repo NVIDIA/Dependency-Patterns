@@ -34,7 +34,7 @@ adhoc_tool(
         "mesatipelvic_defilingly_prickleback_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_defilingly_prickleback_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_defilingly_prickleback_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_defilingly_prickleback_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

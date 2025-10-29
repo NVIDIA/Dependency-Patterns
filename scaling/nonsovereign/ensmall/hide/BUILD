@@ -41,7 +41,7 @@ adhoc_tool(
 "nonsovereign_ensmall_hide_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_ensmall_hide_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_ensmall_hide_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_ensmall_hide_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

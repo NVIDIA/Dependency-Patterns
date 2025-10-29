@@ -79,7 +79,7 @@ adhoc_tool(
 "bakongo_stereophony_launce_stereophony_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stereophony_launce_stereophony_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stereophony_launce_stereophony_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stereophony_launce_stereophony_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -31,7 +31,7 @@ adhoc_tool(
         "leggiest_suspiciously_tutwork_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_suspiciously_tutwork_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_suspiciously_tutwork_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_suspiciously_tutwork_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

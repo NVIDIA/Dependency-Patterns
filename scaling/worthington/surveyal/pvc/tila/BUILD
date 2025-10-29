@@ -55,7 +55,7 @@ adhoc_tool(
 "worthington_surveyal_pvc_tila_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_surveyal_pvc_tila_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_surveyal_pvc_tila_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_surveyal_pvc_tila_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -96,7 +96,7 @@ adhoc_tool(
 "nonsovereign_ungentleman_licca_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_ungentleman_licca_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_ungentleman_licca_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_ungentleman_licca_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

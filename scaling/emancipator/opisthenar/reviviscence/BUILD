@@ -31,7 +31,7 @@ adhoc_tool(
 "emancipator_opisthenar_reviviscence_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_opisthenar_reviviscence_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_opisthenar_reviviscence_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_opisthenar_reviviscence_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

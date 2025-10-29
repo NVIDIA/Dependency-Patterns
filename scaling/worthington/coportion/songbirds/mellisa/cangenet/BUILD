@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_coportion_songbirds_mellisa_cangenet_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_songbirds_mellisa_cangenet_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_songbirds_mellisa_cangenet_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_songbirds_mellisa_cangenet_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

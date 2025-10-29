@@ -33,7 +33,7 @@ adhoc_tool(
 "bakongo_unledged_vincas_paltry_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_unledged_vincas_paltry_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_unledged_vincas_paltry_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_unledged_vincas_paltry_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

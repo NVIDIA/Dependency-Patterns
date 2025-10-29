@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_monofilm_bemire_heelcap_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_monofilm_bemire_heelcap_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_monofilm_bemire_heelcap_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_monofilm_bemire_heelcap_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -39,7 +39,7 @@ adhoc_tool(
 "bakongo_getmesost_vincas_fumaroidal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_getmesost_vincas_fumaroidal_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_getmesost_vincas_fumaroidal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_getmesost_vincas_fumaroidal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

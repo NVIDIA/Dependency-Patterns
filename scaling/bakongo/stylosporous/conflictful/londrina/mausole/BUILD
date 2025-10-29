@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_stylosporous_conflictful_londrina_mausole_conflictful_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_stylosporous_conflictful_londrina_mausole_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_stylosporous_conflictful_londrina_mausole_conflictful_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_stylosporous_conflictful_londrina_mausole_conflictful_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

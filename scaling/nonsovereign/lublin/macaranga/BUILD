@@ -120,7 +120,7 @@ adhoc_tool(
 "nonsovereign_lublin_macaranga_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_lublin_macaranga_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_lublin_macaranga_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_lublin_macaranga_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

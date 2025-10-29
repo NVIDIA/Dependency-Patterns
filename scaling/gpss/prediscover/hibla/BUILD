@@ -40,7 +40,7 @@ adhoc_tool(
 "gpss_prediscover_hibla_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_prediscover_hibla_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_prediscover_hibla_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_prediscover_hibla_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

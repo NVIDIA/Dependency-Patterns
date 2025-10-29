@@ -34,7 +34,7 @@ adhoc_tool(
 "worthington_verner_chimacum_lemnisci_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_verner_chimacum_lemnisci_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_verner_chimacum_lemnisci_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_verner_chimacum_lemnisci_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

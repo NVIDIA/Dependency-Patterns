@@ -73,7 +73,7 @@ adhoc_tool(
 "emancipator_stereome_soekarno_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_stereome_soekarno_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_stereome_soekarno_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_stereome_soekarno_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

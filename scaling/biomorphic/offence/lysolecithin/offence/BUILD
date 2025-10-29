@@ -41,7 +41,7 @@ adhoc_tool(
 "biomorphic_offence_lysolecithin_offence_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_offence_lysolecithin_offence_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_offence_lysolecithin_offence_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_offence_lysolecithin_offence_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

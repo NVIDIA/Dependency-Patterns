@@ -31,7 +31,7 @@ adhoc_tool(
 "biomorphic_acuerdo_shinguard_southerns_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_acuerdo_shinguard_southerns_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_acuerdo_shinguard_southerns_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_acuerdo_shinguard_southerns_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

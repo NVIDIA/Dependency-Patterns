@@ -35,7 +35,7 @@ adhoc_tool(
 "bakongo_gormandiser_reitman_gormandiser_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_gormandiser_reitman_gormandiser_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_gormandiser_reitman_gormandiser_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_gormandiser_reitman_gormandiser_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

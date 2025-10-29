@@ -37,7 +37,7 @@ adhoc_tool(
 "biomorphic_navarho_harm_navarho_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_navarho_harm_navarho_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_navarho_harm_navarho_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_navarho_harm_navarho_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

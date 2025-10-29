@@ -34,7 +34,7 @@ adhoc_tool(
 "emancipator_mesomorphy_mania_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["emancipator_mesomorphy_mania_{chroot}/common_scripts/run_build.sh", "{chroot}", "emancipator_mesomorphy_mania_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "emancipator_mesomorphy_mania_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

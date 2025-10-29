@@ -159,7 +159,7 @@ adhoc_tool(
 "sizz_cattleship_teughness_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_cattleship_teughness_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_cattleship_teughness_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_cattleship_teughness_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -34,7 +34,7 @@ adhoc_tool(
 "hypostasised_diploidic_cupcakes_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_diploidic_cupcakes_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_diploidic_cupcakes_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_diploidic_cupcakes_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

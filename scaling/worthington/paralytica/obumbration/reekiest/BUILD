@@ -47,7 +47,7 @@ adhoc_tool(
 "worthington_paralytica_obumbration_reekiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_paralytica_obumbration_reekiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_paralytica_obumbration_reekiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_paralytica_obumbration_reekiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

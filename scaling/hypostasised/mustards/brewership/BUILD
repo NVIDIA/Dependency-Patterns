@@ -63,7 +63,7 @@ adhoc_tool(
 "hypostasised_mustards_brewership_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_mustards_brewership_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_mustards_brewership_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_mustards_brewership_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

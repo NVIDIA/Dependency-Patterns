@@ -43,7 +43,7 @@ adhoc_tool(
 "nonsovereign_routhercock_shih_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_routhercock_shih_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_routhercock_shih_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_routhercock_shih_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

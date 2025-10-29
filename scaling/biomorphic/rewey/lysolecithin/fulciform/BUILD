@@ -61,7 +61,7 @@ adhoc_tool(
 "biomorphic_rewey_lysolecithin_fulciform_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_rewey_lysolecithin_fulciform_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_rewey_lysolecithin_fulciform_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_rewey_lysolecithin_fulciform_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

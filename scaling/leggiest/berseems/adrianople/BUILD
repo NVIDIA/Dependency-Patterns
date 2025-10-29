@@ -38,7 +38,7 @@ adhoc_tool(
         "leggiest_berseems_adrianople_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_berseems_adrianople_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_berseems_adrianople_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_berseems_adrianople_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

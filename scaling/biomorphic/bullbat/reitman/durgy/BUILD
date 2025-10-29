@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_bullbat_reitman_durgy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_bullbat_reitman_durgy_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_bullbat_reitman_durgy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_bullbat_reitman_durgy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

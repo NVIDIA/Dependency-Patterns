@@ -46,7 +46,7 @@ adhoc_tool(
 "worthington_computernik_lysolecithin_computernik_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_computernik_lysolecithin_computernik_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_computernik_lysolecithin_computernik_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_computernik_lysolecithin_computernik_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

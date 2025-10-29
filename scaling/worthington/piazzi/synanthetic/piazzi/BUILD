@@ -41,7 +41,7 @@ adhoc_tool(
 "worthington_piazzi_synanthetic_piazzi_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_piazzi_synanthetic_piazzi_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_piazzi_synanthetic_piazzi_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_piazzi_synanthetic_piazzi_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

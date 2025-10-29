@@ -51,7 +51,7 @@ adhoc_tool(
 "worthington_preconvict_echinoderma_awmbrie_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_preconvict_echinoderma_awmbrie_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_preconvict_echinoderma_awmbrie_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_preconvict_echinoderma_awmbrie_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

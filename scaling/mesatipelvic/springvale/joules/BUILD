@@ -40,7 +40,7 @@ adhoc_tool(
         "mesatipelvic_springvale_joules_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_springvale_joules_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_springvale_joules_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_springvale_joules_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

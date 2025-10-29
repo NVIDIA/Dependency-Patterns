@@ -51,7 +51,7 @@ adhoc_tool(
 "sizz_creamlike_gudgeon_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_creamlike_gudgeon_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_creamlike_gudgeon_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_creamlike_gudgeon_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -32,7 +32,7 @@ adhoc_tool(
 "hypostasised_spaceships_sri_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_spaceships_sri_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_spaceships_sri_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_spaceships_sri_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

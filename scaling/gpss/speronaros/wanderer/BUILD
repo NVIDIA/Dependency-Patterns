@@ -31,7 +31,7 @@ adhoc_tool(
 "gpss_speronaros_wanderer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_speronaros_wanderer_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_speronaros_wanderer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_speronaros_wanderer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

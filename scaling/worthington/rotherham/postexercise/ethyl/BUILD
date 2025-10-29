@@ -43,7 +43,7 @@ adhoc_tool(
 "worthington_rotherham_postexercise_ethyl_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_rotherham_postexercise_ethyl_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_rotherham_postexercise_ethyl_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_rotherham_postexercise_ethyl_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

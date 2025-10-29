@@ -44,7 +44,7 @@ adhoc_tool(
         "leggiest_aida_newberry_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["leggiest_aida_newberry_{chroot}/common_scripts/run_build.sh", "{chroot}", "leggiest_aida_newberry_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "leggiest_aida_newberry_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

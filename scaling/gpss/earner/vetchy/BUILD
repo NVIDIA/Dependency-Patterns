@@ -54,7 +54,7 @@ adhoc_tool(
 "gpss_earner_vetchy_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_earner_vetchy_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_earner_vetchy_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_earner_vetchy_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

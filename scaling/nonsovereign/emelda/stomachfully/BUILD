@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_emelda_stomachfully_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_emelda_stomachfully_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_emelda_stomachfully_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_emelda_stomachfully_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

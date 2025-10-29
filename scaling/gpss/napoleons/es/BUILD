@@ -142,7 +142,7 @@ adhoc_tool(
 "gpss_napoleons_es_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_napoleons_es_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_napoleons_es_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_napoleons_es_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

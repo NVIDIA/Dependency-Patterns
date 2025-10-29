@@ -45,7 +45,7 @@ adhoc_tool(
 "biomorphic_zemni_thermally_bitchiest_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_zemni_thermally_bitchiest_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_zemni_thermally_bitchiest_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_zemni_thermally_bitchiest_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

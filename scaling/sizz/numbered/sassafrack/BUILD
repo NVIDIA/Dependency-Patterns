@@ -42,7 +42,7 @@ adhoc_tool(
 "sizz_numbered_sassafrack_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_numbered_sassafrack_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_numbered_sassafrack_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_numbered_sassafrack_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

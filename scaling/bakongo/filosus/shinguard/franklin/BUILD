@@ -32,7 +32,7 @@ adhoc_tool(
 "bakongo_filosus_shinguard_franklin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_filosus_shinguard_franklin_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_filosus_shinguard_franklin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_filosus_shinguard_franklin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

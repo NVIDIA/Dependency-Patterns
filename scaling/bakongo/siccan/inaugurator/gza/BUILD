@@ -64,7 +64,7 @@ adhoc_tool(
 "bakongo_siccan_inaugurator_gza_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_siccan_inaugurator_gza_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_siccan_inaugurator_gza_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_siccan_inaugurator_gza_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

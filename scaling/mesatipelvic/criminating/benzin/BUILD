@@ -34,7 +34,7 @@ adhoc_tool(
         "mesatipelvic_criminating_benzin_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_criminating_benzin_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_criminating_benzin_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_criminating_benzin_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_halecomorphi_eveleen_dominies_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_halecomorphi_eveleen_dominies_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_halecomorphi_eveleen_dominies_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_halecomorphi_eveleen_dominies_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

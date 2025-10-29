@@ -32,7 +32,7 @@ adhoc_tool(
 "gpss_semimaturity_experts_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_semimaturity_experts_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_semimaturity_experts_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_semimaturity_experts_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

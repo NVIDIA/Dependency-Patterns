@@ -32,7 +32,7 @@ adhoc_tool(
 "nonsovereign_unrude_schism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_unrude_schism_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_unrude_schism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_unrude_schism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -49,7 +49,7 @@ adhoc_tool(
 "sizz_tooter_abolished_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_tooter_abolished_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_tooter_abolished_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_tooter_abolished_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

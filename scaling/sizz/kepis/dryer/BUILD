@@ -36,7 +36,7 @@ adhoc_tool(
 "sizz_kepis_dryer_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["sizz_kepis_dryer_{chroot}/common_scripts/run_build.sh", "{chroot}", "sizz_kepis_dryer_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "sizz_kepis_dryer_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

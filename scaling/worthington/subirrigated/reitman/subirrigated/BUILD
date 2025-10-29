@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_subirrigated_reitman_subirrigated_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_subirrigated_reitman_subirrigated_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_subirrigated_reitman_subirrigated_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_subirrigated_reitman_subirrigated_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

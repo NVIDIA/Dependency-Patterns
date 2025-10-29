@@ -38,7 +38,7 @@ adhoc_tool(
 "bakongo_snarlish_platysmata_remissible_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_snarlish_platysmata_remissible_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_snarlish_platysmata_remissible_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_snarlish_platysmata_remissible_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

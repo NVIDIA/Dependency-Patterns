@@ -37,7 +37,7 @@ adhoc_tool(
 "mesatipelvic_harm_intermazing_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["mesatipelvic_harm_intermazing_{chroot}/common_scripts/run_build.sh", "{chroot}", "mesatipelvic_harm_intermazing_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "mesatipelvic_harm_intermazing_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

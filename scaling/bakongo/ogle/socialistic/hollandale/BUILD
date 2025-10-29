@@ -30,7 +30,7 @@ adhoc_tool(
 "bakongo_ogle_socialistic_hollandale_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_ogle_socialistic_hollandale_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_ogle_socialistic_hollandale_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_ogle_socialistic_hollandale_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -41,7 +41,7 @@ adhoc_tool(
 "worthington_sleided_surprizal_unextreme_ferrets_surprizal_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_sleided_surprizal_unextreme_ferrets_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_sleided_surprizal_unextreme_ferrets_surprizal_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_sleided_surprizal_unextreme_ferrets_surprizal_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -42,7 +42,7 @@ adhoc_tool(
 "worthington_galenian_kyanise_livering_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_galenian_kyanise_livering_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_galenian_kyanise_livering_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_galenian_kyanise_livering_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

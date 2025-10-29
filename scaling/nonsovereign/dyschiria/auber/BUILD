@@ -37,7 +37,7 @@ adhoc_tool(
 "nonsovereign_dyschiria_auber_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_dyschiria_auber_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_dyschiria_auber_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_dyschiria_auber_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

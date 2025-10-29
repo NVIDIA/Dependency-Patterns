@@ -54,7 +54,7 @@ adhoc_tool(
 "nonsovereign_synanthetic_intersects_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_synanthetic_intersects_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_synanthetic_intersects_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_synanthetic_intersects_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

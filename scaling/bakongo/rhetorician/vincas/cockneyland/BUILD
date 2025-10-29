@@ -44,7 +44,7 @@ adhoc_tool(
 "bakongo_rhetorician_vincas_cockneyland_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_rhetorician_vincas_cockneyland_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_rhetorician_vincas_cockneyland_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_rhetorician_vincas_cockneyland_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

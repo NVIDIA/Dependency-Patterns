@@ -34,7 +34,7 @@ adhoc_tool(
 "nonsovereign_unconfound_nephrectasis_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_unconfound_nephrectasis_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_unconfound_nephrectasis_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_unconfound_nephrectasis_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

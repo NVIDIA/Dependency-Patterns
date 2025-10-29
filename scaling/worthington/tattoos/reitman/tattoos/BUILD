@@ -35,7 +35,7 @@ adhoc_tool(
 "worthington_tattoos_reitman_tattoos_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_tattoos_reitman_tattoos_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_tattoos_reitman_tattoos_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_tattoos_reitman_tattoos_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

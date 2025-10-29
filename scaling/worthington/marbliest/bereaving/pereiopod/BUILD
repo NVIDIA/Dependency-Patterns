@@ -37,7 +37,7 @@ adhoc_tool(
 "worthington_marbliest_bereaving_pereiopod_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_marbliest_bereaving_pereiopod_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_marbliest_bereaving_pereiopod_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_marbliest_bereaving_pereiopod_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

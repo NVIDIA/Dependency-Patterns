@@ -48,7 +48,7 @@ adhoc_tool(
 "gpss_unbecomingly_laurvikite_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_unbecomingly_laurvikite_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_unbecomingly_laurvikite_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_unbecomingly_laurvikite_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

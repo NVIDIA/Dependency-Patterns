@@ -68,7 +68,7 @@ adhoc_tool(
 "biomorphic_outtrumped_bewrays_superglacial_burses_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_outtrumped_bewrays_superglacial_burses_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_outtrumped_bewrays_superglacial_burses_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_outtrumped_bewrays_superglacial_burses_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

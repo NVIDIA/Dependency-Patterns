@@ -50,7 +50,7 @@ adhoc_tool(
 "worthington_primevity_majas_zagazig_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_primevity_majas_zagazig_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_primevity_majas_zagazig_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_primevity_majas_zagazig_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

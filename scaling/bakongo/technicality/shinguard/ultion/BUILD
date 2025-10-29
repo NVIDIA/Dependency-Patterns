@@ -31,7 +31,7 @@ adhoc_tool(
 "bakongo_technicality_shinguard_ultion_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_technicality_shinguard_ultion_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_technicality_shinguard_ultion_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_technicality_shinguard_ultion_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

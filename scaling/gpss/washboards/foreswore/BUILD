@@ -33,7 +33,7 @@ adhoc_tool(
 "gpss_washboards_foreswore_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["gpss_washboards_foreswore_{chroot}/common_scripts/run_build.sh", "{chroot}", "gpss_washboards_foreswore_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "gpss_washboards_foreswore_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -37,7 +37,7 @@ adhoc_tool(
 "bakongo_buttermouth_takao_depredations_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_buttermouth_takao_depredations_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_buttermouth_takao_depredations_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_buttermouth_takao_depredations_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

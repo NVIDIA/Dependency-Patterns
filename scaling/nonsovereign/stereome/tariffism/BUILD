@@ -72,7 +72,7 @@ adhoc_tool(
 "nonsovereign_stereome_tariffism_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_stereome_tariffism_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_stereome_tariffism_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_stereome_tariffism_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -59,7 +59,7 @@ adhoc_tool(
 "nonsovereign_savina_whenso_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["nonsovereign_savina_whenso_{chroot}/common_scripts/run_build.sh", "{chroot}", "nonsovereign_savina_whenso_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "nonsovereign_savina_whenso_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

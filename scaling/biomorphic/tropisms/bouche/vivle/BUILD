@@ -43,7 +43,7 @@ adhoc_tool(
 "biomorphic_tropisms_bouche_vivle_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_tropisms_bouche_vivle_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_tropisms_bouche_vivle_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_tropisms_bouche_vivle_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

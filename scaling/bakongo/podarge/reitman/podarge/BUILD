@@ -34,7 +34,7 @@ adhoc_tool(
 "bakongo_podarge_reitman_podarge_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["bakongo_podarge_reitman_podarge_{chroot}/common_scripts/run_build.sh", "{chroot}", "bakongo_podarge_reitman_podarge_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "bakongo_podarge_reitman_podarge_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

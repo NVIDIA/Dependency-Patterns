@@ -39,7 +39,7 @@ adhoc_tool(
 "biomorphic_fetwa_prerheumatic_san_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_fetwa_prerheumatic_san_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_fetwa_prerheumatic_san_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_fetwa_prerheumatic_san_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

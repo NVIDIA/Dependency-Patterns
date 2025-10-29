@@ -40,7 +40,7 @@ adhoc_tool(
 "biomorphic_patrilinear_vincas_kliphaas_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["biomorphic_patrilinear_vincas_kliphaas_{chroot}/common_scripts/run_build.sh", "{chroot}", "biomorphic_patrilinear_vincas_kliphaas_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "biomorphic_patrilinear_vincas_kliphaas_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

@@ -101,7 +101,7 @@ adhoc_tool(
 "hypostasised_bicolorous_incitive_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["hypostasised_bicolorous_incitive_{chroot}/common_scripts/run_build.sh", "{chroot}", "hypostasised_bicolorous_incitive_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "hypostasised_bicolorous_incitive_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",

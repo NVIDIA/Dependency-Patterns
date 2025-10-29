@@ -30,7 +30,7 @@ adhoc_tool(
 "worthington_coportion_holdings_londrina_olorosos_holdings_output.txt",
     ],
     runnable="geomorphy:bash",
-    args=["worthington_coportion_holdings_londrina_olorosos_{chroot}/common_scripts/run_build.sh", "{chroot}", "worthington_coportion_holdings_londrina_olorosos_holdings_output.txt",],
+    args=["{chroot}/geomorphy/run_build.sh", "{chroot}", "worthington_coportion_holdings_londrina_olorosos_holdings_output.txt",],
     runnable_dependencies=[
         "geomorphy:cat",
         "geomorphy:md5sum",
