@@ -24,7 +24,7 @@ adhoc_tool(
     execution_dependencies=[
 ":output_sources",
         "worthington/lituoline/desaturation/mythopoetry:output",
-        "worthington/lituoline/criminating/akaroa:output",
+        "worthington/lituoline/criminating/nided:output",
         "geomorphy:run_build_script",
     ],
     output_files=[

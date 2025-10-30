@@ -25,7 +25,7 @@ adhoc_tool(
 ":output_sources",
         "worthington/lituoline/periling/unpersonify:output",
         "worthington/lituoline/desaturation/mythopoetry:output",
-        "worthington/lituoline/criminating/akaroa:output",
+        "worthington/lituoline/criminating/nided:output",
         "geomorphy:run_build_script",
     ],
     output_files=[

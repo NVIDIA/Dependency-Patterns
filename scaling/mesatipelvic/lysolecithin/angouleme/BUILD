@@ -25,7 +25,7 @@ adhoc_tool(
         ":output_sources",
         "mesatipelvic/endospermous/snoring:output",
         "mesatipelvic/oxyosphresia/algaesthesia:output",
-        "mesatipelvic/lysolecithin/angouleme:output",
+        "mesatipelvic/lysolecithin/bonne:output",
         "mesatipelvic/endospermous/enkerchief:output",
         "mesatipelvic/endospermous/rosenblum:output",
         "mesatipelvic/endospermous/nonsexually:output",

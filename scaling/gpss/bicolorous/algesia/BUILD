@@ -24,7 +24,7 @@ adhoc_tool(
     execution_dependencies=[
 ":output_sources",
         "worthington/sleided/calceus/cherri/latescent:output",
-        "gpss/bicolorous/algesia:output",
+        "gpss/bicolorous/astogeny:output",
         "worthington/backpacked/pneumas/pneumaticity:output",
         "worthington/backpacked/surprise/torsibility:output",
         "worthington/jujutsu/gelidities/giglot:output",

@@ -23,7 +23,7 @@ adhoc_tool(
     name="output",
     execution_dependencies=[
 ":output_sources",
-        "nonsovereign/bicolorous/acquisitor:output",
+        "nonsovereign/bicolorous/guidepost:output",
         "biomorphic/outtrumped/ambushed/trapa/ryegrasses:output",
         "biomorphic/vibrato/chugalugged/bradykinesia:output",
         "biomorphic/untellable/whipmaking/prig:output",
@@ -31,7 +31,7 @@ adhoc_tool(
         "biomorphic/untellable/surprise/pursuant:output",
         "biomorphic/vibrato/gelidities/salar:output",
         "biomorphic/outtrumped/ambushed/cherri/patness:output",
-        "nonsovereign/bicolorous/acquisitor:output",
+        "nonsovereign/bicolorous/anaunters:output",
         "biomorphic/vibrato/mesitylene/stituted:output",
         "biomorphic/vibrato/knotholes/thwart:output",
         "biomorphic/untellable/pneumas/inimaginable:output",

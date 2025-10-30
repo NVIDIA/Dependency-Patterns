@@ -24,7 +24,7 @@ adhoc_tool(
     execution_dependencies=[
         ":output_sources",
         "worthington/covering/endospermous/adamical:output",
-        "worthington/mithridatic/endospermous/antiferment:output",
+        "worthington/mithridatic/endospermous/coresonant:output",
         "worthington/backpacked/syndeton/pensionary:output",
         "worthington/backpacked/whipmaking/uncoached:output",
         "worthington/backpacked/pneumas/pneumaticity:output",

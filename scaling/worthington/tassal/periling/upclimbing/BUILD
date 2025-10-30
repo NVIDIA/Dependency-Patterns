@@ -23,7 +23,7 @@ adhoc_tool(
     name="output",
     execution_dependencies=[
 ":output_sources",
-        "worthington/tassal/criminating/desmotrope:output",
+        "worthington/tassal/criminating/mistiming:output",
         "worthington/tassal/desaturation/unwarnedness:output",
         "geomorphy:run_build_script",
     ],
