@@ -3,7 +3,7 @@ SPDX-License-Identifier: MIT
 
 # Dependency Patterns Demo Project
 
-A demonstration C project with 4 modular libraries that build into shared objects (.so files) and link into a final main binary.
+A demonstration C project with 5 modular libraries that build into shared objects (.so files) and link into a final main binary.
 The useful part of this demonstration is the various code generation dependency patterns in each library.  Each Makefile has the
 full set of dependencies manually written.  The desire is for them to all be automatically inferred.
 
@@ -27,10 +27,14 @@ public_demo/
 │   ├── gen_mathutils_h.pl  # Generates mathutils.h
 │   ├── gen_mathutils_c.pl  # Generates mathutils.c
 │   └── Makefile        # Builds libmathutils.so
-└── io/                 # Input/Output operations module
-    ├── io.h            # IO function declarations
-    ├── generate_io.py  # Generates io_impl/*.c files
-    └── Makefile        # Builds libio.so
+├── io/                 # Input/Output operations module
+│   ├── io.h            # IO function declarations
+│   ├── generate_io.py  # Generates io_impl/*.c files
+│   └── Makefile        # Builds libio.so
+└── protocol/           # Protocol encoding/decoding module
+    ├── protocol.spec   # Protocol message definitions
+    ├── generate_protocol.py  # Generates protocol.h and proto_impl/*.c files
+    └── Makefile        # Builds libprotocol.so
 ```
 
 ## Modules
@@ -129,6 +133,34 @@ public_demo/
     }
 ```
 
+### Protocol Module (`libprotocol.so`)
+- **Build Pattern**: Generated header and sources with unpredictable names, header dependency not inferable from primary sources
+```dot
+    digraph protocol {
+        rankdir = LR
+        cpp [shape=box]
+        gcc [shape=box]
+        ld  [shape=box]
+        "generate_protocol.py" [shape=cylinder, style=filled, fillcolor=lightblue]
+        "protocol.spec" [shape=cylinder, style=filled, fillcolor=lightyellow]
+        "protocol_*.h" [style=dashed]
+        "proto_impl_*.c" [style=dashed]
+        "proto_impl_*.i" [style=dashed]
+        "proto_impl_*.o" [style=dashed]
+        "protocol.spec" -> "generate_protocol.py"
+        "generate_protocol.py" -> "protocol_*.h"
+        "generate_protocol.py" -> "proto_impl_*.c"
+        "proto_impl_*.c" -> cpp -> "proto_impl_*.i" -> gcc -> "proto_impl_*.o" -> ld
+        "protocol_*.h" -> cpp
+        ld -> "libprotocol.so"
+        subgraph dep {
+            rank="same"
+            edge [color=red, label=dependency]
+            "proto_impl_*.c" -> "protocol_*.h"
+        }
+    }
+```
+
 ## Build Patterns
 
 Each library demonstrates different dependency inference challenges:
@@ -157,6 +189,13 @@ Each library demonstrates different dependency inference challenges:
 - **Applicable Inference Strategy**: Automatic inference after generation, with dynamic file discovery
 - **Build Graph Implications**: Generated files with unpredictable names need post-generation dependency annotation.  The discovery could happen by scanning the generator itself or the generated files.
 
+### 5. Protocol Module - Generated Header + Unpredictable Names
+- **Build Pattern**: Both header and sources are generated with unpredictable names; dependency not inferable from primary sources.
+This combines #3 (generated source files) and #4 (unpredictable names).
+- **Dependency Challenge**: The generator reads `protocol.spec` to create both a header file with a dynamic name (e.g., `protocol_bc5ca8bb.h` based on spec content + seed) containing struct definitions, and `proto_impl_*.c` files with unpredictable names based on hash. The generated sources depend on the generated header with its unpredictable name, but this dependency cannot be known until after generation. You cannot determine the header filename or its contents by scanning `generate_protocol.py` alone - you must parse `protocol.spec` and know the seed value.
+- **Applicable Inference Strategy**: Post-generation scanning required for both file discovery and dependency inference. Neither the header name nor the implementation file names are predictable beforehand. The build system must run the generator to discover what files are created, then scan them to discover dependencies.
+- **Build Graph Implications**: Combines the challenges of pattern #3 (generated header dependency) and pattern #4 (unpredictable filenames), with the additional complexity that even the header filename is unpredictable. Requires dynamic file discovery for both header and sources, plus post-generation dependency scanning to determine which generated .c files include which generated .h file.
+
 ## Build Process
 
 The project uses a three-stage build process:
@@ -180,6 +219,7 @@ make -C strutils
 make -C utils
 make -C mathutils
 make -C io
+make -C protocol
 ```
 
 ### Clean Build Artifacts
